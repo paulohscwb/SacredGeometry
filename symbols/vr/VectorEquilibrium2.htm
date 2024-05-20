@@ -1,0 +1,210 @@
+<html>
+  <head>
+    <title>Sacred Geometry</title>
+	<link rel="icon" type="image/png" href="salas/imagens/icone.png">
+	<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+	<script src="https://unpkg.com/aframe-orbit-controls@1.3.0/dist/aframe-orbit-controls.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script src="nomes.js"></script>
+	<link rel="stylesheet" href="nomes.css">
+  </head>
+  <body>
+<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2024 Paulo Henrique Siqueira</div>
+    <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
+		<a-assets>
+			<a-mixin id="mtl1" material="side: double; color: #5cb404; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl2" material="side: double; color: #b45c04; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl3" material="side: double; color: #0088ff; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl4" material="side: double; color: #ffcc00; opacity:0.08; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="tr" geometry="radius-tubular:0.025; arc:360; radius:3; segments-tubular: 100" mixin="mtl3"></a-mixin>
+			<a-mixin id="ci" geometry="height:6; radius:0.05;" mixin="mtl1"></a-mixin>
+			<a-mixin id="s12_1q" position="0 0 1.5"></a-mixin>
+			<a-mixin id="s12_1t" position="0 0 0.866"></a-mixin>
+			<a-mixin id="s12_2q" position="0 -1.5 1.5"></a-mixin>
+			<a-mixin id="s12_2t" position="0 -1.5 0.866"></a-mixin>
+			<a-mixin id="s12_3q" position="0 2.1213 0"></a-mixin>
+			<a-mixin id="s12_3t" position="0 2.4495 0"></a-mixin>
+			<a-mixin id="esfera" mixin="mtl4" geometry="radius: 0.05;" material="metalness:0.4; roughness:0.3;"></a-mixin>
+			<a-mixin id="arestas" mixin="mtl4" geometry="radius: 0.05; height:3" material="metalness:0.4; roughness:0.3;">
+		</a-assets>
+		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 360 0 700; maxDistance: 750;"></a-entity>
+		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
+		
+		<a-entity scale="1.8 1.8 1.8" rotation="0 0 90">
+			<a-entity position="0 0.125 0">
+				<a-cylinder mixin="ci" rotation="0 0 90"></a-cylinder>
+				<a-cylinder mixin="ci" rotation="90 0 0"></a-cylinder>
+				<a-cylinder mixin="ci" rotation="35 0 30"></a-cylinder>
+				<a-cylinder mixin="ci" rotation="35 0 -30"></a-cylinder>
+				<a-cylinder mixin="ci" rotation="-35 0 30"></a-cylinder>
+				<a-cylinder mixin="ci" rotation="-35 0 -30"></a-cylinder>
+				<a-torus mixin="tr" rotation="-35 0 0"></a-torus>
+				<a-torus mixin="tr" rotation="35 0 0"></a-torus>
+				<a-torus mixin="tr" rotation="35 90 0"></a-torus>
+				<a-torus mixin="tr" rotation="-35 90 0"></a-torus>
+			</a-entity>
+			<!--cuboctaedro-->
+			<a-entity position="0 -2 0">
+				<a-entity id="baixo">
+						<a-entity rotation="0 0 90">
+							<a-cylinder mixin="arestas s12_1q" ></a-cylinder>
+							<a-sphere mixin="esfera s12_2q"></a-sphere>
+						</a-entity>
+						<a-entity rotation="0 90 90">
+							<a-cylinder mixin="arestas s12_1q"></a-cylinder>
+							<a-sphere mixin="esfera s12_2q"></a-sphere>
+						</a-entity>
+						<a-entity rotation="0 180 90">
+							<a-cylinder mixin="arestas s12_1q"></a-cylinder>
+							<a-sphere mixin="esfera s12_2q"></a-sphere>
+						</a-entity>
+						<a-entity rotation="0 270 90">
+							<a-cylinder mixin="arestas s12_1q"></a-cylinder>
+							<a-sphere mixin="esfera s12_2q"></a-sphere>
+						</a-entity>
+						<a-entity mixin="s12_3q">
+						<a-entity rotation="125.26 0 0">
+							<a-entity mixin="s12_3t">
+								<a-entity rotation="0 120 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+									<a-entity rotation="0 240 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity mixin="s12_3q">
+						<a-entity rotation="125.26 90 0">
+							<a-entity mixin="s12_3t">
+								<a-entity rotation="0 120 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+									<a-entity rotation="0 240 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity mixin="s12_3q">
+						<a-entity rotation="125.26 180 0">
+							<a-entity mixin="s12_3t">
+								<a-entity rotation="0 120 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+									<a-entity rotation="0 240 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity mixin="s12_3q">
+						<a-entity rotation="125.26 270 0">
+							<a-entity mixin="s12_3t">
+								<a-entity rotation="0 120 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+									<a-entity rotation="0 240 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					
+					<a-entity id="cima" position="0 4.2426 0" rotation="0 0 180">
+						<a-entity rotation="0 0 90">
+							<a-cylinder mixin="arestas s12_1q" ></a-cylinder>
+							<a-sphere mixin="esfera s12_2q"></a-sphere>
+						</a-entity>
+						<a-entity rotation="0 90 90">
+							<a-cylinder mixin="arestas s12_1q"></a-cylinder>
+							<a-sphere mixin="esfera s12_2q"></a-sphere>
+						</a-entity>
+						<a-entity rotation="0 180 90">
+							<a-cylinder mixin="arestas s12_1q"></a-cylinder>
+							<a-sphere mixin="esfera s12_2q"></a-sphere>
+						</a-entity>
+						<a-entity rotation="0 270 90">
+							<a-cylinder mixin="arestas s12_1q"></a-cylinder>
+							<a-sphere mixin="esfera s12_2q"></a-sphere>
+						</a-entity>
+						<a-entity mixin="s12_3q">
+						<a-entity rotation="125.26 0 0">
+							<a-entity mixin="s12_3t">
+								<a-entity rotation="0 120 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+									<a-entity rotation="0 240 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity mixin="s12_3q">
+						<a-entity rotation="125.26 90 0">
+							<a-entity mixin="s12_3t">
+								<a-entity rotation="0 120 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+									<a-entity rotation="0 240 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity mixin="s12_3q">
+						<a-entity rotation="125.26 180 0">
+							<a-entity mixin="s12_3t">
+								<a-entity rotation="0 120 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+									<a-entity rotation="0 240 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity mixin="s12_3q">
+						<a-entity rotation="125.26 270 0">
+							<a-entity mixin="s12_3t">
+								<a-entity rotation="0 120 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+									<a-entity rotation="0 240 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+					</a-entity>								
+			</a-entity>
+		</a-entity>
+		
+		<a-light type="ambient" color="white" intensity="0.5"></a-light>
+		<a-light type="directional" color="white" intensity="0.5" position="-7 5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.5" position="7 -5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.5" position="7 5 -1"></a-light>
+		<a-sky src="../../imagens/8k_stars_milky_way.jpg" radius="15"></a-sky>
+    </a-scene>
+	<div class="box">
+		<span class="titulo">Vector Equilibrium v2</span>
+	</div>
+  </body>
+</html>
