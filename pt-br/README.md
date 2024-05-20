@@ -9,7 +9,7 @@
 As estruturas matemáticas utilizadas na Geometria Sagrada podem ser encontradas nas artes, arquitetura e até em nosso DNA. Estas estruturas estão em toda parte, e servem de ligação entre o pensamento analítico e o lado intuitivo, ou então entre a ciência e a espiritualidade.
 Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com as visualizações que podem ser acessadas com os recursos de Realidade Aumentada e também em salas imersivas de Realidade Virtual.
 <hr>
-<h3 style="margin-top:3px"><a target="_blank" href="../symbols/pt-br/"><img src="../symbols/ar/7A.png" style="margin-bottom:-10px" width="40"> Símbolos da Geometria Sagrada</a></h3>
+<h3 style="margin-top:3px"><a target="_blank" href="../symbols/pt-br/"><img src="../symbols/ar/15A.png" style="margin-bottom:-10px" width="40"> Símbolos da Geometria Sagrada</a></h3>
 <!--<h3 style="margin-top:3px"><a target="_blank" href="../flower/pt-br/"><img src="../flower/ar/16A.png" style="margin-bottom:-10px" width="40"> Flor da vida e os poliedros de Platão e de Arquimedes</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="../fruit/pt-br/"><img src="../fruit/ar/19A.png" style="margin-bottom:-10px" width="40"> Fruto da vida e os poliedros de Platão e de Arquimedes</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="../grid/pt-br/"><img src="../grid/ar/37A.png" style="margin-bottom:-10px" width="40"> Grade da vida e os poliedros de Platão e de Arquimedes</a></h3>
