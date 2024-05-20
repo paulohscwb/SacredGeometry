@@ -16,6 +16,7 @@
   <a-scene cursor="rayOrigin: mouse" raycaster="objects: .lnk;" embedded renderer="logarithmicDepthBuffer: true; colorManagement: true;" arjs='sourceType: webcam; trackingMethod: best; detectionMode: mono_and_matrix; matrixCodeType: 4x4; debugUIEnabled: false;' gesture-detector>
      
      <a-assets>
+		<a-mixin id="lnk" rotation="-90 0 0" scale="0.5 0.5 0.5" position="0 0.25 0" link="title: 3D model; highlighted:true; backgroundColor:LightGray"></a-mixin>
 		<a-mixin id="mtl1m1" material="color: #5cb404; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 		<a-mixin id="cim1" geometry="height:5.1962; radius:0.05;" mixin="mtl1m1"></a-mixin>
 		<a-mixin id="esferadm1" mixin="mtl1m1" geometry="radius: 0.05;" material="metalness:0.5; roughness:0.3;"></a-mixin>
@@ -87,7 +88,7 @@
 	<a-light type="directional" color="white" intensity="0.7" position="-3 2 1"></a-light>
 	<a-light type="directional" color="white" intensity="0.7" position="3 -2 1"></a-light>
     <a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
-	<!--
+	
 	<a-marker type="barcode" value="14" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/MetatronCube.htm"></a-link>
 	   	<a-entity position="2 0.8 0" scale="0.4 0.4 0.4" gesture-handler>
@@ -864,7 +865,7 @@
 			</a-entity>
 		</a-entity>
 	</a-marker>
-	-->
+	
 	<a-marker type="barcode" value="19" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/Merkaba.htm"></a-link>
 	   	<a-entity position="2 0.8 0" scale="0.48 0.48 0.48" gesture-handler>
