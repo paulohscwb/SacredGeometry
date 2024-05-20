@@ -19,7 +19,7 @@
 			<a-mixin id="tr" geometry="radius-tubular:1.5; segments-tubular: 75; segments-radial: 50" mixin="mtl3"></a-mixin>
 			<a-mixin id="trw" geometry="radius-tubular:1.5; segments-tubular: 75; segments-radial: 50;" mixin="mtl1" material="wireframe:true"></a-mixin>
 		</a-assets>
-		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 200 250 700; maxDistance: 1100;"></a-entity>
+		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 200 250 700; minDistance: 500; maxDistance: 1100;"></a-entity>
 		
 		<a-entity scale="1 1 0.75" rotation="90 0 0">
 			<a-torus mixin="tr" radius="3"></a-torus>
