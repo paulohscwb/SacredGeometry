@@ -14,12 +14,12 @@
 		<a-assets>
 			<a-mixin id="mtl1" material="side: double; color: #5cb404; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="mtl2" material="side: double; color: #b45c04; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
-			<a-mixin id="mtl3" material="side: double; color: #0088ff; opacity:0; metalness:0.4; roughness:0.2" animation__3='property: opacity; dur: 8000; to: 0.6; easing: easeInOutQuad; delay: 13000; loop:1;'></a-mixin>
-			<a-mixin id="mtl4" geometry="segments-width: 100; segments-height: 100" material="side: double; color: #0b0; opacity:0; metalness:0.4; roughness:0.2" animation='property: opacity; dur: 8000; to: 0.6; easing: easeInOutQuad; delay: 13000; loop:1;'></a-mixin>
-			<a-mixin id="tr" visible="false" geometry="radius-tubular:0.02; arc:0; segments-tubular: 100" mixin="mtl3" animation__0='property: arc; dur: 8000; to: 360; easing: easeInOutQuad; delay: 13000; loop:1;' animation__9='property: visible; dur: 1000; to: true; easing: easeInOutQuad; delay: 13000; loop:1;'></a-mixin>
-			<a-mixin id="rt1" visible="false" animation__4='property: rotation; dur: 8000; to: 0 60 0; easing: easeInOutQuad; delay: 34000; loop:1;' animation__1='property: visible; dur: 1; to: true; easing: easeInOutQuad; delay: 34000; loop:1;'></a-mixin>
-			<a-mixin id="rt2" visible="false" animation__5='property: rotation; dur: 8000; to: 0 -60 0; easing: easeInOutQuad; delay: 34000; loop:1;' animation__1='property: visible; dur: 1; to: true; easing: easeInOutQuad; delay: 34000; loop:1;'></a-mixin>
-			<a-mixin id="rt3" visible="false" animation__6='property: rotation; dur: 8000; to: 90 0 0; easing: easeInOutQuad; delay: 34000; loop:1;' animation__1='property: visible; dur: 1; to: true; easing: easeInOutQuad; delay: 34000; loop:1;'></a-mixin>
+			<a-mixin id="mtl3" material="side: double; color: #0088ff; opacity:0; metalness:0.4; roughness:0.2" animation__3='property: opacity; dur: 8000; to: 0.6; delay: 13000; loop:1;'></a-mixin>
+			<a-mixin id="mtl4" geometry="segments-width: 100; segments-height: 100" material="side: double; color: #0b0; opacity:0; metalness:0.4; roughness:0.2" animation='property: opacity; dur: 8000; to: 0.6; delay: 13000; loop:1;'></a-mixin>
+			<a-mixin id="tr" visible="false" geometry="radius-tubular:0.02; arc:0; segments-tubular: 100" mixin="mtl3" animation__0='property: arc; dur: 8000; to: 360; easing: easeInOutQuad; delay: 13000; loop:1;' animation__9='property: visible; dur: 1; to: true; delay: 13000; loop:1;'></a-mixin>
+			<a-mixin id="rt1" visible="false" animation__4='property: rotation; dur: 8000; to: 0 60 0; easing: easeInOutQuad; delay: 34700; loop:1;' animation__1='property: visible; dur: 1; to: true; delay: 34000; loop:1;'></a-mixin>
+			<a-mixin id="rt2" visible="false" animation__5='property: rotation; dur: 8000; to: 0 -60 0; easing: easeInOutQuad; delay: 35700; loop:1;' animation__1='property: visible; dur: 1; to: true; delay: 34000; loop:1;'></a-mixin>
+			<a-mixin id="rt3" visible="false" animation__6='property: rotation; dur: 8000; to: 90 0 0; easing: easeInOutQuad; delay: 36700; loop:1;' animation__1='property: visible; dur: 1; to: true; delay: 34000; loop:1;'></a-mixin>
 		</a-assets>
 		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 0 0 700; minDistance: 500; maxDistance: 1100;"></a-entity>
 		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
