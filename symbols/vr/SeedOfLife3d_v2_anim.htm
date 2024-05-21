@@ -14,18 +14,19 @@
 		<a-assets>
 			<a-mixin id="mtl1" material="side: double; color: #5cb404; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="mtl2" material="side: double; color: #cc1100; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
-			<a-mixin id="mtl3" material="side: double; color: #0c8; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl3" material="side: double; color: #0c8; opacity:0; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="mtl4" material="side: double; color: #00ccff; opacity:0.2; metalness:0.4; roughness:0.2"></a-mixin>
-			<a-mixin id="tr" position="0 0 0" rotation="90 0 0" geometry="radius: 3.36; radius-tubular:0.042; segments-tubular: 100" mixin="mtl3"></a-mixin>
+			<a-mixin id="tr" position="0 0 0" rotation="90 0 0" geometry="radius: 3.36; radius-tubular:0.042; arc:0; segments-tubular: 100" mixin="mtl3" animation='property: opacity; dur: 8000; to: 0.7; delay: 10000; loop:1;' animation__0='property: arc; dur: 8000; to: 360; easing: easeInOutQuad; delay: 13000; loop:1;'></a-mixin>
 			<a-mixin id="s2_3p" position="0 11.5 0"></a-mixin>
-			<a-mixin id="s2_3h" position="0 11.5 0"></a-mixin>
+			<a-mixin id="s2_3h" rotation="16.3 0 0" position="0 12 0" animation__4='property: position; dur: 8000; to: 0 11.5 0; easing: easeInOutQuad; delay: 34700; loop:1;' animation__7='property: rotation; dur: 8000; to: 0 0 0; delay: 36800; loop:1;'></a-mixin>
 
 		</a-assets>
-		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 200 450 700; minDistance: 500; maxDistance: 1100;"></a-entity>
+		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 0 0 700; minDistance: 500; maxDistance: 1100;"></a-entity>
 		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
 		
-		<a-entity scale="0.9 0.9 0.9">
-			<a-entity id="baixo" position="0 -1.5 0">
+		<a-entity scale="0.8 0.8 0.8" rotation="-90 0 0" animation__4='property: rotation; dur: 10000; to: -90 180 0; easing: easeInOutQuad; delay: 22500; loop:1;' animation__3='property: rotation; dur: 10000; to: -30 180 0; easing: easeInOutQuad; delay: 32500; loop:1;'>
+			<a-entity>
+			<a-entity id="baixo" animation__8='property: rotation; dur: 8000; to: 0 0 0; easing: easeInOutQuad; delay: 42500; loop:1;' animation__7='property: position; dur: 8000; to: 0 -1.6 0; easing: easeInOutQuad; delay: 52500; loop:1;'>
 				<a-entity id="pentagono">
 					<a-torus mixin="tr"></a-torus>
 				</a-entity>
@@ -73,7 +74,7 @@
 					</a-entity>
 				</a-entity>
 			</a-entity>
-			<a-entity id="cima" position="0 1.5 0" rotation="0 30 180">
+			<a-entity id="cima" visible="false" animation__9='property: rotation; dur: 8000; to: 0 30 180; easing: easeInOutQuad; delay: 61500; loop:1;' animation__10='property: position; dur: 8000; to: 0 1.6 0; easing: easeInOutQuad; delay: 52500; loop:1;'  animation__11='property: visible; dur: 1; to: true; delay: 52500; loop:1;'>
 				<a-entity id="pentagono">
 					<a-torus mixin="tr"></a-torus>
 				</a-entity>
@@ -120,6 +121,7 @@
 						</a-entity>
 					</a-entity>
 				</a-entity>
+			</a-entity>-->
 			</a-entity>
 		</a-entity>
 		
@@ -129,9 +131,9 @@
 		<a-light type="directional" color="white" intensity="0.5" position="7 5 -1"></a-light>
 		<a-sky color="black" radius="25"></a-sky><a-sky src="../../imagens/8k_stars_milky_way.jpg" radius="18"></a-sky>
     </a-scene>
-	<div class="box">
+	<!--<div class="box">
 		<span class="titulo">Seed of life</span>
 		<br><span class="titulo">Semente da vida</span>
-	</div>
+	</div>-->
   </body>
 </html>
