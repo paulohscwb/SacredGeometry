@@ -15,7 +15,7 @@
 			<a-mixin id="mtl1" material="side: double; color: #5cb404; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="mtl2" material="side: double; color: #b45c04; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="mtl3" material="side: double; color: #0088ff; opacity:0; metalness:0.4; roughness:0.2" animation__3='property: opacity; dur: 8000; to: 0.6; easing: easeInOutQuad; delay: 13000; loop:1;'></a-mixin>
-			<a-mixin id="mtl4" geometry="segments-width: 100; segments-height: 100" material="side: double; color: #0b0; opacity:0; metalness:0.4; roughness:0.2" animation__7='property: opacity; dur: 8000; to: 0.6; easing: easeInOutQuad; delay: 13000; loop:1;'></a-mixin>
+			<a-mixin id="mtl4" geometry="segments-width: 100; segments-height: 100" material="side: double; color: #0b0; opacity:0; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="tr" visible="false" geometry="radius-tubular:0.02; arc:0; segments-tubular: 100" mixin="mtl3" animation__0='property: arc; dur: 8000; to: 360; easing: easeInOutQuad; delay: 13000; loop:1;' animation__9='property: visible; dur: 1000; to: true; easing: easeInOutQuad; delay: 13000; loop:1;'></a-mixin>
 			<a-mixin id="rt1" visible="false" animation__4='property: rotation; dur: 8000; to: 0 60 0; easing: easeInOutQuad; delay: 34000; loop:1;' animation__1='property: visible; dur: 1000; to: true; easing: easeInOutQuad; delay: 34000; loop:1;'></a-mixin>
 			<a-mixin id="rt2" visible="false" animation__5='property: rotation; dur: 8000; to: 0 -60 0; easing: easeInOutQuad; delay: 34000; loop:1;' animation__1='property: visible; dur: 1000; to: true; easing: easeInOutQuad; delay: 34000; loop:1;'></a-mixin>
@@ -29,7 +29,7 @@
 			<a-torus mixin="tr" radius="1"></a-torus>
 			<a-torus mixin="tr" radius="2" position="0 -1 0"></a-torus>
 			<a-torus mixin="tr" radius="2" position="0 1 0"></a-torus>
-			<a-sphere mixin="mtl4" radius="0.97"></a-sphere>
+			<a-sphere mixin="mtl4" radius="0.97" animation__7='property: opacity; dur: 8000; to: 0.6; easing: easeInOutQuad; delay: 13000; loop:1;'></a-sphere>
 			<a-entity mixin="rt1">
 				<a-torus mixin="tr" radius="3"></a-torus>
 				<a-torus mixin="tr" radius="1"></a-torus>
@@ -54,7 +54,7 @@
 		<a-light type="directional" color="white" intensity="0.5" position="-7 5 1"></a-light>
 		<a-light type="directional" color="white" intensity="0.5" position="7 -5 1"></a-light>
 		<a-light type="directional" color="white" intensity="0.5" position="7 5 -1"></a-light>
-		<a-sky color="black" radius="25"></a-sky><a-sky src="../../imagens/8k_stars_milky_way.jpg" radius="18" animation__1='property: rotation; dur: 10000; to: 0 180 0; easing: easeInOutQuad; delay: 22500; loop:1;' animation__2='property: rotation; dur: 10000; from: 0 180 0; to: 203 0 0; easing: easeInOutQuad; delay: 37000; loop:1;'></a-sky>
+		<a-sky color="black" radius="25"></a-sky><a-sky src="../../imagens/8k_stars_milky_way.jpg" radius="18" animation__1='property: rotation; dur: 10000; to: 0 180 0; easing: easeInOutQuad; delay: 22500; loop:1;' animation__2='property: rotation; dur: 10000; from: 0 180 0; to: 203 180 0; easing: easeInOutQuad; delay: 37000; loop:1;'></a-sky>
     </a-scene>
 	<div class="box">
 		<span class="titulo">Vesica Piscis</span>
