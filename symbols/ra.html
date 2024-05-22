@@ -39,11 +39,9 @@
 		<a-mixin id="mtl3f2" material="color: #f33; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 		<a-mixin id="trf2" geometry="radius: 2; radius-tubular:0.04; segments-tubular: 43" mixin="mtl3f2"></a-mixin>
 		<a-mixin id="mtl1t1" material="color: #5cb404; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
-		<a-mixin id="s5_1" position="0 0 0.866"></a-mixin>
-		<a-mixin id="s5_2" position="0 -1.5 0.866"></a-mixin>
-		<a-mixin id="s5_3" position="0 0.6123 0"></a-mixin>
+		<a-mixin id="mtl2t1" material=" color: #4ef; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 		<a-mixin id="esferat1" mixin="mtl1t1" geometry="radius: 0.55;" material="metalness:0.4; side:double; roughness:0.3;"></a-mixin>
-		<a-mixin id="arestast1" mixin="mtl1t1" geometry="radius: 0.07; height:3" material="metalness:0.4; roughness:0.3;"></a-mixin>
+		<a-mixin id="arestast1" mixin="mtl2t1" geometry="radius: 0.07; height:3" material="metalness:0.4; roughness:0.3;"></a-mixin>
 		<a-mixin id="mtl1f3" material="color: #e33; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 		<a-mixin id="trf3" geometry="radius-tubular:0.03; arc:360; radius:1; segments-tubular: 43" mixin="mtl1f3"></a-mixin>
 		<a-mixin id="mtl4f4" material="color: #e33; side:double; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
@@ -1045,91 +1043,34 @@
 	<a-marker type="barcode" value="11" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
 		<a-link mixin="lnk" class="lnk" href="vr/TreeOfLife.htm"></a-link>
 	   	<a-entity position="2 -2.4 0" scale="0.28 0.28 0.28" gesture-handler>
-			<a-entity rotation="0 -35 180">
-				<a-cylinder mixin="arestast1" position="-1.5 -4.5 0.85" height="9"></a-cylinder>
-				<a-cylinder mixin="arestast1" position="1.5 -3 0.85" height="6"></a-cylinder>
-				<a-cylinder mixin="arestast1" position="0 -3 -1.73" height="6"></a-cylinder>
-				<a-cylinder mixin="arestast1" rotation="0 0 -45" position="0 -1.5 0.85" height="4.243"></a-cylinder>
-				<a-cylinder mixin="arestast1" rotation="0 0 45" position="0 -4.5 0.85" height="4.243"></a-cylinder>
-				<a-cylinder mixin="arestast1" rotation="0 0 -45" position="0 -7.5 0.85" height="4.243"></a-cylinder>
-				<a-entity position="0 0 0">
-					<a-entity rotation="0 0 90">
-						<a-cylinder mixin="arestast1 s5_1"></a-cylinder>
-						<a-sphere mixin="esferat1 s5_2"></a-sphere>
-					</a-entity>
-					<a-entity rotation="0 120 90">
-						<a-cylinder mixin="arestast1 s5_1"></a-cylinder>
-						<a-sphere mixin="esferat1 s5_2"></a-sphere>
-					</a-entity>
-					<a-entity rotation="0 240 90">
-						<a-cylinder mixin="arestast1 s5_1"></a-cylinder>
-						<a-sphere mixin="esferat1 s5_2"></a-sphere>
-					</a-entity>
-				</a-entity>
-				
-				<a-entity rotation="0 60 0">
-					<a-cylinder mixin="arestast1" rotation="0 0 -45" position="0 -1.5 -0.85" height="4.243"></a-cylinder>
-					<a-cylinder mixin="arestast1" rotation="0 0 45" position="0 -4.5 -0.85" height="4.243"></a-cylinder>
-					<a-cylinder mixin="arestast1" rotation="0 0 -45" position="0 -7.5 -0.85" height="4.243"></a-cylinder>
-				</a-entity>
-				<a-entity position="0 -9 0">
-					<a-entity rotation="0 240 90">
-						<a-sphere mixin="esferat1 s5_2"></a-sphere>
-					</a-entity>
-				</a-entity>
-				<a-entity position="0 -6 0">
-					<a-entity rotation="0 120 90">
-						<a-cylinder mixin="arestast1 s5_1"></a-cylinder>
-						<a-sphere mixin="esferat1 s5_2"></a-sphere>
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-sphere mixin="esferat1 s5_2"></a-sphere>
-					</a-entity>
-				</a-entity>
-				<a-entity position="0 -3 0">
-					<a-entity rotation="0 0 90">
-						<a-cylinder mixin="arestast1 s5_1"></a-cylinder>
-						<a-sphere mixin="esferat1 s5_2"></a-sphere>
-					</a-entity>
-					<a-entity rotation="0 120 90">
-						<a-cylinder mixin="arestast1 s5_1"></a-cylinder>
-						<a-sphere mixin="esferat1 s5_2"></a-sphere>
-					</a-entity>
-					<a-entity rotation="0 240 90">
-						<a-cylinder mixin="arestast1 s5_1"></a-cylinder>
-						<a-sphere mixin="esferat1 s5_2"></a-sphere>
-					</a-entity>
-				</a-entity>
-				<a-entity mixin="s5_3">
-					<a-entity rotation="70.53 0 0">
-						<a-entity mixin="s5_3">
-							<a-entity rotation="0 240 90">
-								<a-cylinder mixin="arestast1 s5_1"></a-cylinder>
-							</a-entity>
-						</a-entity>
-					</a-entity>
-				</a-entity>
-				<a-entity mixin="s5_3">
-					<a-entity rotation="70.53 120 0">
-						<a-entity mixin="s5_3">
-							<a-entity rotation="0 240 90">
-								<a-cylinder mixin="arestast1 s5_1"></a-cylinder>
-							</a-entity>
-						</a-entity>
-					</a-entity>
-				</a-entity>
-				<a-entity mixin="s5_3">
-					<a-entity rotation="70.53 240 0">
-						<a-entity mixin="s5_3">
-							<a-entity rotation="0 240 90">
-								<a-cylinder mixin="arestast1 s5_1"></a-cylinder>
-							</a-entity>
-							<a-entity rotation="0 120 90">
-								<a-sphere mixin="esferat1 s5_2"></a-sphere>
-							</a-entity>
-						</a-entity>
-					</a-entity>
-				</a-entity>
+			<a-entity>
+				<a-cylinder mixin="arestast1" position="-1.732 1 -1" height="4"></a-cylinder>
+				<a-cylinder mixin="arestast1" position="1.732 1 -1" height="4"></a-cylinder>
+				<a-cylinder mixin="arestast1" position="0 -2 1" height="4"></a-cylinder>
+				<a-cylinder mixin="arestast1" position="0 2 1" height="4"></a-cylinder>
+				<a-cylinder mixin="arestast1" rotation="0 0 90" position="0 1 -1" height="3.46"></a-cylinder>
+				<a-cylinder mixin="arestast1" rotation="0 0 90" position="0 -1 -1" height="3.46"></a-cylinder>
+				<a-cylinder mixin="arestast1" rotation="0 0 90" position="0 3 -1" height="3.46"></a-cylinder>
+				<a-cylinder mixin="arestast1" rotation="-30 -61 113" position="-0.86 -0.5 0" height="2.8"></a-cylinder>
+				<a-cylinder mixin="arestast1" rotation="-30 61 -113" position="0.86 -0.5 0" height="2.8"></a-cylinder>
+				<a-cylinder mixin="arestast1" rotation="30 -61 -113" position="-0.86 -1.5 0" height="2.8"></a-cylinder>
+				<a-cylinder mixin="arestast1" rotation="30 -61 -113" position="-0.86 0.5 0" height="2.8"></a-cylinder>
+				<a-cylinder mixin="arestast1" rotation="30 61 113" position="0.86 -1.5 0" height="2.8"></a-cylinder>
+				<a-cylinder mixin="arestast1" rotation="30 61 113" position="0.86 0.5 0" height="2.8"></a-cylinder>
+				<a-cylinder mixin="arestast1" rotation="-30 61 -113" position="0.86 3.5 0" height="2.8"></a-cylinder>
+				<a-cylinder mixin="arestast1" rotation="-30 -61 113" position="-0.86 3.5 0" height="2.8"></a-cylinder>
+				<a-cylinder mixin="arestast1" rotation="-2 47 138" position="0.86 -2.5 0" height="3.95"></a-cylinder>
+				<a-cylinder mixin="arestast1" rotation="-2 -47 -138" position="-0.86 -2.5 0" height="3.95"></a-cylinder>
+				<a-sphere mixin="esferat1" position="0 0 1"></a-sphere>
+				<a-sphere mixin="esferat1" position="0 -2 1"></a-sphere>
+				<a-sphere mixin="esferat1" position="0 -4 1"></a-sphere>
+				<a-sphere mixin="esferat1" position="0 4 1"></a-sphere>
+				<a-sphere mixin="esferat1" position="1.732 1 -1"></a-sphere>
+				<a-sphere mixin="esferat1" position="1.732 3 -1"></a-sphere>
+				<a-sphere mixin="esferat1" position="1.732 -1 -1"></a-sphere>
+				<a-sphere mixin="esferat1" position="-1.732 1 -1"></a-sphere>
+				<a-sphere mixin="esferat1" position="-1.732 3 -1"></a-sphere>
+				<a-sphere mixin="esferat1" position="-1.732 -1 -1"></a-sphere>
 			</a-entity>
 		</a-entity>
 	</a-marker>
