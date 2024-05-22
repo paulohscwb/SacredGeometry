@@ -47,7 +47,7 @@
 			<a-mixin id="mtl1e2" material="color: #5caa04; side:double; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="tre2" geometry="radius: 1; segments-height: 43; segments-width: 43" mixin="mtl1e2"></a-mixin>
 			<a-mixin id="mtl1e1" material="color: #5caa04; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
-			<a-mixin id="tre1" geometry="radius-tubular:0.02; arc:360; radius:1; segments-tubular: 43" mixin="mtl1e1"></a-mixin>
+			<a-mixin id="tre1" rotation="90 0 0" geometry="radius-tubular:0.02; arc:360; radius:1; segments-tubular: 43" mixin="mtl1e1"></a-mixin>
 			<a-mixin id="mtl3f1" material="color: #0088ff; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
         </a-assets>
         <a-entity id="cameraRig">
@@ -248,13 +248,13 @@
 		</a-entity>
 		
 		<a-entity class="poli" mixin="poli1" position="-0.37 0.9 2" scale="0.1 0.1 0.1" shadow>
-			<a-torus mixin="tre1" position="1.732 0 1" rotation="90 0 0"></a-torus>
-			<a-torus mixin="tre1" position="1.732 0 -1" rotation="90 0 0"></a-torus>
-			<a-torus mixin="tre1" position="-1.732 0 1" rotation="90 0 0"></a-torus>
-			<a-torus mixin="tre1" position="-1.732 0 -1" rotation="90 0 0"></a-torus>
-			<a-torus mixin="tre1" position="0 0 2" rotation="90 0 0"></a-torus>
-			<a-torus mixin="tre1" position="0 0 -2" rotation="90 0 0"></a-torus>
-			<a-torus mixin="tre1" rotation="90 0 0"></a-torus>
+			<a-torus mixin="tre1" position="1.732 0 1"></a-torus>
+			<a-torus mixin="tre1" position="1.732 0 -1"></a-torus>
+			<a-torus mixin="tre1" position="-1.732 0 1"></a-torus>
+			<a-torus mixin="tre1" position="-1.732 0 -1"></a-torus>
+			<a-torus mixin="tre1" position="0 0 2"></a-torus>
+			<a-torus mixin="tre1" position="0 0 -2"></a-torus>
+			<a-torus mixin="tre1"></a-torus>
 		</a-entity>
 		
 		<a-entity class="poli" mixin="poli1" position="-1.1 1 2" scale="0.11 0.11 0.11" shadow>
