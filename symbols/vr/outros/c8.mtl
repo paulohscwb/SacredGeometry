@@ -2,7 +2,7 @@
 
 newmtl Cor1
 Kd 0 0.8 0.9
-Ks 0.45 0.45 0.45 
+Ks 0.2 0.2 0.2 
 Ni 1
 illum 4
 Pr/map_Pr 0.3
@@ -11,7 +11,7 @@ d 0.65
 
 newmtl Cor2
 Kd 0.8 0.5 0.5
-Ks 0.45 0.45 0.45 
+Ks 0.2 0.2 0.2 
 Ni 1
 illum 4
 Pr/map_Pr 0.3
