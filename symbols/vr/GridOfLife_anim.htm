@@ -13,13 +13,13 @@
     <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
 		<a-assets>
 			<a-mixin id="mtl1" material="side: double; color: #5c0; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
-			<a-mixin id="mtl2" material="side: double; color: #ff7; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl2" material="side: double; color: #f55; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="mtl3" material="side: double; color: #0cf; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="mtl4" material="side: double; color: #fd3; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="mtlt" visible="false" material="side: double; color: #f22; opacity:0; metalness:0.4; roughness:0.2" animation__7='property: visible; dur: 1; to: true; delay: 54200; loop:1;' animation__9='property: opacity; dur: 5000; from: 0; to: 0.45; delay: 54000; loop:1;' animation__5='property: opacity; dur: 5000; from: 0.45; to: 0; delay: 66000; loop:1;' animation__8='property: visible; dur: 1; to: false; delay: 71000; loop:1;'></a-mixin>
 			<a-mixin id="ci" visible="false" scale="1 0 0" geometry="height:5.1962; radius:0.04;" mixin="mtl3" material="opacity:0;" animation__7='property: visible; dur: 1; to: true; delay: 13200; loop:1;' animation__9='property: opacity; dur: 5000; to: 0.7; delay: 13000; loop:1;' animation__0='property: scale; dur: 8000; from: 1 0 0; to: 1 1 1; easing: easeInOutQuad; delay: 10000; loop:1;' animation__5='property: opacity; dur: 5000; from: 0.7; to: 0; delay: 48000; loop:1;' animation__8='property: visible; dur: 1; to: false; delay: 48000; loop:1;'></a-mixin>
 			<a-mixin id="esferad" visible="false" mixin="mtl3" geometry="radius: 0.04;" material="metalness:0.5; roughness:0.3; opacity:0;" animation='property: opacity; dur: 5000; to: 0.7; delay: 13000; loop:1;' animation__9='property: visible; dur: 1; to: true; delay: 13200; loop:1;' animation__5='property: opacity; dur: 5000; from: 0.7; to: 0; delay: 48000; loop:1;' animation__8='property: visible; dur: 1; to: false; delay: 48000; loop:1;'></a-mixin>
-			<a-mixin id="tr" visible="false" geometry="radius: 2; radius-tubular:0.035; segments-tubular: 100" mixin="mtl2" material="opacity:0;" animation__6='property: visible; dur: 1; to: true; delay: 10200; loop:1;' animation='property: opacity; dur: 5000; to: 0.7; delay: 10000; loop:1;'  animation__5='property: opacity; dur: 5000; from: 0.7; to: 0; delay: 34000; loop:1;' animation__8='property: visible; dur: 1; to: false; delay: 38900; loop:1;'></a-mixin>
+			<a-mixin id="tr" visible="false" geometry="radius: 2; radius-tubular:0.03; segments-tubular: 100" mixin="mtl2" material="opacity:0;" animation__6='property: visible; dur: 1; to: true; delay: 10100; loop:1;' animation='property: opacity; dur: 5000; to: 0.7; delay: 10000; loop:1;'  animation__5='property: opacity; dur: 5000; from: 0.7; to: 0; delay: 34000; loop:1;' animation__8='property: visible; dur: 1; to: false; delay: 38900; loop:1;'></a-mixin>
 			
 			<a-mixin id="ci3" geometry="height:6; radius:0.0345;" mixin="mtl3" visible="false" material="opacity:0;" animation__1='property: visible; dur: 1; to: true; delay: 43100; loop:1;' animation='property: opacity; dur: 5000; from: 0; to: 0.7; delay: 43000; loop:1;'></a-mixin>
 			<a-mixin id="s12_1q" position="0 0 1.5"></a-mixin>
@@ -38,7 +38,7 @@
 			<a-asset-item id="mt" src="outros/c8.mtl"></a-asset-item>
 			<a-asset-item id="mt1" src="outros/c7.mtl"></a-asset-item>
 			<a-asset-item id="aq" src="outros/Cuboctahedron.obj"></a-asset-item>
-			<a-mixin id="fc" visible="false" obj-model="obj: #aq; mtl: #mt" animation__7='property: visible; dur: 1; to: true; delay: 73200; loop:1;' animation__9='property: mtl; dur: 5000; from:#mt1; to: #mt; delay: 73000; loop:1;' animation__5='property: mtl; dur: 5000; from: #mt; to: #mt1; delay: 85000; loop:1;' animation__8='property: visible; dur: 1; to: false; delay: 89900; loop:1;'></a-mixin>
+			<a-mixin id="fc" visible="false" obj-model="obj: #aq; mtl: #mt" animation__7='property: visible; dur: 1; to: true; delay: 73200; loop:1;' animation__8='property: visible; dur: 1; to: false; delay: 89900; loop:1;'></a-mixin>
 		</a-assets>
 		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0; initialPosition: 0 0 700; minDistance: 500; maxDistance: 1100;"></a-entity>
 		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
@@ -649,7 +649,7 @@
 				<a-tetrahedron mixin="mtlt" rotation="35 0 -45" radius="3.7"></a-tetrahedron>
 				<a-tetrahedron mixin="mtlt" rotation="35 0 45" radius="3.7"></a-tetrahedron>
 			</a-entity>
-			<a-entity rotation="0 -30 0" scale="3 3 3" id="cuboct">
+			<a-entity rotation="0 -30 0" scale="3.45 3.45 3.45" id="cuboct">
 				<a-entity rotation="35 30 45" mixin="fc"></a-entity>
 			</a-entity>
 		</a-entity>
