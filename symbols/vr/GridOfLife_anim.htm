@@ -36,9 +36,8 @@
 			<a-mixin id="arestasT" visible="false" mixin="mtl3" geometry="radius: 0.032; height:6" material="metalness:0.4; roughness:0.3; opacity:0;" animation__1='property: visible; dur: 1; to: true; delay: 43100; loop:1;' animation='property: opacity; dur: 5000; from: 0; to: 0.7; delay: 43000; loop:1;'>
 			
 			<a-asset-item id="mt" src="outros/c8.mtl"></a-asset-item>
-			<a-asset-item id="mt1" src="outros/c7.mtl"></a-asset-item>
 			<a-asset-item id="aq" src="outros/Cuboctahedron.obj"></a-asset-item>
-			<a-mixin id="fc" visible="false" obj-model="obj: #aq; mtl: #mt" animation__7='property: visible; dur: 1; to: true; delay: 73200; loop:1;' animation__8='property: visible; dur: 1; to: false; delay: 89900; loop:1;'></a-mixin>
+			<a-mixin id="fc" visible="false" obj-model="obj: #aq; mtl: #mt" animation__7='property: visible; dur: 1000; to: true; delay: 73200; loop:1;' animation__8='property: visible; dur: 1000; to: false; delay: 89900; loop:1;'></a-mixin>
 		</a-assets>
 		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0; initialPosition: 0 0 700; minDistance: 500; maxDistance: 1100;"></a-entity>
 		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
