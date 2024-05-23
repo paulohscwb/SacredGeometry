@@ -30,15 +30,6 @@
 		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
 		
 		<a-entity scale="0.9 0.9 0.9" rotation="-90 0 0" animation__4='property: rotation; dur: 15000; to: -90 180 0; easing: easeInOutQuad; delay: 32500; loop:1;' animation__3='property: rotation; dur: 15000; from: -90 180 0; to: -90 0 0; easing: easeInOutQuad; delay: 63000; loop:1'>
-			<a-entity scale="2 2 2" id="egg">
-				<a-torus mixin="tres" position="1.732 0 1"></a-torus>
-				<a-torus mixin="tres" position="1.732 0 -1"></a-torus>
-				<a-torus mixin="tres" position="-1.732 0 1"></a-torus>
-				<a-torus mixin="tres" position="-1.732 0 -1"></a-torus>
-				<a-torus mixin="tres" position="0 0 2"></a-torus>
-				<a-torus mixin="tres" position="0 0 -2"></a-torus>
-				<a-torus mixin="tres"></a-torus>
-			</a-entity>		
 			<a-entity mixin="rt1">			
 				<a-torus mixin="tr"></a-torus>
 				<a-torus mixin="tr" radius="6"></a-torus>
@@ -271,6 +262,15 @@
 				<a-torus mixin="tr3" position="-5.196 5 0" rotation="0 0 270"></a-torus>
 				<a-torus mixin="tr3" position="-5.196 -5 0" rotation="0 0 30"></a-torus>
 			</a-entity>
+			<a-entity scale="2 2 2" id="egg">
+				<a-torus mixin="tres" position="1.732 0 1"></a-torus>
+				<a-torus mixin="tres" position="1.732 0 -1"></a-torus>
+				<a-torus mixin="tres" position="-1.732 0 1"></a-torus>
+				<a-torus mixin="tres" position="-1.732 0 -1"></a-torus>
+				<a-torus mixin="tres" position="0 0 2"></a-torus>
+				<a-torus mixin="tres" position="0 0 -2"></a-torus>
+				<a-torus mixin="tres"></a-torus>
+			</a-entity>
 			<a-entity id="seed" scale="0.9 0.9 0.9" rotation="90 0 0">
 				<a-torus mixin="trs"></a-torus>
 				<a-torus mixin="trs" position="0 2 0"></a-torus>
@@ -280,6 +280,7 @@
 				<a-torus mixin="trs" position="-1.732 1 0"></a-torus>
 				<a-torus mixin="trs" position="-1.732 -1 0"></a-torus>
 			</a-entity>
+			
 		</a-entity>
 		
 		<a-light type="ambient" color="white" intensity="0.5"></a-light>
