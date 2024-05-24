@@ -178,7 +178,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <hr>
 <h4>23. Estrela Merkaba</h4>
 <a href="../vr/Merkaba.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/19A.png" class="foto" alt="Estrela Merkaba"></a><img src="../ar/19.png" class="qr">
- <br><br><br>O símbolo da estrela Merkaba tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 3 tetraedros idênticos que são interligados por meio de rotações em direções opostas. A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D.
+ <br><br><br>O símbolo da estrela Merkaba tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>

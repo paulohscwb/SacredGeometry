@@ -179,7 +179,7 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <hr>
 <h4>23. Merkaba star</h4>
 <a href="vr/Merkaba.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/19A.png" class="foto" alt="Merkaba star"></a><img src="ar/19.png" class="qr">
- <br><br><br>The Merkaba star symbol has the meaning translated as "light, spirit and body". It is the fusion of 3 identical tetrahedra that are interconnected through rotations in opposite directions. The intersection of these tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
+ <br><br><br>The Merkaba star symbol has the meaning translated as "light, spirit and body". It is the fusion of 2 identical tetrahedra that are interconnected through rotations in opposite directions. The intersection of these tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
  <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
