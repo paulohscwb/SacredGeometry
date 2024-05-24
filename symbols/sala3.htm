@@ -50,6 +50,21 @@
 			<a-mixin id="mtl1v4" material="color: #5cb404; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="trv4" geometry="radius-tubular:0.014; segments-tubular: 43" mixin="mtl1v4"></a-mixin>
 			<a-mixin id="arestasv4" mixin="mtl1v4" geometry="radius: 0.028; height:6" material="metalness:0.4; roughness:0.3;"></a-mixin>
+			
+			<a-mixin id="mtl1t4" material="color: #fee; opacity:1; metalness:0.3; roughness:0.3"></a-mixin>
+			<a-mixin id="mtl3t4" material="color: #5cf; opacity:0.7; metalness:0.3; roughness:0.3"></a-mixin>
+			<a-mixin id="trt4" geometry="radius-tubular:1.25; segments-tubular: 75; segments-radial: 43" mixin="mtl3t4"></a-mixin>
+			<a-mixin id="trw4" geometry="radius-tubular:1.25; segments-tubular: 75; segments-radial: 43;" mixin="mtl1t4" material="wireframe:true"></a-mixin>
+			
+			<a-mixin id="mtl1t5" material="color: #efe; opacity:1; metalness:0.3; roughness:0.3"></a-mixin>
+			<a-mixin id="mtl3t5" material="color: #e55; opacity:0.7; metalness:0.3; roughness:0.3"></a-mixin>
+			<a-mixin id="trt5" geometry="radius-tubular:1.85; segments-tubular: 75; segments-radial: 43" mixin="mtl3t5"></a-mixin>
+			<a-mixin id="trw5" geometry="radius-tubular:1.85; segments-tubular: 75; segments-radial: 43;" mixin="mtl1t5" material="wireframe:true"></a-mixin>
+			
+			<a-mixin id="mtl3f" material="side: double; color: #0df; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="trf" position="0 0 0" rotation="90 0 0" geometry="radius: 3.36; radius-tubular:0.042; segments-tubular: 100" mixin="mtl3f"></a-mixin>
+			<a-mixin id="s2_3p" position="0 11.5 0"></a-mixin>
+			<a-mixin id="s2_3h" position="0 12 0" rotation="18 0 18"></a-mixin>
         </a-assets>
         <a-entity id="cameraRig">
            <a-camera id="head" look-controls wasd-controls-enabled="false" position="0 1.7 1" cursor="rayOrigin:mouse" static-body="shape: sphere; sphereRadius: 0.001" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-camera>
@@ -58,6 +73,7 @@
         </a-entity>
         <a-box mixin="piso" class="piso" visible="false" position="0 -0.05 0"></a-box>
         <a-gltf-model static-body src="vr/salas/geomSagrada7.glb" position="0 0 0" shadow></a-gltf-model>
+		<a-gltf-model static-body src="vr/salas/geomSagrada8.glb" position="0 0 0" shadow></a-gltf-model>
 		<a-light type="point" color="yellow" intensity="0.5" position="0 0 0"></a-light>
 
 		<a-entity class="poli" mixin="poli1" position="-0.75 1 -0.5" scale="0.1 0.1 0.1" shadow>
@@ -442,12 +458,71 @@
 		</a-entity>
 		
 		<!-- segunda mesa: girada 180 graus, com afastamento 1.5-->
-		<a-entity class="poli" mixin="poli1" position="1.1 1 2" scale="0.044 0.044 0.044" shadow>
+		<a-entity class="poli" mixin="poli1" position="1.1 1 2" scale="0.032 0.032 0.06" shadow>
+			<a-entity rotation="90 0 0">
+				<a-torus mixin="trt4" radius="3.5"></a-torus>
+				<a-torus mixin="trw4" radius="3.5" scale="1.001 1.001 1.001"></a-torus>
+			</a-entity>
 		</a-entity>
-		<a-entity class="poli" mixin="poli1" position="0.37 1 2" scale="0.07 0.07 0.07" shadow>
+		
+		<a-entity class="poli" mixin="poli1" position="0.37 1 2" scale="0.032 0.032 0.041" shadow>
+			<a-entity rotation="90 0 0">
+				<a-torus mixin="trt5" radius="2.3"></a-torus>
+				<a-torus mixin="trw5" radius="2.3" scale="1.001 1.001 1.001"></a-torus>
+			</a-entity>
 		</a-entity>
-		<a-entity class="poli" mixin="poli1" position="-0.37 1 2" scale="0.072 0.072 0.072" shadow>
+		
+		<a-entity class="poli" mixin="poli1" position="-0.37 1 2" scale="0.06 0.06 0.06" shadow>
+			<a-entity id="baixo">
+				<a-entity id="pentagono">
+					<a-torus mixin="trf"></a-torus>
+				</a-entity>
+
+				<a-entity mixin="s2_3p">
+					<a-entity rotation="163.7 0 0">
+						<a-entity mixin="s2_3h">
+							<a-torus mixin="trf"></a-torus>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity mixin="s2_3p">
+					<a-entity rotation="163.7 60 0">
+						<a-entity mixin="s2_3h">
+							<a-torus mixin="trf"></a-torus>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity mixin="s2_3p">
+					<a-entity rotation="163.7 120 0">
+						<a-entity mixin="s2_3h">
+							<a-torus mixin="trf"></a-torus>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity mixin="s2_3p">
+					<a-entity rotation="163.7 180 0">
+						<a-entity mixin="s2_3h">
+							<a-torus mixin="trf"></a-torus>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity mixin="s2_3p">
+					<a-entity rotation="163.7 240 0">
+						<a-entity mixin="s2_3h">
+							<a-torus mixin="trf"></a-torus>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity mixin="s2_3p">
+					<a-entity rotation="163.7 300 0">
+						<a-entity mixin="s2_3h">
+							<a-torus mixin="trf"></a-torus>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+			</a-entity>
 		</a-entity>
+		
 		<a-entity class="poli" mixin="poli1" position="-1.1 1 2" scale="0.044 0.044 0.044" shadow>
 		</a-entity>
 		<!--<a-video src="vr/salas/videos/ChamferedDodecahedron_x264_x264.mp4" position="2.055 1 1.16" rotation="0 270 0" depth="0.01" height="1.5" width="2.5"></a-video>-->

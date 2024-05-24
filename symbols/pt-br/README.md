@@ -72,117 +72,135 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>6. Ovo da vida</h4>
+<h4>6. Semente da vida 3D v3</h4>
+<a href="../vr/SeedOfLife3d_v3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/24A.png" class="foto" alt="Semente da vida 3D"></a><img src="../ar/24.png" class="qr">
+ <br><br><br>Cada círculo sobreposto deste símbolo significa um ciclo ou uma célula interligando processos vitais. Nesta representação temos o modelo em 3D representado com 6 círculos rotacionados em torno de eixos que passam pelo círculo central.
+ <br><br><br>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>7. Ovo da vida</h4>
 <a href="../vr/EggOfLife.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/2A.png" class="foto" alt="Ovo da vida"></a><img src="../ar/2.png" class="qr">
  <br><br><br>É considerado como o estágio central na sequência tranformadora da evolução e está associado às noções de renascimento e fertilidade. O Ovo da Vida é uma evolução da Semente da Vida: adicionando-se 6 círculos à Semente fundamental temos o símbolo do Ovo da Vida.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>7. Ovo da vida 3D</h4>
+<h4>8. Ovo da vida 3D</h4>
 <a href="../vr/EggOfLife3d.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/3A.png" class="foto" alt="Ovo da vida 3D"></a><img src="../ar/3.png" class="qr">
  <br><br><br>Analisando-se outra dimensão em sua formação, o Ovo da Vida pode ser visualizado por meio das oito esferas tangentes do Cubo de Metatron. Esta conexão mostra a versatilidade e as relações entrelaçadas dos símbolos geométricos sagrados.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>8. Flor da vida</h4>
+<h4>9. Flor da vida</h4>
 <a href="../vr/FlowerOfLife.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/7A.png" class="foto" alt="Flor da vida"></a><img src="../ar/7.png" class="qr">
  <br><br><br>O símbolo da Flor da Vida é construído com 19 círculos entrelaçados, envoltos por um círculo maior. Trata-se de uma representação muito conhecida que aparece nas pirâmides do Egito e em construções da Grécia, China, Inglaterra, Tibete e Israel. Acredita-se que a Flor da Vida seja a representação do projeto cósmico, o qual codifica o design de cada estrutura atômica.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>9. Flor da vida 3D</h4>
+<h4>10. Flor da vida 3D</h4>
 <a href="../vr/FlowerOfLife3d.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/8A.png" class="foto" alt="Flor da vida 3D"></a><img src="../ar/8.png" class="qr">
  <br><br><br>Dentro do design do símbolo da Flor da Vida encontram-se outros padrões da Geometria Sagrada: o Ovo da Vida, a Semente da Vida e a Árvore da Vida. Nesta representação temos o modelo em 3D representado com 3 rotações em torno de um dos modelos.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
-<h4>10. Flor da vida v2</h4>
+<h4>11. Flor da vida v2</h4>
 <a href="../vr/FlowerOfLife_v2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/9A.png" class="foto" alt="Flor da vida"></a><img src="../ar/9.png" class="qr">
  <br><br><br>O símbolo da Flor da Vida pode ser extendido e construído com 37 círculos entrelaçados, envoltos por um círculo maior. Vários círculos deste símbolo se estendem para além da fronteira, e outro símbolo da Geometria Sagrada surge desta versão extendida: o Fruto da Vida.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
-<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
-<h4>11. Flor da vida 3D v2</h4>
+<h4>12. Flor da vida 3D v2</h4>
 <a href="../vr/FlowerOfLife3d_v2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/10A.png" class="foto" alt="Flor da vida 3D"></a><img src="../ar/10.png" class="qr">
  <br><br><br>Dentro do design do símbolo da Flor da Vida encontram-se outros padrões da Geometria Sagrada: o Ovo da Vida, a Semente da Vida e a Árvore da Vida. Nesta representação temos o modelo em 3D representado com 3 rotações em torno de um dos modelos.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>12. Árvore da vida</h4>
+<h4>13. Árvore da vida</h4>
 <a href="../vr/TreeOfLife.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/11A.png" class="foto" alt="Árvore da vida"></a><img src="../ar/11.png" class="qr">
  <br><br><br>O símbolo da Árvore da Vida representa uma conexão com tudo, incluindo as coisas que não podemos ver, lembrando que não estamos sozinhos no universo. As 10 esferas deste símbolo são chamadas de "Sephiroth", significam emanação e estão conectadas por caminhos diferentes. A Sephira da base representa o mundo material e a Sephira do topo representa a consciência cósmica. As demais Sephiras representam as qualidades da alma e são divididas em três pilares: severidade, suavidade e misericórdia.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>13. Fruto da vida</h4>
+<h4>14. Fruto da vida</h4>
 <a href="../vr/FruitOfLife.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/12A.png" class="foto" alt="Fruto da vida"></a><img src="../ar/12.png" class="qr">
  <br><br><br>O símbolo do Fruto da Vida é formado por 13 esferas interligadas e pode ser considerado como um dos mais potentes da Geometria Sagrada. Ele aparece de forma oculta dentro do símbolo da Flor da Vida e pode ser usado para criar as 78 linhas do símbolo do Cubo de Metatron.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>14. Fruto da vida 3D</h4>
+<h4>15. Fruto da vida 3D</h4>
 <a href="../vr/FruitOfLife3d.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/13A.png" class="foto" alt="Fruto da vida 3D"></a><img src="../ar/13.png" class="qr">
  <br><br><br>As 13 esferas do símbolo do Fruto da Vida simbolizam aspectos femininos da criação, que fornecem a base para os 78 raios masculinos da criação. É considerada uma interação harmoniosa que dá origem à existência. Nesta representação temos o símbolo do Fruto da Vida em 3D.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>15. Cubo de Metatron</h4>
+<h4>16. Cubo de Metatron</h4>
 <a href="../vr/MetatronCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/14A.png" class="foto" alt="Cubo de Metatron"></a><img src="../ar/14.png" class="qr">
  <br><br><br>O Metatron é um arcanjo serafim da tradição medieval islâmica, judaica e cristã. As representações artísticas quase sempre retratam o Arcanjo Metatron segurando ou próximo a um cubo misterioso. A construção do Cubo de Metatron envolve os 13 círculos abrigados dentro de um círculo maior. As linhas que unem os centros destes círculos definem o Cubo de Metraton.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>16. Cubo de Metatron 3D</h4>
+<h4>17. Cubo de Metatron 3D</h4>
 <a href="../vr/MetatronCube3d.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/15A.png" class="foto" alt="Cubo de Metatron 3D"></a><img src="../ar/15.png" class="qr">
  <br><br><br>Dentro da forma geométrica definida pelo Cubo de Metraton podemos encontrar os cinco sólidos platônicos, posicionando o Cubo de Metatron como uma ponte fundamental que transforma realidades bidimensionais em reinos tridimensionais. Nesta representação temos o cubo de Metraton em 3D.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>17. Grade da vida</h4>
+<h4>18. Grade da vida</h4>
 <a href="../vr/GridOfLife.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/16A.png" class="foto" alt="Grade da vida"></a><img src="../ar/16.png" class="qr">
  <br><br><br>O símbolo da Grade da Vida, também denominado tetraedro 64, contrapõe o Tetraedro Estrelado com a Flor da Vida. Temos 64 tetraedros que formam o símbolo da Grade da Vida, que pode ser sobreposto ao símbolo da Flor da Vida, com os círculos simbolizando a vastidão do espaço e as linhas interligadas indicando onde o espaço converge com o tempo.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>18. Grade da vida 3D</h4>
+<h4>19. Grade da vida 3D</h4>
 <a href="../vr/GridOfLife3d.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/17A.png" class="foto" alt="Grade da vida 3D"></a><img src="../ar/17.png" class="qr">
  <br><br><br>Grande parte do fascínio do símbolo da Grade da Vida vem do número 64, que surge recorrentemente na natureza, nas construções e no misticismo. Alguns exemplos que podemos citar são: na computação, onde o número de 64 bits de memória é essencial; nos jogos clássicos de xadrez ou damas, que possuem 64 casas em seus tabuleiros; ou em textos sagrados do Hinduísmo, que faz referência a 64 tantras. Neste exemplo, temos a Grade da Vida modelada em 3D.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>19. Toro</h4>
+<h4>20. Toro</h4>
 <a href="../vr/Torus.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/18A.png" class="foto" alt="Toro"></a><img src="../ar/18.png" class="qr">
  <br><br><br>A estrutura de um toro, semelhante a um vórtice, é considerada como a forma inicial que emana do padrão Gênesis. A representação do toro na Geometria Sagrada reflete o fluxo de energia em espiral. Este fluxo não é unidirecional, oscilando na superfície do toro e espiralando dentro de seu núcleo.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
-<h4>20. Estrela Merkaba</h4>
+<h4>21. Toro anelado</h4>
+<a href="../vr/Torus1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/25A.png" class="foto" alt="Toro anelado"></a><img src="../ar/25.png" class="qr">
+ <br><br><br>O toro anelado representa a forma clássica de donut, que incorpora continuidade e totalidade. Este símbolo representa os ciclos da vida, que mantêm a sua forma e vitalidade independentemente de onde começam ou terminam. 
+ <br><br><br>
+<a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>22. Toro fuso</h4>
+<a href="../vr/Torus2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/26A.png" class="foto" alt="Toro fuso"></a><img src="../ar/26.png" class="qr">
+ <br><br><br>O toro fuso representa uma força invisível que atua em extremidades opostas. Trata-se de um símbolo poderoso de equilíbrio, tensão e dualidade, que representa o que existe no universo e dentro de nós mesmos.
+ <br><br><br>
+<a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>23. Estrela Merkaba</h4>
 <a href="../vr/Merkaba.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/19A.png" class="foto" alt="Estrela Merkaba"></a><img src="../ar/19.png" class="qr">
  <br><br><br>O símbolo da estrela Merkaba tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 3 tetraedros idênticos que são interligados por meio de rotações em direções opostas. A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
-<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
-<h4>21. Vector Equilibrium</h4>
+<h4>24. Vector Equilibrium</h4>
 <a href="../vr/VectorEquilibrium.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/23A.png" class="foto" alt="Vector Equilibrium"></a><img src="../ar/23.png" class="qr">
  <br><br><br>O Vector Equilibrium é considerado como refência inicial da matemática energética e a pulsação zero do equilíbrio vetorial. Trata-se da estrutura subjacente do Toro, considerada a forma geométrica capaz de transformar energia em matéria. 
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>22. Vector Equilibrium 3D</h4>
+<h4>25. Vector Equilibrium 3D</h4>
 <a href="../vr/VectorEquilibrium1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/20A.png" class="foto" alt="Vector Equilibrium 3D"></a><img src="../ar/20.png" class="qr">
  <br><br><br>As linhas de energia do Vector Equilibrium têm comprimento e força iguais e pode ser considerada a única forma geométrica que possui todas as forças iguais e equilibradas. Nesta representação temos o Vector Equilibrium modelado em 3D, que representa um conjunto formado pelas arestas e diagonais principais do cuboctaedro de Arquimedes.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>23. Vector Equilibrium 3D v2</h4>
+<h4>26. Vector Equilibrium 3D v2</h4>
 <a href="../vr/VectorEquilibrium2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/21A.png" class="foto" alt="Vector Equilibrium 3D"></a><img src="../ar/21.png" class="qr">
  <br><br><br>De acordo com Buckminster Fuller, o Vector Equilibrium é a forma mais próxima que jamais conheceremos de Deus e da eternidade. Nesta representação temos o Vector Equilibrium modelado em 3D, que representa um conjunto formado pelas diagonais principais e pelos círculos circunscritos às seções hexagonais do cuboctaedro de Arquimedes.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>24. Vector Equilibrium 3D v3</h4>
+<h4>27. Vector Equilibrium 3D v3</h4>
 <a href="../vr/VectorEquilibrium3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/22A.png" class="foto" alt="Vector Equilibrium 3D"></a><img src="../ar/22.png" class="qr">
  <br><br><br>O Vector Equilibrium é considerado como a estrutura subjacente do Toro, também conhecida como a forma geométrica capaz de transformar energia em matéria. Nesta representação temos o modelo em 3D representado com 3 rotações em torno de um dos modelos.
  <br><br><br>
