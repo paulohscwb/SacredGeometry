@@ -13,8 +13,8 @@
     <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
 		<a-assets>
 			<a-mixin id="mtl1" material="side: double; color: #efe; opacity:1; metalness:0.3; roughness:0.3"></a-mixin>
-			<a-mixin id="mtl2" material="side: double; color: #e55; opacity:0.7; metalness:0.3; roughness:0.3"></a-mixin>
-			<a-mixin id="mtl3" material="side: double; color: #f60; opacity:0.7; metalness:0.3; roughness:0.3"></a-mixin>
+			<a-mixin id="mtl2" material="side: double; color: #e55; opacity:0.45; metalness:0.3; roughness:0.3"></a-mixin>
+			<a-mixin id="mtl3" material="side: double; color: #f60; opacity:0.45; metalness:0.3; roughness:0.3"></a-mixin>
 			<a-mixin id="mtl4" material="side: double; color: #00ccff; opacity:0.2; metalness:0.3; roughness:0.3"></a-mixin>
 			<a-mixin id="tr" geometry="radius-tubular:1.85; segments-tubular: 75; segments-radial: 50" mixin="mtl3"></a-mixin>
 			<a-mixin id="trw" geometry="radius-tubular:1.85; segments-tubular: 75; segments-radial: 50;" mixin="mtl1" material="wireframe:true"></a-mixin>
@@ -23,7 +23,7 @@
 		
 		<a-entity scale="1.6 1.6 1.6" rotation="90 0 0">
 			<a-torus mixin="tr" radius="2.3" scale="0.535 0.535 0.705"></a-torus>
-			<a-torus mixin="trw" radius="2.3" scale="0.536 0.536 0.706"></a-torus>
+			<a-torus mixin="trw" radius="2.3" scale="0.5355 0.5355 0.7055"></a-torus>
 		</a-entity>
 		
 		<a-light type="ambient" color="white" intensity="0.45"></a-light>
