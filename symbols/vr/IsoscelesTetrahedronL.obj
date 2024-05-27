@@ -1,7 +1,7 @@
 mtllib solidos.mtl
 s 1
 v -4 0 0
-v 0 3 0
+v 0 0 3
 v 2 0 0
 usemtl CorL1
 l 2 3
