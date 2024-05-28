@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="nomes.css">
   </head>
   <body>
-<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2023 Paulo Henrique Siqueira</div>
+<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2024 Paulo Henrique Siqueira</div>
     <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
 		<a-assets>
 			<a-mixin id="mtl0" material="opacity: 0.7; side: double; metalness:0.3; roughness:0.9;"></a-mixin>
@@ -21,35 +21,141 @@
 			<a-asset-item id="material" src="solidos.mtl"></a-asset-item>
 		</a-assets>
 				
-		<a-entity position="0.5 0 0.5" rotation="0 45 0" scale="1 1 1">
-			<a-obj-model id="fc" src="IsoscelesTetrahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
-			<a-obj-model id="ar" src="IsoscelesTetrahedronL.obj" mtl="#material"></a-obj-model>
-			<a-obj-model id="fc" src="IsoscelesTetrahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
-			<a-obj-model id="ar" src="IsoscelesTetrahedronL.obj" mtl="#material"></a-obj-model>
-			<a-obj-model id="fc" src="IsoscelesTetrahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
-			<a-obj-model id="ar" src="IsoscelesTetrahedronL.obj" mtl="#material"></a-obj-model>
-			<a-obj-model id="fc" src="IsoscelesTetrahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
-			<a-obj-model id="ar" src="IsoscelesTetrahedronL.obj" mtl="#material"></a-obj-model>
-			<a-sphere mixin='esfera mtl9' position='-4 0 0'></a-sphere>
-			<a-sphere mixin='esfera mtl9' position='0 0 3'></a-sphere>
-			<a-sphere mixin='esfera mtl9' position='2 0 0'></a-sphere>
-			<a-sphere mixin='esfera mtl9' position='-2 1.89 -2.33'></a-sphere>
+		<a-entity scale="1.05 1.05 1.05" animation="property: rotation; dur: 70000; to: 0 360 0; easing: easeInOutQuad; delay: 5000;" animation__1="property: scale; dur: 15000; to: 1.4 1.4 1.4; easing: easeInOutQuad; delay: 40000;">
+			<a-entity>
+				<a-obj-model id="fc" src="IsoscelesTetrahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-4 0 0'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='0 0 3'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='2 0 0'></a-sphere>
+			</a-entity>
+			<a-entity animation="property: position; dur: 8000; to: -2 0 0; easing: easeInOutQuad; delay: 5000;" animation__1="property: rotation; dur: 8000; to: 0 180 0; easing: easeInOutQuad; delay: 5100;" animation__2="property: visible; dur: 1; to: false; delay: 35000;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='0 0 3'></a-sphere>
+				
+				<a-sphere mixin='esfera mtl9' position='-4 0 0'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='2 0 0'></a-sphere>
+			</a-entity>
+			<a-entity animation="property: position; dur: 8000; to: 2 0 3; easing: easeInOutQuad; delay: 13000;" animation__1="property: rotation; dur: 8000; to: 0 180 0; easing: easeInOutQuad; delay: 13100;" animation__2="property: visible; dur: 1; to: false; delay: 35000;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-4 0 0'></a-sphere>
+				
+				<a-sphere mixin='esfera mtl9' position='0 0 3'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='2 0 0'></a-sphere>
+			</a-entity>
+			<a-entity animation="property: position; dur: 8000; to: -4 0 3; easing: easeInOutQuad; delay: 21000;" animation__1="property: rotation; dur: 8000; to: 0 180 0; easing: easeInOutQuad; delay: 21100;" animation__2="property: visible; dur: 1; to: false; delay: 35000;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='2 0 0'></a-sphere>
+				
+				<a-sphere mixin='esfera mtl9' position='-4 0 0'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='0 0 3'></a-sphere>
+			</a-entity>
+			
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 35000;" animation__2="property: visible; dur: 1; to: false; delay: 36000;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron2.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL2.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-2 0.18 -2.99'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='5.92 0.98 2.95'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-5.95 0.75 2.94'></a-sphere>
+			</a-entity>
+			
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 36000;" animation__2="property: visible; dur: 1; to: false; delay: 37000;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron3.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL3.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-2 0.37 -2.98'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='5.65 2.01 2.77'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-5.78 1.58 2.71'></a-sphere>
+			</a-entity>
+			
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 37000;" animation__2="property: visible; dur: 1; to: false; delay: 38000;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron4.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL4.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-2 0.55 -2.95'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='5.16 3.01 2.44'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-5.52 2.27 2.36'></a-sphere>
+			</a-entity>
+			
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 38000;" animation__2="property: visible; dur: 1; to: false; delay: 39000;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron5.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL5.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-2 0.72 -2.91'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='4.52 3.83 2.01'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-5.16 2.85 1.88'></a-sphere>
+			</a-entity>
+			
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 39000;" animation__2="property: visible; dur: 1; to: false; delay: 40000;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron6.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL6.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-2 0.91 -2.86'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='3.72 4.46 1.48'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-4.73 3.28 1.31'></a-sphere>
+			</a-entity>
+			
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 40000;" animation__2="property: visible; dur: 1; to: false; delay: 41000;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron7.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL7.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-2 1.09 -2.79'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='2.67 4.89 0.78'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-4.26 3.53 0.68'></a-sphere>
+			</a-entity>
+			
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 41000;" animation__2="property: visible; dur: 1; to: false; delay: 42000;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron8.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL8.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-2 1.27 -2.72'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='1.58 4.98 0.05'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-3.73 3.6 -0.03'></a-sphere>
+			</a-entity>
+			
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 42000;" animation__2="property: visible; dur: 1; to: false; delay: 43000;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron9.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL9.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-2 1.43 -2.64'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='0.52 4.73 -0.65'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-3.2 3.44 -0.73'></a-sphere>
+			</a-entity>
+			
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 43000;" animation__2="property: visible; dur: 1; to: false; delay: 44000;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron10.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL10.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-2 1.61 -2.53'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-0.57 4.06 -1.38'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-2.73 3.09 -1.36'></a-sphere>
+			</a-entity>
+			
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 44000;" animation__2="property: visible; dur: 1; to: false; delay: 45000;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron11.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL11.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-2 1.75 -2.43'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-1.49 2.97 -2'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-2.35 2.61 -1.86'></a-sphere>
+			</a-entity>
+			
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 45000;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron12.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL12.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-2 1.89 -2.33'></a-sphere>
+			</a-entity>
+			
 		</a-entity>
 		
-		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 150 150 700; maxDistance: 1500;"></a-entity>
+		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 200 500 500; maxDistance: 1500;"></a-entity>
 	  
 		<a-light type="ambient" color="white" intensity="0.5"></a-light>
 		<a-light type="directional" color="white" intensity="0.8" position="-3 2 1"></a-light>
 		<a-light type="directional" color="white" intensity="0.8" position="3 -2 1"></a-light>
 
-		<a-sky color="aliceblue"></a-sky>
+		<a-sky color="#f6fff6"></a-sky>
     </a-scene>
-	<div class="box">
+	<!--<div class="box">
 		<span class="titulo">Isosceles tetrahedron</span>
 		<br><span class="titulo">Tetraedro isósceles</span>
 		<hr><input type="checkbox" id="faces" checked onclick="mfaces()">faces&nbsp;&nbsp;&nbsp;  
 		<input type="checkbox" id="arestas" checked onclick="marestas()">edges&nbsp;&nbsp;&nbsp; 
 		<input type="checkbox" id="vertices" checked onclick="mvertices()">vertices
-	</div>
+	</div>-->
   </body>
 </html>
