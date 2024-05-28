@@ -10,18 +10,18 @@
   </head>
   <body>
 <div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2024 Paulo Henrique Siqueira</div>
-    <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
+    <a-scene renderer="colorManagement: true;"><!--logarithmicDepthBuffer: true;-->
 		<a-assets>
 			<a-mixin id="mtl0" material="opacity: 0.7; side: double; metalness:0.3; roughness:0.9;"></a-mixin>
 			<a-mixin id="mtl8" material="color: #86B404; side:double;"></a-mixin>
 			<a-mixin id="mtl9" material="color: #F79F81; side:double;"></a-mixin>
 			<a-mixin id="mtl0p" material="opacity: 0.2; roughness: 0.9; metalness: 0.3;"></a-mixin>
-			<a-mixin id="texto" text="width: 4; side:double; color: black" rotation="-25 0 0">
+			<a-mixin id="texto" text="width: 10; side:double; color: black" rotation="-25 0 0">
 			<a-mixin id="esfera" geometry="radius: 0.12;" material="metalness:0.4; roughness:0.5;"></a-mixin>
 			<a-asset-item id="material" src="solidos.mtl"></a-asset-item>
 		</a-assets>
 				
-		<a-entity scale="1.05 1.05 1.05" animation="property: rotation; dur: 70000; to: 0 360 0; easing: easeInOutQuad; delay: 5000;" animation__1="property: scale; dur: 15000; to: 1.4 1.4 1.4; easing: easeInOutQuad; delay: 35000;">
+		<a-entity scale="1.05 1.05 1.05" animation="property: rotation; dur: 70000; to: 0 360 0; easing: easeInOutQuad; delay: 15000;" animation__1="property: scale; dur: 15000; to: 1.4 1.4 1.4; easing: easeInOutQuad; delay: 45000;">
 			<a-entity>
 				<a-obj-model id="fc" src="IsoscelesTetrahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 				<a-obj-model id="ar" src="IsoscelesTetrahedronL.obj" mtl="#material"></a-obj-model>
@@ -29,7 +29,15 @@
 				<a-sphere mixin='esfera mtl9' position='0 0 3'></a-sphere>
 				<a-sphere mixin='esfera mtl9' position='2 0 0'></a-sphere>
 			</a-entity>
-			<a-entity animation="property: position; dur: 8000; to: -2 0 0; easing: easeInOutQuad; delay: 5000;" animation__1="property: rotation; dur: 8000; to: 0 180 0; easing: easeInOutQuad; delay: 5100;" animation__2="property: visible; dur: 1; to: false; delay: 35000;">
+			<a-entity animation__1="property: visible; dur: 1; to: false; delay: 15000;">
+				<a-text mixin="texto" value="A" position="-4.63 0 -0.24"></a-text>
+				<a-text mixin="texto" value="C" position="2.1 0 -0.31"></a-text>
+				<a-text mixin="texto" value="B" position="0.13 0 3.18"></a-text>
+				<a-text mixin="texto" value="c = 5" position="-2.65 0 1.53" color="red" rotation="-25 -36 0"></a-text>
+				<a-text mixin="texto" value="b = 6" position="-1.7 0 -0.19" color="green"></a-text>
+				<a-text mixin="texto" value="a = 3.61" position="0.91 0 2.37" color="blue" rotation="-25 60 0"></a-text>
+			</a-entity>
+			<a-entity animation="property: position; dur: 8000; to: -2 0 0; easing: easeInOutQuad; delay: 15000;" animation__1="property: rotation; dur: 8000; to: 0 180 0; easing: easeInOutQuad; delay: 15100;" animation__2="property: visible; dur: 1; to: false; delay: 45000;">
 				<a-obj-model id="fc" src="IsoscelesTetrahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 				<a-obj-model id="ar" src="IsoscelesTetrahedronL.obj" mtl="#material"></a-obj-model>
 				<a-sphere mixin='esfera mtl9' position='0 0 3'></a-sphere>
@@ -37,7 +45,7 @@
 				<a-sphere mixin='esfera mtl9' position='-4 0 0'></a-sphere>
 				<a-sphere mixin='esfera mtl9' position='2 0 0'></a-sphere>
 			</a-entity>
-			<a-entity animation="property: position; dur: 8000; to: 2 0 3; easing: easeInOutQuad; delay: 13000;" animation__1="property: rotation; dur: 8000; to: 0 180 0; easing: easeInOutQuad; delay: 13100;" animation__2="property: visible; dur: 1; to: false; delay: 35000;">
+			<a-entity animation="property: position; dur: 8000; to: 2 0 3; easing: easeInOutQuad; delay: 23000;" animation__1="property: rotation; dur: 8000; to: 0 180 0; easing: easeInOutQuad; delay: 23100;" animation__2="property: visible; dur: 1; to: false; delay: 45000;">
 				<a-obj-model id="fc" src="IsoscelesTetrahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 				<a-obj-model id="ar" src="IsoscelesTetrahedronL.obj" mtl="#material"></a-obj-model>
 				<a-sphere mixin='esfera mtl9' position='-4 0 0'></a-sphere>
@@ -45,7 +53,7 @@
 				<a-sphere mixin='esfera mtl9' position='0 0 3'></a-sphere>
 				<a-sphere mixin='esfera mtl9' position='2 0 0'></a-sphere>
 			</a-entity>
-			<a-entity animation="property: position; dur: 8000; to: -4 0 3; easing: easeInOutQuad; delay: 21000;" animation__1="property: rotation; dur: 8000; to: 0 180 0; easing: easeInOutQuad; delay: 21100;" animation__2="property: visible; dur: 1; to: false; delay: 35000;">
+			<a-entity animation="property: position; dur: 8000; to: -4 0 3; easing: easeInOutQuad; delay: 31000;" animation__1="property: rotation; dur: 8000; to: 0 180 0; easing: easeInOutQuad; delay: 31100;" animation__2="property: visible; dur: 1; to: false; delay: 45000;">
 				<a-obj-model id="fc" src="IsoscelesTetrahedron.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 				<a-obj-model id="ar" src="IsoscelesTetrahedronL.obj" mtl="#material"></a-obj-model>
 				<a-sphere mixin='esfera mtl9' position='2 0 0'></a-sphere>
@@ -54,7 +62,14 @@
 				<a-sphere mixin='esfera mtl9' position='0 0 3'></a-sphere>
 			</a-entity>
 			
-			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 35000;" animation__2="property: visible; dur: 1; to: false; delay: 36000;">
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 45000;" animation__2="property: visible; dur: 1; to: false; delay: 45500;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron2a.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL2a.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-2 0.08 -3'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='5.98 0.47 2.99'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-5.99 0.35 2.99'></a-sphere>
+			</a-entity>			
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 45500;" animation__2="property: visible; dur: 1; to: false; delay: 46000;">
 				<a-obj-model id="fc" src="IsoscelesTetrahedron2.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 				<a-obj-model id="ar" src="IsoscelesTetrahedronL2.obj" mtl="#material"></a-obj-model>
 				<a-sphere mixin='esfera mtl9' position='-2 0.18 -2.99'></a-sphere>
@@ -62,7 +77,14 @@
 				<a-sphere mixin='esfera mtl9' position='-5.95 0.75 2.94'></a-sphere>
 			</a-entity>
 			
-			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 36000;" animation__2="property: visible; dur: 1; to: false; delay: 37000;">
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 46000;" animation__2="property: visible; dur: 1; to: false; delay: 46500;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron3a.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL3a.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-2 0.27 -2.99'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='5.8 1.53 2.87'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-5.88 1.16 2.85'></a-sphere>
+			</a-entity>		
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 46500;" animation__2="property: visible; dur: 1; to: false; delay: 47000;">
 				<a-obj-model id="fc" src="IsoscelesTetrahedron3.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 				<a-obj-model id="ar" src="IsoscelesTetrahedronL3.obj" mtl="#material"></a-obj-model>
 				<a-sphere mixin='esfera mtl9' position='-2 0.37 -2.98'></a-sphere>
@@ -70,7 +92,14 @@
 				<a-sphere mixin='esfera mtl9' position='-5.78 1.58 2.71'></a-sphere>
 			</a-entity>
 			
-			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 37000;" animation__2="property: visible; dur: 1; to: false; delay: 38000;">
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 47000;" animation__2="property: visible; dur: 1; to: false; delay: 47500;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron4a.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL4a.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-2 0.45 -2.97'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='5.42 2.54 2.62'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-5.64 1.99 2.52'></a-sphere>
+			</a-entity>
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 47500;" animation__2="property: visible; dur: 1; to: false; delay: 48000;">
 				<a-obj-model id="fc" src="IsoscelesTetrahedron4.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 				<a-obj-model id="ar" src="IsoscelesTetrahedronL4.obj" mtl="#material"></a-obj-model>
 				<a-sphere mixin='esfera mtl9' position='-2 0.55 -2.95'></a-sphere>
@@ -78,23 +107,44 @@
 				<a-sphere mixin='esfera mtl9' position='-5.52 2.27 2.36'></a-sphere>
 			</a-entity>
 			
-			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 38000;" animation__2="property: visible; dur: 1; to: false; delay: 39000;">
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 48000;" animation__2="property: visible; dur: 1; to: false; delay: 48500;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron5a.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL5a.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-2 0.63 -2.93'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='4.84 3.47 2.22'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-5.36 2.56 2.15'></a-sphere>
+			</a-entity>
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 48500;" animation__2="property: visible; dur: 1; to: false; delay: 49000;">
 				<a-obj-model id="fc" src="IsoscelesTetrahedron5.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 				<a-obj-model id="ar" src="IsoscelesTetrahedronL5.obj" mtl="#material"></a-obj-model>
 				<a-sphere mixin='esfera mtl9' position='-2 0.72 -2.91'></a-sphere>
 				<a-sphere mixin='esfera mtl9' position='4.52 3.83 2.01'></a-sphere>
 				<a-sphere mixin='esfera mtl9' position='-5.16 2.85 1.88'></a-sphere>
 			</a-entity>
-			
-			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 39000;" animation__2="property: visible; dur: 1; to: false; delay: 40000;">
+						
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 49000;" animation__2="property: visible; dur: 1; to: false; delay: 49500;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron6a.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL6a.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-2 0.8 -2.89'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='4.14 4.16 1.76'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-4.97 3.07 1.63'></a-sphere>
+			</a-entity>
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 49500;" animation__2="property: visible; dur: 1; to: false; delay: 50000;">
 				<a-obj-model id="fc" src="IsoscelesTetrahedron6.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 				<a-obj-model id="ar" src="IsoscelesTetrahedronL6.obj" mtl="#material"></a-obj-model>
 				<a-sphere mixin='esfera mtl9' position='-2 0.91 -2.86'></a-sphere>
 				<a-sphere mixin='esfera mtl9' position='3.72 4.46 1.48'></a-sphere>
 				<a-sphere mixin='esfera mtl9' position='-4.73 3.28 1.31'></a-sphere>
 			</a-entity>
-			
-			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 40000;" animation__2="property: visible; dur: 1; to: false; delay: 41000;">
+						
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 50000;" animation__2="property: visible; dur: 1; to: false; delay: 50500;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron7a.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL7a.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-2 1 -2.83'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='3.19 4.73 1.12'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-4.51 3.43 1.01'></a-sphere>
+			</a-entity>
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 50500;" animation__2="property: visible; dur: 1; to: false; delay: 51000;">
 				<a-obj-model id="fc" src="IsoscelesTetrahedron7.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 				<a-obj-model id="ar" src="IsoscelesTetrahedronL7.obj" mtl="#material"></a-obj-model>
 				<a-sphere mixin='esfera mtl9' position='-2 1.09 -2.79'></a-sphere>
@@ -102,15 +152,29 @@
 				<a-sphere mixin='esfera mtl9' position='-4.26 3.53 0.68'></a-sphere>
 			</a-entity>
 			
-			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 41000;" animation__2="property: visible; dur: 1; to: false; delay: 42000;">
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 51000;" animation__2="property: visible; dur: 1; to: false; delay: 51500;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron8a.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL8a.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-2 1.17 -2.76'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='2.18 4.98 0.45'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-3.98 3.59 0.3'></a-sphere>
+			</a-entity>
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 51500;" animation__2="property: visible; dur: 1; to: false; delay: 52000;">
 				<a-obj-model id="fc" src="IsoscelesTetrahedron8.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 				<a-obj-model id="ar" src="IsoscelesTetrahedronL8.obj" mtl="#material"></a-obj-model>
 				<a-sphere mixin='esfera mtl9' position='-2 1.27 -2.72'></a-sphere>
 				<a-sphere mixin='esfera mtl9' position='1.58 4.98 0.05'></a-sphere>
 				<a-sphere mixin='esfera mtl9' position='-3.73 3.6 -0.03'></a-sphere>
 			</a-entity>
-			
-			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 42000;" animation__2="property: visible; dur: 1; to: false; delay: 43000;">
+					
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 52000;" animation__2="property: visible; dur: 1; to: false; delay: 52500;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron9a.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL9a.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-2 1.35 -2.68'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='1.11 4.91 -0.26'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-3.44 3.54 -0.41'></a-sphere>
+			</a-entity>
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 52500;" animation__2="property: visible; dur: 1; to: false; delay: 53000;">
 				<a-obj-model id="fc" src="IsoscelesTetrahedron9.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 				<a-obj-model id="ar" src="IsoscelesTetrahedronL9.obj" mtl="#material"></a-obj-model>
 				<a-sphere mixin='esfera mtl9' position='-2 1.43 -2.64'></a-sphere>
@@ -118,7 +182,14 @@
 				<a-sphere mixin='esfera mtl9' position='-3.2 3.44 -0.73'></a-sphere>
 			</a-entity>
 			
-			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 43000;" animation__2="property: visible; dur: 1; to: false; delay: 44000;">
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 53000;" animation__2="property: visible; dur: 1; to: false; delay: 53500;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron10a.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL10a.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-2 1.51 -2.59'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-0.09 4.42 -1.06'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-2.99 3.31 -1.01'></a-sphere>
+			</a-entity>
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 53500;" animation__2="property: visible; dur: 1; to: false; delay: 54000;">
 				<a-obj-model id="fc" src="IsoscelesTetrahedron10.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 				<a-obj-model id="ar" src="IsoscelesTetrahedronL10.obj" mtl="#material"></a-obj-model>
 				<a-sphere mixin='esfera mtl9' position='-2 1.61 -2.53'></a-sphere>
@@ -126,15 +197,29 @@
 				<a-sphere mixin='esfera mtl9' position='-2.73 3.09 -1.36'></a-sphere>
 			</a-entity>
 			
-			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 44000;" animation__2="property: visible; dur: 1; to: false; delay: 45000;">
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 54000;" animation__2="property: visible; dur: 1; to: false; delay: 54500;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron11a.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL11a.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-2 1.67 -2.49'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-1.04 3.58 -1.7'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-2.52 2.85 -1.63'></a-sphere>
+			</a-entity>		
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 54500;" animation__2="property: visible; dur: 1; to: false; delay: 55000;">
 				<a-obj-model id="fc" src="IsoscelesTetrahedron11.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 				<a-obj-model id="ar" src="IsoscelesTetrahedronL11.obj" mtl="#material"></a-obj-model>
 				<a-sphere mixin='esfera mtl9' position='-2 1.75 -2.43'></a-sphere>
 				<a-sphere mixin='esfera mtl9' position='-1.49 2.97 -2'></a-sphere>
 				<a-sphere mixin='esfera mtl9' position='-2.35 2.61 -1.86'></a-sphere>
 			</a-entity>
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 55000;" animation__2="property: visible; dur: 1; to: false; delay: 55500;">
+				<a-obj-model id="fc" src="IsoscelesTetrahedron11b.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
+				<a-obj-model id="ar" src="IsoscelesTetrahedronL11b.obj" mtl="#material"></a-obj-model>
+				<a-sphere mixin='esfera mtl9' position='-2 1.8 -2.4'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-1.72 2.57 -2.14'></a-sphere>
+				<a-sphere mixin='esfera mtl9' position='-2.18 2.3 -2.09'></a-sphere>
+			</a-entity>
 			
-			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 45000;">
+			<a-entity visible="false" animation__1="property: visible; dur: 1; to: true; delay: 55500;">
 				<a-obj-model id="fc" src="IsoscelesTetrahedron12.obj" mtl="#material" scale="0.998 0.998 0.998"></a-obj-model>
 				<a-obj-model id="ar" src="IsoscelesTetrahedronL12.obj" mtl="#material"></a-obj-model>
 				<a-sphere mixin='esfera mtl9' position='-2 1.89 -2.33'></a-sphere>
