@@ -34,15 +34,6 @@
 			<a-mixin id="trf1" geometry="radius: 2; radius-tubular:0.04; " mixin="mtl3f1"></a-mixin>
 			<a-mixin id="mtl3f2" material=" color: #f33; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="trf2" geometry="radius: 2; radius-tubular:0.04; " mixin="mtl3f2"></a-mixin>
-			<a-mixin id="mtl1t1" material=" color: #5cb404; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
-			<a-mixin id="mtl2t1" material=" color: #4ef; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
-			<a-mixin id="esferat1" mixin="mtl1t1" geometry="radius: 0.55;" material="metalness:0.4;; roughness:0.3;"></a-mixin>
-			<a-mixin id="arestast1" mixin="mtl2t1" geometry="radius: 0.07;" material="metalness:0.4; roughness:0.3;"></a-mixin>
-			<a-mixin id="esferat1d" mixin="mtl2t1" geometry="radius: 0.07;" material="metalness:0.4; roughness:0.3;"></a-mixin>
-			<a-mixin id="mtl1f3" material=" color: #e33; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
-			<a-mixin id="trf3" rotation="90 0 0" geometry="radius-tubular:0.03; arc:360; radius:1; " mixin="mtl1f3"></a-mixin>
-			<a-mixin id="mtl4f4" material=" color: #e33;; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
-			<a-mixin id="trf4" geometry="radius: 1; " mixin="mtl4f4"></a-mixin>
         </a-assets>
         <a-entity id="cameraRig">
            <a-camera id="head" look-controls wasd-controls-enabled="false" position="0 1.7 1" cursor="rayOrigin:mouse" static-body="shape: sphere; sphereRadius: 0.001" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-camera>
