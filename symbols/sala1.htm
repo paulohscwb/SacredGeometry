@@ -28,7 +28,7 @@
 		   <a-mixin id="botao1" geometry="radius:0.3; height:0.03;" material="opacity: 0.5; color:forestgreen;" clickable static-body></a-mixin>
            <a-mixin id="piso" geometry="width: 40; height: 0.1; depth: 40;" material="opacity:0.01; color: rgb(100,100,100)" static-body shadow></a-mixin>
 			<a-mixin id="mfisicas" physics-collider collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.018" super-hands="colliderEvent: collisions; colliderEventProperty: els; colliderEndEvent: collisions; colliderEndEventProperty: clearedEls;"></a-mixin>
-			 <a-mixin id="pointer" raycaster="showLine: true; objects: #poli1, .poli, a-obj-model, a-link, a-cylinder" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
+			 <a-mixin id="pointer" raycaster="showLine: true; objects: #poli1, .poli, a-torus, a-tetrahedron, a-link, a-sphere, a-cylinder" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
 			<a-mixin id="controle" mixin="pointer"></a-mixin>
 			<a-mixin id="mtl3f1" material=" color: #0088ff; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="trf1" geometry="radius: 2; radius-tubular:0.04; segments-tubular: 30" mixin="mtl3f1"></a-mixin>
@@ -114,7 +114,7 @@
 					<a-torus mixin="trf1" position="-5.196 5 0" rotation="0 0 270" arc="60"></a-torus>
 					<a-torus mixin="trf1" position="-5.196 -5 0" rotation="0 0 30" arc="60"></a-torus>
 				</a-entity>
-				</a-entity>
+			</a-entity>
 		</a-entity>
 		
 		<a-entity class="poli" mixin="poli1" position="0 1.15 -0.5" scale="0.054 0.054 0.054" shadow>
@@ -444,7 +444,7 @@
 					<a-torus mixin="trf2" position="-8.66 3 0" rotation="0 0 -30" arc="60"></a-torus>
 					<a-torus mixin="trf2" position="-8.66 -3 0" rotation="0 0 -30" arc="60"></a-torus>
 				</a-entity>
-				</a-entity>
+			</a-entity>
 		</a-entity>
 		
 		<!-- segunda mesa: girada 180 graus, com afastamento 1.5-->
