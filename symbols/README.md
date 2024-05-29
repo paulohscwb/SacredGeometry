@@ -34,11 +34,9 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
   <p align="center"><img src="vr/salas/videos/gs1.gif" style="max-width: 31.5%; border-radius:5px; margin-right:2%" loading="lazy"/><img src="vr/salas/videos/gs2.gif" style="max-width: 31.5%; margin-right:2%; border-radius:5px" loading="lazy"/><img src="vr/salas/videos/gs3.gif" style="max-width: 31.5%; border-radius:5px" loading="lazy"/></p>
   <hr>
   <h3 id="ra" align="center">Augmented Reality</h3>
-  To view Sacred Geometry symbols in AR, simply visit:
-<p align="center"><a href="ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/SacredGeometry/symbols/ra.html</a></p> 
-with any browser with a webcam device (smartphone, tablet or notebook). 
+  To view Sacred Geometry symbols in AR, simply visit the pages indicated in the 3D solid models using any browser with a webcam device (smartphone, tablet or notebook). 
 <br>Access to the VR pages is done by clicking on the blue circle that appears on top of the marker.
-<p align="center"><img style="border-radius:7px;" alt="Augmented Reality to Sacred Geometry symbols" src="ar/example.jpg" width="85%"></p>
+<p align="center"><img style="border-radius:7px;" alt="Augmented Reality to Sacred Geometry symbols" src="ar/example.png" width="85%"></p>
 <p align="center"><img src="ar/symbols.gif" alt="Augmented Reality to Sacred Geometry symbols" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">3D models</h3>

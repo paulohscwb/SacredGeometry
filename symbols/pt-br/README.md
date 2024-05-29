@@ -34,9 +34,8 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
   <p align="center"><img src="../vr/salas/videos/gs1.gif" style="max-width: 31.5%; border-radius:5px; margin-right:2%;" loading="lazy"/><img src="../vr/salas/videos/gs2.gif" style="max-width: 31.5%; margin-right:2%; border-radius:5px" loading="lazy"/><img src="../vr/salas/videos/gs3.gif" style="max-width: 31.5%; border-radius:5px" loading="lazy"/></p>
   <hr>
   <h3 id="ra" align="center">Realidade Aumentada</h3>
-  Para visualizar os símbolos da Geometria Sagrada em RA, visite a página:
-<p align="center"><a href="../ra.html" class="raAR" target="_blank">https://paulohscwb.github.io/SacredGeometry/symbols/ra.html</a></p> 
-com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
+  Para visualizar os símbolos da Geometria Sagrada em RA, visite as páginas indicadas nos modelos 3D dos sólidos utilizando qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
+O acesso às páginas de RV é feito clicando no círculo azul que aparece em cima de cada marcador.
 <br>O acesso às páginas de RV é feito clicando no círculo azul que aparece em cima de cada marcador.
 <p align="center"><img style="border-radius:7px;" alt="Realidade Aumentada dos símbolos da Geometria Sagrada" src="../ar/example.jpg" width="85%"></p>
 <p align="center"><img src="../ar/symbols.gif" alt="Realidade Aumentada dos símbolos da Geometria Sagrada" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
