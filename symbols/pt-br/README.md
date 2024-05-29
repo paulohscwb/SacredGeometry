@@ -28,9 +28,10 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 
  <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
 <hr>
- <h3 align="center">Sala imersiva</h3>
+ <h3 align="center">Salas imersivas</h3>
   <div class="embed-container"><iframe width="100%" src="../sala.htm" title="Sala Imersiva dos símbolos da Geometria Sagrada" frameborder="0" loading="lazy"></iframe></div>
-  <p align="center"><img align="middle" src="../vr/salas/videos/sacred1.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="Sala Imersiva de RV dos símbolos da Geometria Sagrada"/><a href="../sala.htm" target="_blank">&#x1f517; link da sala</a></p>
+ <p align="center"><a href="../sala.htm" target="_blank">&#x1f517; sala 1</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala1.htm" target="_blank">&#x1f517; sala 2</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala2.htm" target="_blank">&#x1f517; sala 3</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala3.htm" target="_blank">&#x1f517; sala 4</a></p>
+  <p align="center"><img src="../vr/salas/videos/gs1.gif" style="max-width: 31.5%; border-radius:5px; margin-right:2%;" loading="lazy"/><img src="../vr/salas/videos/gs2.gif" style="max-width: 31.5%; margin-right:2%; border-radius:5px" loading="lazy"/><img src="../vr/salas/videos/gs3.gif" style="max-width: 31.5%; border-radius:5px" loading="lazy"/></p>
   <hr>
   <h3 id="ra" align="center">Realidade Aumentada</h3>
   Para visualizar os símbolos da Geometria Sagrada em RA, visite a página:
@@ -44,7 +45,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxXlieaiv7p0PWdsNRWPbWRv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 <h4>1. Vesica Piscis</h4>
 <a href="../vr/VesicaPiscis.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/0A.png" class="foto" alt="Vesica Piscis"></a><img src="../ar/0.png" class="qr">
- <br><br><br>Trata-se de uma forma matemática criada pela interseção de dois círculos idênticos, onde o centro de cada círculo fica no perímetro do outro. A vesica piscis é usada em Diagramas de Venn e selos emblemáticos e possui significados simbólicos como o "peixe de Jesus", a intrincada Triquetra que aparece na arte Celta, o triângulo de Reuleaux e a Mandorla que simboliza a união dos opostos e a interseção dos reinos terrestre e celestial.
+ <br><br><br>Trata-se de uma forma geométrica criada pela interseção de dois círculos idênticos, onde o centro de cada círculo fica no perímetro do outro. A vesica piscis é usada em Diagramas de Venn e selos emblemáticos e possui significados simbólicos como o "peixe de Jesus", a intrincada Triquetra que aparece na arte Celta, o triângulo de Reuleaux e a Mandorla que simboliza a união dos opostos e a interseção dos reinos terrestre e celestial.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
@@ -123,7 +124,7 @@ com qualquer navegador com um dispositivo de webcam (smartphone, tablet ou noteb
 <hr>
 <h4>14. Fruto da vida</h4>
 <a href="../vr/FruitOfLife.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/12A.png" class="foto" alt="Fruto da vida"></a><img src="../ar/12.png" class="qr">
- <br><br><br>O símbolo do Fruto da Vida é formado por 13 esferas interligadas e pode ser considerado como um dos mais potentes da Geometria Sagrada. Ele aparece de forma oculta dentro do símbolo da Flor da Vida e pode ser usado para criar as 78 linhas do símbolo do Cubo de Metatron.
+ <br><br><br>O símbolo do Fruto da Vida é formado por 13 esferas interligadas e pode ser considerado como um dos mais poderosos da Geometria Sagrada. Ele aparece de forma oculta dentro do símbolo da Flor da Vida e pode ser usado para criar as 78 linhas do símbolo do Cubo de Metatron.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
