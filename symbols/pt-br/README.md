@@ -62,19 +62,19 @@ O acesso às páginas de RV é feito clicando no círculo azul que aparece em ci
 <hr>
 <h4>4. Semente da vida 3D v1</h4>
 <a href="../vr/SeedOfLife3d_v1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/5A.png" class="foto" alt="Semente da vida 3D"></a><img src="../ar/5.png" class="qr">
- <br><br><br>Este símbolo tem sido usado com reverência e seu design confere uma sensação de proteção. Muitos usam como joias ou em decoração acreditando que traz positividade, afastando coisas negativas. Nesta representação temos o modelo em 3D representado com 3 rotações em torno de um dos modelos.
+ <br><br><br>Este símbolo tem sido usado com reverência e seu design confere uma sensação de proteção. Muitos usam como joias ou em decoração acreditando que traz positividade, afastando coisas negativas. Nesta representação temos o modelo em 3D construído com 3 rotações em torno de um dos modelos.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>5. Semente da vida 3D v2</h4>
 <a href="../vr/SeedOfLife3d_v2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/6A.png" class="foto" alt="Semente da vida 3D"></a><img src="../ar/6.png" class="qr">
- <br><br><br>Este símbolo aparece também em algumas tapeçarias e ruínas de templos antigos, significando o design do universo. Nesta representação temos o modelo em 3D representado com os círculos formando 2 calotas esféricas.
+ <br><br><br>Este símbolo aparece também em algumas tapeçarias e ruínas de templos antigos, significando o design do universo. Nesta representação temos o modelo em 3D construído com os círculos formando 2 calotas esféricas.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>6. Semente da vida 3D v3</h4>
 <a href="../vr/SeedOfLife3d_v3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/24A.png" class="foto" alt="Semente da vida 3D"></a><img src="../ar/24.png" class="qr">
- <br><br><br>Cada círculo sobreposto deste símbolo significa um ciclo ou uma célula interligando processos vitais. Nesta representação temos o modelo em 3D representado com 6 círculos rotacionados em torno de eixos que passam pelo círculo central.
+ <br><br><br>Cada círculo sobreposto deste símbolo significa um ciclo ou uma célula interligando processos vitais. Nesta representação temos o modelo em 3D construído com 6 círculos rotacionados em torno de eixos que passam pelo círculo central.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
@@ -98,7 +98,7 @@ O acesso às páginas de RV é feito clicando no círculo azul que aparece em ci
 <hr>
 <h4>10. Flor da vida 3D</h4>
 <a href="../vr/FlowerOfLife3d.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/8A.png" class="foto" alt="Flor da vida 3D"></a><img src="../ar/8.png" class="qr">
- <br><br><br>Dentro do design do símbolo da Flor da Vida encontram-se outros padrões da Geometria Sagrada: o Ovo da Vida, a Semente da Vida e a Árvore da Vida. Nesta representação temos o modelo em 3D representado com 3 rotações em torno de um dos modelos.
+ <br><br><br>Dentro do design do símbolo da Flor da Vida encontram-se outros padrões da Geometria Sagrada: o Ovo da Vida, a Semente da Vida e a Árvore da Vida. Nesta representação temos o modelo em 3D construído com 3 rotações em torno de um dos modelos.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
@@ -111,7 +111,7 @@ O acesso às páginas de RV é feito clicando no círculo azul que aparece em ci
 <hr>
 <h4>12. Flor da vida 3D v2</h4>
 <a href="../vr/FlowerOfLife3d_v2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/10A.png" class="foto" alt="Flor da vida 3D"></a><img src="../ar/10.png" class="qr">
- <br><br><br>Dentro do design do símbolo da Flor da Vida encontram-se outros padrões da Geometria Sagrada: o Ovo da Vida, a Semente da Vida e a Árvore da Vida. Nesta representação temos o modelo em 3D representado com 3 rotações em torno de um dos modelos.
+ <br><br><br>Dentro do design do símbolo da Flor da Vida encontram-se outros padrões da Geometria Sagrada: o Ovo da Vida, a Semente da Vida e a Árvore da Vida. Nesta representação temos o modelo em 3D construído com 3 rotações em torno de um dos modelos.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
@@ -202,7 +202,7 @@ O acesso às páginas de RV é feito clicando no círculo azul que aparece em ci
 <hr>
 <h4>27. Vector Equilibrium 3D v3</h4>
 <a href="../vr/VectorEquilibrium3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/22A.png" class="foto" alt="Vector Equilibrium 3D"></a><img src="../ar/22.png" class="qr">
- <br><br><br>O Vector Equilibrium é considerado como a estrutura subjacente do Toro, também conhecida como a forma geométrica capaz de transformar energia em matéria. Nesta representação temos o modelo em 3D representado com 3 rotações em torno de um dos modelos.
+ <br><br><br>O Vector Equilibrium é considerado como a estrutura subjacente do Toro, também conhecida como a forma geométrica capaz de transformar energia em matéria. Nesta representação temos o modelo em 3D construído com 3 rotações em torno de um dos modelos.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>

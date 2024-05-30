@@ -61,19 +61,19 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
  <hr>
 <h4>4. Seed of Life 3D</h4>
 <a href="vr/SeedOfLife3d_v1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/5A.png" class="foto" alt="Seed of Life 3D"></a><img src="ar/5.png" class="qr">
- <br><br><br>This symbol has been used reverently and its design gives a sense of protection. Many use it as jewelry or decoration, believing that it brings positivity, warding off negative things. In this representation we have the 3D model represented with 3 rotations around one of the models.
+ <br><br><br>This symbol has been used reverently and its design gives a sense of protection. Many use it as jewelry or decoration, believing that it brings positivity, warding off negative things. In this representation we have the 3D model built with 3 rotations around one of the models.
  <br><br>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>5. Seed of Life 3D v2</h4>
 <a href="vr/SeedOfLife3d_v2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/6A.png" class="foto" alt="Seed of Life 3D"></a><img src="ar/6.png" class="qr">
- <br><br><br>This symbol also appears on some tapestries and ruins of ancient temples, signifying the design of the universe. In this representation we have the 3D model represented with circles forming 2 spherical caps.
+ <br><br><br>This symbol also appears on some tapestries and ruins of ancient temples, signifying the design of the universe. In this representation we have the 3D model built with circles forming 2 spherical caps.
  <br><br>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>6. Seed of Life 3D v3</h4>
 <a href="vr/SeedOfLife3d_v3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/24A.png" class="foto" alt="Seed of Life 3D"></a><img src="ar/24.png" class="qr">
- <br><br><br>Each overlapping circle of this symbol signifies a cycle or cell interconnecting vital processes. In this representation we have the 3D model represented with 6 circles rotated around axes that pass through the central circle.
+ <br><br><br>Each overlapping circle of this symbol signifies a cycle or cell interconnecting vital processes. In this representation we have the 3D model built with 6 circles rotated around axes that pass through the central circle.
  <br><br>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
@@ -97,7 +97,7 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
  <hr>
 <h4>10. Flower of Life 3D</h4>
 <a href="vr/FlowerOfLife3d.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/8A.png" class="foto" alt="Flower of Life 3D"></a><img src="ar/8.png" class="qr">
- <br><br><br>Within the design of the Flower of Life symbol are other Sacred Geometry patterns: the Egg of Life, the Seed of Life, and the Tree of Life. In this representation we have the 3D model represented with 3 rotations around one of the models.
+ <br><br><br>Within the design of the Flower of Life symbol are other Sacred Geometry patterns: the Egg of Life, the Seed of Life, and the Tree of Life. In this representation we have the 3D model built with 3 rotations around one of the models.
  <br><br>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
@@ -110,7 +110,7 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
  <hr>
 <h4>12. Flower of Life 3D v2</h4>
 <a href="vr/FlowerOfLife3d_v2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/10A.png" class="foto" alt="Flower of Life 3D"></a><img src="ar/10.png" class="qr">
- <br><br><br>Within the design of the Flower of Life symbol are other Sacred Geometry patterns: the Egg of Life, the Seed of Life, and the Tree of Life. In this representation we have the 3D model represented with 3 rotations around one of the models.
+ <br><br><br>Within the design of the Flower of Life symbol are other Sacred Geometry patterns: the Egg of Life, the Seed of Life, and the Tree of Life. In this representation we have the 3D model built with 3 rotations around one of the models.
  <br><br>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
@@ -202,7 +202,7 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
  <hr>
 <h4>27. Vector Equilibrium 3D v3</h4>
 <a href="vr/VectorEquilibrium3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/22A.png" class="foto" alt="Vector Equilibrium 3D"></a><img src="ar/22.png" class="qr">
- <br><br><br>Vector Equilibrium is considered as the underlying structure of the Torus, also known as the geometric shape capable of transforming energy into matter. In this representation we have the 3D model represented with 3 rotations around one of the models.
+ <br><br><br>Vector Equilibrium is considered as the underlying structure of the Torus, also known as the geometric shape capable of transforming energy into matter. In this representation we have the 3D model built with 3 rotations around one of the models.
  <br><br>
  <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
