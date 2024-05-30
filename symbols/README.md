@@ -40,7 +40,7 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <p align="center"><img src="ar/symbols.gif" alt="Augmented Reality to Sacred Geometry symbols" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">3D models</h3>
-<!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxXlieaiv7p0PWdsNRWPbWRv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxXqLmyaITBm0flxwtDvgTFT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <h4>1. Vesica Piscis</h4>
 <a href="vr/VesicaPiscis.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/0A.png" class="foto" alt="Vesica Piscis"></a><img src="ar/0.png" class="qr">
  <br><br><br>It is a geometric form created by the intersection of two identical circles, where the center of each circle lies on the perimeter of the other. The Vesica Piscis is used in Venn Diagrams and emblematic seals and has symbolic meanings such as the "Jesus fish", the intricate Triquetra that appears in Celtic art, the Reuleaux triangle and the Mandorla that symbolizes the opposites union and the intersection of terrestrial and celestial kingdoms.

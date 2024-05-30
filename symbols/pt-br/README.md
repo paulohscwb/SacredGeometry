@@ -41,7 +41,7 @@ O acesso às páginas de RV é feito clicando no círculo azul que aparece em ci
 <p align="center"><img src="../ar/symbols.gif" alt="Realidade Aumentada dos símbolos da Geometria Sagrada" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">Modelos 3D</h3>
-<!-- <iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxXlieaiv7p0PWdsNRWPbWRv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxXqLmyaITBm0flxwtDvgTFT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <h4>1. Vesica Piscis</h4>
 <a href="../vr/VesicaPiscis.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/0A.png" class="foto" alt="Vesica Piscis"></a><img src="../ar/0.png" class="qr">
  <br><br><br>Trata-se de uma forma geométrica criada pela interseção de dois círculos idênticos, onde o centro de cada círculo fica no perímetro do outro. A vesica piscis é usada em Diagramas de Venn e selos emblemáticos e possui significados simbólicos como o "peixe de Jesus", a intrincada Triquetra que aparece na arte Celta, o triângulo de Reuleaux e a Mandorla que simboliza a união dos opostos e a interseção dos reinos terrestre e celestial.
