@@ -132,75 +132,81 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
  <br><br>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
-<h4>16. Metatron's Cube</h4>
+ <h4>16. Golden spiral</h4>
+<a href="vr/GoldenSpiral.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/27A.png" class="foto" alt="Golden Spiral"></a><img src="ar/27.png" class="qr">
+ <br><br><br>We define that the numbers <b>a</b> and <b>b</b> are in the golden ratio when <b>a + b / a = a / b = &phi;</b>. Putting this ratio in two dimensions, we can construct golden rectangles (or triangles), where their sides are in the golden ratio. This proportion is not just a mathematical notion, but also a symbol of beauty, harmony and perfection in art, science and nature. This term was introduced by Leonardo da Vinci as a proportion of "ideal perfect body" and appears in the petals of various flowers, sunflower seed arrangements, pine cone patterns and romanesco broccoli.
+ <br><br>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>17. Metatron's Cube</h4>
 <a href="vr/MetatronCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/14A.png" class="foto" alt="Metatron's Cube"></a><img src="ar/14.png" class="qr">
  <br><br><br>Metatron is a seraphim archangel of medieval Islamic, Jewish and Christian tradition. Artistic depictions almost always depict Archangel Metatron holding or near a mysterious cube. The construction of Metatron's Cube involves 13 circles housed within a larger circle. The lines that join the centers of these circles define the Metaton Cube.
  <br><br>
   <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
-<h4>17. Metatron's Cube 3D</h4>
+<h4>18. Metatron's Cube 3D</h4>
 <a href="vr/MetatronCube3d.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/15A.png" class="foto" alt="Metatron's Cube 3D"></a><img src="ar/15.png" class="qr">
  <br><br><br>Within the geometric shape defined by the Metatron Cube we can find the five Platonic solids, positioning the Metatron Cube as a fundamental bridge that transforms two-dimensional realities into three-dimensional realms. In this representation we have the Metaton cube in 3D.
  <br><br>
  <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
-<h4>18. Grid of life</h4>
+<h4>19. Grid of life</h4>
 <a href="vr/GridOfLife.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/16A.png" class="foto" alt="Grid of life"></a><img src="ar/16.png" class="qr">
  <br><br><br>The symbol of the Grid of Life, also called tetrahedron 64, contrasts the Star Tetrahedron with the Flower of Life. We have 64 tetrahedra that form the Grid of Life symbol, which can be overlayed on the Flower of Life symbol, with the circles symbolizing the vastness of space and the interconnected lines indicating where space converges over time.
  <br><br>
   <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
-<h4>19. Grid of life 3D</h4>
+<h4>20. Grid of life 3D</h4>
 <a href="vr/GridOfLife3d.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/17A.png" class="foto" alt="Grid of life 3D"></a><img src="ar/17.png" class="qr">
  <br><br><br>Much of the fascination of the Grid of Life symbol comes from the number 64, which appears recurrently in nature, constructions and mysticism. Some examples that we can cite are: in computing, where the number of 64 bits of memory is essential; in the classic games of chess or checkers, which have 64 squares on their boards; or in sacred texts of Hinduism, which references 64 tantras. In this example, we have the Grid of life modeled in 3D.
  <br><br>
  <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <p class="topop"><a href="#p1" class="topo">back to top</a></p>
   <hr>
-<h4>20. Torus</h4>
+<h4>21. Torus</h4>
 <a href="vr/Torus.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/18A.png" class="foto" alt="Torus"></a><img src="ar/18.png" class="qr">
  <br><br><br>The structure of a torus, similar to a vortex, is considered to be the initial form emanating from the Genesis pattern. The representation of the torus in Sacred Geometry reflects the spiral flow of energy. This flow is not unidirectional, oscillating on the torus surface and spiraling within its core.
  <br><br>
  <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
-<p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
-<h4>21. Ring torus</h4>
+<h4>22. Ring torus</h4>
 <a href="vr/Torus1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/25A.png" class="foto" alt="Ring torus"></a><img src="ar/25.png" class="qr">
  <br><br><br>The ring torus represents the classic donut shape, which embodies continuity and wholeness. This symbol represents the cycles of life, which maintain their form and vitality regardless of where they begin or end.
  <br><br>
  <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
-<h4>22. Spindle torus</h4>
+<h4>23. Spindle torus</h4>
 <a href="vr/Torus2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/26A.png" class="foto" alt="Spindle torus"></a><img src="ar/26.png" class="qr">
  <br><br><br>The spindle torus represents an invisible force acting at opposite ends. It is a powerful symbol of balance, tension and duality, which represents what exists in the universe and within ourselves.
  <br><br>
  <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
  <hr>
-<h4>23. Merkaba star</h4>
+<h4>24. Merkaba star</h4>
 <a href="vr/Merkaba.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/19A.png" class="foto" alt="Merkaba star"></a><img src="ar/19.png" class="qr">
  <br><br><br>The Merkaba star symbol has the meaning translated as "light, spirit and body". It is the fusion of 2 identical tetrahedra that are interconnected through rotations in opposite directions. The intersection of these tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
  <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
-<h4>24. Vector Equilibrium</h4>
+<h4>25. Vector Equilibrium</h4>
 <a href="vr/VectorEquilibrium.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/23A.png" class="foto" alt="Vector Equilibrium"></a><img src="ar/23.png" class="qr">
  <br><br><br>Vector Equilibrium is considered the initial reference of energetic mathematics and the zero pulsation of vector balance. This is the underlying structure of the Torus, considered the geometric shape capable of transforming energy into matter.
  <br><br>
  <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
-<h4>25. Vector Equilibrium 3D</h4>
+<h4>26. Vector Equilibrium 3D</h4>
 <a href="vr/VectorEquilibrium1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/20A.png" class="foto" alt="Vector Equilibrium 3D"></a><img src="ar/20.png" class="qr">
  <br><br><br>Vector Equilibrium energy lines have equal length and strength and can be considered the only geometric shape that has all equal and balanced forces. In this representation we have the Vector Equilibrium modeled in 3D, which represents a set formed by the edges and main diagonals of the Archimedean Cuboctahedron.
  <br><br>
  <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
-<h4>26. Vector Equilibrium 3D v2</h4>
+<h4>27. Vector Equilibrium 3D v2</h4>
 <a href="vr/VectorEquilibrium2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/21A.png" class="foto" alt="Vector Equilibrium 3D"></a><img src="ar/21.png" class="qr">
  <br><br><br>According to Buckminster Fuller, Vector Equilibrium is the closest form we will ever know to God and eternity. In this representation we have the Vector Equilibrium modeled in 3D, which represents a set formed by the main diagonals and the circles circumscribed by the hexagonal sections of the Archimedes Cuboctahedron.
  <br><br>
  <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
-<h4>27. Vector Equilibrium 3D v3</h4>
+<h4>28. Vector Equilibrium 3D v3</h4>
 <a href="vr/VectorEquilibrium3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/22A.png" class="foto" alt="Vector Equilibrium 3D"></a><img src="ar/22.png" class="qr">
  <br><br><br>Vector Equilibrium is considered as the underlying structure of the Torus, also known as the geometric shape capable of transforming energy into matter. In this representation we have the 3D model built with 3 rotations around one of the models.
  <br><br>

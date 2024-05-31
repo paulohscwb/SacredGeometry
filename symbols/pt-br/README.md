@@ -133,74 +133,80 @@ O acesso às páginas de RV é feito clicando no círculo azul que aparece em ci
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>16. Cubo de Metatron</h4>
+<h4>16. Espiral áurea</h4>
+<a href="../vr/GoldenSpiral.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/27A.png" class="foto" alt="Espiral áurea"></a><img src="../ar/27.png" class="qr">
+ <br><br><br>Definimos que os números <b>a</b> e <b>b</b> estão na proporção áurea quando <b>a + b / a = a / b = &phi;</b>. Colocando-se esta razão em duas dimensões, podemos construir os retângulos (ou triângulos) áureos, onde seus lados estão na proporção áurea. Esta proporção não é apenas uma noção matemática, mas também um símbolo de beleza, harmonia e perfeição na arte, na ciência e na natureza. Este termo foi introduzido por Leonardo da Vinci como uma proporção de "corpo perfeito ideal" e aparece em pétalas de diversas flores, arranjos das sementes de girassóis, padrões de pinhas e no brócolis romanesco.
+ <br><br><br>
+<a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>17. Cubo de Metatron</h4>
 <a href="../vr/MetatronCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/14A.png" class="foto" alt="Cubo de Metatron"></a><img src="../ar/14.png" class="qr">
  <br><br><br>O Metatron é um arcanjo serafim da tradição medieval islâmica, judaica e cristã. As representações artísticas quase sempre retratam o Arcanjo Metatron segurando ou próximo a um cubo misterioso. A construção do Cubo de Metatron envolve os 13 círculos abrigados dentro de um círculo maior. As linhas que unem os centros destes círculos definem o Cubo de Metraton.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>17. Cubo de Metatron 3D</h4>
+<h4>18. Cubo de Metatron 3D</h4>
 <a href="../vr/MetatronCube3d.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/15A.png" class="foto" alt="Cubo de Metatron 3D"></a><img src="../ar/15.png" class="qr">
  <br><br><br>Dentro da forma geométrica definida pelo Cubo de Metraton podemos encontrar os cinco sólidos platônicos, posicionando o Cubo de Metatron como uma ponte fundamental que transforma realidades bidimensionais em reinos tridimensionais. Nesta representação temos o cubo de Metraton em 3D.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>18. Grade da vida</h4>
+<h4>19. Grade da vida</h4>
 <a href="../vr/GridOfLife.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/16A.png" class="foto" alt="Grade da vida"></a><img src="../ar/16.png" class="qr">
  <br><br><br>O símbolo da Grade da Vida, também denominado tetraedro 64, contrapõe o Tetraedro Estrelado com a Flor da Vida. Temos 64 tetraedros que formam o símbolo da Grade da Vida, que pode ser sobreposto ao símbolo da Flor da Vida, com os círculos simbolizando a vastidão do espaço e as linhas interligadas indicando onde o espaço converge com o tempo.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>19. Grade da vida 3D</h4>
+<h4>20. Grade da vida 3D</h4>
 <a href="../vr/GridOfLife3d.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/17A.png" class="foto" alt="Grade da vida 3D"></a><img src="../ar/17.png" class="qr">
  <br><br><br>Grande parte do fascínio do símbolo da Grade da Vida vem do número 64, que surge recorrentemente na natureza, nas construções e no misticismo. Alguns exemplos que podemos citar são: na computação, onde o número de 64 bits de memória é essencial; nos jogos clássicos de xadrez ou damas, que possuem 64 casas em seus tabuleiros; ou em textos sagrados do Hinduísmo, que faz referência a 64 tantras. Neste exemplo, temos a Grade da Vida modelada em 3D.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
-<h4>20. Toro</h4>
+<h4>21. Toro</h4>
 <a href="../vr/Torus.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/18A.png" class="foto" alt="Toro"></a><img src="../ar/18.png" class="qr">
  <br><br><br>A estrutura de um toro, semelhante a um vórtice, é considerada como a forma inicial que emana do padrão Gênesis. A representação do toro na Geometria Sagrada reflete o fluxo de energia em espiral. Este fluxo não é unidirecional, oscilando na superfície do toro e espiralando dentro de seu núcleo.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
-<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
-<h4>21. Toro anelado</h4>
+<h4>22. Toro anelado</h4>
 <a href="../vr/Torus1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/25A.png" class="foto" alt="Toro anelado"></a><img src="../ar/25.png" class="qr">
  <br><br><br>O toro anelado representa a forma clássica de donut, que incorpora continuidade e totalidade. Este símbolo representa os ciclos da vida, que mantêm a sua forma e vitalidade independentemente de onde começam ou terminam. 
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>22. Toro fuso</h4>
+<h4>23. Toro fuso</h4>
 <a href="../vr/Torus2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/26A.png" class="foto" alt="Toro fuso"></a><img src="../ar/26.png" class="qr">
  <br><br><br>O toro fuso representa uma força invisível que atua em extremidades opostas. Trata-se de um símbolo poderoso de equilíbrio, tensão e dualidade, que representa o que existe no universo e dentro de nós mesmos.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>23. Estrela Merkaba</h4>
+<h4>24. Estrela Merkaba</h4>
 <a href="../vr/Merkaba.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/19A.png" class="foto" alt="Estrela Merkaba"></a><img src="../ar/19.png" class="qr">
  <br><br><br>O símbolo da estrela Merkaba tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>24. Vector Equilibrium</h4>
+<h4>25. Vector Equilibrium</h4>
 <a href="../vr/VectorEquilibrium.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/23A.png" class="foto" alt="Vector Equilibrium"></a><img src="../ar/23.png" class="qr">
  <br><br><br>O Vector Equilibrium é considerado como refência inicial da matemática energética e a pulsação zero do equilíbrio vetorial. Trata-se da estrutura subjacente do Toro, considerada a forma geométrica capaz de transformar energia em matéria. 
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>25. Vector Equilibrium 3D</h4>
+<h4>26. Vector Equilibrium 3D</h4>
 <a href="../vr/VectorEquilibrium1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/20A.png" class="foto" alt="Vector Equilibrium 3D"></a><img src="../ar/20.png" class="qr">
  <br><br><br>As linhas de energia do Vector Equilibrium têm comprimento e força iguais e pode ser considerada a única forma geométrica que possui todas as forças iguais e equilibradas. Nesta representação temos o Vector Equilibrium modelado em 3D, que representa um conjunto formado pelas arestas e diagonais principais do cuboctaedro de Arquimedes.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>26. Vector Equilibrium 3D v2</h4>
+<h4>27. Vector Equilibrium 3D v2</h4>
 <a href="../vr/VectorEquilibrium2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/21A.png" class="foto" alt="Vector Equilibrium 3D"></a><img src="../ar/21.png" class="qr">
  <br><br><br>De acordo com Buckminster Fuller, o Vector Equilibrium é a forma mais próxima que jamais conheceremos de Deus e da eternidade. Nesta representação temos o Vector Equilibrium modelado em 3D, que representa um conjunto formado pelas diagonais principais e pelos círculos circunscritos às seções hexagonais do cuboctaedro de Arquimedes.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>27. Vector Equilibrium 3D v3</h4>
+<h4>28. Vector Equilibrium 3D v3</h4>
 <a href="../vr/VectorEquilibrium3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/22A.png" class="foto" alt="Vector Equilibrium 3D"></a><img src="../ar/22.png" class="qr">
  <br><br><br>O Vector Equilibrium é considerado como a estrutura subjacente do Toro, também conhecida como a forma geométrica capaz de transformar energia em matéria. Nesta representação temos o modelo em 3D construído com 3 rotações em torno de um dos modelos.
  <br><br><br>
