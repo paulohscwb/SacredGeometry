@@ -134,7 +134,7 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
  <hr>
  <h4>16. Golden spiral</h4>
 <a href="vr/GoldenSpiral.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/27A.png" class="foto" alt="Golden Spiral"></a><img src="ar/27.png" class="qr">
- <br><br><br>We define that the numbers <b>a</b> and <b>b</b> are in the golden ratio when <b>a + b / a = a / b = &phi;</b>. Putting this ratio in two dimensions, we can construct golden rectangles (or triangles), where their sides are in the golden ratio. This proportion is not just a mathematical notion, but also a symbol of beauty, harmony and perfection in art, science and nature. This term was introduced by Leonardo da Vinci as a proportion of "ideal perfect body" and appears in the petals of various flowers, sunflower seed arrangements, pine cone patterns and romanesco broccoli.
+ <br><br><br>We define that the numbers <b>a</b> and <b>b</b> are in the golden ratio when <b>a + b / a = a / b = &Phi;</b>. Putting this ratio in two dimensions, we can construct golden rectangles (or triangles), where their sides are in the golden ratio. This proportion is not just a mathematical notion, but also a symbol of beauty, harmony and perfection in art, science and nature. This term was introduced by Leonardo da Vinci as a proportion of "ideal perfect body" and appears in the petals of various flowers, sunflower seed arrangements, pine cone patterns and romanesco broccoli.
  <br><br>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>

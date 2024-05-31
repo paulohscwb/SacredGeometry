@@ -135,7 +135,7 @@ O acesso às páginas de RV é feito clicando no círculo azul que aparece em ci
 <hr>
 <h4>16. Espiral áurea</h4>
 <a href="../vr/GoldenSpiral.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/27A.png" class="foto" alt="Espiral áurea"></a><img src="../ar/27.png" class="qr">
- <br><br><br>Definimos que os números <b>a</b> e <b>b</b> estão na proporção áurea quando <b>a + b / a = a / b = &phi;</b>. Colocando-se esta razão em duas dimensões, podemos construir os retângulos (ou triângulos) áureos, onde seus lados estão na proporção áurea. Esta proporção não é apenas uma noção matemática, mas também um símbolo de beleza, harmonia e perfeição na arte, na ciência e na natureza. Este termo foi introduzido por Leonardo da Vinci como uma proporção de "corpo perfeito ideal" e aparece em pétalas de diversas flores, arranjos das sementes de girassóis, padrões de pinhas e no brócolis romanesco.
+ <br><br><br>Definimos que os números <b>a</b> e <b>b</b> estão na proporção áurea quando <b>a + b / a = a / b = &Phi;</b>. Colocando-se esta razão em duas dimensões, podemos construir os retângulos (ou triângulos) áureos, onde seus lados estão na proporção áurea. Esta proporção não é apenas uma noção matemática, mas também um símbolo de beleza, harmonia e perfeição na arte, na ciência e na natureza. Este termo foi introduzido por Leonardo da Vinci como uma proporção de "corpo perfeito ideal" e aparece em pétalas de diversas flores, arranjos das sementes de girassóis, padrões de pinhas e no brócolis romanesco.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
