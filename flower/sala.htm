@@ -41,7 +41,7 @@
 			<a-mixin id="mtl2a" mixin="mtl2" material="opacity:1;"></a-mixin>
 			<a-mixin id="mtl4" material="color: #0b0; opacity:0.6; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="lnk" rotation="-90 0 0" scale="0.5 0.5 0.5" position="0 0.25 0" link="title: 3D model; highlighted:true; backgroundColor:LightGray"></a-mixin>
-			<a-mixin id="tr0" geometry="radius: 2; radius-tubular:0.03;" mixin="mtl3"></a-mixin>
+			<a-mixin id="tr0" geometry="radius: 2; radius-tubular:0.03;" mixin="mtl3" material="side:double"></a-mixin>
 			<a-mixin id="tr" geometry="arc: 360;" mixin="tr0 mtl3"></a-mixin>
 			<a-mixin id="tr1" geometry="arc: 120;" mixin="tr0 mtl3"></a-mixin>
 			<a-mixin id="tr2" geometry="arc: 180;" mixin="tr0 mtl3"></a-mixin>
@@ -69,7 +69,7 @@
 			<a-mixin id="s2_3h" position="0 6.8019 0"></a-mixin>
 			<a-mixin id="s2_4p" position="0 -7.2 0"></a-mixin>
 			<a-mixin id="s2_4h" position="0 -6.8019 0"></a-mixin>
-			<a-mixin id="trf1" geometry="radius: 2; radius-tubular:0.025;" mixin="mtl1"></a-mixin>
+			<a-mixin id="trf1" geometry="radius: 2; radius-tubular:0.025;" mixin="mtl1" material="side:double"></a-mixin>
 			<a-mixin id="a60" geometry="arc: 60;"></a-mixin>
 			<a-mixin id="a180" geometry="arc: 180;"></a-mixin>
 			<a-mixin id="a120" geometry="arc: 120;"></a-mixin>
@@ -698,7 +698,7 @@
 			</a-entity>
 		</a-entity>
 		
-		<!--<a-entity class="poli" mixin="poli1" position="-0.82 1.2 2" scale="0.06 0.06 0.06" shadow>
+		<a-entity class="poli" mixin="poli1" position="-0.82 1.2 2" scale="0.06 0.06 0.06" shadow>
 			<a-entity>
 				<a-entity rotation="19.5 150 30">			
 					<a-torus mixin="trf1"></a-torus>
@@ -965,7 +965,6 @@
 			</a-entity>
 		</a-entity>
 
-		-->
 		<a-video src="vr/salas/videos/SeedOfLife3d_v3_anim_x264_x264.mp4" position="2.055 1 1.16" rotation="0 270 0" depth="0.01" height="1.5" width="2.5"></a-video>
 		<a-box position="2.08 1 1.16" rotation="0 270 0" depth="0.03" height="1.8" width="2.9" src="../imagens/textura.jpg" material="repeat:5 2" static-body></a-box>		
 		<a-cylinder mixin="botao2" class="botao" position="2.06 1.5 -0.7" onclick="fl='../symbols/sala.htm', window.open(fl, '_self');" radius="0.3" material="opacity: 0.5;" color="forestgreen" rotation="-90 270 0"></a-cylinder>
