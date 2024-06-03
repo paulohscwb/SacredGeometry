@@ -98,8 +98,8 @@ O acesso às páginas de RV é feito clicando no círculo azul que aparece em ci
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>10. Flor da vida 3D - cuboctaedro</h4>
-<a href="../vr/FlowerOfLife3d_cuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/8A.png" class="foto" alt="Flor da vida 3D"></a><img src="../ar/8.png" class="qr">
- <br><br><br>Dentro do design do símbolo da Flor da Vida encontram-se outros padrões da Geometria Sagrada: o Ovo da Vida, a Semente da Vida e a Árvore da Vida. Nesta representação temos o modelo em 3D construído com 3 rotações em torno de um dos modelos.
+<a href="../vr/FlowerOfLife3d_cuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/37A.png" class="foto" alt="Flor da vida 3D"></a><img src="../ar/37.png" class="qr">
+ <br><br><br>Nesta representação temos o modelo em 3D do símbolo da Flor da Vida construído com 3 rotações em torno de um dos símbolos. Unindo-se as interseções dos círculos maiores, obtemos um cuboctaedro de Arquimedes.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>

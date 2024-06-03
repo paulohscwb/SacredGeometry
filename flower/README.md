@@ -97,8 +97,8 @@ with any browser with a webcam device (smartphone, tablet or notebook).
   <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>10. Flower of Life 3D - cuboctahedron</h4>
-<a href="vr/FlowerOfLife3d_cuboctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/8A.png" class="foto" alt="Flower of Life 3D"></a><img src="ar/8.png" class="qr">
- <br><br><br>Within the design of the Flower of Life symbol are other Sacred Geometry patterns: the Egg of Life, the Seed of Life, and the Tree of Life. In this representation we have the 3D model built with 3 rotations around one of the models.
+<a href="vr/FlowerOfLife3d_cuboctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/37A.png" class="foto" alt="Flower of Life 3D"></a><img src="ar/37.png" class="qr">
+ <br><br><br>In this representation we have the 3D model of the Flower of Life symbol built with 3 rotations around one of the symbols. Combining the intersections of the larger circles, we obtain an Archimedean cuboctahedron.
  <br><br>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
