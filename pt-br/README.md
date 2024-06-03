@@ -10,17 +10,17 @@ As estruturas matemáticas utilizadas na Geometria Sagrada podem ser encontradas
 Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com as visualizações que podem ser acessadas com os recursos de Realidade Aumentada e também em salas imersivas de Realidade Virtual.
 <hr>
 <h3 style="margin-top:3px"><a target="_blank" href="../symbols/pt-br/"><img src="../symbols/ar/15A.png" style="margin-bottom:-10px" width="40"> Símbolos da Geometria Sagrada</a></h3>
-<!--<h3 style="margin-top:3px"><a target="_blank" href="../flower/pt-br/"><img src="../flower/ar/16A.png" style="margin-bottom:-10px" width="40"> Flor da vida e os poliedros de Platão e de Arquimedes</a></h3>
-<h3 style="margin-top:3px"><a target="_blank" href="../fruit/pt-br/"><img src="../fruit/ar/19A.png" style="margin-bottom:-10px" width="40"> Fruto da vida e os poliedros de Platão e de Arquimedes</a></h3>
+<h3 style="margin-top:3px"><a target="_blank" href="../flower/pt-br/"><img src="../flower/ar/16A.png" style="margin-bottom:-10px" width="40"> Flor da vida e os poliedros de Platão e de Arquimedes</a></h3>
+<!--<h3 style="margin-top:3px"><a target="_blank" href="../fruit/pt-br/"><img src="../fruit/ar/19A.png" style="margin-bottom:-10px" width="40"> Fruto da vida e os poliedros de Platão e de Arquimedes</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="../grid/pt-br/"><img src="../grid/ar/37A.png" style="margin-bottom:-10px" width="40"> Grade da vida e os poliedros de Platão e de Arquimedes</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="../metatron/pt-br/"><img src="../metatron/ar/56A.png" style="margin-bottom:-10px" width="40"> Metatron e os poliedros de Platão e de Arquimedes</a></h3>
 
-<!--<h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="../todos/">&#x1f4c4; Lista completa dos poliedros</a></h3>
-<hr>
+<h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="../todos/">&#x1f4c4; Lista completa dos poliedros</a></h3>
+--><hr>
 <h3 align="center">Salas imersivas</h3>
-<p align="center"><img src="../catalan/vr/salas/videos/catalan.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy"/><img src="../nonconvex/vr/salas/videos/nonconvex1.gif" style="max-width: 47%; border-radius:5px;" loading="lazy"/></p>
+<p align="center"><img src="../symbols/vr/salas/videos/gs1.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy"/><img src="../symbols/vr/salas/videos/gs2.gif" style="max-width: 47%; border-radius:5px;" loading="lazy"/></p>
 <h3 align="center">Realidade Aumentada e modelos 3D</h3>
-<p align="center"><img src="../johnson1/ar/johnson1.gif" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>-->
+<p align="center"><img src="../symbols/ar/symbols.gif" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>-->
 <hr>
 <br>Os ambientes de Realidade Aumentada foram criados com os scripts de <b>Jerome Etienne</b>: <a href="https://github.com/jeromeetienne/AR.js" target="_blank"> AR.js - Augmented Reality for the Web</a>.
 <br>Os scripts de órbita desenvolvidos por <b>Kevin Ngo</b> foram usados nas páginas de Realidade Virtual dos modelos 3D: <a href="https://github.com/supermedium/superframe/tree/master/components/orbit-controls/" target="_blank"> Orbit controls for A-Frame</a>.

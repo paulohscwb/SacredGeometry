@@ -9,8 +9,8 @@
 	<select id="url" onchange="urlHandler(this.value)" style="color:royalblue;">
 		<option disabled selected>Mais símbolos:</option>
 		<option disabled value="../../symbols/pt-br/">Símbolos da Geometria Sagrada</option>
-		<!--<option value="../../flower/pt-br/">Flor da vida e os poliedros de Platão e de Arquimedes</option>
-		<option value="../../fruit/pt-br/">Fruto da vida e os poliedros de Platão e de Arquimedes</option>
+		<option value="../../flower/pt-br/">Flor da vida e os poliedros de Platão e de Arquimedes</option>
+		<!--<option value="../../fruit/pt-br/">Fruto da vida e os poliedros de Platão e de Arquimedes</option>
 		<option value="../../grid/pt-br/">Grade da vida e os poliedros de Platão e de Arquimedes</option>
 		<option value="../../metatron/pt-br/">Metatron e os poliedros de Platão e de Arquimedes</option>-->
 	</select>
@@ -35,7 +35,6 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
   <hr>
   <h3 id="ra" align="center">Realidade Aumentada</h3>
   Para visualizar os símbolos da Geometria Sagrada em RA, visite as páginas indicadas nos modelos 3D dos sólidos utilizando qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
-O acesso às páginas de RV é feito clicando no círculo azul que aparece em cima de cada marcador.
 <br>O acesso às páginas de RV é feito clicando no círculo azul que aparece em cima de cada marcador.
 <p align="center"><img style="border-radius:7px;" alt="Realidade Aumentada dos símbolos da Geometria Sagrada" src="../ar/example.png" width="85%"></p>
 <p align="center"><img src="../ar/symbols.gif" alt="Realidade Aumentada dos símbolos da Geometria Sagrada" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
@@ -184,7 +183,7 @@ O acesso às páginas de RV é feito clicando no círculo azul que aparece em ci
 <hr>
 <h4>24. Estrela Merkaba</h4>
 <a href="../vr/Merkaba.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/19A.png" class="foto" alt="Estrela Merkaba"></a><img src="../ar/19.png" class="qr">
- <br><br><br>O símbolo da estrela Merkaba tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D.
+ <br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>

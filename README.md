@@ -10,17 +10,17 @@ The mathematical structures used in Sacred Geometry can be found in the arts, ar
 This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that can be accessed with Augmented Reality resources and also in immersive Virtual Reality rooms.
 <hr>
 <h3 style="margin-top:3px"><a target="_blank" href="symbols/"><img src="symbols/ar/15A.png" style="margin-bottom:-10px" width="40"> Sacred Geometry symbols</a></h3>
-<!--<h3 style="margin-top:3px"><a target="_blank" href="flower/"><img src="flower/ar/16A.png" style="margin-bottom:-10px" width="40"> Flower of life and the Platonic and Archimedean polyhedra</a></h3>
-<h3 style="margin-top:3px"><a target="_blank" href="fruit/"><img src="fruit/ar/19A.png" style="margin-bottom:-10px" width="40"> Fruit of life and the Platonic and Archimedean polyhedra</a></h3>
-<h3 style="margin-top:3px"><a target="_blank" href="grid/"><img src="grid/ar/37A.png" style="margin-bottom:-10px" width="40"> Grid of life and the Platonic and Archimedean polyhedra</a></h3>
-<h3 style="margin-top:3px"><a target="_blank" href="metatron/"><img src="metatron/ar/56A.png" style="margin-bottom:-10px" width="40"> Metatron and the Platonic and Archimedean polyhedra</a></h3>
+<h3 style="margin-top:3px"><a target="_blank" href="flower/"><img src="flower/ar/16A.png" style="margin-bottom:-10px" width="40"> Flower of life and the polyhedra of Plato and Archimedes</a></h3>
+<!--<h3 style="margin-top:3px"><a target="_blank" href="fruit/"><img src="fruit/ar/19A.png" style="margin-bottom:-10px" width="40"> Fruit of life and the polyhedra of Plato and Archimedes</a></h3>
+<h3 style="margin-top:3px"><a target="_blank" href="grid/"><img src="grid/ar/37A.png" style="margin-bottom:-10px" width="40"> Grid of life and the polyhedra of Plato and Archimedes</a></h3>
+<h3 style="margin-top:3px"><a target="_blank" href="metatron/"><img src="metatron/ar/56A.png" style="margin-bottom:-10px" width="40"> Metatron and the polyhedra of Plato and Archimedes</a></h3>
 
-<!--<h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="all/">&#x1f4c4; Complete list of polyhedra</a></h3>
-<hr>
+<h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="all/">&#x1f4c4; Complete list of polyhedra</a></h3>
+--><hr>
 <h3 align="center">Immersive rooms</h3>
-<p align="center"><img src="https://paulohscwb.github.io/cotadas/videos/propellor.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy"/><img src="fractalnonconvex/vr/salas/videos/fractalnonconvex2.gif" style="max-width: 47%; border-radius:5px;" loading="lazy"/></p>
+<p align="center"><img src="symbols/vr/salas/videos/gs1.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy"/><img src="symbols/vr/salas/videos/gs2.gif" style="max-width: 47%; border-radius:5px;" loading="lazy"/></p>
 <h3 align="center">Augmented Reality and 3D models</h3>
-<p align="center"><img src="fractalarchimedean/ar/fractalarchimedean.gif" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>-->
+<p align="center"><img src="symbols/ar/symbols.gif" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>-->
 <hr>
 <br>The Augmented Reality environments were created with the <b>Jerome Etienne</b> scripts: <a href="https://github.com/jeromeetienne/AR.js" target="_blank">AR.js - Augmented Reality for the Web</a>.
 <br>The orbit scripts developed by <b>Kevin Ngo</b> were used in the Virtual Reality pages of the 3D models: <a href="https://github.com/supermedium/superframe/tree/master/components/orbit-controls/" target="_blank"> Orbit controls for A-Frame</a>.

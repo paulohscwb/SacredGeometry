@@ -9,10 +9,10 @@
 	<select id="url" onchange="urlHandler(this.value)" style="color:royalblue;">
 		<option disabled selected value>More symbols:</option>
 		<option disabled value="../symbols/">Sacred Geometry symbols</option>
-		<!--<option value="../flower/">Flower of life and the Platonic and Archimedean polyhedra</option>
-		<option value="../fruit/">Fruit of life and the Platonic and Archimedean polyhedra</option>
-		<option value="../grid/">Grid of life and the Platonic and Archimedean polyhedra</option>
-		<option value="../metatron/">Metatron and the Platonic and Archimedean polyhedra</option>-->
+		<option value="../flower/">Flower of life and the polyhedra of Plato and Archimedes</option>
+		<!--<option value="../fruit/">Fruit of life and the polyhedra of Plato and Archimedes</option>
+		<option value="../grid/">Grid of life and the polyhedra of Plato and Archimedes</option>
+		<option value="../metatron/">Metatron and the polyhedra of Plato and Archimedes</option>-->
 	</select>
 </form>
 <script>
@@ -184,7 +184,7 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
  <hr>
 <h4>24. Merkaba star</h4>
 <a href="vr/Merkaba.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/19A.png" class="foto" alt="Merkaba star"></a><img src="ar/19.png" class="qr">
- <br><br><br>The Merkaba star symbol has the meaning translated as "light, spirit and body". It is the fusion of 2 identical tetrahedra that are interconnected through rotations in opposite directions. The intersection of these tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
+ <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical tetrahedra that are interconnected through rotations in opposite directions. The intersection of these tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
  <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>

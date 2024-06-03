@@ -1,0 +1,1483 @@
+<!doctype HTML>
+<html>
+<head>
+	<script src="https://aframe.io/releases/1.3.0/aframe.js"></script>
+	<title>Sacred Geometry</title>
+	<link rel="icon" type="image/png" href="vr/salas/imagens/icone.png">
+	<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+	<script src="https://raw.githack.com/fcor/arjs-gestures/master/dist/gestures.js"></script>
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+</head>
+<body style='margin: 0; overflow: hidden;'>
+	<div style='position: fixed; top: 43px; width:100%; text-align: center; z-index: -2;'>
+		<font face="verdana" size="5" color="DarkSlateBlue">Loading...</font>
+	</div>
+<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:80vw; z-index: 5; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px grey;'>paulohscwb@gmail.com <br> &copy; 2024 Paulo Henrique Siqueira</div>
+  <a-scene cursor="rayOrigin: mouse" raycaster="objects: .lnk;" embedded renderer="logarithmicDepthBuffer: true; colorManagement: true;" arjs='sourceType: webcam; trackingMethod: best; detectionMode: mono_and_matrix; matrixCodeType: 4x4; debugUIEnabled: false;' gesture-detector>
+     
+     <a-assets>
+		<a-mixin id="lnk" rotation="-90 0 0" scale="0.5 0.5 0.5" position="0 0.25 0" link="title: 3D model; highlighted:true; backgroundColor:LightGray"></a-mixin>
+		<a-mixin id="mtl1" material="color: #5ec; opacity:1; metalness:0.4; roughness:0.2"></a-mixin>
+		<a-mixin id="mtl3" material="color: #e70; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+		<a-mixin id="mtl2" material="color: #0af; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+		<a-mixin id="mtl4" material="color: #0b0; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+		<a-mixin id="lnk" rotation="-90 0 0" scale="0.5 0.5 0.5" position="0 0.25 0" link="title: 3D model; highlighted:true; backgroundColor:LightGray"></a-mixin>
+		<a-mixin id="tr0" geometry="radius: 2; radius-tubular:0.03; segments-tubular: 50" mixin="mtl3"></a-mixin>
+		<a-mixin id="tr" geometry="arc: 360;" mixin="tr0 mtl3"></a-mixin>
+		<a-mixin id="tr1" geometry="arc: 120;" mixin="tr0 mtl3"></a-mixin>
+		<a-mixin id="tr2" geometry="arc: 180;" mixin="tr0 mtl3"></a-mixin>
+		<a-mixin id="tr3" geometry="arc: 60;" mixin="tr0 mtl3"></a-mixin>
+		<a-mixin id="esfera" mixin="mtl4" geometry="radius: 1; side:double; segments-width:50; segments-height:50;" material="metalness:0.5; roughness:0.3;">
+		<a-asset-item id="mt" src="vr/outros/c5.mtl"></a-asset-item>
+		<a-asset-item id="aq" src="vr/outros/Cuboctahedron.obj"></a-asset-item>
+		<a-asset-item id="aq1" src="vr/outros/CuboctahedronL.obj"></a-asset-item>
+		<a-asset-item id="aq2" src="vr/outros/Dodecahedron.obj"></a-asset-item>
+		<a-asset-item id="aq2l" src="vr/outros/DodecahedronL.obj"></a-asset-item>
+		<a-asset-item id="aq3" src="vr/outros/Cube.obj"></a-asset-item>
+		<a-asset-item id="aq3l" src="vr/outros/CubeL.obj"></a-asset-item>
+		<a-mixin id="fc" scale="0.998 0.998 0.998" obj-model="obj: #aq; mtl: #mt"></a-mixin>
+		<a-mixin id="ar" obj-model="obj: #aq1; mtl: #mt"></a-mixin>
+		<a-mixin id="fc1" scale="0.998 0.998 0.998" obj-model="obj: #aq2; mtl: #mt"></a-mixin>
+		<a-mixin id="ar1" obj-model="obj: #aq2l; mtl: #mt"></a-mixin>
+		<a-mixin id="fc2" scale="0.998 0.998 0.998" obj-model="obj: #aq3; mtl: #mt"></a-mixin>
+		<a-mixin id="ar2" obj-model="obj: #aq3l; mtl: #mt"></a-mixin>
+		<a-mixin id="mtl3a" material="side: double; color: #3fe; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+		<a-mixin id="tra" position="0 0 5" geometry="radius: 2.88; radius-tubular:0.08; segments-tubular: 50" mixin="mtl3a"></a-mixin>
+		<a-mixin id="mtl3b" material="side: double; color: #4df; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+		<a-mixin id="trb" rotation="90 0 0" geometry="radius: 6.05; radius-tubular:0.15; segments-tubular: 50" mixin="mtl3b"></a-mixin>
+		<a-mixin id="tr1b" mixin="trb" geometry="radius: 5.55;"></a-mixin>
+		<a-mixin id="s2_3p" position="0 7.2 0"></a-mixin>
+		<a-mixin id="s2_3h" position="0 6.8019 0"></a-mixin>
+		<a-mixin id="s2_4p" position="0 -7.2 0"></a-mixin>
+		<a-mixin id="s2_4h" position="0 -6.8019 0"></a-mixin>
+		<a-mixin id="trf1" geometry="radius: 2; radius-tubular:0.025; segments-tubular: 45" mixin="mtl1"></a-mixin>
+		<a-mixin id="a60" geometry="arc: 60;"></a-mixin>
+		<a-mixin id="a180" geometry="arc: 180;"></a-mixin>
+		<a-mixin id="a120" geometry="arc: 120;"></a-mixin>
+	</a-assets>
+
+    <a-entity camera></a-entity>
+	
+	<a-marker preset="hiro">
+	    <a-link mixin="lnk" class="lnk" href="#"></a-link>
+	</a-marker>
+	
+	<a-light type="ambient" color="white" intensity="0.6"></a-light>
+	<a-light type="directional" color="white" intensity="0.35" position="-3 2 1"></a-light>
+	<a-light type="directional" color="white" intensity="0.35" position="3 -2 1"></a-light>
+    <a-light type="point" color="yellow" intensity="0.6" position="0 0 0"></a-light>
+	
+	<a-marker type="barcode" value="28" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
+		<a-link mixin="lnk" class="lnk" href="vr/FlowerOfLife_v4.htm"></a-link>
+	   	<a-entity position="2.7 0.9 0" scale="0.16 0.16 0.16" rotation="0 0 90" gesture-handler>
+			<a-entity rotation="-30 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+			<a-entity rotation="30 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+			<a-entity rotation="-60 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+			<a-entity rotation="60 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+			<a-entity rotation="-90 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+			<a-entity rotation="90 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+			<a-entity rotation="-120 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+			<a-entity rotation="120 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+			<a-entity rotation="-150 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+			<a-entity rotation="150 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+			<a-entity rotation="180 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+			<a-entity><a-torus mixin="tra"></a-torus></a-entity>
+			
+			<a-entity position="2.511 0 0" rotation="15 0 0">
+				<a-entity rotation="-30 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="30 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="-60 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="60 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="-90 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="90 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="-120 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="120 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="-150 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="150 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="180 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity><a-torus mixin="tra"></a-torus></a-entity>
+			</a-entity>
+			
+			<a-entity position="-2.511 0 0" rotation="15 0 0">
+				<a-entity rotation="-30 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="30 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="-60 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="60 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="-90 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="90 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="-120 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="120 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="-150 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="150 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="180 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity><a-torus mixin="tra"></a-torus></a-entity>
+			</a-entity>
+			
+			<a-entity position="5.023 0 0" rotation="0 0 0">
+				<a-entity rotation="-30 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="30 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="-60 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="60 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="-90 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="90 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="-120 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="120 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="-150 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="150 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="180 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity><a-torus mixin="tra"></a-torus></a-entity>
+			</a-entity>
+			
+			<a-entity position="-5.023 0 0" rotation="0 0 0">
+				<a-entity rotation="-30 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="30 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="-60 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="60 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="-90 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="90 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="-120 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="120 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="-150 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="150 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity rotation="180 0 0"><a-torus mixin="tra"></a-torus></a-entity>
+				<a-entity><a-torus mixin="tra"></a-torus></a-entity>
+			</a-entity>
+			
+			<a-entity position="7.534 0 0" rotation="15 0 0">
+				<a-entity rotation="-30 0 90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+				<a-entity rotation="30 0 90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-60 0 90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+				<a-entity rotation="60 0 90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-90 0 90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+				<a-entity rotation="90 0 90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-120 0 90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+				<a-entity rotation="120 0 90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-150 0 90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+				<a-entity rotation="150 0 90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+				<a-entity rotation="180 0 90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+				<a-entity rotation="0 0 90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+			</a-entity>
+			
+			<a-entity position="-7.534 0 0" rotation="15 0 0">
+				<a-entity rotation="-30 0 -90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+				<a-entity rotation="30 0 -90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-60 0 -90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+				<a-entity rotation="60 0 -90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-90 0 -90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+				<a-entity rotation="90 0 -90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-120 0 -90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+				<a-entity rotation="120 0 -90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-150 0 -90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+				<a-entity rotation="150 0 -90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+				<a-entity rotation="180 0 -90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+				<a-entity rotation="0 0 -90"><a-torus mixin="tra" arc="180"></a-torus></a-entity>
+			</a-entity>
+
+			<a-entity position="10.046  0 0" rotation="0 0 0">
+				<a-entity rotation="-30 0 150"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+				<a-entity rotation="30 0 150"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-60 0 150"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+				<a-entity rotation="60 0 150"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-90 0 150"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+				<a-entity rotation="90 0 150"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-120 0 150"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+				<a-entity rotation="120 0 150"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-150 0 150"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+				<a-entity rotation="150 0 150"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+				<a-entity rotation="180 0 150"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+				<a-entity rotation="0 0 150"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+			</a-entity>
+			
+			<a-entity position="-10.046 0 0" rotation="0 0 0">
+				<a-entity rotation="-30 0 -30"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+				<a-entity rotation="30 0 -30"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-60 0 -30"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+				<a-entity rotation="60 0 -30"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-90 0 -30"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+				<a-entity rotation="90 0 -30"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-120 0 -30"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+				<a-entity rotation="120 0 -30"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-150 0 -30"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+				<a-entity rotation="150 0 -30"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+				<a-entity rotation="180 0 -30"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+				<a-entity rotation="0 0 -30"><a-torus mixin="tra" arc="60"></a-torus></a-entity>
+			</a-entity>
+		</a-entity>
+	</a-marker>
+	
+	<a-marker type="barcode" value="29" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
+		<a-link mixin="lnk" class="lnk" href="vr/FlowerOfLife_v5.htm"></a-link>
+	   	<a-entity position="2.7 0.9 0" scale="0.14 0.14 0.14" gesture-handler>
+			<a-entity position="0 -6.9823 0">
+			<a-entity id="baixo">
+					<a-entity id="pentagono">
+						<a-torus mixin="tr1b"></a-torus>
+					</a-entity>
+
+					<a-entity mixin="s2_3p">
+						<a-entity rotation="142.62 0 0">
+							<a-entity mixin="s2_3h">
+								<a-torus mixin="trb"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity mixin="s2_3p">
+						<a-entity rotation="142.62 72 0">
+							<a-entity mixin="s2_3h">
+								<a-torus mixin="trb"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity mixin="s2_3p">
+						<a-entity rotation="142.62 144 0">
+							<a-entity mixin="s2_3h">
+								<a-torus mixin="trb"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity mixin="s2_3p">
+						<a-entity rotation="142.62 216 0">
+							<a-entity mixin="s2_3h">
+								<a-torus mixin="trb"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity mixin="s2_3p">
+						<a-entity rotation="142.62 288 0">
+							<a-entity mixin="s2_3h">
+								<a-torus mixin="trb"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					
+					<a-entity id="lateral1" mixin="s2_3p">
+						<a-entity rotation="243.5 0 180">
+						<a-entity mixin="s2_4p">
+								<a-torus mixin="tr1b"></a-torus>
+								<a-entity mixin="s2_3p">
+									<a-entity rotation="142.62 0 0">
+										<a-entity mixin="s2_3h">
+											<a-torus mixin="trb"></a-torus>
+										</a-entity>
+									</a-entity>
+								</a-entity>
+								<a-entity mixin="s2_3p">
+									<a-entity rotation="142.62 72 0">
+										<a-entity mixin="s2_3h">
+											<a-torus mixin="trb"></a-torus>
+										</a-entity>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					
+					<a-entity id="lateral2" mixin="s2_3p">
+						<a-entity rotation="243.5 72 180">
+						<a-entity mixin="s2_4p">
+								<a-torus mixin="tr1b"></a-torus>
+								<a-entity mixin="s2_3p">
+									<a-entity rotation="142.62 0 0">
+										<a-entity mixin="s2_3h">
+											<a-torus mixin="trb"></a-torus>
+										</a-entity>
+									</a-entity>
+								</a-entity>
+								<a-entity mixin="s2_3p">
+									<a-entity rotation="142.62 72 0">
+										<a-entity mixin="s2_3h">
+											<a-torus mixin="trb"></a-torus>
+										</a-entity>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					
+					<a-entity id="lateral3" mixin="s2_3p">
+						<a-entity rotation="243.5 144 180">
+							<a-entity mixin="s2_4p">
+								<a-torus mixin="tr1b"></a-torus>
+								<a-entity mixin="s2_3p">
+									<a-entity rotation="142.62 0 0">
+										<a-entity mixin="s2_3h">
+											<a-torus mixin="trb"></a-torus>
+										</a-entity>
+									</a-entity>
+								</a-entity>
+								<a-entity mixin="s2_3p">
+									<a-entity rotation="142.62 72 0">
+										<a-entity mixin="s2_3h">
+											<a-torus mixin="trb"></a-torus>
+										</a-entity>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					
+					<a-entity id="lateral4" mixin="s2_3p">
+						<a-entity rotation="243.5 216 180">
+						<a-entity mixin="s2_4p">
+								<a-torus mixin="tr1b"></a-torus>
+								<a-entity mixin="s2_3p">
+									<a-entity rotation="142.62 0 0">
+										<a-entity mixin="s2_3h">
+											<a-torus mixin="trb"></a-torus>
+										</a-entity>
+									</a-entity>
+								</a-entity>
+								<a-entity mixin="s2_3p">
+									<a-entity rotation="142.62 72 0">
+										<a-entity mixin="s2_3h">
+											<a-torus mixin="trb"></a-torus>
+										</a-entity>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					
+					<a-entity id="lateral1" mixin="s2_3p">
+						<a-entity rotation="243.5 288 180">
+						<a-entity mixin="s2_4p">
+								<a-torus mixin="tr1b"></a-torus>
+								<a-entity mixin="s2_3p">
+									<a-entity rotation="142.62 0 0">
+										<a-entity mixin="s2_3h">
+											<a-torus mixin="trb"></a-torus>
+										</a-entity>
+									</a-entity>
+								</a-entity>
+								<a-entity mixin="s2_3p">
+									<a-entity rotation="142.62 72 0">
+										<a-entity mixin="s2_3h">
+											<a-torus mixin="trb"></a-torus>
+										</a-entity>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				
+				<a-entity id="cima" position="0 14.4 0" rotation="180 72 0">
+					<a-torus mixin="tr1b" position="0 -0.02 0"></a-torus>
+					
+					<a-entity mixin="s2_3p">
+						<a-entity rotation="142.62 0 0">
+							<a-entity mixin="s2_3h">
+								<a-torus mixin="trb"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity mixin="s2_3p">
+						<a-entity rotation="142.62 72 0">
+							<a-entity mixin="s2_3h">
+								<a-torus mixin="trb"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity mixin="s2_3p">
+						<a-entity rotation="142.62 144 0">
+							<a-entity mixin="s2_3h">
+								<a-torus mixin="trb"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity mixin="s2_3p">
+						<a-entity rotation="142.62 216 0">
+							<a-entity mixin="s2_3h">
+								<a-torus mixin="trb"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity mixin="s2_3p">
+						<a-entity rotation="142.62 288 0">
+							<a-entity mixin="s2_3h">
+								<a-torus mixin="trb"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					
+					<a-entity id="lateral1" mixin="s2_3p">
+						<a-entity rotation="243.5 0 180">
+							<a-entity mixin="s2_4p">
+								<a-torus mixin="tr1b"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					
+					<a-entity id="lateral2" mixin="s2_3p">
+						<a-entity rotation="243.5 72 180">
+							<a-entity mixin="s2_4p">
+								<a-torus mixin="tr1b"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					
+					<a-entity id="lateral3" mixin="s2_3p">
+						<a-entity rotation="243.5 144 180">
+							<a-entity mixin="s2_4p">
+								<a-torus mixin="tr1b"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					
+					<a-entity id="lateral4" mixin="s2_3p">
+						<a-entity rotation="243.5 216 180">
+							<a-entity mixin="s2_4p">
+								<a-torus mixin="tr1b"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					
+					<a-entity id="lateral1" mixin="s2_3p">
+						<a-entity rotation="243.5 288 180">
+							<a-entity mixin="s2_4p">
+								<a-torus mixin="tr1b"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+			</a-entity>
+		</a-entity>
+	</a-marker>
+	
+	<a-marker type="barcode" value="30" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
+		<a-link mixin="lnk" class="lnk" href="vr/FlowerOfLife2d_tetrahedron.htm"></a-link>
+	   	<a-entity position="2.7 0.9 0" scale="0.3 0.3 0.3" gesture-handler>
+			<a-entity rotation="90 0 0" scale="0.5 0.5 0.5">
+				<a-torus mixin="tr"></a-torus>
+				<a-torus mixin="tr" radius="8"></a-torus>
+				<a-torus mixin="tr" position="0 2 0"></a-torus>
+				<a-torus mixin="tr" position="0 -2 0"></a-torus>
+				<a-torus mixin="tr" position="0 4 0"></a-torus>
+				<a-torus mixin="tr" position="0 -4 0"></a-torus>
+				<a-torus mixin="tr" position="0 6 0"></a-torus>
+				<a-torus mixin="tr" position="0 -6 0"></a-torus>
+				<a-torus mixin="tr1" position="0 8 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr1" position="0 -8 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr" position="1.732 1 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 -1 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 1 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 -1 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 3 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 -3 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 3 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 -3 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 5 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 -5 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 5 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 -5 0"></a-torus>
+				<a-torus mixin="tr2" position="1.732 7 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr2" position="1.732 -7 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="-1.732 7 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr2" position="-1.732 -7 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="1.732 9 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="1.732 -9 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-1.732 9 0" rotation="0 0 270"></a-torus>
+				<a-torus mixin="tr3" position="-1.732 -9 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr" position="3.464 0 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 0 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 2 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 -2 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 2 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 -2 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 4 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 -4 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 4 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 -4 0"></a-torus>
+				<a-torus mixin="tr2" position="3.464 6 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr2" position="3.464 -6 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="-3.464 6 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr2" position="-3.464 -6 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="3.464 8 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="3.464 -8 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-3.464 8 0" rotation="0 0 270"></a-torus>
+				<a-torus mixin="tr3" position="-3.464 -8 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr" position="5.196 1 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 -1 0"></a-torus>
+				<a-torus mixin="tr" position="5.196 -1 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 1 0"></a-torus>
+				<a-torus mixin="tr" position="5.196 3 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 -3 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 3 0"></a-torus>
+				<a-torus mixin="tr" position="5.196 -3 0"></a-torus>
+				<a-torus mixin="tr2" position="5.196 5 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr2" position="5.196 -5 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="-5.196 5 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr2" position="-5.196 -5 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="5.196 7 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="5.196 -7 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-5.196 7 0" rotation="0 0 270"></a-torus>
+				<a-torus mixin="tr3" position="-5.196 -7 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="6.928 0 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr2" position="-6.928 0 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr2" position="6.928 2 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr2" position="6.928 -2 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr2" position="-6.928 2 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr2" position="-6.928 -2 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr1" position="6.928 4 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr1" position="6.928 -4 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr1" position="-6.928 4 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr1" position="-6.928 -4 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="6.928 6 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="6.928 -6 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-6.928 6 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr3" position="-6.928 -6 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr3" position="8.66 1 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 1 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="8.66 -1 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 -1 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="8.66 3 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="8.66 -3 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 3 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 -3 0" rotation="0 0 -30"></a-torus>
+			</a-entity>
+			
+			<a-entity>
+				<a-tetrahedron mixin="mtl2" rotation="35 0 -45" radius="4.21" material="side: double; color:white; wireframe:true"></a-tetrahedron>
+				<a-sphere mixin="esfera" position="0 4 0"></a-sphere>
+				<a-sphere mixin="esfera" position="3.464 -1.4 2"></a-sphere>
+				<a-sphere mixin="esfera" position="-3.464 -1.4 2"></a-sphere>
+				<a-sphere mixin="esfera" position="0 -1.4 -4"></a-sphere>
+				<a-tetrahedron mixin="mtl2" rotation="35 0 -45" radius="4.2"></a-tetrahedron>
+			</a-entity>
+		</a-entity>
+	</a-marker>
+	
+	<a-marker type="barcode" value="31" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
+		<a-link mixin="lnk" class="lnk" href="vr/FlowerOfLife2d_cube.htm"></a-link>
+	   	<a-entity position="2.7 0.9 0" scale="0.3 0.3 0.3" gesture-handler>
+			<a-entity rotation="90 0 0" scale="0.5 0.5 0.5">
+				<a-torus mixin="tr"></a-torus>
+				<a-torus mixin="tr" radius="8"></a-torus>
+				<a-torus mixin="tr" position="0 2 0"></a-torus>
+				<a-torus mixin="tr" position="0 -2 0"></a-torus>
+				<a-torus mixin="tr" position="0 4 0"></a-torus>
+				<a-torus mixin="tr" position="0 -4 0"></a-torus>
+				<a-torus mixin="tr" position="0 6 0"></a-torus>
+				<a-torus mixin="tr" position="0 -6 0"></a-torus>
+				<a-torus mixin="tr1" position="0 8 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr1" position="0 -8 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr" position="1.732 1 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 -1 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 1 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 -1 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 3 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 -3 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 3 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 -3 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 5 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 -5 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 5 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 -5 0"></a-torus>
+				<a-torus mixin="tr2" position="1.732 7 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr2" position="1.732 -7 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="-1.732 7 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr2" position="-1.732 -7 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="1.732 9 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="1.732 -9 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-1.732 9 0" rotation="0 0 270"></a-torus>
+				<a-torus mixin="tr3" position="-1.732 -9 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr" position="3.464 0 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 0 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 2 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 -2 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 2 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 -2 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 4 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 -4 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 4 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 -4 0"></a-torus>
+				<a-torus mixin="tr2" position="3.464 6 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr2" position="3.464 -6 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="-3.464 6 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr2" position="-3.464 -6 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="3.464 8 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="3.464 -8 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-3.464 8 0" rotation="0 0 270"></a-torus>
+				<a-torus mixin="tr3" position="-3.464 -8 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr" position="5.196 1 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 -1 0"></a-torus>
+				<a-torus mixin="tr" position="5.196 -1 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 1 0"></a-torus>
+				<a-torus mixin="tr" position="5.196 3 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 -3 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 3 0"></a-torus>
+				<a-torus mixin="tr" position="5.196 -3 0"></a-torus>
+				<a-torus mixin="tr2" position="5.196 5 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr2" position="5.196 -5 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="-5.196 5 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr2" position="-5.196 -5 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="5.196 7 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="5.196 -7 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-5.196 7 0" rotation="0 0 270"></a-torus>
+				<a-torus mixin="tr3" position="-5.196 -7 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="6.928 0 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr2" position="-6.928 0 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr2" position="6.928 2 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr2" position="6.928 -2 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr2" position="-6.928 2 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr2" position="-6.928 -2 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr1" position="6.928 4 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr1" position="6.928 -4 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr1" position="-6.928 4 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr1" position="-6.928 -4 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="6.928 6 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="6.928 -6 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-6.928 6 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr3" position="-6.928 -6 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr3" position="8.66 1 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 1 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="8.66 -1 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 -1 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="8.66 3 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="8.66 -3 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 3 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 -3 0" rotation="0 0 -30"></a-torus>
+			</a-entity>
+			
+			<a-entity>
+				<a-entity rotation="35 0 -45" scale="4.85 4.85 4.85" mixin="ar2"></a-entity>
+				<a-sphere mixin="esfera" position="0 4.16 0"></a-sphere>
+				<a-sphere mixin="esfera" position="3.464 -1.4 2"></a-sphere>
+				<a-sphere mixin="esfera" position="-3.464 -1.4 2"></a-sphere>
+				<a-sphere mixin="esfera" position="0 -1.4 -4"></a-sphere>
+				<a-sphere mixin="esfera" position="0 -4.16 0"></a-sphere>
+				<a-sphere mixin="esfera" position="-3.464 1.4 -2"></a-sphere>
+				<a-sphere mixin="esfera" position="3.464 1.4 -2"></a-sphere>
+				<a-sphere mixin="esfera" position="0 1.4 4"></a-sphere>
+				<a-entity rotation="35 0 -45" scale="4.84 4.84 4.84" mixin="fc2"></a-entity>
+			</a-entity>
+		</a-entity>
+	</a-marker>
+	
+	<a-marker type="barcode" value="32" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
+		<a-link mixin="lnk" class="lnk" href="vr/FlowerOfLife2d_octahedron.htm"></a-link>
+		<a-entity position="2.7 0.9 0" scale="0.3 0.3 0.3" gesture-handler>
+			<a-entity rotation="90 0 0" scale="0.5 0.5 0.5">
+				<a-torus mixin="tr"></a-torus>
+				<a-torus mixin="tr" radius="8"></a-torus>
+				<a-torus mixin="tr" position="0 2 0"></a-torus>
+				<a-torus mixin="tr" position="0 -2 0"></a-torus>
+				<a-torus mixin="tr" position="0 4 0"></a-torus>
+				<a-torus mixin="tr" position="0 -4 0"></a-torus>
+				<a-torus mixin="tr" position="0 6 0"></a-torus>
+				<a-torus mixin="tr" position="0 -6 0"></a-torus>
+				<a-torus mixin="tr1" position="0 8 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr1" position="0 -8 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr" position="1.732 1 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 -1 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 1 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 -1 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 3 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 -3 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 3 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 -3 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 5 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 -5 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 5 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 -5 0"></a-torus>
+				<a-torus mixin="tr2" position="1.732 7 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr2" position="1.732 -7 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="-1.732 7 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr2" position="-1.732 -7 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="1.732 9 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="1.732 -9 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-1.732 9 0" rotation="0 0 270"></a-torus>
+				<a-torus mixin="tr3" position="-1.732 -9 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr" position="3.464 0 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 0 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 2 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 -2 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 2 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 -2 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 4 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 -4 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 4 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 -4 0"></a-torus>
+				<a-torus mixin="tr2" position="3.464 6 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr2" position="3.464 -6 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="-3.464 6 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr2" position="-3.464 -6 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="3.464 8 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="3.464 -8 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-3.464 8 0" rotation="0 0 270"></a-torus>
+				<a-torus mixin="tr3" position="-3.464 -8 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr" position="5.196 1 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 -1 0"></a-torus>
+				<a-torus mixin="tr" position="5.196 -1 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 1 0"></a-torus>
+				<a-torus mixin="tr" position="5.196 3 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 -3 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 3 0"></a-torus>
+				<a-torus mixin="tr" position="5.196 -3 0"></a-torus>
+				<a-torus mixin="tr2" position="5.196 5 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr2" position="5.196 -5 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="-5.196 5 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr2" position="-5.196 -5 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="5.196 7 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="5.196 -7 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-5.196 7 0" rotation="0 0 270"></a-torus>
+				<a-torus mixin="tr3" position="-5.196 -7 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="6.928 0 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr2" position="-6.928 0 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr2" position="6.928 2 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr2" position="6.928 -2 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr2" position="-6.928 2 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr2" position="-6.928 -2 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr1" position="6.928 4 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr1" position="6.928 -4 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr1" position="-6.928 4 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr1" position="-6.928 -4 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="6.928 6 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="6.928 -6 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-6.928 6 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr3" position="-6.928 -6 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr3" position="8.66 1 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 1 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="8.66 -1 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 -1 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="8.66 3 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="8.66 -3 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 3 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 -3 0" rotation="0 0 -30"></a-torus>
+			</a-entity>
+			
+			<a-entity>
+				<a-octahedron mixin="mtl2" rotation="35 180 -45" radius="4.85" material="side: double; color:white; wireframe:true"></a-octahedron>
+				<a-sphere mixin="esfera" position="3.464 -2.76 2"></a-sphere>
+				<a-sphere mixin="esfera" position="-3.464 -2.76 2"></a-sphere>
+				<a-sphere mixin="esfera" position="0 -2.76 -4"></a-sphere>
+				<a-sphere mixin="esfera" position="-3.464 2.76 -2"></a-sphere>
+				<a-sphere mixin="esfera" position="3.464 2.76 -2"></a-sphere>
+				<a-sphere mixin="esfera" position="0 2.76 4"></a-sphere>
+				<a-octahedron mixin="mtl2" rotation="35 180 -45" radius="4.84"></a-octahedron>
+			</a-entity>
+		</a-entity>
+	</a-marker>
+	
+	<a-marker type="barcode" value="33" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
+		<a-link mixin="lnk" class="lnk" href="vr/FlowerOfLife2d_dodecahedron.htm"></a-link>
+	   	<a-entity position="2.7 0.9 0" scale="0.3 0.3 0.3" gesture-handler>
+			<a-entity rotation="90 0 0" scale="0.5 0.5 0.5">
+				<a-torus mixin="tr"></a-torus>
+				<a-torus mixin="tr" radius="8"></a-torus>
+				<a-torus mixin="tr" position="0 2 0"></a-torus>
+				<a-torus mixin="tr" position="0 -2 0"></a-torus>
+				<a-torus mixin="tr" position="0 4 0"></a-torus>
+				<a-torus mixin="tr" position="0 -4 0"></a-torus>
+				<a-torus mixin="tr" position="0 6 0"></a-torus>
+				<a-torus mixin="tr" position="0 -6 0"></a-torus>
+				<a-torus mixin="tr1" position="0 8 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr1" position="0 -8 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr" position="1.732 1 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 -1 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 1 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 -1 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 3 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 -3 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 3 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 -3 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 5 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 -5 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 5 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 -5 0"></a-torus>
+				<a-torus mixin="tr2" position="1.732 7 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr2" position="1.732 -7 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="-1.732 7 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr2" position="-1.732 -7 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="1.732 9 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="1.732 -9 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-1.732 9 0" rotation="0 0 270"></a-torus>
+				<a-torus mixin="tr3" position="-1.732 -9 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr" position="3.464 0 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 0 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 2 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 -2 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 2 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 -2 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 4 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 -4 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 4 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 -4 0"></a-torus>
+				<a-torus mixin="tr2" position="3.464 6 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr2" position="3.464 -6 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="-3.464 6 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr2" position="-3.464 -6 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="3.464 8 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="3.464 -8 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-3.464 8 0" rotation="0 0 270"></a-torus>
+				<a-torus mixin="tr3" position="-3.464 -8 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr" position="5.196 1 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 -1 0"></a-torus>
+				<a-torus mixin="tr" position="5.196 -1 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 1 0"></a-torus>
+				<a-torus mixin="tr" position="5.196 3 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 -3 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 3 0"></a-torus>
+				<a-torus mixin="tr" position="5.196 -3 0"></a-torus>
+				<a-torus mixin="tr2" position="5.196 5 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr2" position="5.196 -5 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="-5.196 5 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr2" position="-5.196 -5 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="5.196 7 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="5.196 -7 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-5.196 7 0" rotation="0 0 270"></a-torus>
+				<a-torus mixin="tr3" position="-5.196 -7 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="6.928 0 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr2" position="-6.928 0 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr2" position="6.928 2 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr2" position="6.928 -2 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr2" position="-6.928 2 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr2" position="-6.928 -2 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr1" position="6.928 4 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr1" position="6.928 -4 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr1" position="-6.928 4 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr1" position="-6.928 -4 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="6.928 6 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="6.928 -6 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-6.928 6 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr3" position="-6.928 -6 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr3" position="8.66 1 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 1 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="8.66 -1 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 -1 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="8.66 3 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="8.66 -3 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 3 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 -3 0" rotation="0 0 -30"></a-torus>
+			</a-entity>
+			
+			<a-entity rotation="0 30 0">
+				<a-entity rotation="35 172.5 -45" scale="2.87 2.87 2.87" mixin="ar1"></a-entity>
+				<a-sphere mixin="esfera" position="2.461 2.757 0"></a-sphere>
+				<a-sphere mixin="esfera" position="-1.22 2.757 -2.11"></a-sphere>
+				<a-sphere mixin="esfera" position="0 3.7 0"></a-sphere>
+				<a-sphere mixin="esfera" position="-1.22 2.757 2.11"></a-sphere>
+				<a-sphere mixin="esfera" position="0.48 1.22 3.452"></a-sphere>
+				<a-sphere mixin="esfera" position="-3.238 1.22 1.314"></a-sphere>
+				<a-sphere mixin="esfera" position="-3.238 1.22 -1.314"></a-sphere>
+				<a-sphere mixin="esfera" position="2.757 1.22 2.11"></a-sphere>
+				<a-sphere mixin="esfera" position="2.757 1.22 -2.11"></a-sphere>
+				<a-sphere mixin="esfera" position="0.48 1.22 -3.452"></a-sphere>
+				<a-sphere mixin="esfera" position="0 -3.7 0"></a-sphere>
+				<a-sphere mixin="esfera" position="-0.48 -1.22 3.452"></a-sphere>
+				<a-sphere mixin="esfera" position="3.238 -1.22 1.314"></a-sphere>
+				<a-sphere mixin="esfera" position="3.238 -1.22 -1.314"></a-sphere>
+				<a-sphere mixin="esfera" position="-0.48 -1.22 -3.452"></a-sphere>
+				<a-sphere mixin="esfera" position="-2.757 -1.22 -2.11"></a-sphere>
+				<a-sphere mixin="esfera" position="-2.757 -1.22 2.11"></a-sphere>
+				<a-sphere mixin="esfera" position="1.22 -2.757 2.11"></a-sphere>
+				<a-sphere mixin="esfera" position="-2.461 -2.757 0"></a-sphere>
+				<a-sphere mixin="esfera" position="1.22 -2.757 -2.11"></a-sphere>
+				<a-entity rotation="35 172.5 -45" scale="2.86 2.86 2.86" mixin="fc1"></a-entity>
+			</a-entity>
+		</a-entity>
+	</a-marker>
+	
+	<a-marker type="barcode" value="34" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
+		<a-link mixin="lnk" class="lnk" href="vr/FlowerOfLife2d_icosahedron.htm"></a-link>
+		<a-entity position="2.7 0.9 0" scale="0.3 0.3 0.3" gesture-handler>
+			<a-entity rotation="90 0 0" scale="0.5 0.5 0.5">
+				<a-torus mixin="tr"></a-torus>
+				<a-torus mixin="tr" radius="8"></a-torus>
+				<a-torus mixin="tr" position="0 2 0"></a-torus>
+				<a-torus mixin="tr" position="0 -2 0"></a-torus>
+				<a-torus mixin="tr" position="0 4 0"></a-torus>
+				<a-torus mixin="tr" position="0 -4 0"></a-torus>
+				<a-torus mixin="tr" position="0 6 0"></a-torus>
+				<a-torus mixin="tr" position="0 -6 0"></a-torus>
+				<a-torus mixin="tr1" position="0 8 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr1" position="0 -8 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr" position="1.732 1 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 -1 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 1 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 -1 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 3 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 -3 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 3 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 -3 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 5 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 -5 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 5 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 -5 0"></a-torus>
+				<a-torus mixin="tr2" position="1.732 7 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr2" position="1.732 -7 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="-1.732 7 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr2" position="-1.732 -7 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="1.732 9 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="1.732 -9 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-1.732 9 0" rotation="0 0 270"></a-torus>
+				<a-torus mixin="tr3" position="-1.732 -9 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr" position="3.464 0 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 0 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 2 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 -2 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 2 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 -2 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 4 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 -4 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 4 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 -4 0"></a-torus>
+				<a-torus mixin="tr2" position="3.464 6 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr2" position="3.464 -6 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="-3.464 6 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr2" position="-3.464 -6 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="3.464 8 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="3.464 -8 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-3.464 8 0" rotation="0 0 270"></a-torus>
+				<a-torus mixin="tr3" position="-3.464 -8 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr" position="5.196 1 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 -1 0"></a-torus>
+				<a-torus mixin="tr" position="5.196 -1 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 1 0"></a-torus>
+				<a-torus mixin="tr" position="5.196 3 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 -3 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 3 0"></a-torus>
+				<a-torus mixin="tr" position="5.196 -3 0"></a-torus>
+				<a-torus mixin="tr2" position="5.196 5 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr2" position="5.196 -5 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="-5.196 5 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr2" position="-5.196 -5 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="5.196 7 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="5.196 -7 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-5.196 7 0" rotation="0 0 270"></a-torus>
+				<a-torus mixin="tr3" position="-5.196 -7 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="6.928 0 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr2" position="-6.928 0 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr2" position="6.928 2 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr2" position="6.928 -2 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr2" position="-6.928 2 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr2" position="-6.928 -2 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr1" position="6.928 4 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr1" position="6.928 -4 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr1" position="-6.928 4 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr1" position="-6.928 -4 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="6.928 6 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="6.928 -6 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-6.928 6 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr3" position="-6.928 -6 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr3" position="8.66 1 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 1 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="8.66 -1 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 -1 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="8.66 3 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="8.66 -3 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 3 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 -3 0" rotation="0 0 -30"></a-torus>
+			</a-entity>
+			
+			<a-entity>
+				<a-icosahedron mixin="mtl2" rotation="35 157.7 -45" radius="4.11" material="side: double; color:white; wireframe:true"></a-icosahedron>
+				<a-sphere mixin="esfera" position="3.464 -0.732 2"></a-sphere>
+				<a-sphere mixin="esfera" position="-3.464 -0.732 2"></a-sphere>
+				<a-sphere mixin="esfera" position="0 -0.732 -4"></a-sphere>
+				<a-sphere mixin="esfera" position="-3.464 0.732 -2"></a-sphere>
+				<a-sphere mixin="esfera" position="3.464 0.732 -2"></a-sphere>
+				<a-sphere mixin="esfera" position="0 0.732 4"></a-sphere>
+				<a-sphere mixin="esfera" position="2.136 3.254 1.252"></a-sphere>
+				<a-sphere mixin="esfera" position="-2.136 3.254 1.252"></a-sphere>
+				<a-sphere mixin="esfera" position="0 3.254 -2.47"></a-sphere>
+				<a-sphere mixin="esfera" position="2.136 -3.254 -1.252"></a-sphere>
+				<a-sphere mixin="esfera" position="-2.136 -3.254 -1.252"></a-sphere>
+				<a-sphere mixin="esfera" position="0 -3.254 2.47"></a-sphere>
+				<a-icosahedron mixin="mtl2" rotation="35 157.7 -45" radius="4.1"></a-icosahedron>
+			</a-entity>
+		</a-entity>
+	</a-marker>
+
+	<a-marker type="barcode" value="35" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
+		<a-link mixin="lnk" class="lnk" href="vr/FlowerOfLife2d_tetrahedronStar.htm"></a-link>
+	   	<a-entity position="2.7 0.9 0" scale="0.3 0.3 0.3" gesture-handler>
+			<a-entity rotation="90 0 0" scale="0.5 0.5 0.5">
+				<a-torus mixin="tr"></a-torus>
+				<a-torus mixin="tr" radius="8"></a-torus>
+				<a-torus mixin="tr" position="0 2 0"></a-torus>
+				<a-torus mixin="tr" position="0 -2 0"></a-torus>
+				<a-torus mixin="tr" position="0 4 0"></a-torus>
+				<a-torus mixin="tr" position="0 -4 0"></a-torus>
+				<a-torus mixin="tr" position="0 6 0"></a-torus>
+				<a-torus mixin="tr" position="0 -6 0"></a-torus>
+				<a-torus mixin="tr1" position="0 8 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr1" position="0 -8 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr" position="1.732 1 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 -1 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 1 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 -1 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 3 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 -3 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 3 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 -3 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 5 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 -5 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 5 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 -5 0"></a-torus>
+				<a-torus mixin="tr2" position="1.732 7 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr2" position="1.732 -7 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="-1.732 7 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr2" position="-1.732 -7 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="1.732 9 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="1.732 -9 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-1.732 9 0" rotation="0 0 270"></a-torus>
+				<a-torus mixin="tr3" position="-1.732 -9 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr" position="3.464 0 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 0 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 2 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 -2 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 2 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 -2 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 4 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 -4 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 4 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 -4 0"></a-torus>
+				<a-torus mixin="tr2" position="3.464 6 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr2" position="3.464 -6 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="-3.464 6 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr2" position="-3.464 -6 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="3.464 8 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="3.464 -8 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-3.464 8 0" rotation="0 0 270"></a-torus>
+				<a-torus mixin="tr3" position="-3.464 -8 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr" position="5.196 1 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 -1 0"></a-torus>
+				<a-torus mixin="tr" position="5.196 -1 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 1 0"></a-torus>
+				<a-torus mixin="tr" position="5.196 3 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 -3 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 3 0"></a-torus>
+				<a-torus mixin="tr" position="5.196 -3 0"></a-torus>
+				<a-torus mixin="tr2" position="5.196 5 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr2" position="5.196 -5 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="-5.196 5 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr2" position="-5.196 -5 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="5.196 7 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="5.196 -7 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-5.196 7 0" rotation="0 0 270"></a-torus>
+				<a-torus mixin="tr3" position="-5.196 -7 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="6.928 0 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr2" position="-6.928 0 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr2" position="6.928 2 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr2" position="6.928 -2 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr2" position="-6.928 2 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr2" position="-6.928 -2 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr1" position="6.928 4 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr1" position="6.928 -4 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr1" position="-6.928 4 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr1" position="-6.928 -4 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="6.928 6 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="6.928 -6 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-6.928 6 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr3" position="-6.928 -6 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr3" position="8.66 1 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 1 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="8.66 -1 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 -1 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="8.66 3 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="8.66 -3 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 3 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 -3 0" rotation="0 0 -30"></a-torus>
+			</a-entity>
+			
+			<a-entity>
+				<a-tetrahedron mixin="mtl2" rotation="35 0 45" radius="4.21" material="side: double; color:white; wireframe:true"></a-tetrahedron>
+				<a-tetrahedron mixin="mtl2" rotation="35 0 -45" radius="4.21" material="side: double; color:white; wireframe:true"></a-tetrahedron>
+				<a-sphere mixin="esfera" position="0 4 0"></a-sphere>
+				<a-sphere mixin="esfera" position="3.464 -1.4 2"></a-sphere>
+				<a-sphere mixin="esfera" position="-3.464 -1.4 2"></a-sphere>
+				<a-sphere mixin="esfera" position="0 -1.4 -4"></a-sphere>
+				<a-sphere mixin="esfera" position="3.464 1.4 -2"></a-sphere>
+				<a-sphere mixin="esfera" position="-3.464 1.4 -2"></a-sphere>
+				<a-sphere mixin="esfera" position="0 1.4 4"></a-sphere>
+				<a-tetrahedron mixin="mtl2" rotation="35 0 45" radius="4.2"></a-tetrahedron>
+				<a-tetrahedron mixin="mtl2" rotation="35 0 -45" radius="4.2"></a-tetrahedron>
+			</a-entity>
+		</a-entity>
+	</a-marker>
+	
+	<a-marker type="barcode" value="36" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
+		<a-link mixin="lnk" class="lnk" href="vr/FlowerOfLife2d_cuboctahedron.htm"></a-link>
+	   	<a-entity position="2.7 0.9 0" scale="0.3 0.3 0.3" rotation="90 0 0" gesture-handler>
+			<a-entity rotation="90 0 0" scale="0.5 0.5 0.5">
+				<a-torus mixin="tr"></a-torus>
+				<a-torus mixin="tr" radius="8"></a-torus>
+				<a-torus mixin="tr" position="0 2 0"></a-torus>
+				<a-torus mixin="tr" position="0 -2 0"></a-torus>
+				<a-torus mixin="tr" position="0 4 0"></a-torus>
+				<a-torus mixin="tr" position="0 -4 0"></a-torus>
+				<a-torus mixin="tr" position="0 6 0"></a-torus>
+				<a-torus mixin="tr" position="0 -6 0"></a-torus>
+				<a-torus mixin="tr1" position="0 8 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr1" position="0 -8 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr" position="1.732 1 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 -1 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 1 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 -1 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 3 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 -3 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 3 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 -3 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 5 0"></a-torus>
+				<a-torus mixin="tr" position="1.732 -5 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 5 0"></a-torus>
+				<a-torus mixin="tr" position="-1.732 -5 0"></a-torus>
+				<a-torus mixin="tr2" position="1.732 7 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr2" position="1.732 -7 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="-1.732 7 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr2" position="-1.732 -7 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="1.732 9 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="1.732 -9 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-1.732 9 0" rotation="0 0 270"></a-torus>
+				<a-torus mixin="tr3" position="-1.732 -9 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr" position="3.464 0 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 0 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 2 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 -2 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 2 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 -2 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 4 0"></a-torus>
+				<a-torus mixin="tr" position="3.464 -4 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 4 0"></a-torus>
+				<a-torus mixin="tr" position="-3.464 -4 0"></a-torus>
+				<a-torus mixin="tr2" position="3.464 6 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr2" position="3.464 -6 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="-3.464 6 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr2" position="-3.464 -6 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="3.464 8 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="3.464 -8 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-3.464 8 0" rotation="0 0 270"></a-torus>
+				<a-torus mixin="tr3" position="-3.464 -8 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr" position="5.196 1 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 -1 0"></a-torus>
+				<a-torus mixin="tr" position="5.196 -1 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 1 0"></a-torus>
+				<a-torus mixin="tr" position="5.196 3 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 -3 0"></a-torus>
+				<a-torus mixin="tr" position="-5.196 3 0"></a-torus>
+				<a-torus mixin="tr" position="5.196 -3 0"></a-torus>
+				<a-torus mixin="tr2" position="5.196 5 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr2" position="5.196 -5 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="-5.196 5 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr2" position="-5.196 -5 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="5.196 7 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="5.196 -7 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-5.196 7 0" rotation="0 0 270"></a-torus>
+				<a-torus mixin="tr3" position="-5.196 -7 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr2" position="6.928 0 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr2" position="-6.928 0 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr2" position="6.928 2 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr2" position="6.928 -2 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr2" position="-6.928 2 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr2" position="-6.928 -2 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr1" position="6.928 4 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr1" position="6.928 -4 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr1" position="-6.928 4 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr1" position="-6.928 -4 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="6.928 6 0" rotation="0 0 210"></a-torus>
+				<a-torus mixin="tr3" position="6.928 -6 0" rotation="0 0 90"></a-torus>
+				<a-torus mixin="tr3" position="-6.928 6 0" rotation="0 0 -90"></a-torus>
+				<a-torus mixin="tr3" position="-6.928 -6 0" rotation="0 0 30"></a-torus>
+				<a-torus mixin="tr3" position="8.66 1 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 1 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="8.66 -1 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 -1 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="8.66 3 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="8.66 -3 0" rotation="0 0 150"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 3 0" rotation="0 0 -30"></a-torus>
+				<a-torus mixin="tr3" position="-8.66 -3 0" rotation="0 0 -30"></a-torus>
+			</a-entity>
+			
+			<a-entity id="nivel6">
+				<a-entity rotation="35 30 45" scale="4.01 4.01 4.01" mixin="ar"></a-entity>
+				<a-sphere mixin="esfera" position="1.15 3.26 2"></a-sphere>
+				<a-sphere mixin="esfera" position="-2.32 3.26 0"></a-sphere>
+				<a-sphere mixin="esfera" position="1.15 3.26 -2"></a-sphere>
+				<a-sphere mixin="esfera" position="-1.15 -3.26 -2"></a-sphere>
+				<a-sphere mixin="esfera" position="2.32 -3.26 0"></a-sphere>
+				<a-sphere mixin="esfera" position="-1.15 -3.26 2"></a-sphere>
+				<a-sphere mixin="esfera" position="3.464 0 2"></a-sphere>
+				<a-sphere mixin="esfera" position="-3.464 0 2"></a-sphere>
+				<a-sphere mixin="esfera" position="0 0 -4"></a-sphere>
+				<a-sphere mixin="esfera" position="-3.464 0 -2"></a-sphere>
+				<a-sphere mixin="esfera" position="3.464 0 -2"></a-sphere>
+				<a-sphere mixin="esfera" position="0 0 4"></a-sphere>
+				<a-entity rotation="35 30 45" scale="4 4 4" mixin="fc"></a-entity>
+			</a-entity>
+		</a-entity>
+	</a-marker>
+	
+	<a-marker type="barcode" value="37" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
+		<a-link mixin="lnk" class="lnk" href="vr/FlowerOfLife3d_cuboctahedron.htm"></a-link>
+	   	<a-entity position="2.7 0.9 0" scale="0.24 0.24 0.24" gesture-handler>
+			<a-entity>
+				<a-entity rotation="19.5 150 30">			
+					<a-torus mixin="trf1"></a-torus>
+					<a-torus mixin="trf1" radius="6"></a-torus>
+					<a-torus mixin="trf1" position="0 2 0"></a-torus>
+					<a-torus mixin="trf1" position="0 -2 0"></a-torus>
+					<a-torus mixin="trf1" position="0 4 0"></a-torus>
+					<a-torus mixin="trf1" position="0 -4 0"></a-torus>
+					<a-torus mixin="trf1" position="1.732 1 0"></a-torus>
+					<a-torus mixin="trf1" position="1.732 -1 0"></a-torus>
+					<a-torus mixin="trf1" position="-1.732 1 0"></a-torus>
+					<a-torus mixin="trf1" position="-1.732 -1 0"></a-torus>
+					<a-torus mixin="trf1" position="1.732 3 0"></a-torus>
+					<a-torus mixin="trf1" position="1.732 -3 0"></a-torus>
+					<a-torus mixin="trf1" position="-1.732 3 0"></a-torus>
+					<a-torus mixin="trf1" position="-1.732 -3 0"></a-torus>
+					<a-torus mixin="trf1" position="3.464 0 0"></a-torus>
+					<a-torus mixin="trf1" position="-3.464 0 0"></a-torus>
+					<a-torus mixin="trf1" position="3.464 2 0"></a-torus>
+					<a-torus mixin="trf1" position="3.464 -2 0"></a-torus>
+					<a-torus mixin="trf1" position="-3.464 2 0"></a-torus>
+					<a-torus mixin="trf1" position="-3.464 -2 0"></a-torus>
+					<a-torus mixin="trf1 a120" position="0 6 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a120" position="0 -6 0" rotation="0 0 30"></a-torus>
+					<a-torus mixin="trf1 a180" position="1.732 5 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a180" position="1.732 -5 0" rotation="0 0 30"></a-torus>
+					<a-torus mixin="trf1 a180" position="-1.732 5 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a180" position="-1.732 -5 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a60" position="1.732 7 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a60" position="1.732 -7 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a60" position="-1.732 7 0" rotation="0 0 270"></a-torus>
+					<a-torus mixin="trf1 a60" position="-1.732 -7 0" rotation="0 0 30"></a-torus>
+					<a-torus mixin="trf1 a180" position="3.464 4 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a180" position="3.464 -4 0" rotation="0 0 30"></a-torus>
+					<a-torus mixin="trf1 a180" position="-3.464 4 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a180" position="-3.464 -4 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a60" position="3.464 6 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a60" position="3.464 -6 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a60" position="-3.464 6 0" rotation="0 0 270"></a-torus>
+					<a-torus mixin="trf1 a60" position="-3.464 -6 0" rotation="0 0 30"></a-torus>
+					<a-torus mixin="trf1 a60" position="6.928 0 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a60" position="-6.928 0 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a60" position="6.928 2 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a60" position="6.928 -2 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a60" position="-6.928 2 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a60" position="-6.928 -2 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a180" position="5.196 1 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a180" position="-5.196 -1 0" rotation="0 0 -90"></a-torus>
+					<a-torus mixin="trf1 a180" position="5.196 -1 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a180" position="-5.196 1 0" rotation="0 0 -90"></a-torus>
+					<a-torus mixin="trf1 a120" position="5.196 3 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a120" position="-5.196 -3 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a120" position="-5.196 3 0" rotation="0 0 -90"></a-torus>
+					<a-torus mixin="trf1 a120" position="5.196 -3 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a60" position="5.196 5 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a60" position="5.196 -5 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a60" position="-5.196 5 0" rotation="0 0 270"></a-torus>
+					<a-torus mixin="trf1 a60" position="-5.196 -5 0" rotation="0 0 30"></a-torus>
+				</a-entity>
+				<a-entity rotation="19.5 270 30">
+					<a-torus mixin="trf1"></a-torus>
+					<a-torus mixin="trf1" radius="6"></a-torus>
+					<a-torus mixin="trf1" position="0 2 0"></a-torus>
+					<a-torus mixin="trf1" position="0 -2 0"></a-torus>
+					<a-torus mixin="trf1" position="0 4 0"></a-torus>
+					<a-torus mixin="trf1" position="0 -4 0"></a-torus>
+					<a-torus mixin="trf1" position="1.732 1 0"></a-torus>
+					<a-torus mixin="trf1" position="1.732 -1 0"></a-torus>
+					<a-torus mixin="trf1" position="-1.732 1 0"></a-torus>
+					<a-torus mixin="trf1" position="-1.732 -1 0"></a-torus>
+					<a-torus mixin="trf1" position="1.732 3 0"></a-torus>
+					<a-torus mixin="trf1" position="1.732 -3 0"></a-torus>
+					<a-torus mixin="trf1" position="-1.732 3 0"></a-torus>
+					<a-torus mixin="trf1" position="-1.732 -3 0"></a-torus>
+					<a-torus mixin="trf1" position="3.464 0 0"></a-torus>
+					<a-torus mixin="trf1" position="-3.464 0 0"></a-torus>
+					<a-torus mixin="trf1" position="3.464 2 0"></a-torus>
+					<a-torus mixin="trf1" position="3.464 -2 0"></a-torus>
+					<a-torus mixin="trf1" position="-3.464 2 0"></a-torus>
+					<a-torus mixin="trf1" position="-3.464 -2 0"></a-torus>
+					<a-torus mixin="trf1 a120" position="0 6 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a120" position="0 -6 0" rotation="0 0 30"></a-torus>
+					<a-torus mixin="trf1 a180" position="1.732 5 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a180" position="1.732 -5 0" rotation="0 0 30"></a-torus>
+					<a-torus mixin="trf1 a180" position="-1.732 5 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a180" position="-1.732 -5 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a60" position="1.732 7 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a60" position="1.732 -7 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a60" position="-1.732 7 0" rotation="0 0 270"></a-torus>
+					<a-torus mixin="trf1 a60" position="-1.732 -7 0" rotation="0 0 30"></a-torus>
+					<a-torus mixin="trf1 a180" position="3.464 4 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a180" position="3.464 -4 0" rotation="0 0 30"></a-torus>
+					<a-torus mixin="trf1 a180" position="-3.464 4 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a180" position="-3.464 -4 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a60" position="3.464 6 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a60" position="3.464 -6 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a60" position="-3.464 6 0" rotation="0 0 270"></a-torus>
+					<a-torus mixin="trf1 a60" position="-3.464 -6 0" rotation="0 0 30"></a-torus>
+					<a-torus mixin="trf1 a60" position="6.928 0 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a60" position="-6.928 0 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a60" position="6.928 2 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a60" position="6.928 -2 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a60" position="-6.928 2 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a60" position="-6.928 -2 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a180" position="5.196 1 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a180" position="-5.196 -1 0" rotation="0 0 -90"></a-torus>
+					<a-torus mixin="trf1 a180" position="5.196 -1 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a180" position="-5.196 1 0" rotation="0 0 -90"></a-torus>
+					<a-torus mixin="trf1 a120" position="5.196 3 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a120" position="-5.196 -3 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a120" position="-5.196 3 0" rotation="0 0 -90"></a-torus>
+					<a-torus mixin="trf1 a120" position="5.196 -3 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a60" position="5.196 5 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a60" position="5.196 -5 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a60" position="-5.196 5 0" rotation="0 0 270"></a-torus>
+					<a-torus mixin="trf1 a60" position="-5.196 -5 0" rotation="0 0 30"></a-torus>
+				</a-entity>
+				<a-entity rotation="19.5 30 30">
+					<a-torus mixin="trf1"></a-torus>
+					<a-torus mixin="trf1" radius="6"></a-torus>
+					<a-torus mixin="trf1" position="0 2 0"></a-torus>
+					<a-torus mixin="trf1" position="0 -2 0"></a-torus>
+					<a-torus mixin="trf1" position="0 4 0"></a-torus>
+					<a-torus mixin="trf1" position="0 -4 0"></a-torus>
+					<a-torus mixin="trf1" position="1.732 1 0"></a-torus>
+					<a-torus mixin="trf1" position="1.732 -1 0"></a-torus>
+					<a-torus mixin="trf1" position="-1.732 1 0"></a-torus>
+					<a-torus mixin="trf1" position="-1.732 -1 0"></a-torus>
+					<a-torus mixin="trf1" position="1.732 3 0"></a-torus>
+					<a-torus mixin="trf1" position="1.732 -3 0"></a-torus>
+					<a-torus mixin="trf1" position="-1.732 3 0"></a-torus>
+					<a-torus mixin="trf1" position="-1.732 -3 0"></a-torus>
+					<a-torus mixin="trf1" position="3.464 0 0"></a-torus>
+					<a-torus mixin="trf1" position="-3.464 0 0"></a-torus>
+					<a-torus mixin="trf1" position="3.464 2 0"></a-torus>
+					<a-torus mixin="trf1" position="3.464 -2 0"></a-torus>
+					<a-torus mixin="trf1" position="-3.464 2 0"></a-torus>
+					<a-torus mixin="trf1" position="-3.464 -2 0"></a-torus>
+					<a-torus mixin="trf1 a120" position="0 6 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a120" position="0 -6 0" rotation="0 0 30"></a-torus>
+					<a-torus mixin="trf1 a180" position="1.732 5 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a180" position="1.732 -5 0" rotation="0 0 30"></a-torus>
+					<a-torus mixin="trf1 a180" position="-1.732 5 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a180" position="-1.732 -5 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a60" position="1.732 7 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a60" position="1.732 -7 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a60" position="-1.732 7 0" rotation="0 0 270"></a-torus>
+					<a-torus mixin="trf1 a60" position="-1.732 -7 0" rotation="0 0 30"></a-torus>
+					<a-torus mixin="trf1 a180" position="3.464 4 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a180" position="3.464 -4 0" rotation="0 0 30"></a-torus>
+					<a-torus mixin="trf1 a180" position="-3.464 4 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a180" position="-3.464 -4 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a60" position="3.464 6 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a60" position="3.464 -6 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a60" position="-3.464 6 0" rotation="0 0 270"></a-torus>
+					<a-torus mixin="trf1 a60" position="-3.464 -6 0" rotation="0 0 30"></a-torus>
+					<a-torus mixin="trf1 a60" position="6.928 0 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a60" position="-6.928 0 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a60" position="6.928 2 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a60" position="6.928 -2 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a60" position="-6.928 2 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a60" position="-6.928 -2 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a180" position="5.196 1 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a180" position="-5.196 -1 0" rotation="0 0 -90"></a-torus>
+					<a-torus mixin="trf1 a180" position="5.196 -1 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a180" position="-5.196 1 0" rotation="0 0 -90"></a-torus>
+					<a-torus mixin="trf1 a120" position="5.196 3 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a120" position="-5.196 -3 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a120" position="-5.196 3 0" rotation="0 0 -90"></a-torus>
+					<a-torus mixin="trf1 a120" position="5.196 -3 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a60" position="5.196 5 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a60" position="5.196 -5 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a60" position="-5.196 5 0" rotation="0 0 270"></a-torus>
+					<a-torus mixin="trf1 a60" position="-5.196 -5 0" rotation="0 0 30"></a-torus>
+				</a-entity>
+				<a-entity rotation="90 0 0">
+					<a-torus mixin="trf1"></a-torus>
+					<a-torus mixin="trf1" radius="6"></a-torus>
+					<a-torus mixin="trf1" position="0 2 0"></a-torus>
+					<a-torus mixin="trf1" position="0 -2 0"></a-torus>
+					<a-torus mixin="trf1" position="0 4 0"></a-torus>
+					<a-torus mixin="trf1" position="0 -4 0"></a-torus>
+					<a-torus mixin="trf1" position="1.732 1 0"></a-torus>
+					<a-torus mixin="trf1" position="1.732 -1 0"></a-torus>
+					<a-torus mixin="trf1" position="-1.732 1 0"></a-torus>
+					<a-torus mixin="trf1" position="-1.732 -1 0"></a-torus>
+					<a-torus mixin="trf1" position="1.732 3 0"></a-torus>
+					<a-torus mixin="trf1" position="1.732 -3 0"></a-torus>
+					<a-torus mixin="trf1" position="-1.732 3 0"></a-torus>
+					<a-torus mixin="trf1" position="-1.732 -3 0"></a-torus>
+					<a-torus mixin="trf1" position="3.464 0 0"></a-torus>
+					<a-torus mixin="trf1" position="-3.464 0 0"></a-torus>
+					<a-torus mixin="trf1" position="3.464 2 0"></a-torus>
+					<a-torus mixin="trf1" position="3.464 -2 0"></a-torus>
+					<a-torus mixin="trf1" position="-3.464 2 0"></a-torus>
+					<a-torus mixin="trf1" position="-3.464 -2 0"></a-torus>
+					<a-torus mixin="trf1 a120" position="0 6 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a120" position="0 -6 0" rotation="0 0 30"></a-torus>
+					<a-torus mixin="trf1 a180" position="1.732 5 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a180" position="1.732 -5 0" rotation="0 0 30"></a-torus>
+					<a-torus mixin="trf1 a180" position="-1.732 5 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a180" position="-1.732 -5 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a60" position="1.732 7 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a60" position="1.732 -7 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a60" position="-1.732 7 0" rotation="0 0 270"></a-torus>
+					<a-torus mixin="trf1 a60" position="-1.732 -7 0" rotation="0 0 30"></a-torus>
+					<a-torus mixin="trf1 a180" position="3.464 4 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a180" position="3.464 -4 0" rotation="0 0 30"></a-torus>
+					<a-torus mixin="trf1 a180" position="-3.464 4 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a180" position="-3.464 -4 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a60" position="3.464 6 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a60" position="3.464 -6 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a60" position="-3.464 6 0" rotation="0 0 270"></a-torus>
+					<a-torus mixin="trf1 a60" position="-3.464 -6 0" rotation="0 0 30"></a-torus>
+					<a-torus mixin="trf1 a60" position="6.928 0 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a60" position="-6.928 0 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a60" position="6.928 2 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a60" position="6.928 -2 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a60" position="-6.928 2 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a60" position="-6.928 -2 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a180" position="5.196 1 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a180" position="-5.196 -1 0" rotation="0 0 -90"></a-torus>
+					<a-torus mixin="trf1 a180" position="5.196 -1 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a180" position="-5.196 1 0" rotation="0 0 -90"></a-torus>
+					<a-torus mixin="trf1 a120" position="5.196 3 0" rotation="0 0 150"></a-torus>
+					<a-torus mixin="trf1 a120" position="-5.196 -3 0" rotation="0 0 -30"></a-torus>
+					<a-torus mixin="trf1 a120" position="-5.196 3 0" rotation="0 0 -90"></a-torus>
+					<a-torus mixin="trf1 a120" position="5.196 -3 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a60" position="5.196 5 0" rotation="0 0 210"></a-torus>
+					<a-torus mixin="trf1 a60" position="5.196 -5 0" rotation="0 0 90"></a-torus>
+					<a-torus mixin="trf1 a60" position="-5.196 5 0" rotation="0 0 270"></a-torus>
+					<a-torus mixin="trf1 a60" position="-5.196 -5 0" rotation="0 0 30"></a-torus>
+				</a-entity>
+			</a-entity>
+			<a-entity scale="5.43 5.43 5.43" rotation="35 -30 45">
+				<a-triangle mixin="mtl2" vertex-a="0.707 0.0 0.707" vertex-b="0.707 0.707 0.0" vertex-c="0.0 0.707 0.707"></a-triangle>
+				<a-triangle mixin="mtl2" vertex-a="0.707 0.0 -0.707" vertex-b="0.707 -0.707 0.0" vertex-c="0.0 -0.707 -0.707"></a-triangle>
+				<a-triangle mixin="mtl2" vertex-a="-0.707 0.0 0.707" vertex-b="-0.707 -0.707 0.0" vertex-c="0.0 -0.707 0.707"></a-triangle>
+				<a-triangle mixin="mtl2" vertex-a="-0.707 0.0 -0.707" vertex-b="-0.707 0.707 0.0" vertex-c="0.0 0.707 -0.707"></a-triangle>
+				<a-triangle mixin="mtl2" vertex-a="0.707 0.707 0.0" vertex-b="0.707 0.0 -0.707" vertex-c="0.0 0.707 -0.707"></a-triangle>
+				<a-triangle mixin="mtl2" vertex-a="0.707 -0.707 0.0" vertex-b="0.707 0.0 0.707" vertex-c="0.0 -0.707 0.707"></a-triangle>
+				<a-triangle mixin="mtl2" vertex-a="-0.707 0.707 0.0" vertex-b="-0.707 0.0 0.707" vertex-c="0.0 0.707 0.707"></a-triangle>
+				<a-triangle mixin="mtl2" vertex-a="-0.707 -0.707 0.0" vertex-b="-0.707 0.0 -0.707" vertex-c="0.0 -0.707 -0.707"></a-triangle>
+				<a-triangle mixin="mtl3" vertex-a="0.707 0.0 0.707" vertex-b="0.707 -0.707 0.0" vertex-c="0.707 0.0 -0.707"></a-triangle>
+				<a-triangle mixin="mtl3" vertex-a="0.707 0.0 -0.707" vertex-b="0.707 0.707 0.0" vertex-c="0.707 0.0 0.707"></a-triangle>
+				<a-triangle mixin="mtl3" vertex-a="0.707 0.0 0.707" vertex-b="0.0 0.707 0.707" vertex-c="-0.707 0.0 0.707"></a-triangle>
+				<a-triangle mixin="mtl3" vertex-a="-0.707 0.0 0.707" vertex-b="0.0 -0.707 0.707" vertex-c="0.707 0.0 0.707"></a-triangle>
+				<a-triangle mixin="mtl3" vertex-a="-0.707 -0.707 0.0" vertex-b="-0.707 0.0 0.707" vertex-c="-0.707 0.707 0.0"></a-triangle>
+				<a-triangle mixin="mtl3" vertex-a="-0.707 0.707 0.0" vertex-b="-0.707 0.0 -0.707" vertex-c="-0.707 -0.707 0.0"></a-triangle>
+				<a-triangle mixin="mtl3" vertex-a="-0.707 -0.707 0.0" vertex-b="0.0 -0.707 -0.707" vertex-c="0.707 -0.707 0.0"></a-triangle>
+				<a-triangle mixin="mtl3" vertex-a="0.707 -0.707 0.0" vertex-b="0.0 -0.707 0.707" vertex-c="-0.707 -0.707 0.0"></a-triangle>
+				<a-triangle mixin="mtl3" vertex-a="0.0 0.707 -0.707" vertex-b="0.707 0.0 -0.707" vertex-c="0.0 -0.707 -0.707"></a-triangle>
+				<a-triangle mixin="mtl3" vertex-a="0.0 -0.707 -0.707" vertex-b="-0.707 0.0 -0.707" vertex-c="0.0 0.707 -0.707"></a-triangle>
+				<a-triangle mixin="mtl3" vertex-a="0.0 0.707 -0.707" vertex-b="-0.707 0.707 0.0" vertex-c="0.0 0.707 0.707"></a-triangle>
+				<a-triangle mixin="mtl3" vertex-a="0.0 0.707 0.707" vertex-b="0.707 0.707 0.0" vertex-c="0.0 0.707 -0.707"></a-triangle>
+				<a-triangle material="color:white; wireframe:true" vertex-a="0.707 0.0 0.707" vertex-b="0.707 0.707 0.0" vertex-c="0.0 0.707 0.707"></a-triangle>
+				<a-triangle material="color:white; wireframe:true" mixin="mtl2" vertex-a="0.707 0.0 -0.707" vertex-b="0.707 -0.707 0.0" vertex-c="0.0 -0.707 -0.707"></a-triangle>
+				<a-triangle material="color:white; wireframe:true" mixin="mtl2" vertex-a="-0.707 0.0 0.707" vertex-b="-0.707 -0.707 0.0" vertex-c="0.0 -0.707 0.707"></a-triangle>
+				<a-triangle material="color:white; wireframe:true" mixin="mtl2" vertex-a="-0.707 0.0 -0.707" vertex-b="-0.707 0.707 0.0" vertex-c="0.0 0.707 -0.707"></a-triangle>
+				<a-triangle material="color:white; wireframe:true" mixin="mtl2" vertex-a="0.707 0.707 0.0" vertex-b="0.707 0.0 -0.707" vertex-c="0.0 0.707 -0.707"></a-triangle>
+				<a-triangle material="color:white; wireframe:true" mixin="mtl2" vertex-a="0.707 -0.707 0.0" vertex-b="0.707 0.0 0.707" vertex-c="0.0 -0.707 0.707"></a-triangle>
+				<a-triangle material="color:white; wireframe:true" mixin="mtl2" vertex-a="-0.707 0.707 0.0" vertex-b="-0.707 0.0 0.707" vertex-c="0.0 0.707 0.707"></a-triangle>
+				<a-triangle material="color:white; wireframe:true" mixin="mtl2" vertex-a="-0.707 -0.707 0.0" vertex-b="-0.707 0.0 -0.707" vertex-c="0.0 -0.707 -0.707"></a-triangle>
+			</a-entity>
+		</a-entity>
+	</a-marker>
+	
+  </a-scene>
+</body>
+</html>	 
