@@ -20,7 +20,7 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 <h3 align="center">Salas imersivas</h3>
 <p align="center"><img src="../symbols/vr/salas/videos/gs1.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy"/><img src="../symbols/vr/salas/videos/gs2.gif" style="max-width: 47%; border-radius:5px;" loading="lazy"/></p>
 <h3 align="center">Realidade Aumentada e modelos 3D</h3>
-<p align="center"><img src="../symbols/ar/symbols.gif" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>-->
+<p align="center"><img src="../symbols/ar/symbols.gif" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <br>Os ambientes de Realidade Aumentada foram criados com os scripts de <b>Jerome Etienne</b>: <a href="https://github.com/jeromeetienne/AR.js" target="_blank"> AR.js - Augmented Reality for the Web</a>.
 <br>Os scripts de órbita desenvolvidos por <b>Kevin Ngo</b> foram usados nas páginas de Realidade Virtual dos modelos 3D: <a href="https://github.com/supermedium/superframe/tree/master/components/orbit-controls/" target="_blank"> Orbit controls for A-Frame</a>.
