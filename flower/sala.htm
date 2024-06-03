@@ -96,10 +96,33 @@
 		<a-tetrahedron position="0.51 0.82 -0.35" mixin="mtl1" rotation="35 0 -45" radius="0.05"></a-tetrahedron>
 		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.51 0.77 -0.35" onclick="nv.value=5; mnivelRA()"></a-sphere>
 		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.65 0.77 -0.35" onclick="nv.value=6; mnivelRA()"></a-sphere>
-		<a-entity rotation="35 30 45" position="0.65 0.82 -0.35" scale="0.05 0.05 0.05" mixin="fc"></a-entity>
+		<!--<a-entity position="0.65 0.82 -0.35" scale="0.05 0.05 0.05" mixin="fc"></a-entity>-->
 		
-		<a-entity position="-0.35 1.35 -0.46" scale="0.1 0.1 0.1" shadow>
-			<a-entity rotation="90 0 0" scale="0.5 0.5 0.5">
+		<a-entity position="0.65 0.82 -0.35" scale="0.05 0.05 0.05">
+			<a-triangle mixin="mtl1 solido" vertex-a="0.707 0.0 0.707" vertex-b="0.707 0.707 0.0" vertex-c="0.0 0.707 0.707"></a-triangle>
+			<a-triangle mixin="mtl1 solido" vertex-a="0.707 0.0 -0.707" vertex-b="0.707 -0.707 0.0" vertex-c="0.0 -0.707 -0.707"></a-triangle>
+			<a-triangle mixin="mtl1 solido" vertex-a="-0.707 0.0 0.707" vertex-b="-0.707 -0.707 0.0" vertex-c="0.0 -0.707 0.707"></a-triangle>
+			<a-triangle mixin="mtl1 solido" vertex-a="-0.707 0.0 -0.707" vertex-b="-0.707 0.707 0.0" vertex-c="0.0 0.707 -0.707"></a-triangle>
+			<a-triangle mixin="mtl1 solido" vertex-a="0.707 0.707 0.0" vertex-b="0.707 0.0 -0.707" vertex-c="0.0 0.707 -0.707"></a-triangle>
+			<a-triangle mixin="mtl1 solido" vertex-a="0.707 -0.707 0.0" vertex-b="0.707 0.0 0.707" vertex-c="0.0 -0.707 0.707"></a-triangle>
+			<a-triangle mixin="mtl1 solido" vertex-a="-0.707 0.707 0.0" vertex-b="-0.707 0.0 0.707" vertex-c="0.0 0.707 0.707"></a-triangle>
+			<a-triangle mixin="mtl1 solido" vertex-a="-0.707 -0.707 0.0" vertex-b="-0.707 0.0 -0.707" vertex-c="0.0 -0.707 -0.707"></a-triangle>
+			<a-triangle mixin="mtl2 solido" vertex-a="0.707 0.0 0.707" vertex-b="0.707 -0.707 0.0" vertex-c="0.707 0.0 -0.707"></a-triangle>
+			<a-triangle mixin="mtl2 solido" vertex-a="0.707 0.0 -0.707" vertex-b="0.707 0.707 0.0" vertex-c="0.707 0.0 0.707"></a-triangle>
+			<a-triangle mixin="mtl2 solido" vertex-a="0.707 0.0 0.707" vertex-b="0.0 0.707 0.707" vertex-c="-0.707 0.0 0.707"></a-triangle>
+			<a-triangle mixin="mtl2 solido" vertex-a="-0.707 0.0 0.707" vertex-b="0.0 -0.707 0.707" vertex-c="0.707 0.0 0.707"></a-triangle>
+			<a-triangle mixin="mtl2 solido" vertex-a="-0.707 -0.707 0.0" vertex-b="-0.707 0.0 0.707" vertex-c="-0.707 0.707 0.0"></a-triangle>
+			<a-triangle mixin="mtl2 solido" vertex-a="-0.707 0.707 0.0" vertex-b="-0.707 0.0 -0.707" vertex-c="-0.707 -0.707 0.0"></a-triangle>
+			<a-triangle mixin="mtl2 solido" vertex-a="-0.707 -0.707 0.0" vertex-b="0.0 -0.707 -0.707" vertex-c="0.707 -0.707 0.0"></a-triangle>
+			<a-triangle mixin="mtl2 solido" vertex-a="0.707 -0.707 0.0" vertex-b="0.0 -0.707 0.707" vertex-c="-0.707 -0.707 0.0"></a-triangle>
+			<a-triangle mixin="mtl2 solido" vertex-a="0.0 0.707 -0.707" vertex-b="0.707 0.0 -0.707" vertex-c="0.0 -0.707 -0.707"></a-triangle>
+			<a-triangle mixin="mtl2 solido" vertex-a="0.0 -0.707 -0.707" vertex-b="-0.707 0.0 -0.707" vertex-c="0.0 0.707 -0.707"></a-triangle>
+			<a-triangle mixin="mtl2 solido" vertex-a="0.0 0.707 -0.707" vertex-b="-0.707 0.707 0.0" vertex-c="0.0 0.707 0.707"></a-triangle>
+			<a-triangle mixin="mtl2 solido" vertex-a="0.0 0.707 0.707" vertex-b="0.707 0.707 0.0" vertex-c="0.0 0.707 -0.707"></a-triangle>
+		</a-entity>
+		
+		<a-entity position="-0.35 1.28 -0.46" scale="0.1 0.1 0.1" shadow>
+			<a-entity rotation="90 0 0" scale="0.5 0.5 0.5" animation="property: rotation; to: 90 360 0; loop: true; dur: 30000; dir: alternate; delay: 15000;">
 				<a-torus mixin="tr"></a-torus>
 				<a-torus mixin="tr" radius="8"></a-torus>
 				<a-torus mixin="tr" position="0 2 0"></a-torus>
