@@ -8,8 +8,8 @@
  <form style="margin: 0 auto; float:right; text-align:right; width:100%; margin-bottom:15px;">
 	<select id="url" onchange="urlHandler(this.value)" style="color:royalblue;">
 		<option disabled selected value>More symbols:</option>
-		<option disabled value="../symbols/">Sacred Geometry symbols</option>
-		<option value="../flower/">Flower of life and the polyhedra of Plato and Archimedes</option>
+		<option value="../symbols/">Sacred Geometry symbols</option>
+		<option disabled value="../flower/">Flower of life and the polyhedra of Plato and Archimedes</option>
 		<!--<option value="../fruit/">Fruit of life and the polyhedra of Plato and Archimedes</option>
 		<option value="../grid/">Grid of life and the polyhedra of Plato and Archimedes</option>
 		<option value="../metatron/">Metatron and the polyhedra of Plato and Archimedes</option>-->

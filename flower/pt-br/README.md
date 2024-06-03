@@ -8,8 +8,8 @@
 <form style="margin: 0 auto; float:right; text-align:right; width:100%; margin-bottom:15px;">
 	<select id="url" onchange="urlHandler(this.value)" style="color:royalblue;">
 		<option disabled selected>Mais símbolos:</option>
-		<option disabled value="../../symbols/pt-br/">Símbolos da Geometria Sagrada</option>
-		<option value="../../flower/pt-br/">Flor da vida e os poliedros de Platão e de Arquimedes</option>
+		<option value="../../symbols/pt-br/">Símbolos da Geometria Sagrada</option>
+		<option disabled value="../../flower/pt-br/">Flor da vida e os poliedros de Platão e de Arquimedes</option>
 		<!--<option value="../../fruit/pt-br/">Fruto da vida e os poliedros de Platão e de Arquimedes</option>
 		<option value="../../grid/pt-br/">Grade da vida e os poliedros de Platão e de Arquimedes</option>
 		<option value="../../metatron/pt-br/">Metatron e os poliedros de Platão e de Arquimedes</option>-->
