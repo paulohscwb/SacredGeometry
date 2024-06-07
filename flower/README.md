@@ -30,7 +30,7 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
   <hr>
  <h3 align="center">Immersive room</h3>
   <div class="embed-container"><iframe width="100%" src="sala.htm" title="Sala Imersiva dos símbolos da Geometria Sagrada" frameborder="0" loading="lazy"></iframe></div>
-  <p align="center"><img align="middle" src="vr/salas/imagens/Flower.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="VR immersive room to Flower of Life"/><a href="sala.htm" target="_blank">&#x1f517; room link</a></p> 
+  <p align="center"><img align="middle" src="vr/salas/videos/flower.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="VR immersive room to Flower of Life"/><a href="sala.htm" target="_blank">&#x1f517; room link</a></p> 
   <hr>
   <h3 id="ra" align="center">Augmented Reality</h3>
   To view the polyhedra and models of the Flower of Life in AR, simply visit:
