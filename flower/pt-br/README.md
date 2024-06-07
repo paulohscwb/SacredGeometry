@@ -41,7 +41,7 @@ O acesso às páginas de RV é feito clicando no círculo azul que aparece em ci
 <p align="center"><img style="border-radius:7px;" alt="Realidade Aumentada dos símbolos da Geometria Sagrada" src="../ar/example.png" width="85%"></p>
 <hr>
 <h3 id="m3d" align="center">Modelos 3D</h3>
-<!--<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxXqLmyaITBm0flxwtDvgTFT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+<!--<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxUFFS5qIXC2KozRYcu06Jaq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
 <h4>1. Flor da Vida cilíndrica</h4>
 <a href="../vr/FlowerOfLife_v4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/28A.png" class="foto" alt="Vesica Piscis"></a><img src="../ar/28.png" class="qr">
  <br><br><br>A Flor da Vida simboliza a criação e nos lembra da unidade de tudo. Somos todos construídos a partir do mesmo projeto. Neste modelo, temos a Flor da Vida modelada com os círculos sobrepostos em um cilindro circular reto. Desta forma, temos a Flor da Vida cilíndrica.
