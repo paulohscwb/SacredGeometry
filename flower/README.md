@@ -38,7 +38,6 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 with any browser with a webcam device (smartphone, tablet or notebook). 
 <br>Access to the VR pages is done by clicking on the blue circle that appears on top of the marker.
 <p align="center"><img style="border-radius:7px;" alt="Augmented Reality to Sacred Geometry symbols" src="ar/example.png" width="85%"></p>
-<p align="center"><img src="ar/symbols.gif" alt="Augmented Reality to Sacred Geometry symbols" style="max-width: 92%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">3D models</h3>
 <!--<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxXqLmyaITBm0flxwtDvgTFT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
