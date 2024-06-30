@@ -11,8 +11,8 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 <hr>
 <h3 style="margin-top:3px"><a target="_blank" href="../symbols/pt-br/"><img src="../symbols/ar/15A.png" style="margin-bottom:-10px" width="40"> Símbolos da Geometria Sagrada</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="../flower/pt-br/"><img src="../flower/ar/29A.png" style="margin-bottom:-10px" width="40"> Flor da vida e os poliedros de Platão e de Arquimedes</a></h3>
-<!--<h3 style="margin-top:3px"><a target="_blank" href="../fruit/pt-br/"><img src="../fruit/ar/19A.png" style="margin-bottom:-10px" width="40"> Fruto da vida e os poliedros de Platão e de Arquimedes</a></h3>
-<h3 style="margin-top:3px"><a target="_blank" href="../grid/pt-br/"><img src="../grid/ar/37A.png" style="margin-bottom:-10px" width="40"> Grade da vida e os poliedros de Platão e de Arquimedes</a></h3>
+<h3 style="margin-top:3px"><a target="_blank" href="../fruit/pt-br/"><img src="../fruit/ar/45A.png" style="margin-bottom:-10px" width="40"> Fruto da vida e os poliedros de Platão e de Arquimedes</a></h3>
+<!--<h3 style="margin-top:3px"><a target="_blank" href="../grid/pt-br/"><img src="../grid/ar/37A.png" style="margin-bottom:-10px" width="40"> Grade da vida e os poliedros de Platão e de Arquimedes</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="../metatron/pt-br/"><img src="../metatron/ar/56A.png" style="margin-bottom:-10px" width="40"> Metatron e os poliedros de Platão e de Arquimedes</a></h3>
 
 <h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="../todos/">&#x1f4c4; Lista completa dos poliedros</a></h3>
@@ -35,10 +35,6 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 <!--<a target="_blank" href="https://doi.org/10.5281/zenodo.8271425"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8271425.svg" alt="DOI"></a>-->
 <br><b>Referências:</b>
 <br>Pardesco. "Sacred Geometry Art, Symbols & Meanings". <a href="https://pardesco.com/blogs/news/sacred-geometry-art-symbols-meanings" target="_blank">https://pardesco.com/blogs/news/sacred-geometry-art-symbols-meanings</a>
-<br>Weisstein, Eric W. "Archimedean Solid" From MathWorld-A Wolfram Web Resource. <a href="http://mathworld.wolfram.com/ArchimedeanSolid.html" target="_blank">http://mathworld.wolfram.com/ArchimedeanSolid.html</a>
 <br>Weisstein, Eric W. "Platonic Solid" From MathWorld-A Wolfram Web Resource. <a href="http://mathworld.wolfram.com/PlatonicSolid.html" target="_blank">http://mathworld.wolfram.com/PlatonicSolid.html</a>
-<br>Weisstein, Eric W. "Archimedean Dual" From MathWorld-A Wolfram Web Resource. <a href="https://mathworld.wolfram.com/ArchimedeanDual.html" target="_blank">https://mathworld.wolfram.com/ArchimedeanDual.html</a>
-<br>Weisstein, Eric W. "Uniform Polyhedron." From MathWorld--A Wolfram Web Resource. <a href="https://mathworld.wolfram.com/UniformPolyhedron.html" target="_blank">https://mathworld.wolfram.com/UniformPolyhedron.html</a>
-<br>Wikipedia <a href="https://en.wikipedia.org/wiki/Archimedean_solid" target="_blank">https://en.wikipedia.org/wiki/Archimedean_solid</a>
 <br>Wikipedia <a href="https://en.wikipedia.org/wiki/en.wikipedia.org/wiki/Platonic_solid" target="_blank">https://en.wikipedia.org/wiki/Platonic_solid</a>
-<br>McCooey, David I. "Visual Polyhedra". <a href="http://dmccooey.com/polyhedra/" target="_blank">http://dmccooey.com/polyhedra/</a>
+<br>Solar System Scope. "Solar Textures: Stars and Milky Way". <a href="http://dmccooey.com/polyhedra/" target="_blank">https://www.solarsystemscope.com/textures/</a>

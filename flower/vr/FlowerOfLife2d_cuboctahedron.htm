@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="nomes.css">
   </head>
   <body>
-<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2024 Paulo Henrique Siqueira</div>
+<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Lato; font-size:2.75vh;  font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2024 Paulo Henrique Siqueira</div>
     <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
 		<a-assets>
 			<a-mixin id="mtl1" material="side: double; color: #f88; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
@@ -21,11 +21,6 @@
 			<a-mixin id="a180" geometry="arc: 180;"></a-mixin>
 			<a-mixin id="a120" geometry="arc: 120;"></a-mixin>
 			<a-mixin id="esfera" mixin="mtl4" geometry="radius: 1.15; side:double; segments-width:100; segments-height:100;" material="metalness:0.5; roughness:0.3;">
-			<!--<a-asset-item id="mt" src="outros/c5.mtl"></a-asset-item>
-			<a-asset-item id="aq" src="outros/Cuboctahedron.obj"></a-asset-item>
-			<a-asset-item id="aq1" src="outros/CuboctahedronL.obj"></a-asset-item>
-			<a-mixin id="fc" scale="0.998 0.998 0.998" obj-model="obj: #aq; mtl: #mt"></a-mixin>
-			<a-mixin id="ar" obj-model="obj: #aq1; mtl: #mt"></a-mixin>-->
 		</a-assets>
 		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0; initialPosition: 350 350 350; minDistance: 500; maxDistance: 1100;"></a-entity>
 		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
@@ -121,7 +116,6 @@
 			</a-entity>
 			
 			<a-entity rotation="0 -30 0" scale="0.875 0.875 0.875">
-				<!--<a-entity rotation="35 30 45" scale="4.01 4.01 4.01" mixin="ar"></a-entity>-->
 				<a-entity rotation="35 30 45" scale="4.01 4.01 4.01">
 					<a-triangle material="color:white; wireframe:true" vertex-a="0.707 0.0 0.707" vertex-b="0.707 0.707 0.0" vertex-c="0.0 0.707 0.707"></a-triangle>
 					<a-triangle material="color:white; wireframe:true" vertex-a="0.707 0.0 -0.707" vertex-b="0.707 -0.707 0.0" vertex-c="0.0 -0.707 -0.707"></a-triangle>
@@ -144,7 +138,6 @@
 				<a-sphere mixin="esfera" position="-3.464 0 -2"></a-sphere>
 				<a-sphere mixin="esfera" position="3.464 0 -2"></a-sphere>
 				<a-sphere mixin="esfera" position="0 0 4"></a-sphere>
-				<!--<a-entity rotation="35 30 45" scale="4 4 4" mixin="fc"></a-entity>-->				
 				<a-entity rotation="35 30 45" scale="4.005 4.005 4.005">
 					<a-triangle mixin="mtl1" vertex-a="0.707 0.0 0.707" vertex-b="0.707 0.707 0.0" vertex-c="0.0 0.707 0.707"></a-triangle>
 					<a-triangle mixin="mtl1" vertex-a="0.707 0.0 -0.707" vertex-b="0.707 -0.707 0.0" vertex-c="0.0 -0.707 -0.707"></a-triangle>

@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="nomes.css">
   </head>
   <body>
-<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2024 Paulo Henrique Siqueira</div>
+<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Lato; font-size:2.75vh;  font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2024 Paulo Henrique Siqueira</div>
     <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
 		<a-assets>
 			<a-mixin id="mtl1" material="side: double; color: #5cb404; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
@@ -21,11 +21,6 @@
 			<a-mixin id="a180" geometry="arc: 180;"></a-mixin>
 			<a-mixin id="a120" geometry="arc: 120;"></a-mixin>
 			<a-mixin id="esfera" mixin="mtl4" geometry="radius: 1; side:double; segments-width:100; segments-height:100;" material="metalness:0.5; roughness:0.3;">
-			<!--<a-asset-item id="mt" src="outros/c5.mtl"></a-asset-item>
-			<a-asset-item id="aq3" src="outros/Cube.obj"></a-asset-item>
-			<a-asset-item id="aq3l" src="outros/CubeL.obj"></a-asset-item>
-			<a-mixin id="fc2" scale="0.998 0.998 0.998" obj-model="obj: #aq3; mtl: #mt"></a-mixin>
-			<a-mixin id="ar2" obj-model="obj: #aq3l; mtl: #mt"></a-mixin>-->
 		</a-assets>
 		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0; initialPosition: 350 350 350; minDistance: 500; maxDistance: 1100;"></a-entity>
 		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
@@ -121,7 +116,6 @@
 			</a-entity>
 			
 			<a-entity>
-				<!--<a-entity rotation="35 0 -45" scale="4.85 4.85 4.85" mixin="ar2"></a-entity>-->
 				<a-entity rotation="35 0 -45" scale="4.841 4.841 4.841" line="start: 0.5 0.5 0.5; end: 0.5 0.5 -0.5; color: white" line__2="start: 0.5 0.5 -0.5; end: -0.5 0.5 -0.5; color: white" line__3="start: -0.5 0.5 -0.5; end: -0.5 0.5 0.5; color: white" line__4="start: -0.5 0.5 0.5; end: 0.5 0.5 0.5; color: white" line__5="start: -0.5 0.5 0.5; end: -0.5 -0.5 0.5; color: white" line__6="start: -0.5 -0.5 0.5; end: 0.5 -0.5 0.5; color: white" line__7="start: 0.5 -0.5 0.5; end: 0.5 0.5 0.5; color: white" line__8="start: 0.5 -0.5 0.5; end: 0.5 -0.5 -0.5; color: white" line__9="start: 0.5 -0.5 -0.5; end: 0.5 0.5 -0.5; color: white" line__10="start: 0.5 -0.5 -0.5; end: -0.5 -0.5 -0.5; color: white" line__11="start: -0.5 -0.5 -0.5; end: -0.5 -0.5 0.5; color: white" line__12="start: -0.5 0.5 -0.5; end: -0.5 -0.5 -0.5; color: white"></a-entity>
 				<a-sphere mixin="esfera" position="0 4.16 0"></a-sphere>
 				<a-sphere mixin="esfera" position="3.464 -1.4 2"></a-sphere>
@@ -131,10 +125,7 @@
 				<a-sphere mixin="esfera" position="-3.464 1.4 -2"></a-sphere>
 				<a-sphere mixin="esfera" position="3.464 1.4 -2"></a-sphere>
 				<a-sphere mixin="esfera" position="0 1.4 4"></a-sphere>
-				<!--<a-box mixin="mtl2" rotation="35 0 -45" scale="4.84 4.84 4.84"></a-box>
-				<a-box mixin="mtl2" rotation="35 0 -45" scale="4.85 4.85 4.85" material="side: double; color:white; wireframe:true"></a-box>-->
 				<a-box mixin="mtl2" rotation="35 0 -45" scale="4.84 4.84 4.84"></a-box>
-				<!--<a-entity rotation="35 0 -45" scale="4.84 4.84 4.84" mixin="fc2"></a-entity>-->
 			</a-entity>
 			
 		</a-entity>
