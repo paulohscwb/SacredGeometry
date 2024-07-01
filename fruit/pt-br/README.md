@@ -23,7 +23,7 @@ function urlHandler(value) {
 
 <p id="p1"></p>
   <h2 align="center"><img src="../vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Fruto da vida e os poliedros de Platão e de Arquimedes</h2>
-  A geometria sagrada atribui significados simbólicos e sagrados a algumas formas geométricas e proporções geométricas. Existe uma associação dos objetos da Geometria Sagrada com um criador divino do geômetra universal. Nesta página temos os poliedros de Platão e o cuboctaedro de Arquimedes surgindo do símbolo Flor da Vida.
+  A geometria sagrada atribui significados simbólicos e sagrados a algumas formas geométricas e proporções geométricas. Existe uma associação dos objetos da Geometria Sagrada com um criador divino do geômetra universal. Nesta página temos os poliedros de Platão e o cuboctaedro de Arquimedes surgindo do símbolo Fruto da Vida.
 Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com as visualizações que podem ser acessadas com os recursos de Realidade Aumentada e também em salas imersivas de Realidade Virtual.
 
  <p align="center"><a href="#ra">Realidade Aumentada</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
@@ -84,7 +84,7 @@ O acesso às páginas de RV é feito clicando no círculo azul que aparece em ci
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>10. Fruto da vida 3D - cuboctaedro</h4>
+<h4>8. Fruto da vida 3D - cuboctaedro</h4>
 <a href="../vr/FruitOfLife3d_cuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/45A.png" class="foto" alt="Fruto da vida 3D"></a><img src="../ar/45.png" class="qr">
  <br><br><br>Nesta representação temos o modelo em 3D do símbolo da Fruto da Vida construído com 3 rotações em torno de um dos símbolos. Unindo-se as interseções dos círculos maiores, obtemos um cuboctaedro de Arquimedes.
  <br><br><br>
@@ -92,7 +92,7 @@ O acesso às páginas de RV é feito clicando no círculo azul que aparece em ci
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
-<br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Sacred Geometry - Visualization of symbols with Augmented Reality and Virtual Reality</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/SacredGeometry/fruit/pt-br/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional</a>.
+<br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Fruit of life and the polyhedra of Plato and Archimedes - Visualization of symbols with Augmented Reality and Virtual Reality</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/SacredGeometry/fruit/pt-br/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional</a>.
 
 <h4>Como citar este trabalho:</h4> 
 <p>Siqueira, P.H., "Fruit of life and the polyhedra of Plato and Archimedes: Visualization of symbols with Augmented Reality and Virtual Reality". Disponível em: <https://paulohscwb.github.io/SacredGeometry/fruit/pt-br/>, Julho de 2024.</p>

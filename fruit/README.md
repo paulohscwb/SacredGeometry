@@ -23,7 +23,7 @@ function urlHandler(value) {
 
 <p id="p1"></p>
   <h2 align="center"><img src="vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Fruit of life and the polyhedra of Plato and Archimedes</h2>
-Sacred geometry assigns symbolic and sacred meanings to some geometric shapes and geometric proportions. There is an association of Sacred Geometry objects with a divine creator of the universal geometer. On this page we have Plato's polyhedra and Archimedes' cuboctahedron arising from the Flower of Life symbol.
+Sacred geometry assigns symbolic and sacred meanings to some geometric shapes and geometric proportions. There is an association of Sacred Geometry objects with a divine creator of the universal geometer. On this page we have Plato's polyhedra and Archimedes' cuboctahedron arising from the Fruit of Life symbol.
 This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that can be accessed with Augmented Reality resources and also in immersive Virtual Reality rooms.
 
 <p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../">Home</a></p>
