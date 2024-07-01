@@ -35,7 +35,7 @@
 			<a-mixin id="mfisicas" physics-collider collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.018" super-hands="colliderEvent: collisions; colliderEventProperty: els; colliderEndEvent: collisions; colliderEndEventProperty: clearedEls;"></a-mixin>
 			 <a-mixin id="pointer" raycaster="showLine: true; objects: #poli1, .poli, a-torus, a-tetrahedron, a-link, a-sphere, a-cylinder" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
 			<a-mixin id="controle" mixin="pointer"></a-mixin>
-			<a-mixin id="mtl1" material="color: #f40; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl1" material="color: #4cf; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="mtl3" material="color: #f40; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="mtl2" material="color: #df0; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="mtl4" material="color: #0fc; opacity:0.6; metalness:0.4; roughness:0.2"></a-mixin>
@@ -56,8 +56,8 @@
 			<a-mixin id="ar1" obj-model="obj: #aq2l; mtl: #mt"></a-mixin>
 			<a-mixin id="fc2" scale="0.998 0.998 0.998" obj-model="obj: #aq3; mtl: #mt"></a-mixin>
 			<a-mixin id="ar2" obj-model="obj: #aq3l; mtl: #mt"></a-mixin>
-			<a-mixin id="trf1" rotation="90 0 0" geometry="radius: 1; radius-tubular:0.025;" mixin="mtl1"></a-mixin>
-			<a-mixin id="mtl1a" mixin="mtl1" material="opacity:1;"></a-mixin>
+			<a-mixin id="trf1" rotation="90 0 0" geometry="radius: 1; radius-tubular:0.025;" mixin="mtl3"></a-mixin>
+			<a-mixin id="mtl1a" mixin="mtl3" material="opacity:1;"></a-mixin>
 			<a-mixin id="mtl2a" mixin="mtl2" material="opacity:1;"></a-mixin>
         </a-assets>
         <a-entity id="cameraRig">
@@ -323,18 +323,18 @@
 				<a-triangle mixin="mtl2" vertex-a="0.707 -0.707 0.0" vertex-b="0.707 0.0 0.707" vertex-c="0.0 -0.707 0.707"></a-triangle>
 				<a-triangle mixin="mtl2" vertex-a="-0.707 0.707 0.0" vertex-b="-0.707 0.0 0.707" vertex-c="0.0 0.707 0.707"></a-triangle>
 				<a-triangle mixin="mtl2" vertex-a="-0.707 -0.707 0.0" vertex-b="-0.707 0.0 -0.707" vertex-c="0.0 -0.707 -0.707"></a-triangle>
-				<a-triangle mixin="mtl3" vertex-a="0.707 0.0 0.707" vertex-b="0.707 -0.707 0.0" vertex-c="0.707 0.0 -0.707"></a-triangle>
-				<a-triangle mixin="mtl3" vertex-a="0.707 0.0 -0.707" vertex-b="0.707 0.707 0.0" vertex-c="0.707 0.0 0.707"></a-triangle>
-				<a-triangle mixin="mtl3" vertex-a="0.707 0.0 0.707" vertex-b="0.0 0.707 0.707" vertex-c="-0.707 0.0 0.707"></a-triangle>
-				<a-triangle mixin="mtl3" vertex-a="-0.707 0.0 0.707" vertex-b="0.0 -0.707 0.707" vertex-c="0.707 0.0 0.707"></a-triangle>
-				<a-triangle mixin="mtl3" vertex-a="-0.707 -0.707 0.0" vertex-b="-0.707 0.0 0.707" vertex-c="-0.707 0.707 0.0"></a-triangle>
-				<a-triangle mixin="mtl3" vertex-a="-0.707 0.707 0.0" vertex-b="-0.707 0.0 -0.707" vertex-c="-0.707 -0.707 0.0"></a-triangle>
-				<a-triangle mixin="mtl3" vertex-a="-0.707 -0.707 0.0" vertex-b="0.0 -0.707 -0.707" vertex-c="0.707 -0.707 0.0"></a-triangle>
-				<a-triangle mixin="mtl3" vertex-a="0.707 -0.707 0.0" vertex-b="0.0 -0.707 0.707" vertex-c="-0.707 -0.707 0.0"></a-triangle>
-				<a-triangle mixin="mtl3" vertex-a="0.0 0.707 -0.707" vertex-b="0.707 0.0 -0.707" vertex-c="0.0 -0.707 -0.707"></a-triangle>
-				<a-triangle mixin="mtl3" vertex-a="0.0 -0.707 -0.707" vertex-b="-0.707 0.0 -0.707" vertex-c="0.0 0.707 -0.707"></a-triangle>
-				<a-triangle mixin="mtl3" vertex-a="0.0 0.707 -0.707" vertex-b="-0.707 0.707 0.0" vertex-c="0.0 0.707 0.707"></a-triangle>
-				<a-triangle mixin="mtl3" vertex-a="0.0 0.707 0.707" vertex-b="0.707 0.707 0.0" vertex-c="0.0 0.707 -0.707"></a-triangle>
+				<a-triangle mixin="mtl1" vertex-a="0.707 0.0 0.707" vertex-b="0.707 -0.707 0.0" vertex-c="0.707 0.0 -0.707"></a-triangle>
+				<a-triangle mixin="mtl1" vertex-a="0.707 0.0 -0.707" vertex-b="0.707 0.707 0.0" vertex-c="0.707 0.0 0.707"></a-triangle>
+				<a-triangle mixin="mtl1" vertex-a="0.707 0.0 0.707" vertex-b="0.0 0.707 0.707" vertex-c="-0.707 0.0 0.707"></a-triangle>
+				<a-triangle mixin="mtl1" vertex-a="-0.707 0.0 0.707" vertex-b="0.0 -0.707 0.707" vertex-c="0.707 0.0 0.707"></a-triangle>
+				<a-triangle mixin="mtl1" vertex-a="-0.707 -0.707 0.0" vertex-b="-0.707 0.0 0.707" vertex-c="-0.707 0.707 0.0"></a-triangle>
+				<a-triangle mixin="mtl1" vertex-a="-0.707 0.707 0.0" vertex-b="-0.707 0.0 -0.707" vertex-c="-0.707 -0.707 0.0"></a-triangle>
+				<a-triangle mixin="mtl1" vertex-a="-0.707 -0.707 0.0" vertex-b="0.0 -0.707 -0.707" vertex-c="0.707 -0.707 0.0"></a-triangle>
+				<a-triangle mixin="mtl1" vertex-a="0.707 -0.707 0.0" vertex-b="0.0 -0.707 0.707" vertex-c="-0.707 -0.707 0.0"></a-triangle>
+				<a-triangle mixin="mtl1" vertex-a="0.0 0.707 -0.707" vertex-b="0.707 0.0 -0.707" vertex-c="0.0 -0.707 -0.707"></a-triangle>
+				<a-triangle mixin="mtl1" vertex-a="0.0 -0.707 -0.707" vertex-b="-0.707 0.0 -0.707" vertex-c="0.0 0.707 -0.707"></a-triangle>
+				<a-triangle mixin="mtl1" vertex-a="0.0 0.707 -0.707" vertex-b="-0.707 0.707 0.0" vertex-c="0.0 0.707 0.707"></a-triangle>
+				<a-triangle mixin="mtl1" vertex-a="0.0 0.707 0.707" vertex-b="0.707 0.707 0.0" vertex-c="0.0 0.707 -0.707"></a-triangle>
 				<a-entity scale="1.001 1.001 1.001">
 					<a-triangle material="color:white; wireframe:true; wireframe-linewidth:1" vertex-a="0.707 0.0 0.707" vertex-b="0.707 0.707 0.0" vertex-c="0.0 0.707 0.707"></a-triangle>
 					<a-triangle material="color:white; wireframe:true; wireframe-linewidth:1" vertex-a="0.707 0.0 -0.707" vertex-b="0.707 -0.707 0.0" vertex-c="0.0 -0.707 -0.707"></a-triangle>
