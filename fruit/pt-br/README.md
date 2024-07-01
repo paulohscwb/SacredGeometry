@@ -44,43 +44,43 @@ O acesso às páginas de RV é feito clicando no círculo azul que aparece em ci
 <!--<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxUFFS5qIXC2KozRYcu06Jaq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
 <h4>1. Fruto da vida - tetraedro</h4>
 <a href="../vr/FruitOfLife2d_tetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/38A.png" class="foto" alt="Fruto da vida - tetraedro"></a><img src="../ar/38.png" class="qr">
- <br><br><br>Platão concebeu o mundo sendo composto por quatro elementos básicos: Terra, Fogo, Ar e Água. Além disso, Platão estabeleceu uma associação mística entre estes elementos e os sólidos Platônicos. Assim, o Tetraedro está associado ao Fogo e corresponde à primeira circunferência do símbolo da Semente da Vida. Os vértices do tetraedro regular aparecem sobre algumas circunferências do símbolo da Fruto da Vida.
+ <br><br><br>Platão concebeu o mundo sendo composto por quatro elementos básicos: Terra, Fogo, Ar e Água. Além disso, Platão estabeleceu uma associação mística entre estes elementos e os sólidos Platônicos. Assim, o tetraedro está associado ao Fogo e corresponde à primeira circunferência do símbolo da Semente da Vida. Os vértices do tetraedro regular aparecem sobre algumas circunferências do símbolo da Fruto da Vida.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>2. Fruto da vida - cubo</h4>
 <a href="../vr/FruitOfLife2d_cube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/39A.png" class="foto" alt="Fruto da vida - cubo"></a><img src="../ar/39.png" class="qr">
- <br><br><br>De acordo com a correspondência mística de Platão, o Cubo está associado à Terra e corresponde à segunda circunferência do símbolo da Semente da Vida. Os vértices do cubo aparecem sobre algumas circunferências do símbolo da Fruto da Vida.
+ <br><br><br>De acordo com a correspondência mística de Platão, o cubo está associado à Terra e corresponde à segunda circunferência do símbolo da Semente da Vida. Os vértices do cubo aparecem sobre algumas circunferências do símbolo da Fruto da Vida.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>3. Fruto da vida - octaedro</h4>
 <a href="../vr/FruitOfLife2d_octahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/40A.png" class="foto" alt="Fruto da vida - octaedro"></a><img src="../ar/40.png" class="qr">
- <br><br><br>De acordo com a correspondência mística de Platão, o Octaedro está associado ao Ar e corresponde à terceira circunferência do símbolo da Semente da Vida. Os vértices do Octaedro regular aparecem sobre algumas circunferências do símbolo da Fruto da Vida.
+ <br><br><br>De acordo com a correspondência mística de Platão, o octaedro está associado ao Ar e corresponde à terceira circunferência do símbolo da Semente da Vida. Os vértices do octaedro regular aparecem sobre algumas circunferências do símbolo da Fruto da Vida.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>4. Fruto da vida - icosaedro</h4>
 <a href="../vr/FruitOfLife2d_icosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/41A.png" class="foto" alt="Fruto da vida - icosaedro"></a><img src="../ar/41.png" class="qr">
- <br><br><br>De acordo com a correspondência mística de Platão, o Icosaedro está associado à Água e corresponde à quarta circunferência do símbolo da Semente da Vida. Os vértices do Icosaedro regular aparecem sobrepostos ou com correspondência associada a algumas circunferências do símbolo da Fruto da Vida.
+ <br><br><br>De acordo com a correspondência mística de Platão, o icosaedro está associado à Água e corresponde à quarta circunferência do símbolo da Semente da Vida. Os vértices do icosaedro regular aparecem sobrepostos ou com correspondência associada a algumas circunferências do símbolo da Fruto da Vida.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>5. Fruto da vida - dodecaedro</h4>
 <a href="../vr/FruitOfLife2d_dodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/42A.png" class="foto" alt="Fruto da vida - dodecaedro"></a><img src="../ar/42.png" class="qr">
- <br><br><br>De acordo com a correspondência mística de Platão, o Dodecaedro está associado ao Universo e corresponde à quinta circunferência do símbolo da Semente da Vida. Os vértices do Dodecaedro regular aparecem sobrepostos ou com correspondência associada a algumas circunferências do símbolo da Fruto da Vida.
+ <br><br><br>De acordo com a correspondência mística de Platão, o dodecaedro está associado ao Universo e corresponde à quinta circunferência do símbolo da Semente da Vida. Os vértices do dodecaedro regular aparecem sobrepostos ou com correspondência associada a algumas circunferências do símbolo da Fruto da Vida.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>6. Fruto da vida - tetraedro estrelado</h4>
 <a href="../vr/FruitOfLife2d_tetrahedronStar.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/43A.png" class="foto" alt="Fruto da vida - tetraedro estrelado"></a><img src="../ar/43.png" class="qr">
- <br><br><br>A Merkabah ou Tetraedro estrelado ou Estrela de Davi é a figura geométrica que representa a energia masculina e feminina do Céu e da Terra. O Tetraedro estrelado corresponde à sexta circunferência do símbolo da Semente da Vida e os vértices deste sólido aparecem sobrepostos a algumas circunferências do símbolo da Fruto da Vida.
+ <br><br><br>A Merkabah ou tetraedro estrelado ou Estrela de Davi é a figura geométrica que representa a energia masculina e feminina do Céu e da Terra. O tetraedro estrelado corresponde à sexta circunferência do símbolo da Semente da Vida e os vértices deste sólido aparecem sobrepostos a algumas circunferências do símbolo da Fruto da Vida.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>7. Fruto da vida - cuboctaedro</h4>
 <a href="../vr/FruitOfLife2d_cuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/44A.png" class="foto" alt="Fruto da vida - cuboctaedro"></a><img src="../ar/44.png" class="qr">
- <br><br><br>O Cuboctaedro de Arquimedes representa o Vetor de Equilíbrio de energia. O Cuboctaedro corresponde à sétima circunferência do símbolo da Semente da Vida e os vértices deste sólido aparecem sobrepostos ou com correspondência com algumas circunferências do símbolo da Fruto da Vida.
+ <br><br><br>O cuboctaedro de Arquimedes representa o Vetor de Equilíbrio de energia. O cuboctaedro corresponde à sétima circunferência do símbolo da Semente da Vida e os vértices deste sólido aparecem sobrepostos ou com correspondência com algumas circunferências do símbolo da Fruto da Vida.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>

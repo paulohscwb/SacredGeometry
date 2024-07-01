@@ -55,43 +55,43 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <hr>
 <h4>3. Flower of life - tetrahedron</h4>
 <a href="vr/FlowerOfLife2d_tetrahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/30A.png" class="foto" alt="Flower of life - tetrahedron"></a><img src="ar/30.png" class="qr">
- <br><br><br>Plato conceived the world as being composed of four basic elements: Earth, Fire, Air and Water. Furthermore, Plato established a mystical association between these elements and the Platonic solids. Thus, the Tetrahedron is associated with Fire and corresponds to the first circumference of the Seed of Life symbol. The vertices of the regular Tetrahedron appear on some circumferences of the Flower of Life symbol.
+ <br><br><br>Plato conceived the world as being composed of four basic elements: Earth, Fire, Air and Water. Furthermore, Plato established a mystical association between these elements and the Platonic solids. Thus, the tetrahedron is associated with Fire and corresponds to the first circumference of the Seed of Life symbol. The vertices of the regular tetrahedron appear on some circumferences of the Flower of Life symbol.
  <br><br>
   <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>4. Flower of life - cube</h4>
 <a href="vr/FlowerOfLife2d_cube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/31A.png" class="foto" alt="Flower of life - cube"></a><img src="ar/31.png" class="qr">
- <br><br><br>According to Plato's mystical correspondence, the Cube is associated with the Earth and corresponds to the second circumference of the Seed of Life symbol. The vertices of the Cube appear on some circumferences of the Flower of Life symbol.
+ <br><br><br>According to Plato's mystical correspondence, the cube is associated with the Earth and corresponds to the second circumference of the Seed of Life symbol. The vertices of the cube appear on some circumferences of the Flower of Life symbol.
  <br><br>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>5. Flower of life - octahedron</h4>
 <a href="vr/FlowerOfLife2d_octahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/32A.png" class="foto" alt="Flower of life - octahedron"></a><img src="ar/32.png" class="qr">
- <br><br><br>According to Plato's mystical correspondence, the Octahedron is associated with Air and corresponds to the third circumference of the Seed of Life symbol. The vertices of the regular Octahedron appear on some circumferences of the Flower of Life symbol.
+ <br><br><br>According to Plato's mystical correspondence, the octahedron is associated with Air and corresponds to the third circumference of the Seed of Life symbol. The vertices of the regular octahedron appear on some circumferences of the Flower of Life symbol.
  <br><br>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>6. Flower of life - icosahedron</h4>
 <a href="vr/FlowerOfLife2d_icosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/34A.png" class="foto" alt="Flower of life - icosahedron"></a><img src="ar/34.png" class="qr">
- <br><br><br>According to Plato's mystical correspondence, the Icosahedron is associated with Water and corresponds to the fourth circumference of the Seed of Life symbol. The vertices of the regular Icosahedron appear overlapping or correspondingly associated with some circumferences of the Flower of Life symbol.
+ <br><br><br>According to Plato's mystical correspondence, the icosahedron is associated with Water and corresponds to the fourth circumference of the Seed of Life symbol. The vertices of the regular icosahedron appear overlapping or correspondingly associated with some circumferences of the Flower of Life symbol.
  <br><br>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>7. Flower of life - dodecahedron</h4>
 <a href="vr/FlowerOfLife2d_dodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/33A.png" class="foto" alt="Flower of life - dodecahedron"></a><img src="ar/33.png" class="qr">
- <br><br><br>According to Plato's mystical correspondence, the Dodecahedron is associated with the Universe and corresponds to the fifth circumference of the Seed of Life symbol. The vertices of the regular Dodecahedron appear overlapping or correspondingly associated with some circumferences of the Flower of Life symbol.
+ <br><br><br>According to Plato's mystical correspondence, the dodecahedron is associated with the Universe and corresponds to the fifth circumference of the Seed of Life symbol. The vertices of the regular dodecahedron appear overlapping or correspondingly associated with some circumferences of the Flower of Life symbol.
  <br><br>
   <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>8. Flower of life - star tetrahedron</h4>
 <a href="vr/FlowerOfLife2d_tetrahedronStar.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/35A.png" class="foto" alt="Flower of life - star tetrahedron"></a><img src="ar/35.png" class="qr">
- <br><br><br>The Merkabah or Star Tetrahedron or Star of Davi is the geometric figure that represents male and female energy  Heaven and Earth. The Star Tetrahedron corresponds to the sixth circumference of the Seed of Life symbol and the vertices of this solid appear overlapping with some circumferences of the Flower of Life symbol.
+ <br><br><br>The Merkabah or Star tetrahedron or Star of Davi is the geometric figure that represents male and female energy  Heaven and Earth. The Star tetrahedron corresponds to the sixth circumference of the Seed of Life symbol and the vertices of this solid appear overlapping with some circumferences of the Flower of Life symbol.
  <br><br>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>9. Flower of life - cuboctahedron</h4>
 <a href="vr/FlowerOfLife2d_cuboctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/36A.png" class="foto" alt="Flower of life - cuboctahedron"></a><img src="ar/36.png" class="qr">
- <br><br><br>The Archimedes Cuboctahedron represents the Energy Vector of Equilibrium. The Cuboctahedron corresponds to the seventh circumference of the Seed of Life symbol and the vertices of this solid appear overlapping or in correspondence with some circumferences of the Flower of Life symbol.
+ <br><br><br>The Archimedes cuboctahedron represents the Energy Vector of Equilibrium. The cuboctahedron corresponds to the seventh circumference of the Seed of Life symbol and the vertices of this solid appear overlapping or in correspondence with some circumferences of the Flower of Life symbol.
  <br><br>
   <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>

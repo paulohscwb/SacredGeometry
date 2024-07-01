@@ -56,43 +56,43 @@ O acesso às páginas de RV é feito clicando no círculo azul que aparece em ci
 <hr>
 <h4>3. Flor da vida - tetraedro</h4>
 <a href="../vr/FlowerOfLife2d_tetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/30A.png" class="foto" alt="Flor da vida - tetraedro"></a><img src="../ar/30.png" class="qr">
- <br><br><br>Platão concebeu o mundo como sendo composto por quatro elementos básicos: Terra, Fogo, Ar e Água. Além disso, Platão estabeleceu uma associação mística entre estes elementos e os sólidos Platônicos. Assim, o Tetraedro está associado ao Fogo e corresponde à primeira circunferência do símbolo da Semente da Vida. Os vértices do tetraedro regular aparecem sobre algumas circunferências do símbolo da Flor da Vida.
+ <br><br><br>Platão concebeu o mundo como sendo composto por quatro elementos básicos: Terra, Fogo, Ar e Água. Além disso, Platão estabeleceu uma associação mística entre estes elementos e os sólidos Platônicos. Assim, o tetraedro está associado ao Fogo e corresponde à primeira circunferência do símbolo da Semente da Vida. Os vértices do tetraedro regular aparecem sobre algumas circunferências do símbolo da Flor da Vida.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>4. Flor da vida - cubo</h4>
 <a href="../vr/FlowerOfLife2d_cube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/31A.png" class="foto" alt="Flor da vida - cubo"></a><img src="../ar/31.png" class="qr">
- <br><br><br>De acordo com a correspondência mística de Platão, o Cubo está associado à Terra e corresponde à segunda circunferência do símbolo da Semente da Vida. Os vértices do cubo aparecem sobre algumas circunferências do símbolo da Flor da Vida.
+ <br><br><br>De acordo com a correspondência mística de Platão, o cubo está associado à Terra e corresponde à segunda circunferência do símbolo da Semente da Vida. Os vértices do cubo aparecem sobre algumas circunferências do símbolo da Flor da Vida.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>5. Flor da vida - octaedro</h4>
 <a href="../vr/FlowerOfLife2d_octahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/32A.png" class="foto" alt="Flor da vida - octaedro"></a><img src="../ar/32.png" class="qr">
- <br><br><br>De acordo com a correspondência mística de Platão, o Octaedro está associado ao Ar e corresponde à terceira circunferência do símbolo da Semente da Vida. Os vértices do Octaedro regular aparecem sobre algumas circunferências do símbolo da Flor da Vida.
+ <br><br><br>De acordo com a correspondência mística de Platão, o octaedro está associado ao Ar e corresponde à terceira circunferência do símbolo da Semente da Vida. Os vértices do octaedro regular aparecem sobre algumas circunferências do símbolo da Flor da Vida.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>6. Flor da vida - icosaedro</h4>
 <a href="../vr/FlowerOfLife2d_icosahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/34A.png" class="foto" alt="Flor da vida - icosaedro"></a><img src="../ar/34.png" class="qr">
- <br><br><br>De acordo com a correspondência mística de Platão, o Icosaedro está associado à Água e corresponde à quarta circunferência do símbolo da Semente da Vida. Os vértices do Icosaedro regular aparecem sobrepostos ou com correspondência associada a algumas circunferências do símbolo da Flor da Vida.
+ <br><br><br>De acordo com a correspondência mística de Platão, o icosaedro está associado à Água e corresponde à quarta circunferência do símbolo da Semente da Vida. Os vértices do icosaedro regular aparecem sobrepostos ou com correspondência associada a algumas circunferências do símbolo da Flor da Vida.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>7. Flor da vida - dodecaedro</h4>
 <a href="../vr/FlowerOfLife2d_dodecahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/33A.png" class="foto" alt="Flor da vida - dodecaedro"></a><img src="../ar/33.png" class="qr">
- <br><br><br>De acordo com a correspondência mística de Platão, o Dodecaedro está associado ao Universo e corresponde à quinta circunferência do símbolo da Semente da Vida. Os vértices do Dodecaedro regular aparecem sobrepostos ou com correspondência associada a algumas circunferências do símbolo da Flor da Vida.
+ <br><br><br>De acordo com a correspondência mística de Platão, o dodecaedro está associado ao Universo e corresponde à quinta circunferência do símbolo da Semente da Vida. Os vértices do dodecaedro regular aparecem sobrepostos ou com correspondência associada a algumas circunferências do símbolo da Flor da Vida.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>8. Flor da vida - tetraedro estrelado</h4>
 <a href="../vr/FlowerOfLife2d_tetrahedronStar.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/35A.png" class="foto" alt="Flor da vida - tetraedro estrelado"></a><img src="../ar/35.png" class="qr">
- <br><br><br>A Merkabah ou Tetraedro estrelado ou Estrela de Davi é a figura geométrica que representa a energia masculina e feminina do Céu e da Terra. O Tetraedro estrelado corresponde à sexta circunferência do símbolo da Semente da Vida e os vértices deste sólido aparecem sobrepostos a algumas circunferências do símbolo da Flor da Vida.
+ <br><br><br>A Merkabah ou tetraedro estrelado ou Estrela de Davi é a figura geométrica que representa a energia masculina e feminina do Céu e da Terra. O tetraedro estrelado corresponde à sexta circunferência do símbolo da Semente da Vida e os vértices deste sólido aparecem sobrepostos a algumas circunferências do símbolo da Flor da Vida.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>9. Flor da vida - cuboctaedro</h4>
 <a href="../vr/FlowerOfLife2d_cuboctahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/36A.png" class="foto" alt="Flor da vida - cuboctaedro"></a><img src="../ar/36.png" class="qr">
- <br><br><br>O Cuboctaedro de Arquimedes representa o Vetor de Equilíbrio de energia. O Cuboctaedro corresponde à sétima circunferência do símbolo da Semente da Vida e os vértices deste sólido aparecem sobrepostos ou com correspondência com algumas circunferências do símbolo da Flor da Vida.
+ <br><br><br>O cuboctaedro de Arquimedes representa o Vetor de Equilíbrio de energia. O cuboctaedro corresponde à sétima circunferência do símbolo da Semente da Vida e os vértices deste sólido aparecem sobrepostos ou com correspondência com algumas circunferências do símbolo da Flor da Vida.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>

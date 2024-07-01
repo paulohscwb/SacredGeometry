@@ -43,43 +43,43 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <!--<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxUFFS5qIXC2KozRYcu06Jaq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
 <h4>1. Fruit of life - tetrahedron</h4>
 <a href="vr/FruitOfLife2d_tetrahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/38A.png" class="foto" alt="Fruit of life - tetrahedron"></a><img src="ar/38.png" class="qr">
- <br><br><br>Plato conceived the world as being composed of four basic elements: Earth, Fire, Air and Water. Furthermore, Plato established a mystical association between these elements and the Platonic solids. Thus, the Tetrahedron is associated with Fire and corresponds to the first circumference of the Seed of Life symbol. The vertices of the regular Tetrahedron appear on some circumferences of the Fruit of Life symbol.
+ <br><br><br>Plato conceived the world as being composed of four basic elements: Earth, Fire, Air and Water. Furthermore, Plato established a mystical association between these elements and the Platonic solids. Thus, the tetrahedron is associated with Fire and corresponds to the first circumference of the Seed of Life symbol. The vertices of the regular tetrahedron appear on some circumferences of the Fruit of Life symbol.
  <br><br>
   <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>2. Fruit of life - cube</h4>
 <a href="vr/FruitOfLife2d_cube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/39A.png" class="foto" alt="Fruit of life - cube"></a><img src="ar/39.png" class="qr">
- <br><br><br>According to Plato's mystical correspondence, the Cube is associated with the Earth and corresponds to the second circumference of the Seed of Life symbol. The vertices of the Cube appear on some circumferences of the Fruit of Life symbol.
+ <br><br><br>According to Plato's mystical correspondence, the cube is associated with the Earth and corresponds to the second circumference of the Seed of Life symbol. The vertices of the cube appear on some circumferences of the Fruit of Life symbol.
  <br><br>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>3. Fruit of life - octahedron</h4>
 <a href="vr/FruitOfLife2d_octahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/40A.png" class="foto" alt="Fruit of life - octahedron"></a><img src="ar/40.png" class="qr">
- <br><br><br>According to Plato's mystical correspondence, the Octahedron is associated with Air and corresponds to the third circumference of the Seed of Life symbol. The vertices of the regular Octahedron appear on some circumferences of the Fruit of Life symbol.
+ <br><br><br>According to Plato's mystical correspondence, the octahedron is associated with Air and corresponds to the third circumference of the Seed of Life symbol. The vertices of the regular octahedron appear on some circumferences of the Fruit of Life symbol.
  <br><br>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>4. Fruit of life - icosahedron</h4>
 <a href="vr/FruitOfLife2d_icosahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/41A.png" class="foto" alt="Fruit of life - icosahedron"></a><img src="ar/41.png" class="qr">
- <br><br><br>According to Plato's mystical correspondence, the Icosahedron is associated with Water and corresponds to the fourth circumference of the Seed of Life symbol. The vertices of the regular Icosahedron appear overlapping or correspondingly associated with some circumferences of the Fruit of Life symbol.
+ <br><br><br>According to Plato's mystical correspondence, the icosahedron is associated with Water and corresponds to the fourth circumference of the Seed of Life symbol. The vertices of the regular icosahedron appear overlapping or correspondingly associated with some circumferences of the Fruit of Life symbol.
  <br><br>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>5. Fruit of life - dodecahedron</h4>
 <a href="vr/FruitOfLife2d_dodecahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/42A.png" class="foto" alt="Fruit of life - dodecahedron"></a><img src="ar/42.png" class="qr">
- <br><br><br>According to Plato's mystical correspondence, the Dodecahedron is associated with the Universe and corresponds to the fifth circumference of the Seed of Life symbol. The vertices of the regular Dodecahedron appear overlapping or correspondingly associated with some circumferences of the Fruit of Life symbol.
+ <br><br><br>According to Plato's mystical correspondence, the dodecahedron is associated with the Universe and corresponds to the fifth circumference of the Seed of Life symbol. The vertices of the regular dodecahedron appear overlapping or correspondingly associated with some circumferences of the Fruit of Life symbol.
  <br><br>
   <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>6. Fruit of life - star tetrahedron</h4>
 <a href="vr/FruitOfLife2d_tetrahedronStar.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/43A.png" class="foto" alt="Fruit of life - star tetrahedron"></a><img src="ar/43.png" class="qr">
- <br><br><br>The Merkabah or Star Tetrahedron or Star of Davi is the geometric figure that represents male and female energy  Heaven and Earth. The Star Tetrahedron corresponds to the sixth circumference of the Seed of Life symbol and the vertices of this solid appear overlapping with some circumferences of the Fruit of Life symbol.
+ <br><br><br>The Merkabah or Star tetrahedron or Star of Davi is the geometric figure that represents male and female energy  Heaven and Earth. The Star tetrahedron corresponds to the sixth circumference of the Seed of Life symbol and the vertices of this solid appear overlapping with some circumferences of the Fruit of Life symbol.
  <br><br>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>7. Fruit of life - cuboctahedron</h4>
 <a href="vr/FruitOfLife2d_cuboctahedron.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/44A.png" class="foto" alt="Fruit of life - cuboctahedron"></a><img src="ar/44.png" class="qr">
- <br><br><br>The Archimedes Cuboctahedron represents the Energy Vector of Equilibrium. The Cuboctahedron corresponds to the seventh circumference of the Seed of Life symbol and the vertices of this solid appear overlapping or in correspondence with some circumferences of the Fruit of Life symbol.
+ <br><br><br>The Archimedes cuboctahedron represents the Energy Vector of Equilibrium. The cuboctahedron corresponds to the seventh circumference of the Seed of Life symbol and the vertices of this solid appear overlapping or in correspondence with some circumferences of the Fruit of Life symbol.
  <br><br>
   <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
