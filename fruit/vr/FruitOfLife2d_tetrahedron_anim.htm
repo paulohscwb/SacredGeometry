@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>Sacred Geometry</title>
+	<link rel="icon" type="image/png" href="salas/imagens/icone.png">
+	<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+	<script src="https://unpkg.com/aframe-orbit-controls@1.3.0/dist/aframe-orbit-controls.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script src="nomes.js"></script>
+	<link rel="stylesheet" href="nomes.css">
+  </head>
+  <body>
+<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Lato; font-size:2.75vh;  font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2024 Paulo Henrique Siqueira</div>
+    <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
+		<a-assets>
+			<a-mixin id="mtl1" material="side: double; color: #5cb404; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl2" material="side: double; color: #df0; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl3" material="side: double; color: #f40; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl4" material="side: double; color: #0fc; opacity:0.6; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="tr" rotation="90 0 -30" visible="false" geometry="arc:0; radius: 1; radius-tubular:0.03; segments-tubular: 100" mixin="mtl3" animation='property: opacity; dur: 8000; to: 0.7; delay: 10000; loop:1;' animation__0='property: arc; dur: 8000; to: 360; easing: easeInOutQuad; delay: 13000; loop:1;' animation__2='property: visible; dur: 1; to: true; delay: 10000; loop:1;'></a-mixin>
+			<a-mixin id="esfera" visible="false" mixin="mtl4" geometry="radius: 1; side:double; segments-width:100; segments-height:100;" material="metalness:0.5; roughness:0.3;" animation='property: opacity; dur: 8000; to: 0.7; delay: 25000; loop:1;' animation__2='property: visible; dur: 1; to: true; delay: 25300; loop:1;'></a-mixin>
+			<a-mixin id="solido" visible="false" animation='property: opacity; dur: 8000; to: 0.7; delay: 25000; loop:1;' animation__2='property: visible; dur: 1; to: true; delay: 25300; loop:1;'>
+		</a-assets>
+		<a-entity camera="fov:1; near:1;" rotation="0 30 0" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0; initialPosition: 0 600 0; minDistance: 500; maxDistance: 1100;"></a-entity>
+		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
+		
+		<a-entity scale="0.89 0.89 0.89" animation__4='property: rotation; dur: 10000; to: 0 90 0; easing: easeInOutQuad; delay: 25000; loop:1;' animation__3='property: rotation; dur: 15000; from: 0 90 0; to: -90 0 30; easing: easeInOutQuad; delay: 35000; loop:1' animation__5='property: rotation; dur: 8000; from: -90 0 30; to: -90 60 -30; easing: easeInOutQuad; delay: 50000; loop:1' animation__6='property: rotation; dur: 20000; from: -90 60 -30; to: 0 0 0; easing: easeInOutQuad; delay: 60000; loop:1'>
+			<a-torus mixin="tr" position="3.464 0 2"></a-torus>
+			<a-torus mixin="tr" position="3.464 0 -2"></a-torus>
+			<a-torus mixin="tr" position="-3.464 0 2"></a-torus>
+			<a-torus mixin="tr" position="-3.464 0 -2"></a-torus>
+			<a-torus mixin="tr" position="0 0 4"></a-torus>
+			<a-torus mixin="tr" position="0 0 -4"></a-torus>
+			<a-torus mixin="tr" position="1.732 0 1"></a-torus>
+			<a-torus mixin="tr" position="1.732 0 -1"></a-torus>
+			<a-torus mixin="tr" position="-1.732 0 1"></a-torus>
+			<a-torus mixin="tr" position="-1.732 0 -1"></a-torus>
+			<a-torus mixin="tr" position="0 0 2"></a-torus>
+			<a-torus mixin="tr" position="0 0 -2"></a-torus>
+			<a-torus mixin="tr"></a-torus>
+			
+			<a-entity>
+				<a-tetrahedron mixin="solido" rotation="35 0 -45" radius="4.205" material="side: double; color:white; wireframe:true"></a-tetrahedron>
+				<a-sphere mixin="esfera" position="0 4 0"></a-sphere>
+				<a-sphere mixin="esfera" position="3.464 -1.4 2"></a-sphere>
+				<a-sphere mixin="esfera" position="-3.464 -1.4 2"></a-sphere>
+				<a-sphere mixin="esfera" position="0 -1.4 -4"></a-sphere>
+				<a-tetrahedron mixin="mtl2 solido" rotation="35 0 -45" radius="4.2"></a-tetrahedron>
+			</a-entity>
+			
+		</a-entity>
+		
+		<a-light type="ambient" color="white" intensity="0.5"></a-light>
+		<a-light type="directional" color="white" intensity="0.5" position="-7 5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.5" position="7 -5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.5" position="7 5 -1"></a-light>
+		<a-sky color="black" radius="25"></a-sky><a-sky src="../../imagens/8k_stars_milky_way.jpg" radius="18" animation__4='property: rotation; dur: 10000; to: 0 90 0; easing: easeInOutQuad; delay: 25000; loop:1;' animation__3='property: rotation; dur: 15000; from: 0 90 0; to: -90 0 30; easing: easeInOutQuad; delay: 35000; loop:1' animation__5='property: rotation; dur: 8000; from: -90 0 30; to: -90 60 -30; easing: easeInOutQuad; delay: 50000; loop:1' animation__6='property: rotation; dur: 20000; from: -90 60 -30; to: 0 0 0; easing: easeInOutQuad; delay: 60000; loop:1'></a-sky>
+    </a-scene>
+	<!--<div class="box">
+		<span class="titulo">Fruit of life - tetrahedron</span>
+		<br><span class="titulo">Fruto da vida - tetraedro</span>
+	</div>-->
+  </body>
+</html>
