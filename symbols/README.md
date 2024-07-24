@@ -11,8 +11,8 @@
 		<option disabled value="../symbols/">Sacred Geometry symbols</option>
 		<option value="../flower/">Flower of life and the polyhedra of Plato and Archimedes</option>
 		<option value="../fruit/">Fruit of life and the polyhedra of Plato and Archimedes</option>
-		<!--<option value="../grid/">Grid of life and the polyhedra of Plato and Archimedes</option>
-		<option value="../metatron/">Metatron and the polyhedra of Plato and Archimedes</option>-->
+		<option value="../grid/">Grid of life and the polyhedra of Plato and Archimedes</option>
+		<!--<option value="../metatron/">Metatron and the polyhedra of Plato and Archimedes</option>-->
 	</select>
 </form>
 <script>

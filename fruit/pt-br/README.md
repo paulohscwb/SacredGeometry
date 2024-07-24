@@ -11,8 +11,8 @@
 		<option value="../../symbols/pt-br/">Símbolos da Geometria Sagrada</option>
 		<option value="../../flower/pt-br/">Flor da vida e os poliedros de Platão e de Arquimedes</option>
 		<option disabled value="../../fruit/pt-br/">Fruto da vida e os poliedros de Platão e de Arquimedes</option>
-		<!--<option value="../../grid/pt-br/">Grade da vida e os poliedros de Platão e de Arquimedes</option>
-		<option value="../../metatron/pt-br/">Metatron e os poliedros de Platão e de Arquimedes</option>-->
+		<option value="../../grid/pt-br/">Grade da vida e os poliedros de Platão e de Arquimedes</option>
+		<!--<option value="../../metatron/pt-br/">Metatron e os poliedros de Platão e de Arquimedes</option>-->
 	</select>
 </form>
 <script>
@@ -41,7 +41,7 @@ O acesso às páginas de RV é feito clicando no círculo azul que aparece em ci
 <p align="center"><img style="border-radius:7px;" alt="Realidade Aumentada dos símbolos da Geometria Sagrada" src="../ar/example.png" width="85%"></p>
 <hr>
 <h3 id="m3d" align="center">Modelos 3D</h3>
-<!--<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxUFFS5qIXC2KozRYcu06Jaq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+<!--<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxWcndkyhzItyVfL9-CZl-IA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
 <h4>1. Fruto da vida - tetraedro</h4>
 <a href="../vr/FruitOfLife2d_tetrahedron.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/38A.png" class="foto" alt="Fruto da vida - tetraedro"></a><img src="../ar/38.png" class="qr">
  <br><br><br>Platão concebeu o mundo sendo composto por quatro elementos básicos: Terra, Fogo, Ar e Água. Além disso, Platão estabeleceu uma associação mística entre estes elementos e os sólidos Platônicos. Assim, o tetraedro está associado ao Fogo e corresponde à primeira circunferência do símbolo da Semente da Vida. Os vértices do tetraedro regular aparecem sobre algumas circunferências do símbolo da Fruto da Vida.

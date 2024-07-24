@@ -12,8 +12,8 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 <h3 style="margin-top:3px"><a target="_blank" href="../symbols/pt-br/"><img src="../symbols/ar/15A.png" style="margin-bottom:-10px" width="40"> Símbolos da Geometria Sagrada</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="../flower/pt-br/"><img src="../flower/ar/29A.png" style="margin-bottom:-10px" width="40"> Flor da vida e os poliedros de Platão e de Arquimedes</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="../fruit/pt-br/"><img src="../fruit/ar/45A.png" style="margin-bottom:-10px" width="40"> Fruto da vida e os poliedros de Platão e de Arquimedes</a></h3>
-<!--<h3 style="margin-top:3px"><a target="_blank" href="../grid/pt-br/"><img src="../grid/ar/37A.png" style="margin-bottom:-10px" width="40"> Grade da vida e os poliedros de Platão e de Arquimedes</a></h3>
-<h3 style="margin-top:3px"><a target="_blank" href="../metatron/pt-br/"><img src="../metatron/ar/56A.png" style="margin-bottom:-10px" width="40"> Metatron e os poliedros de Platão e de Arquimedes</a></h3>
+<h3 style="margin-top:3px"><a target="_blank" href="../grid/pt-br/"><img src="../grid/ar/59A.png" style="margin-bottom:-10px" width="40"> Grade da vida e os poliedros de Platão e de Arquimedes</a></h3>
+<!--<h3 style="margin-top:3px"><a target="_blank" href="../metatron/pt-br/"><img src="../metatron/ar/56A.png" style="margin-bottom:-10px" width="40"> Metatron e os poliedros de Platão e de Arquimedes</a></h3>
 
 <h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="../todos/">&#x1f4c4; Lista completa dos poliedros</a></h3>
 --><hr>

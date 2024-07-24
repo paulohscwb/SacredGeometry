@@ -11,8 +11,8 @@
 		<option disabled value="../../symbols/pt-br/">Símbolos da Geometria Sagrada</option>
 		<option value="../../flower/pt-br/">Flor da vida e os poliedros de Platão e de Arquimedes</option>
 		<option value="../../fruit/pt-br/">Fruto da vida e os poliedros de Platão e de Arquimedes</option>
-		<!--<option value="../../grid/pt-br/">Grade da vida e os poliedros de Platão e de Arquimedes</option>
-		<option value="../../metatron/pt-br/">Metatron e os poliedros de Platão e de Arquimedes</option>-->
+		<option value="../../grid/pt-br/">Grade da vida e os poliedros de Platão e de Arquimedes</option>
+		<!--<option value="../../metatron/pt-br/">Metatron e os poliedros de Platão e de Arquimedes</option>-->
 	</select>
 </form>
 <script>

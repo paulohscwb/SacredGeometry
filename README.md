@@ -12,8 +12,8 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <h3 style="margin-top:3px"><a target="_blank" href="symbols/"><img src="symbols/ar/15A.png" style="margin-bottom:-10px" width="40"> Sacred Geometry symbols</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="flower/"><img src="flower/ar/29A.png" style="margin-bottom:-10px" width="40"> Flower of life and the polyhedra of Plato and Archimedes</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="fruit/"><img src="fruit/ar/45A.png" style="margin-bottom:-10px" width="40"> Fruit of life and the polyhedra of Plato and Archimedes</a></h3>
-<!--<h3 style="margin-top:3px"><a target="_blank" href="grid/"><img src="grid/ar/37A.png" style="margin-bottom:-10px" width="40"> Grid of life and the polyhedra of Plato and Archimedes</a></h3>
-<h3 style="margin-top:3px"><a target="_blank" href="metatron/"><img src="metatron/ar/56A.png" style="margin-bottom:-10px" width="40"> Metatron and the polyhedra of Plato and Archimedes</a></h3>
+<h3 style="margin-top:3px"><a target="_blank" href="grid/"><img src="grid/ar/59A.png" style="margin-bottom:-10px" width="40"> Grid of life and the polyhedra of Plato and Archimedes</a></h3>
+<!--<h3 style="margin-top:3px"><a target="_blank" href="metatron/"><img src="metatron/ar/56A.png" style="margin-bottom:-10px" width="40"> Metatron and the polyhedra of Plato and Archimedes</a></h3>
 
 <h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="all/">&#x1f4c4; Complete list of polyhedra</a></h3>
 --><hr>
