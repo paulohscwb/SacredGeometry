@@ -20,7 +20,7 @@ v 1 -1 -1
 v -1 -1 1
 v -1 1 -1
 v 9 -9 9
-usemtl Cor10
+usemtl Cor2
 f 4 14 2 20
 f 5 15 3 1
 f 6 12 20 2
