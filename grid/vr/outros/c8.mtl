@@ -1,25 +1,25 @@
 ## Alias MTL Material File
 
 newmtl Cor1
-Kd 0.95 0.4 0.4
+Kd 0.8 0.15 0.15
 Ks 0.25 0.25 0.25
 Ni 1
 illum 4
 Pr/map_Pr 0.3
 Pm/map_Pm 0.9
-d 0.77
+d 0.7
 
 newmtl Cor2
-Kd 0.8 0.8 0
+Kd 0.65 0.65 0
 Ks 0.25 0.25 0.25 
 Ni 1
 illum 4
 Pr/map_Pr 0.3
 Pm/map_Pm 0.9
-d 0.77
+d 0.7
 
 newmtl Cor13a
-Kd 0.77 0.75 0.75
+Kd 0.7 0.75 0.75
 Ks 0.5 0.5 0.5
 Pr/map_Pr 0.6
 Pm/map_Pm 0.4
