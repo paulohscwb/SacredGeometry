@@ -210,6 +210,31 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
  <br><br><br>O Vector Equilibrium é considerado como a estrutura subjacente do Toro, também conhecida como a forma geométrica capaz de transformar energia em matéria. Nesta representação temos o modelo em 3D construído com 3 rotações em torno de um dos modelos.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>29. Estrela Merkaba de tetraedros triakis</h4>
+<a href="../vr/Merkaba2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/57A.png" class="foto" alt="Estrela Merkaba"></a><img src="../ar/57.png" class="qr">
+ <br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 tetraedros triakis de Catalan idênticos que são interligados por meio de rotações em direções opostas. A interseção destes tetraedros triakis origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D.
+ <br><br><br>
+<a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>30. Estrela Merkaba de tetraedros truncados combinados</h4>
+<a href="../vr/Merkaba3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/58A.png" class="foto" alt="Estrela Merkaba"></a><img src="../ar/58.png" class="qr">
+ <br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 tetraedros truncados combinados idênticos que são interligados por meio de rotações em direções opostas. A interseção destes tetraedros truncados combinados origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D.
+ <br><br><br>
+<a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<hr>
+<h4>31. Estrela Merkaba de tristetraedros trapezoédricos</h4>
+<a href="../vr/Merkaba4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/59A.png" class="foto" alt="Estrela Merkaba"></a><img src="../ar/59.png" class="qr">
+ <br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 tristetraedros trapezoédricos idênticos que são interligados por meio de rotações em direções opostas. A interseção destes tristetraedros trapezoédricos origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D.
+ <br><br><br>
+<a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>32. Estrela Merkaba fractal</h4>
+<a href="../vr/Merkaba5.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/60A.png" class="foto" alt="Estrela Merkaba fractal"></a><img src="../ar/60.png" class="qr">
+ <br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 fractais de tetraedros idênticos que são interligados por meio de rotações em direções opostas. A interseção destes fractais de tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D.
+ <br><br><br>
+<a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 

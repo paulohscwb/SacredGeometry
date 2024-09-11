@@ -88,6 +88,26 @@
 		<a-mixin id="mtl1v4" material="color: #5cb404; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 		<a-mixin id="trv4" geometry="radius-tubular:0.014; segments-tubular: 43" mixin="mtl1v4"></a-mixin>
 		<a-mixin id="arestasv4" mixin="mtl1v4" geometry="radius: 0.028; height:6" material="metalness:0.4; roughness:0.3;"></a-mixin>
+		<a-asset-item id="mt" src="https://paulohscwb.github.io/polyhedra2/fractalnonconvex/vr/outros/c3.mtl"></a-asset-item>
+		<a-asset-item id="mt1" src="https://paulohscwb.github.io/SacredGeometry/symbols/vr/outros/c8.mtl"></a-asset-item>
+		<a-asset-item id="aq" src="https://paulohscwb.github.io/polyhedra/catalan/vr/catalan/TriakisTetrahedron.obj"></a-asset-item>
+		<a-asset-item id="aq1" src="https://paulohscwb.github.io/polyhedra/catalan/vr/catalan/TriakisTetrahedronL.obj"></a-asset-item>
+		<a-mixin id="fc2" scale="1.999 1.999 1.999" obj-model="obj: #aq; mtl: #mt"></a-mixin>
+		<a-mixin id="ar2" scale="2 2 2" obj-model="obj: #aq1; mtl: #mt1"></a-mixin>
+		<a-asset-item id="aq3" src="https://paulohscwb.github.io/polyhedra2/ArchimedeanCatalanHulls/vr/outros/JoinedTruncatedTetrahedron.obj"></a-asset-item>
+		<a-asset-item id="aq4" src="https://paulohscwb.github.io/polyhedra2/ArchimedeanCatalanHulls/vr/outros/JoinedTruncatedTetrahedronL.obj"></a-asset-item>
+		<a-mixin id="fc3" scale="1.999 1.999 1.999" obj-model="obj: #aq3; mtl: #mt"></a-mixin>
+		<a-mixin id="ar3" scale="2 2 2" obj-model="obj: #aq4; mtl: #mt1"></a-mixin>
+		<a-asset-item id="aq5" src="https://paulohscwb.github.io/polyhedra/polyhedron/vr/outros/TrapezohedralTristetrahedron.obj"></a-asset-item>
+		<a-asset-item id="aq6" src="https://paulohscwb.github.io/polyhedra/polyhedron/vr/outros/TrapezohedralTristetrahedronL.obj"></a-asset-item>
+		<a-mixin id="fc4" obj-model="obj: #aq5; mtl: #mt"></a-mixin>
+		<a-mixin id="ar4" obj-model="obj: #aq6; mtl: #mt1"></a-mixin>
+		<a-mixin id="fc5" material="opacity: 0.85; metalness:0.6; roughness:0.4;" geometry="radius:1;"></a-mixin>
+		<a-mixin id="mtl45" mixin="fc5" material="color: #0bf;"></a-mixin>
+		<a-mixin id="p1" position="-0.57735 0.57735 -0.57735"></a-mixin>
+		<a-mixin id="p2" position="0.57735 0.57735 0.57735"></a-mixin>
+		<a-mixin id="p3" position="-0.57735 -0.57735 0.57735"></a-mixin>
+		<a-mixin id="p4" position="0.57735 -0.57735 -0.57735"></a-mixin>
 	</a-assets>
 
     <a-entity camera></a-entity>
@@ -1455,6 +1475,256 @@
 				<a-torus mixin="trv4" position="1.732 -1 0" radius="2.635" arc="82" rotation="0 0 109"></a-torus>
 				<a-torus mixin="trv4" position="0 -2 0" radius="2.635" arc="82" rotation="0 0 49"></a-torus>
 				<a-torus mixin="trv4" position="0 2 0" radius="2.635" arc="82" rotation="0 0 -131"></a-torus>
+			</a-entity>
+		</a-entity>
+	</a-marker>
+	
+	<a-marker type="barcode" value="57" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
+		<a-link mixin="lnk" class="lnk" href="vr/Merkaba2.htm"></a-link>
+	   	<a-entity position="2.7 0.9 0" scale="0.39 0.39 0.39" gesture-handler>
+			<a-entity mixin="ar2" rotation="35 0 -45"></a-entity>
+			<a-entity mixin="fc2" rotation="35 0 -45"></a-entity>
+			<a-entity mixin="ar2" rotation="35 0 45"></a-entity>
+			<a-entity mixin="fc2" rotation="35 0 45"></a-entity>
+		</a-entity>
+	</a-marker>
+	
+	<a-marker type="barcode" value="58" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
+		<a-link mixin="lnk" class="lnk" href="vr/Merkaba3.htm"></a-link>
+	   	<a-entity position="2.7 0.9 0" scale="0.39 0.39 0.39" gesture-handler>
+			<a-entity mixin="ar3" rotation="35 0 -45"></a-entity>
+			<a-entity mixin="fc3" rotation="35 0 -45"></a-entity>
+			<a-entity mixin="ar3" rotation="35 0 45"></a-entity>
+			<a-entity mixin="fc3" rotation="35 0 45"></a-entity>
+		</a-entity>
+	</a-marker>
+	
+	<a-marker type="barcode" value="59" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
+		<a-link mixin="lnk" class="lnk" href="vr/Merkaba4.htm"></a-link>
+	   	<a-entity position="2.7 0.9 0" scale="0.39 0.39 0.39" gesture-handler>
+			<a-entity mixin="ar4" scale="0.58 0.58 0.58" position="1.01 -0.415 0.58" rotation="19.5 60 0"></a-entity>
+			<a-entity mixin="fc4" scale="0.578 0.578 0.578" position="1.01 -0.415 0.58" rotation="19.5 60 0"></a-entity>
+			<a-entity rotation="0 180 180">
+				<a-entity mixin="ar4" scale="0.58 0.58 0.58" position="1.01 -0.415 0.58" rotation="19.5 60 0"></a-entity>
+				<a-entity mixin="fc4" scale="0.578 0.578 0.578" position="1.01 -0.415 0.58" rotation="19.5 60 0"></a-entity>
+			</a-entity>	
+		</a-entity>
+	</a-marker>
+	
+	<a-marker type="barcode" value="60" smooth="smooth:true; smoothCount:1" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .clickable" emitevents="true">
+		<a-link mixin="lnk" class="lnk" href="vr/Merkaba5.htm"></a-link>
+	   	<a-entity position="2.7 0.9 0" scale="0.17 0.17 0.17" gesture-handler>
+			<a-entity scale="0.75 0.75 0.75" id="nivel3">
+				<a-entity position="-2.3094 2.3094 -2.3094">
+					<a-entity position="-1.1547 1.1547 -1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="1.1547 1.1547 1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="-1.1547 -1.1547 1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="1.1547 -1.1547 -1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+				</a-entity>
+				<a-entity position="2.3094 2.3094 2.3094">
+					<a-entity position="-1.1547 1.1547 -1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="1.1547 1.1547 1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="-1.1547 -1.1547 1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="1.1547 -1.1547 -1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+				</a-entity>
+				<a-entity position="-2.3094 -2.3094 2.3094">
+					<a-entity position="-1.1547 1.1547 -1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="1.1547 1.1547 1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="-1.1547 -1.1547 1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="1.1547 -1.1547 -1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+				</a-entity>
+				<a-entity position="2.3094 -2.3094 -2.3094">
+					<a-entity position="-1.1547 1.1547 -1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="1.1547 1.1547 1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="-1.1547 -1.1547 1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="1.1547 -1.1547 -1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+				</a-entity>
+				<a-entity rotation="0 0 -90">
+				<a-entity position="-2.3094 2.3094 -2.3094">
+					<a-entity position="-1.1547 1.1547 -1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="1.1547 1.1547 1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="-1.1547 -1.1547 1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="1.1547 -1.1547 -1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+				</a-entity>
+				<a-entity position="2.3094 2.3094 2.3094">
+					<a-entity position="-1.1547 1.1547 -1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="1.1547 1.1547 1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="-1.1547 -1.1547 1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="1.1547 -1.1547 -1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+				</a-entity>
+				<a-entity position="-2.3094 -2.3094 2.3094">
+					<a-entity position="-1.1547 1.1547 -1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="1.1547 1.1547 1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="-1.1547 -1.1547 1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="1.1547 -1.1547 -1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+				</a-entity>
+				<a-entity position="2.3094 -2.3094 -2.3094">
+					<a-entity position="-1.1547 1.1547 -1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="1.1547 1.1547 1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="-1.1547 -1.1547 1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+					<a-entity position="1.1547 -1.1547 -1.1547">
+						<a-tetrahedron mixin="mtl45 p1"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p2"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p3"></a-tetrahedron>
+						<a-tetrahedron mixin="mtl45 p4"></a-tetrahedron>
+					</a-entity>
+				</a-entity>
+				</a-entity>
 			</a-entity>
 		</a-entity>
 	</a-marker>
