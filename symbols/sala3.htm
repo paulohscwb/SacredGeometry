@@ -9,6 +9,7 @@
     <script src="https://rawgit.com/donmccurdy/aframe-physics-system/v4.0.1/dist/aframe-physics-system.min.js"></script>
     <script src="https://unpkg.com/aframe-physics-extras/dist/aframe-physics-extras.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.misc.min.js"></script>
+	<script src="vr/nomes.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   </head>
   <body>
@@ -29,7 +30,7 @@
 		   <a-mixin id="botao1" geometry="radius:0.3; height:0.03;" material="opacity: 0.5; color:forestgreen;" clickable static-body></a-mixin>
            <a-mixin id="piso" geometry="width: 40; height: 0.1; depth: 40;" material="opacity:0.01; color: rgb(100,100,100)" static-body shadow></a-mixin>
 			<a-mixin id="mfisicas" physics-collider collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.018" super-hands="colliderEvent: collisions; colliderEventProperty: els; colliderEndEvent: collisions; colliderEndEventProperty: clearedEls;"></a-mixin>
-			 <a-mixin id="pointer" raycaster="showLine: true; objects: #poli1, .poli, a-torus, a-tetrahedron, a-link, a-sphere, a-cylinder, a-obj-model, obj-model" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
+			 <a-mixin id="pointer" raycaster="showLine: true; objects: #poli1, .poli, a-torus, a-tetrahedron, a-link, a-sphere, a-cylinder, a-obj-model" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
 			<a-mixin id="controle" mixin="pointer"></a-mixin>
 			<a-mixin id="s12_1q" position="0 0 1.5"></a-mixin>
 			<a-mixin id="s12_1t" position="0 0 0.866"></a-mixin>
@@ -555,25 +556,25 @@
 		</a-entity>
 		
 		<a-entity class="poli2" mixin="poli2" position="-0.37 1 2.35" scale="0.09 0.09 0.09" shadow>
-			<a-entity mixin="ar2" rotation="35 0 -45"></a-entity>
-			<a-entity mixin="fc2" rotation="35 0 -45"></a-entity>
-			<a-entity mixin="ar2" rotation="35 0 45"></a-entity>
-			<a-entity mixin="fc2" rotation="35 0 45"></a-entity>
+			<a-obj-model mixin="ar2" rotation="35 0 -45"></a-obj-model>
+			<a-obj-model mixin="fc2" rotation="35 0 -45"></a-obj-model>
+			<a-obj-model mixin="ar2" rotation="35 0 45"></a-obj-model>
+			<a-obj-model mixin="fc2" rotation="35 0 45"></a-obj-model>
 		</a-entity>
 		
 		<a-entity class="poli2" mixin="poli2" position="-0.37 1 1.7" scale="0.09 0.09 0.09" shadow>
-			<a-entity mixin="ar3" rotation="35 0 -45"></a-entity>
-			<a-entity mixin="fc3" rotation="35 0 -45"></a-entity>
-			<a-entity mixin="ar3" rotation="35 0 45"></a-entity>
-			<a-entity mixin="fc3" rotation="35 0 45"></a-entity>
+			<a-obj-model mixin="ar3" rotation="35 0 -45"></a-obj-model>
+			<a-obj-model mixin="fc3" rotation="35 0 -45"></a-obj-model>
+			<a-obj-model mixin="ar3" rotation="35 0 45"></a-obj-model>
+			<a-obj-model mixin="fc3" rotation="35 0 45"></a-obj-model>
 		</a-entity>
 		
 		<a-entity class="poli2" mixin="poli2" position="-1.1 1 2.35" scale="0.09 0.09 0.09" shadow>
-			<a-entity mixin="ar4" scale="0.58 0.58 0.58" position="1.01 -0.415 0.58" rotation="19.5 60 0"></a-entity>
-			<a-entity mixin="fc4" scale="0.578 0.578 0.578" position="1.01 -0.415 0.58" rotation="19.5 60 0"></a-entity>
+			<a-obj-model mixin="ar4" scale="0.58 0.58 0.58" position="1.01 -0.415 0.58" rotation="19.5 60 0"></a-obj-model>
+			<a-obj-model mixin="fc4" scale="0.578 0.578 0.578" position="1.01 -0.415 0.58" rotation="19.5 60 0"></a-obj-model>
 			<a-entity rotation="0 180 180">
-				<a-entity mixin="ar4" scale="0.58 0.58 0.58" position="1.01 -0.415 0.58" rotation="19.5 60 0"></a-entity>
-				<a-entity mixin="fc4" scale="0.578 0.578 0.578" position="1.01 -0.415 0.58" rotation="19.5 60 0"></a-entity>
+				<a-obj-model mixin="ar4" scale="0.58 0.58 0.58" position="1.01 -0.415 0.58" rotation="19.5 60 0"></a-obj-model>
+				<a-obj-model mixin="fc4" scale="0.578 0.578 0.578" position="1.01 -0.415 0.58" rotation="19.5 60 0"></a-obj-model>
 			</a-entity>	
 		</a-entity>
 		
