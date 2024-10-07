@@ -76,6 +76,7 @@
 			<a-mixin id="ar2" obj-model="obj: #aq3l; mtl: #mt"></a-mixin>
 			<a-mixin id="mtl1a" mixin="mtl1" material="opacity:1;"></a-mixin>
 			<a-mixin id="mtl2a" mixin="mtl2" material="opacity:1;"></a-mixin>
+			<a-mixin id="texto" position="0 -3.8 4.5" rotation="-20 0 0" text="width:12.57; side:double; color: skyblue; xOffset:0.03; align:center;"></a-mixin>
         </a-assets>
         <a-entity id="cameraRig">
            <a-camera id="head" look-controls wasd-controls-enabled="false" position="0 1.7 1" cursor="rayOrigin:mouse" static-body="shape: sphere; sphereRadius: 0.001" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-camera>
@@ -481,8 +482,10 @@
 					<a-cylinder mixin="ci" rotation="-35 0 30"></a-cylinder>
 					<a-cylinder mixin="ci" rotation="-35 0 -30"></a-cylinder>
 				</a-entity>
+			</a-entity>
 			
-				<a-entity id="nivel0" scale="0.875 0.875 0.875">
+			<a-entity id="nivel0">
+				<a-entity scale="0.875 0.875 0.875" animation="property: rotation; to: 0 360 0; loop: true; dur: 60000; dir: alternate; delay: 15000;">
 					<a-tetrahedron rotation="35 0 -45" radius="4.205" material="side: double; color:white; wireframe:true; wireframe-linewidth:1"></a-tetrahedron>
 					<a-sphere mixin="esferaG1" position="0 4.16 0"></a-sphere>
 					<a-sphere mixin="esferaG1" position="3.464 -1.4 2"></a-sphere>
@@ -490,8 +493,11 @@
 					<a-sphere mixin="esferaG1" position="0 -1.4 -4"></a-sphere>
 					<a-tetrahedron mixin="mtl2" rotation="35 0 -45" radius="4.2"></a-tetrahedron>
 				</a-entity>
+				<a-text mixin="texto" value="Tetraedro / Tetrahedron"></a-text>
+			</a-entity>
 				
-				<a-entity id="nivel1" visible="false" scale="0.875 0.875 0.875">
+			<a-entity id="nivel1" visible="false">
+				<a-entity scale="0.875 0.875 0.875" animation="property: rotation; to: 0 360 0; loop: true; dur: 60000; dir: alternate; delay: 15000;">
 					<a-entity rotation="35 0 -45" scale="4.841 4.841 4.841" mixin="ar2"></a-entity>
 					<a-sphere mixin="esferaG1" position="0 4.16 0"></a-sphere>
 					<a-sphere mixin="esferaG1" position="3.464 -1.4 2"></a-sphere>
@@ -503,8 +509,11 @@
 					<a-sphere mixin="esferaG1" position="0 1.4 4"></a-sphere>
 					<a-entity rotation="35 0 -45" scale="4.84 4.84 4.84" mixin="fc2"></a-entity>
 				</a-entity>
+				<a-text mixin="texto" value="Cubo / Cube"></a-text>
+			</a-entity>
 				
-				<a-entity id="nivel2" visible="false" rotation="0 60 0" scale="0.875 0.875 0.875">
+			<a-entity id="nivel2" visible="false">
+				<a-entity scale="0.875 0.875 0.875" rotation="0 60 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 60000; dir: alternate; delay: 15000;">
 					<a-octahedron rotation="35 180 -45" radius="4.845" material="side: double; color:white; wireframe:true; wireframe-linewidth:1"></a-octahedron>
 					<a-sphere mixin="esferaG1" position="3.464 -2.76 2"></a-sphere>
 					<a-sphere mixin="esferaG1" position="-3.464 -2.76 2"></a-sphere>
@@ -514,8 +523,11 @@
 					<a-sphere mixin="esferaG1" position="0 2.76 4"></a-sphere>
 					<a-octahedron mixin="mtl2" rotation="35 180 -45" radius="4.84"></a-octahedron>
 				</a-entity>
+				<a-text mixin="texto" value="Octaedro / Octahedron"></a-text>
+			</a-entity>
 				
-				<a-entity id="nivel4" visible="false" rotation="0 60 0" scale="0.7 0.75 0.7">
+			<a-entity id="nivel4" visible="false">
+				<a-entity rotation="0 60 0" scale="0.7 0.75 0.7" animation="property: rotation; to: 0 360 0; loop: true; dur: 60000; dir: alternate; delay: 15000;">
 					<a-icosahedron rotation="35 157.7 -45" radius="4.11" material=" color:white; wireframe:true; wireframe-linewidth:1"></a-icosahedron>
 					<a-sphere mixin="esferaG4" position="3.464 -0.732 2"></a-sphere>
 					<a-sphere mixin="esferaG4" position="-3.464 -0.732 2"></a-sphere>
@@ -531,8 +543,11 @@
 					<a-sphere mixin="esferaG4" position="0 -3.254 2.47"></a-sphere>
 					<a-icosahedron mixin="mtl2" rotation="35 157.7 -45" radius="4.1"></a-icosahedron>
 				</a-entity>
+				<a-text mixin="texto" value="Icosaedro / Icosahedron"></a-text>
+			</a-entity>
 				
-				<a-entity id="nivel3" visible="false" scale="1.005 1.005 1.005" rotation="0 7.5 41.9">
+			<a-entity id="nivel3" visible="false">
+				<a-entity scale="1.005 1.005 1.005" rotation="0 7.5 41.9" animation="property: rotation; to: 0 360 0; loop: true; dur: 60000; dir: alternate; delay: 15000;">
 					<a-entity rotation="35 172.5 -45" scale="2.87 2.87 2.87" mixin="ar1"></a-entity>
 					<a-sphere mixin="esferaG3" position="2.461 2.757 0"></a-sphere>
 					<a-sphere mixin="esferaG3" position="-1.22 2.757 -2.11"></a-sphere>
@@ -556,8 +571,11 @@
 					<a-sphere mixin="esferaG3" position="1.22 -2.757 -2.11"></a-sphere>
 					<a-entity rotation="35 172.5 -45" scale="2.86 2.86 2.86" mixin="fc1"></a-entity>
 				</a-entity>
+				<a-text mixin="texto" value="Dodecaedro / Dodecahedron"></a-text>
+			</a-entity>
 				
-				<a-entity id="nivel6" visible="false" scale="0.75 0.75 0.75" rotation="0 -30 0">
+			<a-entity id="nivel6" visible="false">
+				<a-entity scale="0.75 0.75 0.75" rotation="0 -30 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 60000; dir: alternate; delay: 15000;">
 					<a-entity rotation="35 30 45" scale="4.01 4.01 4.01" mixin="ar"></a-entity>
 					<a-sphere mixin="esferaG5" position="1.15 3.26 2"></a-sphere>
 					<a-sphere mixin="esferaG5" position="-2.32 3.26 0"></a-sphere>
@@ -573,8 +591,11 @@
 					<a-sphere mixin="esferaG5" position="0 0 4"></a-sphere>
 					<a-entity rotation="35 30 45" scale="4 4 4" mixin="fc"></a-entity>
 				</a-entity>
+				<a-text mixin="texto" value="Cuboctaedro / Cuboctahedron"></a-text>
+			</a-entity>
 				
-				<a-entity id="nivel5" visible="false" scale="0.875 0.875 0.875">
+			<a-entity id="nivel5" visible="false">
+				<a-entity scale="0.875 0.875 0.875" animation="property: rotation; to: 0 360 0; loop: true; dur: 60000; dir: alternate; delay: 15000;">
 					<a-tetrahedron rotation="35 0 45" radius="4.205" material="side: double; color:white; wireframe:true; wireframe-linewidth:1"></a-tetrahedron>
 					<a-tetrahedron rotation="35 0 -45" radius="4.205" material="side: double; color:white; wireframe:true; wireframe-linewidth:1"></a-tetrahedron>
 					<a-sphere mixin="esferaG1" position="0 4.16 0"></a-sphere>
@@ -588,6 +609,7 @@
 					<a-tetrahedron mixin="mtl2" rotation="35 0 45" radius="4.2"></a-tetrahedron>
 					<a-tetrahedron mixin="mtl2" rotation="35 0 -45" radius="4.2"></a-tetrahedron>
 				</a-entity>
+				<a-text mixin="texto" value="Tetraedro estrelado / Stellated tetrahedron"></a-text>
 			</a-entity>
 		</a-entity>
 		
