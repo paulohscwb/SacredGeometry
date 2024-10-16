@@ -36,7 +36,7 @@
 			<a-mixin id="mtl2" material="side: double; color: #cc1100; opacity:0.9; metalness:0.7; roughness:0.4"></a-mixin>
 			<a-mixin id="mtl3" material="side: double; color: #4df; opacity:0.9; metalness:0.7; roughness:0.4"></a-mixin>
 			<a-mixin id="mtl4" material="side: double; color: #00ccff; opacity:0.2; metalness:0.7; roughness:0.4"></a-mixin>
-			<a-mixin id="tr" rotation="90 0 0" geometry="radius: 6.05; radius-tubular:0.15; segments-tubular: 100" mixin="mtl3"></a-mixin>
+			<a-mixin id="tr" static-body rotation="90 0 0" geometry="radius: 6.05; radius-tubular:0.15; segments-tubular: 100" mixin="mtl3"></a-mixin>
 			<a-mixin id="tr1" mixin="tr" geometry="radius: 5.55;"></a-mixin>
 			<a-mixin id="s2_3p" position="0 7.2 0"></a-mixin>
 			<a-mixin id="s2_3h" position="0 6.8019 0"></a-mixin>
@@ -51,7 +51,7 @@
         <a-box mixin="piso" class="piso" visible="false" position="0 -0.05 0"></a-box>
         <a-light type="point" color="yellow" intensity="0.5" position="0 0 0"></a-light>
 
-		<a-entity static-body position="0 0 0" scale="0.7 0.7 0.7" shadow>
+		<a-entity class="poli" position="0 0 0" scale="0.7 0.7 0.7" shadow>
 			<a-entity position="0 -6.9823 0">
 			<a-entity id="baixo">
 					<a-entity id="pentagono">

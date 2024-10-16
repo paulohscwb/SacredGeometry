@@ -30,17 +30,17 @@
 		   <a-mixin id="botao1" geometry="radius:0.3; height:0.03;" material="opacity: 0.5; color:forestgreen;" clickable static-body></a-mixin>
            <a-mixin id="piso" geometry="width: 40; height: 0.1; depth: 40;" material="opacity:0.01; color: rgb(100,100,100)" static-body shadow></a-mixin>
 			<a-mixin id="mfisicas" physics-collider collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.018" super-hands="colliderEvent: collisions; colliderEventProperty: els; colliderEndEvent: collisions; colliderEndEventProperty: clearedEls;"></a-mixin>
-			 <a-mixin id="pointer" raycaster="showLine: true; objects: #poli1, a-link, a-cylinder" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
+			 <a-mixin id="pointer" raycaster="showLine: true; objects: #poli1, a-link, a-cylinder, a-obj-model" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
 			<a-mixin id="controle" mixin="pointer"></a-mixin>
 			<a-mixin id="mtl1" material="side: double; color: #5cb404; opacity:0.9; metalness:0.7; roughness:0.4"></a-mixin>
 			<a-mixin id="mtl2" material="side: double; color: #0df; opacity:0.4; metalness:0.7; roughness:0.4"></a-mixin>
 			<a-mixin id="mtl3" material="side: double; color: #f80; opacity:0.9; metalness:0.7; roughness:0.4"></a-mixin>
 			<a-mixin id="mtl4" material="side: double; color: #0f3; opacity:0.4; metalness:0.7; roughness:0.4"></a-mixin>
-			<a-mixin id="tr" geometry="radius: 2; radius-tubular:0.03; segments-tubular: 100" mixin="mtl3"></a-mixin>
-			<a-mixin id="a60" geometry="arc: 60;"></a-mixin>
-			<a-mixin id="a180" geometry="arc: 180;"></a-mixin>
-			<a-mixin id="a120" geometry="arc: 120;"></a-mixin>
-			<a-mixin id="esfera" mixin="mtl4" geometry="radius: 1; side:double; segments-width:100; segments-height:100;" material="metalness:0.5; roughness:0.3;">
+			<a-mixin id="tr" static-body geometry="radius: 2; radius-tubular:0.03; segments-tubular: 100" mixin="mtl3"></a-mixin>
+			<a-mixin id="a60" static-body geometry="arc: 60;"></a-mixin>
+			<a-mixin id="a180" static-body geometry="arc: 180;"></a-mixin>
+			<a-mixin id="a120" static-body geometry="arc: 120;"></a-mixin>
+			<a-mixin id="esfera" static-body mixin="mtl4" geometry="radius: 1; side:double; segments-width:100; segments-height:100;" material="metalness:0.5; roughness:0.3;">
         </a-assets>
         <a-entity id="cameraRig">
            <a-camera id="head" look-controls wasd-controls-enabled="false" position="0 1.7 0" cursor="rayOrigin:mouse" static-body="shape: sphere; sphereRadius: 0.001" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-camera>
@@ -50,7 +50,7 @@
         <a-box mixin="piso" class="piso" visible="false" position="0 -0.05 0"></a-box>
         <a-light type="point" color="yellow" intensity="0.5" position="0 0 0"></a-light>
 
-		<a-entity static-body position="0 0 0" scale="0.7 0.7 0.7" shadow>
+		<a-entity class="poli" position="0 0 0" scale="0.7 0.7 0.7" shadow>
 			<a-entity>
 			<a-entity rotation="90 0 0" scale="0.5 0.5 0.5">
 				<a-torus mixin="tr"></a-torus>
