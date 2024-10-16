@@ -46,9 +46,21 @@
         <a-box mixin="piso" class="piso" visible="false" position="0 -0.05 0"></a-box>
         <a-light type="point" color="yellow" intensity="0.5" position="0 0 0"></a-light>
 
-		<a-entity class="poli" position="0 0 0" scale="0.7 0.7 0.7" shadow>
-			<a-entity>
-			<a-entity rotation="0 0 90">
+		<a-entity class="poli" rotation="0 0 90" scale="0.7 0.7 0.7" shadow>
+			<a-entity rotation="-30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+			<a-entity rotation="30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+			<a-entity rotation="-60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+			<a-entity rotation="60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+			<a-entity rotation="-90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+			<a-entity rotation="90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+			<a-entity rotation="-120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+			<a-entity rotation="120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+			<a-entity rotation="-150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+			<a-entity rotation="150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+			<a-entity rotation="180 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+			<a-entity><a-torus mixin="tr"></a-torus></a-entity>
+			
+			<a-entity position="2.511 0 0" rotation="15 0 0">
 				<a-entity rotation="-30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
 				<a-entity rotation="30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
 				<a-entity rotation="-60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
@@ -61,127 +73,111 @@
 				<a-entity rotation="150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
 				<a-entity rotation="180 0 0"><a-torus mixin="tr"></a-torus></a-entity>
 				<a-entity><a-torus mixin="tr"></a-torus></a-entity>
-				
-				<a-entity position="2.511 0 0" rotation="15 0 0">
-					<a-entity rotation="-30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="-60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="-90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="-120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="-150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="180 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity><a-torus mixin="tr"></a-torus></a-entity>
-				</a-entity>
-				
-				<a-entity position="-2.511 0 0" rotation="15 0 0">
-					<a-entity rotation="-30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="-60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="-90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="-120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="-150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="180 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity><a-torus mixin="tr"></a-torus></a-entity>
-				</a-entity>
-				
-				<a-entity position="5.023 0 0" rotation="0 0 0">
-					<a-entity rotation="-30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="-60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="-90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="-120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="-150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="180 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity><a-torus mixin="tr"></a-torus></a-entity>
-				</a-entity>
-				
-				<a-entity position="-5.023 0 0" rotation="0 0 0">
-					<a-entity rotation="-30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="-60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="-90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="-120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="-150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity rotation="180 0 0"><a-torus mixin="tr"></a-torus></a-entity>
-					<a-entity><a-torus mixin="tr"></a-torus></a-entity>
-				</a-entity>
-				
-				<a-entity position="7.534 0 0" rotation="15 0 0">
-					<a-entity rotation="-30 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-					<a-entity rotation="30 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-					<a-entity rotation="-60 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-					<a-entity rotation="60 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-					<a-entity rotation="-90 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-					<a-entity rotation="90 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-					<a-entity rotation="-120 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-					<a-entity rotation="120 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-					<a-entity rotation="-150 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-					<a-entity rotation="150 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-					<a-entity rotation="180 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-					<a-entity rotation="0 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-				</a-entity>
-				
-				<a-entity position="-7.534 0 0" rotation="15 0 0">
-					<a-entity rotation="-30 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-					<a-entity rotation="30 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-					<a-entity rotation="-60 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-					<a-entity rotation="60 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-					<a-entity rotation="-90 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-					<a-entity rotation="90 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-					<a-entity rotation="-120 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-					<a-entity rotation="120 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-					<a-entity rotation="-150 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-					<a-entity rotation="150 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-					<a-entity rotation="180 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-					<a-entity rotation="0 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
-				</a-entity>
-
-				<a-entity position="10.046  0 0" rotation="0 0 0">
-					<a-entity rotation="-30 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-					<a-entity rotation="30 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-					<a-entity rotation="-60 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-					<a-entity rotation="60 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-					<a-entity rotation="-90 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-					<a-entity rotation="90 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-					<a-entity rotation="-120 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-					<a-entity rotation="120 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-					<a-entity rotation="-150 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-					<a-entity rotation="150 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-					<a-entity rotation="180 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-					<a-entity rotation="0 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-				</a-entity>
-				
-				<a-entity position="-10.046 0 0" rotation="0 0 0">
-					<a-entity rotation="-30 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-					<a-entity rotation="30 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-					<a-entity rotation="-60 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-					<a-entity rotation="60 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-					<a-entity rotation="-90 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-					<a-entity rotation="90 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-					<a-entity rotation="-120 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-					<a-entity rotation="120 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-					<a-entity rotation="-150 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-					<a-entity rotation="150 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-					<a-entity rotation="180 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-					<a-entity rotation="0 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
-				</a-entity>
 			</a-entity>
+			
+			<a-entity position="-2.511 0 0" rotation="15 0 0">
+				<a-entity rotation="-30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="180 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity><a-torus mixin="tr"></a-torus></a-entity>
+			</a-entity>
+			
+			<a-entity position="5.023 0 0" rotation="0 0 0">
+				<a-entity rotation="-30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="180 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity><a-torus mixin="tr"></a-torus></a-entity>
+			</a-entity>
+			
+			<a-entity position="-5.023 0 0" rotation="0 0 0">
+				<a-entity rotation="-30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="180 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity><a-torus mixin="tr"></a-torus></a-entity>
+			</a-entity>
+			
+			<a-entity position="7.534 0 0" rotation="15 0 0">
+				<a-entity rotation="-30 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="30 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-60 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="60 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-90 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="90 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-120 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="120 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-150 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="150 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="180 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="0 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+			</a-entity>
+			
+			<a-entity position="-7.534 0 0" rotation="15 0 0">
+				<a-entity rotation="-30 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="30 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-60 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="60 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-90 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="90 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-120 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="120 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-150 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="150 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="180 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="0 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+			</a-entity>
+
+			<a-entity position="10.046  0 0" rotation="0 0 0">
+				<a-entity rotation="-30 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="30 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-60 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="60 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-90 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="90 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-120 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="120 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-150 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="150 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="180 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="0 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+			</a-entity>
+			
+			<a-entity position="-10.046 0 0" rotation="0 0 0">
+				<a-entity rotation="-30 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="30 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-60 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="60 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-90 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="90 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-120 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="120 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-150 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="150 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="180 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="0 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
 			</a-entity>
 		</a-entity>
 		
