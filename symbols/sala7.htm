@@ -52,6 +52,11 @@
 
 		<a-entity class="poli" scale="0.7 0.7 0.7" shadow>
 			<a-entity position="0 0 0">
+				<a-torus mixin="tr" visible="false"></a-torus>
+			</a-entity>
+		</a-entity>
+		
+		<a-entity class="poli" scale="0.7 0.7 0.7" shadow>
 			<a-entity rotation="90 0 0" scale="0.5 0.5 0.5">
 				<a-torus mixin="tr"></a-torus>
 				<a-torus mixin="tr" radius="8"></a-torus>
@@ -166,9 +171,9 @@
 			</a-entity>
 		</a-entity>
 		
-		<a-cylinder mixin="botao1" class="botao" position="2.06 1.9 -0.7" onclick="sairVR()" radius="0.3" material="opacity: 0.5;" color="coral" rotation="-90 270 0"></a-cylinder>
-		<a-text value="Sair do modo imersivo" text="align:center;" position="2.06 2.35 -0.7" width="2" rotation="0 270 0"></a-text>
-		<a-text value="Exit immersive mode" text="align:center;" position="2.06 2.25 -0.7" width="2" rotation="0 270 0"></a-text>
+		<a-cylinder mixin="botao1" class="botao" position="2.06 1.9 0.7" onclick="sairVR()" radius="0.3" material="opacity: 0.5;" color="coral" rotation="-90 270 0"></a-cylinder>
+		<a-text value="Sair do modo imersivo" text="align:center;" position="2.06 2.35 0.7" width="2" rotation="0 270 0"></a-text>
+		<a-text value="Exit immersive mode" text="align:center;" position="2.06 2.25 0.7" width="2" rotation="0 270 0"></a-text>
 		
 		<a-light type="ambient" color="white" intensity="0.5"></a-light>
 		<a-light type="directional" color="white" light="castShadow:true; shadowBias: -0.0001;" intensity="0.75" position="-3 2 1"></a-light>
