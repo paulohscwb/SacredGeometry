@@ -32,10 +32,10 @@
 			<a-mixin id="mfisicas" physics-collider collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.018" super-hands="colliderEvent: collisions; colliderEventProperty: els; colliderEndEvent: collisions; colliderEndEventProperty: clearedEls;"></a-mixin>
 			 <a-mixin id="pointer" raycaster="showLine: true; objects: #poli1, a-link, a-cylinder, a-obj-model" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
 			<a-mixin id="controle" mixin="pointer"></a-mixin>
-			<a-asset-item id="mt" src="https://paulohscwb.github.io/polyhedra2/fractalnonconvex/vr/outros/c1.mtl"></a-asset-item>
+			<a-asset-item id="mt" src="https://paulohscwb.github.io/polyhedra2/fractalnonconvex/vr/outros/c2.mtl"></a-asset-item>
 			<a-asset-item id="mt1" src="https://paulohscwb.github.io/SacredGeometry/symbols/vr/outros/c8.mtl"></a-asset-item>
-			<a-asset-item id="aq" src="https://paulohscwb.github.io/polyhedra/catalan/vr/catalan/TriakisTetrahedron.obj"></a-asset-item>
-			<a-asset-item id="aq1" src="https://paulohscwb.github.io/polyhedra/catalan/vr/catalan/TriakisTetrahedronL.obj"></a-asset-item>
+			<a-asset-item id="aq" src="https://paulohscwb.github.io/polyhedra2/ArchimedeanCatalanHulls/vr/outros/JoinedTruncatedTetrahedron.obj"></a-asset-item>
+			<a-asset-item id="aq1" src="https://paulohscwb.github.io/polyhedra2/ArchimedeanCatalanHulls/vr/outros/JoinedTruncatedTetrahedronL.obj"></a-asset-item>
 			<a-mixin id="fc" scale="0.544 0.544 0.544" obj-model="obj: #aq; mtl: #mt">
 			<a-mixin id="ar" scale="0.545 0.545 0.545" obj-model="obj: #aq1; mtl: #mt1"></a-mixin>
 			<a-mixin id="mtl1" mixin="fc"></a-mixin>
@@ -54,7 +54,7 @@
 		   <a-entity id="rhand" mixin="controle" hand-controls="hand: right"></a-entity>
         </a-entity>
         <a-box mixin="piso" class="piso" visible="false" position="0 -0.05 0"></a-box>
-        <a-light type="point" color="yellow" intensity="0.5" position="0 0 0"></a-light>
+        <a-light type="point" color="yellow" intensity="0.3" position="0 0 0"></a-light>
 
 		<a-entity class="poli" position="0 1 0" scale="0.7 0.7 0.7" shadow>
 			<a-entity rotation="35 0 45" scale="0.375 0.375 0.375" id="nivel4">
