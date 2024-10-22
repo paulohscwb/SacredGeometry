@@ -13,10 +13,8 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <h3 style="margin-top:3px"><a target="_blank" href="flower/"><img src="flower/ar/29A.png" style="margin-bottom:-10px" width="40"> Flower of life and the polyhedra of Plato and Archimedes</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="fruit/"><img src="fruit/ar/45A.png" style="margin-bottom:-10px" width="40"> Fruit of life and the polyhedra of Plato and Archimedes</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="grid/"><img src="grid/ar/58A.png" style="margin-bottom:-10px" width="40"> Grid of life and the polyhedra of Plato and Archimedes</a></h3>
-<!--<h3 style="margin-top:3px"><a target="_blank" href="metatron/"><img src="metatron/ar/67A.png" style="margin-bottom:-10px" width="40"> Metatron and the polyhedra of Plato and Archimedes</a></h3>
-
-<h3 style="margin-top:5px; text-align:center;"><a target="_blank" href="all/">&#x1f4c4; Complete list of polyhedra</a></h3>
---><hr>
+<h3 style="margin-top:3px"><a target="_blank" href="metatron/"><img src="metatron/ar/73A.png" style="margin-bottom:-10px" width="40"> Metatron and the polyhedra of Plato and Archimedes</a></h3>
+<hr>
 <h3 align="center">Immersive rooms</h3>
 <p align="center"><img src="symbols/vr/salas/videos/gs1.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy"/><img src="symbols/vr/salas/videos/gs2.gif" style="max-width: 47%; border-radius:5px;" loading="lazy"/></p>
 <h3 align="center">Augmented Reality and 3D models</h3>

@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <!DOCTYPE html>
 <html>
   <head>
@@ -302,3 +303,309 @@
     </a-scene>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sacred Geometry</title>
+	<link rel="icon" type="image/png" href="vr/salas/imagens/icone.png">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://unpkg.com/super-hands/dist/super-hands.min.js"></script>
+    <script src="https://rawgit.com/donmccurdy/aframe-physics-system/v4.0.1/dist/aframe-physics-system.min.js"></script>
+    <script src="https://unpkg.com/aframe-physics-extras/dist/aframe-physics-extras.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.misc.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script src="vr/nomes.js"></script>
+  </head>
+  <body>
+  <div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Lato; font-size:2.75vh;  font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2024 Paulo Henrique Siqueira</div>
+	<div style='position: fixed; top: 43px; width:100%; text-align: center; z-index: -2;' id="info">
+		<font face="verdana" size="5" color="DarkSlateBlue">Loading...</font>
+	</div>
+	<script>
+		setTimeout(() => {
+		let get = document.getElementById('info');
+			get.style.display = 'none';
+		}, 5000);
+	</script>
+    <a-scene physics="gravity:-1; iterations:5;" shadow="type: pcfsoft" renderer="antialias: true; colorManagement: true; highRefreshRate: true;"> <!--logarithmicDepthBuffer: true-->
+        <a-assets>
+           <a-mixin id="poli1" shadow hoverable grabbable stretchable draggable droppable dynamic-body="linearDamping:0.05; angularDamping:0.05; mass:5; shape: auto"></a-mixin>
+		   <a-mixin id="botao1" geometry="radius:0.3; height:0.03;" material="opacity: 0.5; color:forestgreen;" clickable static-body></a-mixin>
+           <a-mixin id="piso" geometry="width: 40; height: 0.1; depth: 40;" material="opacity:0.01; color: rgb(100,100,100)" static-body shadow></a-mixin>
+			<a-mixin id="mfisicas" physics-collider collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.018" super-hands="colliderEvent: collisions; colliderEventProperty: els; colliderEndEvent: collisions; colliderEndEventProperty: clearedEls;"></a-mixin>
+			 <a-mixin id="pointer" raycaster="showLine: true; objects: #poli1, .poli, a-torus, a-tetrahedron, a-link, a-sphere, a-cylinder" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
+			<a-mixin id="controle" mixin="pointer"></a-mixin>
+			<a-mixin id="mtl1" material="color: #5cb404; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl2" material="color: #b45c04; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl3" material="color: #0088ff; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl4" material="color: #0b0; opacity:0.6; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="tr" geometry="radius-tubular:0.02;" mixin="mtl3"></a-mixin>
+			<a-mixin id="lnk" rotation="-90 0 0" scale="0.5 0.5 0.5" position="0 0.25 0" link="title: 3D model; highlighted:true; backgroundColor:LightGray"></a-mixin>
+			<a-mixin id="mtl2s1" material="color: #cc1100; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="trs1" geometry="radius: 2; radius-tubular:0.028;" mixin="mtl2s1"></a-mixin>
+			<a-mixin id="mtl2s2" material="color: #cc1100; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="trs2" geometry="radius: 2; radius-tubular:0.033;" mixin="mtl2s2"></a-mixin>
+			<a-mixin id="mtl3s3" material="color: #0c8; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="trs3" position="0 0 0" rotation="90 0 0" geometry="radius: 3.36; radius-tubular:0.042;" mixin="mtl3s3"></a-mixin>
+			<a-mixin id="s2_3p" position="0 11.5 0"></a-mixin>
+			<a-mixin id="s2_3h" position="0 11.5 0"></a-mixin>
+			<a-mixin id="mtl1e2" material="color: #5caa04;; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="tre2" geometry="radius: 1; " mixin="mtl1e2"></a-mixin>
+			<a-mixin id="mtl1e1" material="color: #5caa04; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="tre1" rotation="90 0 0" geometry="radius-tubular:0.02; arc:360; radius:1;" mixin="mtl1e1"></a-mixin>
+			<a-mixin id="mtl3f1" material="color: #0088ff; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+        </a-assets>
+        <a-entity id="cameraRig">
+           <a-camera id="head" look-controls wasd-controls-enabled="false" position="0 1.7 1" cursor="rayOrigin:mouse" static-body="shape: sphere; sphereRadius: 0.001" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-camera>
+           <a-entity id="lhand" mixin="mfisicas" hand-controls="hand: left"></a-entity>
+		   <a-entity id="rhand" mixin="controle" hand-controls="hand: right"></a-entity>
+        </a-entity>
+        <a-box mixin="piso" class="piso" visible="false" position="0 -0.05 0"></a-box>
+        <a-gltf-model static-body src="vr/salas/geomSagrada1.glb" position="0 0 0" shadow></a-gltf-model>
+		<a-gltf-model static-body src="vr/salas/geomSagrada2.glb" position="0 0 0" shadow></a-gltf-model>
+		<a-light type="point" color="yellow" intensity="0.5" position="0 0 0"></a-light>
+
+		<a-entity class="poli" mixin="poli1" position="-0.75 1.15 -0.5" scale="0.12 0.12 0.12" shadow>
+			<a-entity>
+				<a-entity rotation="90 0 0">
+					<a-torus mixin="tr" radius="3"></a-torus>
+					<a-torus mixin="tr" radius="1"></a-torus>
+					<a-torus mixin="tr" radius="2" position="0 -1 0"></a-torus>
+					<a-torus mixin="tr" radius="2" position="0 1 0"></a-torus>
+					<a-sphere mixin="mtl4" radius="0.97"></a-sphere>
+				</a-entity>
+			</a-entity>
+		</a-entity>
+		
+		<a-entity class="poli" mixin="poli1" position="0 1.15 -0.5" scale="0.12 0.12 0.12" shadow>
+			<a-entity>
+				<a-torus mixin="tr" radius="3"></a-torus>
+				<a-torus mixin="tr" radius="1"></a-torus>
+				<a-torus mixin="tr" radius="2" position="0 -1 0"></a-torus>
+				<a-torus mixin="tr" radius="2" position="0 1 0"></a-torus>
+				<a-entity rotation="0 60 0">
+					<a-torus mixin="tr" radius="3"></a-torus>
+					<a-torus mixin="tr" radius="1"></a-torus>
+					<a-torus mixin="tr" radius="2" position="0 -1 0"></a-torus>
+					<a-torus mixin="tr" radius="2" position="0 1 0"></a-torus>
+				</a-entity>
+				<a-entity rotation="0 -60 0">
+					<a-torus mixin="tr" radius="3"></a-torus>
+					<a-torus mixin="tr" radius="1"></a-torus>
+					<a-torus mixin="tr" radius="2" position="0 -1 0"></a-torus>
+					<a-torus mixin="tr" radius="2" position="0 1 0"></a-torus>
+				</a-entity>
+				<a-entity rotation="90 0 0">
+					<a-torus mixin="tr" radius="3"></a-torus>
+					<a-torus mixin="tr" radius="1"></a-torus>
+					<a-torus mixin="tr" radius="2" position="0 -1 0"></a-torus>
+					<a-torus mixin="tr" radius="2" position="0 1 0"></a-torus>
+				</a-entity>
+				<a-sphere mixin="mtl4" radius="0.97"></a-sphere>
+			</a-entity>
+		</a-entity>
+		
+		<a-entity class="poli" mixin="poli1" position="0.75 0.8 -0.5" scale="0.08 0.08 0.08" shadow>
+			<a-entity>
+				<a-entity rotation="90 0 0">
+					<a-torus mixin="trs1"></a-torus>
+					<a-torus mixin="trs1" position="0 2 0"></a-torus>
+					<a-torus mixin="trs1" position="0 -2 0"></a-torus>
+					<a-torus mixin="trs1" position="1.732 1 0"></a-torus>
+					<a-torus mixin="trs1" position="1.732 -1 0"></a-torus>
+					<a-torus mixin="trs1" position="-1.732 1 0"></a-torus>
+					<a-torus mixin="trs1" position="-1.732 -1 0"></a-torus>
+				</a-entity>
+			</a-entity>
+		</a-entity>
+		
+		<!-- segunda mesa: girada 180 graus, com afastamento 1.5-->
+		<a-entity class="poli" mixin="poli1" position="1.1 1.15 2" scale="0.08 0.08 0.08" shadow>
+			<a-entity>			
+				<a-entity rotation="19.5 150 30">
+					<a-torus mixin="trs2"></a-torus>
+					<a-torus mixin="trs2" position="0 2 0"></a-torus>
+					<a-torus mixin="trs2" position="0 -2 0"></a-torus>
+					<a-torus mixin="trs2" position="1.732 1 0"></a-torus>
+					<a-torus mixin="trs2" position="1.732 -1 0"></a-torus>
+					<a-torus mixin="trs2" position="-1.732 1 0"></a-torus>
+					<a-torus mixin="trs2" position="-1.732 -1 0"></a-torus>
+				</a-entity>
+				<a-entity rotation="19.5 270 30">
+					<a-torus mixin="trs2"></a-torus>
+					<a-torus mixin="trs2" position="0 2 0"></a-torus>
+					<a-torus mixin="trs2" position="0 -2 0"></a-torus>
+					<a-torus mixin="trs2" position="1.732 1 0"></a-torus>
+					<a-torus mixin="trs2" position="1.732 -1 0"></a-torus>
+					<a-torus mixin="trs2" position="-1.732 1 0"></a-torus>
+					<a-torus mixin="trs2" position="-1.732 -1 0"></a-torus>
+				</a-entity>
+				<a-entity rotation="19.5 30 30">
+					<a-torus mixin="trs2"></a-torus>
+					<a-torus mixin="trs2" position="0 2 0"></a-torus>
+					<a-torus mixin="trs2" position="0 -2 0"></a-torus>
+					<a-torus mixin="trs2" position="1.732 1 0"></a-torus>
+					<a-torus mixin="trs2" position="1.732 -1 0"></a-torus>
+					<a-torus mixin="trs2" position="-1.732 1 0"></a-torus>
+					<a-torus mixin="trs2" position="-1.732 -1 0"></a-torus>
+				</a-entity>
+				<a-entity rotation="90 0 0">
+					<a-torus mixin="trs2"></a-torus>
+					<a-torus mixin="trs2" position="0 2 0"></a-torus>
+					<a-torus mixin="trs2" position="0 -2 0"></a-torus>
+					<a-torus mixin="trs2" position="1.732 1 0"></a-torus>
+					<a-torus mixin="trs2" position="1.732 -1 0"></a-torus>
+					<a-torus mixin="trs2" position="-1.732 1 0"></a-torus>
+					<a-torus mixin="trs2" position="-1.732 -1 0"></a-torus>
+				</a-entity>
+			</a-entity>
+		</a-entity>
+		
+		<a-entity class="poli" mixin="poli1" position="0.37 0.9 2" scale="0.05 0.05 0.05" shadow>
+			<a-entity>
+				<a-entity id="baixo" position="0 -1.5 0">
+					<a-entity id="pentagono">
+						<a-torus mixin="trs3"></a-torus>
+					</a-entity>
+
+					<a-entity mixin="s2_3p">
+						<a-entity rotation="163.7 0 0">
+							<a-entity mixin="s2_3h">
+								<a-torus mixin="trs3"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity mixin="s2_3p">
+						<a-entity rotation="163.7 60 0">
+							<a-entity mixin="s2_3h">
+								<a-torus mixin="trs3"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity mixin="s2_3p">
+						<a-entity rotation="163.7 120 0">
+							<a-entity mixin="s2_3h">
+								<a-torus mixin="trs3"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity mixin="s2_3p">
+						<a-entity rotation="163.7 180 0">
+							<a-entity mixin="s2_3h">
+								<a-torus mixin="trs3"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity mixin="s2_3p">
+						<a-entity rotation="163.7 240 0">
+							<a-entity mixin="s2_3h">
+								<a-torus mixin="trs3"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity mixin="s2_3p">
+						<a-entity rotation="163.7 300 0">
+							<a-entity mixin="s2_3h">
+								<a-torus mixin="trs3"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity id="cima" position="0 1.5 0" rotation="0 30 180">
+					<a-entity id="pentagono">
+						<a-torus mixin="trs3"></a-torus>
+					</a-entity>
+
+					<a-entity mixin="s2_3p">
+						<a-entity rotation="163.7 0 0">
+							<a-entity mixin="s2_3h">
+								<a-torus mixin="trs3"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity mixin="s2_3p">
+						<a-entity rotation="163.7 60 0">
+							<a-entity mixin="s2_3h">
+								<a-torus mixin="trs3"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity mixin="s2_3p">
+						<a-entity rotation="163.7 120 0">
+							<a-entity mixin="s2_3h">
+								<a-torus mixin="trs3"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity mixin="s2_3p">
+						<a-entity rotation="163.7 180 0">
+							<a-entity mixin="s2_3h">
+								<a-torus mixin="trs3"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity mixin="s2_3p">
+						<a-entity rotation="163.7 240 0">
+							<a-entity mixin="s2_3h">
+								<a-torus mixin="trs3"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity mixin="s2_3p">
+						<a-entity rotation="163.7 300 0">
+							<a-entity mixin="s2_3h">
+								<a-torus mixin="trs3"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+			</a-entity>
+		</a-entity>
+		
+		<a-entity class="poli" mixin="poli1" position="-0.37 0.9 2" scale="0.1 0.1 0.1" shadow>
+			<a-entity>
+				<a-torus mixin="tre1" position="1.732 0 1"></a-torus>
+				<a-torus mixin="tre1" position="1.732 0 -1"></a-torus>
+				<a-torus mixin="tre1" position="-1.732 0 1"></a-torus>
+				<a-torus mixin="tre1" position="-1.732 0 -1"></a-torus>
+				<a-torus mixin="tre1" position="0 0 2"></a-torus>
+				<a-torus mixin="tre1" position="0 0 -2"></a-torus>
+				<a-torus mixin="tre1"></a-torus>
+			</a-entity>
+		</a-entity>
+		
+		<a-entity class="poli" mixin="poli1" position="-1.1 1 2" scale="0.11 0.11 0.11" shadow>
+			<a-entity>
+				<a-sphere mixin="tre2" position="1 1 1"></a-sphere>
+				<a-sphere mixin="tre2" position="1 1 -1"></a-sphere>
+				<a-sphere mixin="tre2" position="1 -1 -1"></a-sphere>
+				<a-sphere mixin="tre2" position="1 -1 1"></a-sphere>
+				<a-sphere mixin="tre2" position="-1 1 1"></a-sphere>
+				<a-sphere mixin="tre2" position="-1 1 -1"></a-sphere>
+				<a-sphere mixin="tre2" position="-1 -1 -1"></a-sphere>
+				<a-sphere mixin="tre2" position="-1 -1 1"></a-sphere>
+			</a-entity>
+		</a-entity>
+		
+		<a-video src="vr/salas/videos/SeedOfLife3d_v3_anim_x264_x264.mp4" position="2.055 1 1.16" rotation="0 270 0" depth="0.01" height="1.5" width="2.5"></a-video>
+		<a-box position="2.08 1 1.16" rotation="0 270 0" depth="0.03" height="1.8" width="2.9" src="../imagens/textura.jpg" material="repeat:5 2" static-body></a-box>		
+		<a-cylinder mixin="botao1" class="botao" position="2.06 1.5 -0.7" onclick="fl='sala1.htm', window.open(fl, '_self');" radius="0.3" material="opacity: 0.5;" color="forestgreen" rotation="-90 270 0"></a-cylinder>
+		<a-text value="Next room" text="align:center;" position="2.06 1.95 -0.7" width="2" rotation="0 270 0"></a-text>
+		<a-text value="Proxima sala" text="align:center;" position="2.06 1.85 -0.7" width="2" rotation="0 270 0"></a-text>
+		<a-cylinder mixin="botao1" class="botao" position="2.06 0.65 -0.7" onclick="sairVR()" radius="0.3" material="opacity: 0.5;" color="coral" rotation="-90 270 0"></a-cylinder>
+		<a-text value="Sair do modo imersivo" text="align:center;" position="2.06 1 -0.7" width="2" rotation="0 270 0"></a-text>
+		<a-text value="Exit immersive mode" text="align:center;" position="2.06 1.1 -0.7" width="2" rotation="0 270 0"></a-text>
+		
+		<a-text value="Youtube: @paulohscwb" position="2.06 0.18 1.5" width="2" rotation="0 270 0"></a-text>
+		<a-text value="imagem panoramica: Hemul75" position="-2 0.18 1.5" width="2.3" rotation="0 90 0"></a-text>
+
+        <a-light type="ambient" color="white" intensity="0.5"></a-light>
+		<a-light type="directional" color="white" light="castShadow:true; shadowBias: -0.0001;" intensity="0.75" position="-3 2 1"></a-light>
+		<a-light type="directional" color="white" light="castShadow:true; shadowBias: -0.0001;" intensity="0.75" position="3 -2 1"></a-light>
+		<a-sky src="../imagens/toyA.jpg"></a-sky> <!--geometry="phiStart: 95;"-->
+    </a-scene>
+  </body>
+</html>
+>>>>>>> Stashed changes

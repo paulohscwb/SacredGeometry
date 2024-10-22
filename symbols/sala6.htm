@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <!DOCTYPE html>
 <html>
   <head>
@@ -192,3 +193,199 @@
     </a-scene>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sacred Geometry</title>
+	<link rel="icon" type="image/png" href="vr/salas/imagens/icone.png">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://unpkg.com/super-hands/dist/super-hands.min.js"></script>
+    <script src="https://rawgit.com/donmccurdy/aframe-physics-system/v4.0.1/dist/aframe-physics-system.min.js"></script>
+    <script src="https://unpkg.com/aframe-physics-extras/dist/aframe-physics-extras.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.misc.min.js"></script>
+	<script src="vr/nomes.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+  <body>
+  <div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Lato; font-size:2.75vh;  font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2024 Paulo Henrique Siqueira</div>
+	<div style='position: fixed; top: 43px; width:100%; text-align: center; z-index: -2;' id="info">
+		<font face="verdana" size="5" color="DarkSlateBlue">Loading...</font>
+	</div>
+	<script>
+		setTimeout(() => {
+		let get = document.getElementById('info');
+			get.style.display = 'none';
+		}, 5000);
+	</script>
+    <a-scene physics="gravity:-1; iterations:5;" shadow="type: pcfsoft" renderer="antialias: true; colorManagement: true; highRefreshRate: true;"> <!--logarithmicDepthBuffer: true-->
+        <a-assets>
+           <a-mixin id="botao1" geometry="radius:0.3; height:0.03;" material="opacity: 0.5; color:forestgreen;" clickable static-body></a-mixin>
+           <a-mixin id="piso" geometry="width: 40; height: 0.1; depth: 40;" material="opacity:0.01; color: rgb(100,100,100)" static-body></a-mixin>
+			<a-mixin id="mfisicas" physics-collider collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.018" super-hands="colliderEvent: collisions; colliderEventProperty: els; colliderEndEvent: collisions; colliderEndEventProperty: clearedEls;"></a-mixin>
+			 <a-mixin id="pointer" raycaster="showLine: true; objects: a-link, a-cylinder, a-obj-model" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
+			<a-mixin id="controle" mixin="pointer"></a-mixin>
+			<!--<a-mixin id="mtl1" material="side: double; color: #5cb404; opacity:0.9; metalness:0.7; roughness:0.4"></a-mixin>
+			<a-mixin id="mtl2" material="side: double; color: #cc1100; opacity:0.9; metalness:0.7; roughness:0.4"></a-mixin>
+			<a-mixin id="mtl3" material="side: double; color: #3fe; opacity:0.9; metalness:0.7; roughness:0.4"></a-mixin>
+			<a-mixin id="mtl4" material="side: double; color: #00ccff; opacity:0.2; metalness:0.7; roughness:0.4"></a-mixin>
+			<a-mixin id="tr" static-body position="0 0 5" geometry="radius: 2.88; radius-tubular:0.08; segments-tubular: 36" mixin="mtl3"></a-mixin>-->
+        </a-assets>
+        <a-entity id="cameraRig">
+           <a-camera id="head" look-controls wasd-controls-enabled="false" position="0 1.7 0" cursor="rayOrigin:mouse" static-body="shape: sphere; sphereRadius: 0.001" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-camera>
+           <a-entity id="lhand" mixin="mfisicas" hand-controls="hand: left"></a-entity>
+		   <a-entity id="rhand" mixin="controle" hand-controls="hand: right"></a-entity>
+        </a-entity>
+        <a-box mixin="piso" class="piso" visible="false" position="0 -0.05 0"></a-box>
+        <a-light type="point" color="yellow" intensity="0.45" position="0 0 0"></a-light>
+
+		
+		<a-gltf-model position="0 1 0" scale="1.6 1.6 1.6" rotation="0 0 90" static-body src="vr/salas/flower-vr-floweroflife_v4.glb" shadow></a-gltf-model>
+		<!--<a-entity class="poli" scale="0.52 0.52 0.52" position="0 1 0">
+			<a-entity rotation="-30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+			<a-entity rotation="30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+			<a-entity rotation="-60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+			<a-entity rotation="60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+			<a-entity rotation="-90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+			<a-entity rotation="90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+			<a-entity rotation="-120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+			<a-entity rotation="120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+			<a-entity rotation="-150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+			<a-entity rotation="150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+			<a-entity rotation="180 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+			<a-entity><a-torus mixin="tr"></a-torus></a-entity>
+			
+			<a-entity position="2.511 0 0" rotation="15 0 0">
+				<a-entity rotation="-30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="180 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity><a-torus mixin="tr"></a-torus></a-entity>
+			</a-entity>
+			
+			<a-entity position="-2.511 0 0" rotation="15 0 0">
+				<a-entity rotation="-30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="180 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity><a-torus mixin="tr"></a-torus></a-entity>
+			</a-entity>
+			
+			<a-entity position="5.023 0 0" rotation="0 0 0">
+				<a-entity rotation="-30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="180 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity><a-torus mixin="tr"></a-torus></a-entity>
+			</a-entity>
+			
+			<a-entity position="-5.023 0 0" rotation="0 0 0">
+				<a-entity rotation="-30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="30 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="60 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="90 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="120 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="-150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="150 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity rotation="180 0 0"><a-torus mixin="tr"></a-torus></a-entity>
+				<a-entity><a-torus mixin="tr"></a-torus></a-entity>
+			</a-entity>
+			
+			<a-entity position="7.534 0 0" rotation="15 0 0">
+				<a-entity rotation="-30 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="30 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-60 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="60 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-90 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="90 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-120 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="120 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-150 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="150 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="180 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="0 0 90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+			</a-entity>
+			
+			<a-entity position="-7.534 0 0" rotation="15 0 0">
+				<a-entity rotation="-30 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="30 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-60 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="60 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-90 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="90 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-120 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="120 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="-150 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="150 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="180 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+				<a-entity rotation="0 0 -90"><a-torus mixin="tr" arc="180"></a-torus></a-entity>
+			</a-entity>
+
+			<a-entity position="10.046  0 0" rotation="0 0 0">
+				<a-entity rotation="-30 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="30 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-60 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="60 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-90 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="90 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-120 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="120 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-150 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="150 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="180 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="0 0 150"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+			</a-entity>
+			
+			<a-entity position="-10.046 0 0" rotation="0 0 0">
+				<a-entity rotation="-30 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="30 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-60 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="60 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-90 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="90 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-120 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="120 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="-150 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="150 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="180 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+				<a-entity rotation="0 0 -30"><a-torus mixin="tr" arc="60"></a-torus></a-entity>
+			</a-entity>
+		</a-entity>-->
+		
+		<a-cylinder mixin="botao1" class="botao" position="2.06 1.7 0" onclick="sairVR()" radius="0.3" material="opacity: 0.5;" color="coral" rotation="-90 270 0"></a-cylinder>
+		<a-text value="Sair do modo imersivo" text="align:center;" position="2.06 2.15 0" width="2" rotation="0 270 0"></a-text>
+		<a-text value="Exit immersive mode" text="align:center;" position="2.06 2.05 0" width="2" rotation="0 270 0"></a-text>
+		
+		<a-light type="ambient" color="white" intensity="0.47"></a-light>
+		<a-light type="directional" color="white" light="castShadow:true; shadowBias: -0.0001;" intensity="0.71" position="-3 2 1"></a-light>
+		<a-light type="directional" color="white" light="castShadow:true; shadowBias: -0.0001;" intensity="0.71" position="3 -2 1"></a-light>
+		<a-sky src="../imagens/8k_stars_milky_way.jpg"></a-sky> <!--geometry="phiStart: 95;"-->
+    </a-scene>
+  </body>
+</html>
+>>>>>>> Stashed changes

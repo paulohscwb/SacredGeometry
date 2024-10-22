@@ -12,7 +12,7 @@
 		<option value="../../flower/pt-br/">Flor da vida e os poliedros de Platão e de Arquimedes</option>
 		<option disabled value="../../fruit/pt-br/">Fruto da vida e os poliedros de Platão e de Arquimedes</option>
 		<option value="../../grid/pt-br/">Grade da vida e os poliedros de Platão e de Arquimedes</option>
-		<!--<option value="../../metatron/pt-br/">Metatron e os poliedros de Platão e de Arquimedes</option>-->
+		<option value="../../metatron/pt-br/">Metatron e os poliedros de Platão e de Arquimedes</option>
 	</select>
 </form>
 <script>
