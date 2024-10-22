@@ -23,7 +23,7 @@
 			get.style.display = 'none';
 		}, 5000);
 	</script>
-    <a-scene physics="gravity:-1; iterations:5;" shadow="type: pcfsoft" renderer="colorManagement: true; sortObjects: true; highRefreshRate: true;"> <!--logarithmicDepthBuffer: true-->
+    <a-scene physics="gravity:-1; iterations:5;" shadow="type: pcfsoft" renderer="antialias: true; colorManagement: true; highRefreshRate: true;"> <!--logarithmicDepthBuffer: true-->
         <a-assets>
            <a-mixin id="poli1" shadow hoverable grabbable stretchable draggable droppable dynamic-body="linearDamping:0.05; angularDamping:0.05; mass:5; shape: auto"></a-mixin>
 		   <a-mixin id="poli2" shadow hoverable grabbable stretchable draggable droppable dynamic-body="linearDamping:0.05; angularDamping:0.05; mass:5; shape: sphere; sphereRadius: 0.33"></a-mixin>
@@ -555,21 +555,21 @@
 			</a-entity>
 		</a-entity>
 		
-		<a-entity class="poli2" mixin="poli2" position="-0.37 1 2.35" scale="0.09 0.09 0.09" shadow>
+		<a-entity class="poli2" mixin="poli2" position="-0.37 1 2.35" scale="0.08 0.08 0.08" shadow>
 			<a-obj-model mixin="ar2" rotation="35 0 -45"></a-obj-model>
 			<a-obj-model mixin="fc2" rotation="35 0 -45"></a-obj-model>
 			<a-obj-model mixin="ar2" rotation="35 0 45"></a-obj-model>
 			<a-obj-model mixin="fc2" rotation="35 0 45"></a-obj-model>
 		</a-entity>
 		
-		<a-entity class="poli2" mixin="poli2" position="-0.37 1 1.7" scale="0.09 0.09 0.09" shadow>
+		<a-entity class="poli2" mixin="poli2" position="-0.37 1 1.7" scale="0.08 0.08 0.08" shadow>
 			<a-obj-model mixin="ar3" rotation="35 0 -45"></a-obj-model>
 			<a-obj-model mixin="fc3" rotation="35 0 -45"></a-obj-model>
 			<a-obj-model mixin="ar3" rotation="35 0 45"></a-obj-model>
 			<a-obj-model mixin="fc3" rotation="35 0 45"></a-obj-model>
 		</a-entity>
 		
-		<a-entity class="poli2" mixin="poli2" position="-1.1 1 2.35" scale="0.09 0.09 0.09" shadow>
+		<a-entity class="poli2" mixin="poli2" position="-1.1 1 2.35" scale="0.08 0.08 0.08" shadow>
 			<a-obj-model mixin="ar4" scale="0.58 0.58 0.58" position="1.01 -0.415 0.58" rotation="19.5 60 0"></a-obj-model>
 			<a-obj-model mixin="fc4" scale="0.578 0.578 0.578" position="1.01 -0.415 0.58" rotation="19.5 60 0"></a-obj-model>
 			<a-entity rotation="0 180 180">
@@ -578,7 +578,7 @@
 			</a-entity>	
 		</a-entity>
 		
-		<a-entity class="poli" mixin="poli1" position="-1.1 1 1.7" scale="0.05 0.05 0.05" shadow>
+		<a-entity class="poli" mixin="poli1" position="-1.1 1 1.7" scale="0.06 0.06 0.06" shadow>
 			<a-entity scale="0.75 0.75 0.75" id="nivel3">
 				<a-entity position="-2.3094 2.3094 -2.3094">
 					<a-entity position="-1.1547 1.1547 -1.1547">
