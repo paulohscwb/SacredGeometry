@@ -13,6 +13,7 @@
 		<option value="../fruit/">Fruit of life and the polyhedra of Plato and Archimedes</option>
 		<option value="../grid/">Grid of life and the polyhedra of Plato and Archimedes</option>
 		<option value="../metatron/">Metatron and the polyhedra of Plato and Archimedes</option>
+		<option value="../merkaba/">Merkaba star</option>
 	</select>
 </form>
 <script>
@@ -30,7 +31,7 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
   <hr>
  <h3 align="center">Immersive rooms</h3>
   <div class="embed-container"><iframe width="100%" src="sala.htm" title="Sala Imersiva dos símbolos da Geometria Sagrada" frameborder="0" loading="lazy"></iframe></div>
-  <p align="center"><a href="sala.htm" target="_blank">&#x1f517; room 1</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala1.htm" target="_blank">&#x1f517; room 2</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala2.htm" target="_blank">&#x1f517; room 3</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala3.htm" target="_blank">&#x1f517; room 4</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala4.htm" target="_blank">&#x1f517; room 5</a></p>
+  <p align="center"><a href="sala.htm" target="_blank">&#x1f517; room 1</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala1.htm" target="_blank">&#x1f517; room 2</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala2.htm" target="_blank">&#x1f517; room 3</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala3.htm" target="_blank"></p>
   <p align="center"><img src="vr/salas/videos/gs1.gif" style="max-width: 31.5%; border-radius:5px; margin-right:2%" loading="lazy"/><img src="vr/salas/videos/gs2.gif" style="max-width: 31.5%; margin-right:2%; border-radius:5px" loading="lazy"/><img src="vr/salas/videos/gs3.gif" style="max-width: 31.5%; border-radius:5px" loading="lazy"/></p>
   <hr>
   <h3 id="ra" align="center">Augmented Reality</h3>
@@ -211,122 +212,6 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
  <br><br><br>Vector Equilibrium is considered as the underlying structure of the Torus, also known as the geometric shape capable of transforming energy into matter. In this representation we have the 3D model built with 3 rotations around one of the models.
  <br><br>
  <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
- <hr>
-<h4>29. Merkaba star of triakis tetrahedra</h4>
-<a href="vr/Merkaba2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/57A.png" class="foto" alt="Merkaba star"></a><img src="ar/57.png" class="qr">
- <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical Catalan triakis tetrahedra that are interconnected through rotations in opposite directions. The intersection of these triakis tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
- <br><br>
- <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
- <hr>
-<h4>30. Merkaba star of joined truncated tetrahedra</h4>
-<a href="vr/Merkaba3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/58A.png" class="foto" alt="Merkaba star"></a><img src="ar/58.png" class="qr">
- <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical joined truncated tetrahedra that are interconnected through rotations in opposite directions. The intersection of these joined truncated tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
- <br><br>
- <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
-<p class="topop"><a href="#p1" class="topo">back to top</a></p>
-<hr>
-<h4>31. Merkaba star of trapezohedral tristetrahedra</h4>
-<a href="vr/Merkaba4.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/59A.png" class="foto" alt="Merkaba star"></a><img src="ar/59.png" class="qr">
- <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical trapezohedral tristetrahedra that are interconnected through rotations in opposite directions. The intersection of these trapezohedral tristetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
- <br><br>
- <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
- <hr>
-<h4>32. Merkaba star fractal</h4>
-<a href="vr/Merkaba5.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/60A.png" class="foto" alt="Merkaba star fractal"></a><img src="ar/60.png" class="qr">
- <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical fractal tetrahedra that are interconnected through rotations in opposite directions. The intersection of these fractal tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
- <br><br>
- <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
- <hr>
-<h4>33. Merkaba star fractal of triakis tetrahedra</h4>
-<a href="vr/Merkaba6.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/61A.png" class="foto" alt="Merkaba star fractal of triakis tetrahedra"></a><img src="ar/61.png" class="qr">
- <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical fractal triakis tetrahedra that are interconnected through rotations in opposite directions. The intersection of these fractal triakis tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
- <br><br>
- <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
- <hr>
-<h4>34. Merkaba star fractal of joined truncated tetrahedra</h4>
-<a href="vr/Merkaba7.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/62A.png" class="foto" alt="Merkaba star fractal of joined truncated tetrahedra"></a><img src="ar/62.png" class="qr">
- <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical fractal joined truncated tetrahedra that are interconnected through rotations in opposite directions. The intersection of these fractal joined truncated tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
- <br><br>
- <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
- <hr>
-<h4>35. Merkaba star fractal of trapezohedral tristetrahedra</h4>
-<a href="vr/Merkaba8.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/63A.png" class="foto" alt="Merkaba star fractal of trapezohedral tristetrahedra"></a><img src="ar/63.png" class="qr">
- <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical fractal trapezohedral tristetrahedra that are interconnected through rotations in opposite directions. The intersection of these fractal trapezohedral tristetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
- <br><br>
- <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
- <hr>
-<h4>36. Merkaba star of hexakis tetrahedron</h4>
-<a href="vr/Merkaba9.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/64A.png" class="foto" alt="Merkaba star of hexakis tetrahedron"></a><img src="ar/64.png" class="qr">
- <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical hexakis tetrahedra that are interconnected through rotations in opposite directions. The intersection of these hexakis tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
- <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
- <hr>
-<h4>37. Merkaba star of hexakis tetrahedron v2</h4>
-<a href="vr/Merkaba10.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/65A.png" class="foto" alt="Merkaba star of hexakis tetrahedron"></a><img src="ar/65.png" class="qr">
- <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical hexakis tetrahedra that are interconnected through rotations in opposite directions. The intersection of these hexakis tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
- <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
- <hr>
-<h4>38. Merkaba star of hexakis tetrahedron v3</h4>
-<a href="vr/Merkaba11.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/66A.png" class="foto" alt="Merkaba star of hexakis tetrahedron"></a><img src="ar/66.png" class="qr">
- <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical hexakis tetrahedra that are interconnected through rotations in opposite directions. The intersection of these hexakis tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
- <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
- <hr>
-<h4>39. Merkaba star of hexakis tetrahedron v4</h4>
-<a href="vr/Merkaba12.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/67A.png" class="foto" alt="Merkaba star of hexakis tetrahedron"></a><img src="ar/67.png" class="qr">
- <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical hexakis tetrahedra that are interconnected through rotations in opposite directions. The intersection of these hexakis tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
- <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
- <hr>
-<h4>40. Merkaba star of trapezohedral tristetrahedron v2</h4>
-<a href="vr/Merkaba13.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/68A.png" class="foto" alt="Merkaba star of trapezohedral tristetrahedron"></a><img src="ar/68.png" class="qr">
- <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical trapezohedral tristetrahedra that are interconnected through rotations in opposite directions. The intersection of these trapezohedral tristetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
- <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
-<p class="topop"><a href="#p1" class="topo">back to top</a></p>
-<hr>
-<h4>41. Merkaba star fractal of hexakis tetrahedron</h4>
-<a href="vr/Merkaba14.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/69A.png" class="foto" alt="Merkaba star fractal of hexakis tetrahedron"></a><img src="ar/69.png" class="qr">
- <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical fractal hexakis tetrahedra that are interconnected through rotations in opposite directions. The intersection of these fractal hexakis tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
- <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
- <hr>
-<h4>42. Merkaba star fractal of hexakis tetrahedron v2</h4>
-<a href="vr/Merkaba15.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/70A.png" class="foto" alt="Merkaba star fractal of hexakis tetrahedron"></a><img src="ar/70.png" class="qr">
- <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical fractal hexakis tetrahedra that are interconnected through rotations in opposite directions. The intersection of these fractal hexakis tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
- <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
- <hr>
-<h4>43. Merkaba star fractal of hexakis tetrahedron v3</h4>
-<a href="vr/Merkaba16.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/71A.png" class="foto" alt="Merkaba star fractal of hexakis tetrahedron"></a><img src="ar/71.png" class="qr">
- <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical fractal hexakis tetrahedra that are interconnected through rotations in opposite directions. The intersection of these fractal hexakis tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
- <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
- <hr>
-<h4>44. Merkaba star fractal of hexakis tetrahedron v4</h4>
-<a href="vr/Merkaba17.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/72A.png" class="foto" alt="Merkaba star fractal of hexakis tetrahedron"></a><img src="ar/72.png" class="qr">
- <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical fractal hexakis tetrahedra that are interconnected through rotations in opposite directions. The intersection of these fractal hexakis tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
- <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
- <hr>
-<h4>45. Merkaba star fractal of trapezohedral tristetrahedron v2</h4>
-<a href="vr/Merkaba18.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/73A.png" class="foto" alt="Merkaba star fractal of trapezohedral tristetrahedron"></a><img src="ar/73.png" class="qr">
- <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical fractal trapezohedral tristetrahedra that are interconnected through rotations in opposite directions. The intersection of these fractal trapezohedral tristetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
- <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
- <hr>
-<h4>46. Merkaba star of Möbius deltahedron</h4>
-<a href="vr/Merkaba19.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/74A.png" class="foto" alt="Merkaba star fractal of Möbius deltahedron"></a><img src="ar/74.png" class="qr">
- <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical Möbius deltahedra that are interconnected through rotations in opposite directions. The intersection of these Möbius deltahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
- <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
- <hr>
-<h4>47. Merkaba star fractal of Möbius deltahedron</h4>
-<a href="vr/Merkaba20.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/75A.png" class="foto" alt="Merkaba star fractal of Möbius deltahedron"></a><img src="ar/75.png" class="qr">
- <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical fractal Möbius deltahedra that are interconnected through rotations in opposite directions. The intersection of these fractal Möbius deltahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
- <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 

@@ -14,6 +14,7 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 <h3 style="margin-top:3px"><a target="_blank" href="../fruit/pt-br/"><img src="../fruit/ar/45A.png" style="margin-bottom:-10px" width="40"> Fruto da vida e os poliedros de Platão e de Arquimedes</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="../grid/pt-br/"><img src="../grid/ar/58A.png" style="margin-bottom:-10px" width="40"> Grade da vida e os poliedros de Platão e de Arquimedes</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="../metatron/pt-br/"><img src="../metatron/ar/73A.png" style="margin-bottom:-10px" width="40"> Cubo de Metatron e os poliedros de Platão e de Arquimedes</a></h3>
+<h3 style="margin-top:3px"><a target="_blank" href="../merkaba/pt-br/"><img src="../merkaba/ar/60A.png" style="margin-bottom:-10px" width="40"> Estrela Merkaba</a></h3>
 <hr>
 <h3 align="center">Salas imersivas</h3>
 <p align="center"><img src="../symbols/vr/salas/videos/gs1.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy"/><img src="../symbols/vr/salas/videos/gs2.gif" style="max-width: 47%; border-radius:5px;" loading="lazy"/></p>
