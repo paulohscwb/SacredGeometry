@@ -315,6 +315,18 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
  <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical fractal trapezohedral tristetrahedra that are interconnected through rotations in opposite directions. The intersection of these fractal trapezohedral tristetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
  <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>46. Merkaba star of Möbius deltahedron</h4>
+<a href="vr/Merkaba19.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/74A.png" class="foto" alt="Merkaba star fractal of Möbius deltahedron"></a><img src="ar/74.png" class="qr">
+ <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical Möbius deltahedra that are interconnected through rotations in opposite directions. The intersection of these Möbius deltahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
+ <br><br>
+ <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>47. Merkaba star fractal of Möbius deltahedron</h4>
+<a href="vr/Merkaba20.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/75A.png" class="foto" alt="Merkaba star fractal of Möbius deltahedron"></a><img src="ar/75.png" class="qr">
+ <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical fractal Möbius deltahedra that are interconnected through rotations in opposite directions. The intersection of these fractal Möbius deltahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
+ <br><br>
+ <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 

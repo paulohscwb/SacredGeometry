@@ -309,9 +309,21 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
  <br><br><br>
 <a href="../ra2.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
-<h4>45. Estrela Merkaba de tristetraedro trapezoédrico v2</h4>
+<h4>45. Estrela Merkaba fractal de tristetraedro trapezoédrico v2</h4>
 <a href="../vr/Merkaba18.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/73A.png" class="foto" alt="Estrela Merkaba fractal de tristetraedro trapezoédrico"></a><img src="../ar/73.png" class="qr">
  <br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 fractais de tristetraedros trapezoédricos idênticos que são interligados por meio de rotações em direções opostas. A interseção destes fractais de tristetraedros trapezoédricos origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D.
+ <br><br><br>
+<a href="../ra2.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>46. Estrela Merkaba do deltaedro de Möbius</h4>
+<a href="../vr/Merkaba19.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/74A.png" class="foto" alt="Estrela Merkaba do deltaedro de Möbius"></a><img src="../ar/74.png" class="qr">
+ <br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 deltaedros de Möbius idênticos que são interligados por meio de rotações em direções opostas. A interseção destes deltaedros de Möbius origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D.
+ <br><br><br>
+<a href="../ra2.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>47. Estrela Merkaba fractal do deltaedro de Möbius</h4>
+<a href="../vr/Merkaba20.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/75A.png" class="foto" alt="Estrela Merkaba fractal do deltaedro de Möbius"></a><img src="../ar/75.png" class="qr">
+ <br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 fractais de deltaedros de Möbius idênticos que são interligados por meio de rotações em direções opostas. A interseção destes fractais de deltaedros de Möbius origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D.
  <br><br><br>
 <a href="../ra2.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
