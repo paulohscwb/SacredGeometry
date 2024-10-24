@@ -23,10 +23,10 @@
 			get.style.display = 'none';
 		}, 5000);
 	</script>
-    <a-scene physics="gravity:5; iterations:5;" shadow="type: pcfsoft" renderer="antialias: true; colorManagement: true; highRefreshRate: true;"> <!--logarithmicDepthBuffer: true-->
+    <a-scene physics="gravity:-1; iterations:5;" shadow="type: pcfsoft" renderer="antialias: true; colorManagement: true; highRefreshRate: true;"> <!--logarithmicDepthBuffer: true-->
         <a-assets>
            <a-mixin id="poli1" shadow hoverable grabbable stretchable draggable droppable dynamic-body="linearDamping:0.05; angularDamping:0.05; mass:5; shape: auto"></a-mixin>
-		   <a-mixin id="poli2" shadow hoverable grabbable stretchable draggable droppable dynamic-body="linearDamping:0.05; angularDamping:0.05; mass:5; shape: sphere; sphereRadius: 0.29"></a-mixin>
+		   <a-mixin id="poli2" shadow hoverable grabbable stretchable draggable droppable dynamic-body="linearDamping:0.05; angularDamping:0.05; mass:5; shape: sphere; sphereRadius: 0.27"></a-mixin>
 		   <a-mixin id="botao1" geometry="radius:0.3; height:0.03;" material="opacity: 0.5; color:forestgreen;" clickable static-body></a-mixin>
            <a-mixin id="piso" geometry="width: 40; height: 0.1; depth: 40;" material="opacity:0.01; color: rgb(100,100,100)" static-body shadow></a-mixin>
 			<a-mixin id="mfisicas" physics-collider collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.018" super-hands="colliderEvent: collisions; colliderEventProperty: els; colliderEndEvent: collisions; colliderEndEventProperty: clearedEls;"></a-mixin>
