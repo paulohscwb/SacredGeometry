@@ -45,122 +45,122 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <a href="vr/Merkaba.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/19A.png" class="foto" alt="Merkaba star"></a><img src="ar/19.png" class="qr">
  <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical tetrahedra that are interconnected through rotations in opposite directions. The intersection of these tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
- <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>2. Merkaba star fractal</h4>
 <a href="vr/Merkaba5.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/60A.png" class="foto" alt="Merkaba star fractal"></a><img src="ar/60.png" class="qr">
  <br><br><br>The Sacred Geometry symbol called Merkaba is a shape composed of 2 polyhedrons that intersect and rotate in opposite directions, creating a three-dimensional energy field. It is the fusion of 2 identical fractal tetrahedra that are interconnected through rotations in opposite directions. The intersection of these fractal tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
- <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>3. Merkaba star of triakis tetrahedra</h4>
 <a href="vr/Merkaba2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/57A.png" class="foto" alt="Merkaba star of triakis tetrahedra"></a><img src="ar/57.png" class="qr">
  <br><br><br>The Sacred Geometry Merkaba symbol provides protection and can transport your consciousness to higher dimensions. It is the fusion of 2 identical Catalan triakis tetrahedra that are interconnected through rotations in opposite directions. The intersection of these triakis tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
- <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>4. Merkaba star of joined truncated tetrahedra</h4>
 <a href="vr/Merkaba3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/58A.png" class="foto" alt="Merkaba star of joined truncated tetrahedra"></a><img src="ar/58.png" class="qr">
  <br><br><br>The Merkaba symbol, with its star shape, is believed to be a divine vehicle made of light and designed to transport or connect the spirit and body to higher kingdoms. It is the fusion of 2 identical joined truncated tetrahedra that are interconnected through rotations in opposite directions. The intersection of these joined truncated tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
- <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>5. Merkaba star of trapezohedral tristetrahedra</h4>
 <a href="vr/Merkaba4.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/59A.png" class="foto" alt="Merkaba star of trapezohedral tristetrahedra"></a><img src="ar/59.png" class="qr">
  <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical trapezohedral tristetrahedra that are interconnected through rotations in opposite directions. The intersection of these trapezohedral tristetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
- <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>6. Merkaba star fractal of triakis tetrahedra</h4>
 <a href="vr/Merkaba6.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/61A.png" class="foto" alt="Merkaba star fractal of triakis tetrahedra"></a><img src="ar/61.png" class="qr">
  <br><br><br>The Sacred Geometry symbol called Merkaba is a shape composed of 2 polyhedrons that intersect and rotate in opposite directions, creating a three-dimensional energy field. The intersection of these fractal triakis tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
- <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>7. Merkaba star fractal of joined truncated tetrahedra</h4>
 <a href="vr/Merkaba7.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/62A.png" class="foto" alt="Merkaba star fractal of joined truncated tetrahedra"></a><img src="ar/62.png" class="qr">
  <br><br><br>The Sacred Geometry Merkaba symbol provides protection and can transport your consciousness to higher dimensions. It is the fusion of 2 identical fractal joined truncated tetrahedra that are interconnected through rotations in opposite directions. The intersection of these fractal joined truncated tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
- <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>8. Merkaba star fractal of trapezohedral tristetrahedra</h4>
 <a href="vr/Merkaba8.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/63A.png" class="foto" alt="Merkaba star fractal of trapezohedral tristetrahedra"></a><img src="ar/63.png" class="qr">
  <br><br><br>The Merkaba symbol, with its star shape, is believed to be a divine vehicle made of light and designed to transport or connect the spirit and body to higher kingdoms. It is the fusion of 2 identical fractal trapezohedral tristetrahedra that are interconnected through rotations in opposite directions. The intersection of these fractal trapezohedral tristetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
- <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>9. Merkaba star of hexakis tetrahedron</h4>
 <a href="vr/Merkaba9.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/64A.png" class="foto" alt="Merkaba star of hexakis tetrahedron"></a><img src="ar/64.png" class="qr">
  <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical hexakis tetrahedra that are interconnected through rotations in opposite directions. The intersection of these hexakis tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>10. Merkaba star of hexakis tetrahedron v2</h4>
 <a href="vr/Merkaba10.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/65A.png" class="foto" alt="Merkaba star of hexakis tetrahedron"></a><img src="ar/65.png" class="qr">
  <br><br><br>The Sacred Geometry symbol called Merkaba is a shape composed of 2 polyhedrons that intersect and rotate in opposite directions, creating a three-dimensional energy field. It is the fusion of 2 identical hexakis tetrahedra that are interconnected through rotations in opposite directions. The intersection of these hexakis tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
  <hr>
 <h4>11. Merkaba star of hexakis tetrahedron v3</h4>
 <a href="vr/Merkaba11.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/66A.png" class="foto" alt="Merkaba star of hexakis tetrahedron"></a><img src="ar/66.png" class="qr">
  <br><br><br>The Sacred Geometry Merkaba symbol provides protection and can transport your consciousness to higher dimensions. It is the fusion of 2 identical hexakis tetrahedra that are interconnected through rotations in opposite directions. The intersection of these hexakis tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>12. Merkaba star of hexakis tetrahedron v4</h4>
 <a href="vr/Merkaba12.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/67A.png" class="foto" alt="Merkaba star of hexakis tetrahedron"></a><img src="ar/67.png" class="qr">
  <br><br><br>The Merkaba symbol, with its star shape, is believed to be a divine vehicle made of light and designed to transport or connect the spirit and body to higher kingdoms. It is the fusion of 2 identical hexakis tetrahedra that are interconnected through rotations in opposite directions. The intersection of these hexakis tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>13. Merkaba star of trapezohedral tristetrahedron v2</h4>
 <a href="vr/Merkaba13.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/68A.png" class="foto" alt="Merkaba star of trapezohedral tristetrahedron"></a><img src="ar/68.png" class="qr">
  <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical trapezohedral tristetrahedra that are interconnected through rotations in opposite directions. The intersection of these trapezohedral tristetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <hr>
 <h4>14. Merkaba star fractal of hexakis tetrahedron</h4>
 <a href="vr/Merkaba14.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/69A.png" class="foto" alt="Merkaba star fractal of hexakis tetrahedron"></a><img src="ar/69.png" class="qr">
  <br><br><br>The Sacred Geometry symbol called Merkaba is a shape composed of 2 polyhedrons that intersect and rotate in opposite directions, creating a three-dimensional energy field. It is the fusion of 2 identical fractal hexakis tetrahedra that are interconnected through rotations in opposite directions. The intersection of these fractal hexakis tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>15. Merkaba star fractal of hexakis tetrahedron v2</h4>
 <a href="vr/Merkaba15.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/70A.png" class="foto" alt="Merkaba star fractal of hexakis tetrahedron"></a><img src="ar/70.png" class="qr">
  <br><br><br>The Sacred Geometry Merkaba symbol provides protection and can transport your consciousness to higher dimensions. It is the fusion of 2 identical fractal hexakis tetrahedra that are interconnected through rotations in opposite directions. The intersection of these fractal hexakis tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>16. Merkaba star fractal of hexakis tetrahedron v3</h4>
 <a href="vr/Merkaba16.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/71A.png" class="foto" alt="Merkaba star fractal of hexakis tetrahedron"></a><img src="ar/71.png" class="qr">
  <br><br><br>The Merkaba symbol, with its star shape, is believed to be a divine vehicle made of light and designed to transport or connect the spirit and body to higher kingdoms. It is the fusion of 2 identical fractal hexakis tetrahedra that are interconnected through rotations in opposite directions. The intersection of these fractal hexakis tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>17. Merkaba star fractal of hexakis tetrahedron v4</h4>
 <a href="vr/Merkaba17.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/72A.png" class="foto" alt="Merkaba star fractal of hexakis tetrahedron"></a><img src="ar/72.png" class="qr">
  <br><br><br>The Merkaba star symbol or Star Tetrahedron or Star of Davi has the meaning translated as "light, spirit and body". It is the fusion of 2 identical fractal hexakis tetrahedra that are interconnected through rotations in opposite directions. The intersection of these fractal hexakis tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>18. Merkaba star fractal of trapezohedral tristetrahedron v2</h4>
 <a href="vr/Merkaba18.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/73A.png" class="foto" alt="Merkaba star fractal of trapezohedral tristetrahedron"></a><img src="ar/73.png" class="qr">
  <br><br><br>The Sacred Geometry symbol called Merkaba is a shape composed of 2 polyhedrons that intersect and rotate in opposite directions, creating a three-dimensional energy field. It is the fusion of 2 identical fractal trapezohedral tristetrahedra that are interconnected through rotations in opposite directions. The intersection of these fractal trapezohedral tristetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>19. Merkaba star of Möbius deltahedron</h4>
 <a href="vr/Merkaba19.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/74A.png" class="foto" alt="Merkaba star fractal of Möbius deltahedron"></a><img src="ar/74.png" class="qr">
  <br><br><br>The Sacred Geometry Merkaba symbol provides protection and can transport your consciousness to higher dimensions. It is the fusion of 2 identical Möbius deltahedra that are interconnected through rotations in opposite directions. The intersection of these Möbius deltahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <hr>
 <h4>20. Merkaba star fractal of Möbius deltahedron</h4>
 <a href="vr/Merkaba20.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/75A.png" class="foto" alt="Merkaba star fractal of Möbius deltahedron"></a><img src="ar/75.png" class="qr">
  <br><br><br>The Merkaba symbol, with its star shape, is believed to be a divine vehicle made of light and designed to transport or connect the spirit and body to higher kingdoms. It is the fusion of 2 identical fractal Möbius deltahedra that are interconnected through rotations in opposite directions. The intersection of these fractal Möbius deltahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
  <br><br>
- <a href="ra2.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
