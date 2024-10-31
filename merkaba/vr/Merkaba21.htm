@@ -12,21 +12,21 @@
 <div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Calibri; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2024 Paulo Henrique Siqueira</div>
     <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
 		<a-assets>
-			<a-asset-item id="mt" src="https://paulohscwb.github.io/polyhedra2/fractalnonconvex/vr/outros/c1.mtl"></a-asset-item>
+			<a-asset-item id="mt" src="https://paulohscwb.github.io/polyhedra2/fractalnonconvex/vr/outros/c3.mtl"></a-asset-item>
 			<a-asset-item id="mt1" src="https://paulohscwb.github.io/SacredGeometry/symbols/vr/outros/c8.mtl"></a-asset-item>
-			<a-asset-item id="aq" src="https://paulohscwb.github.io/polyhedra/polyhedron/vr/outros/HexakisTetrahedron_n21.obj"></a-asset-item>
-			<a-asset-item id="aq1" src="https://paulohscwb.github.io/polyhedra/polyhedron/vr/outros/HexakisTetrahedron_n21L.obj"></a-asset-item>
+			<a-asset-item id="aq" src="https://paulohscwb.github.io/polyhedra/polyhedron/vr/outros/Tetartoid.obj"></a-asset-item>
+			<a-asset-item id="aq1" src="https://paulohscwb.github.io/polyhedra/polyhedron/vr/outros/TetartoidL.obj"></a-asset-item>
 			<a-mixin id="fc" obj-model="obj: #aq; mtl: #mt">
 			<a-mixin id="ar" obj-model="obj: #aq1; mtl: #mt1"></a-mixin>
 		</a-assets>
 		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 0 250 700; minDistance: 500; maxDistance: 1100;"></a-entity>
 		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
 		<a-entity scale="1.37 1.37 1.37" rotation="35 0 45">
-			<a-entity mixin="ar" scale="0.58 0.58 0.58"></a-entity>
-			<a-entity mixin="fc" scale="0.578 0.578 0.578"></a-entity>
+			<a-entity mixin="ar" scale="0.231 0.231 0.231"></a-entity>
+			<a-entity mixin="fc" scale="0.23 0.23 0.23"></a-entity>
 			<a-entity rotation="0 0 90">
-				<a-entity mixin="ar" scale="0.58 0.58 0.58"></a-entity>
-				<a-entity mixin="fc" scale="0.578 0.578 0.578"></a-entity>
+				<a-entity mixin="ar" scale="0.231 0.231 0.231"></a-entity>
+				<a-entity mixin="fc" scale="0.23 0.23 0.23"></a-entity>
 			</a-entity>	
 		</a-entity>
 		
@@ -37,8 +37,8 @@
 		<a-sky color="black" radius="25"></a-sky><a-sky src="https://paulohscwb.github.io/SacredGeometry/imagens/8k_stars_milky_way.jpg" radius="18"></a-sky>
     </a-scene>
 	<div class="box">
-		<span class="titulo">Merkaba star of hexakis tetrahedron</span>
-		<br><span class="titulo">Estrela Merkaba de tetraedro hexakis</span>
+		<span class="titulo">Merkaba star of tetartoid</span>
+		<br><span class="titulo">Estrela Merkaba do tetartóide</span>
 	</div>
   </body>
 </html>

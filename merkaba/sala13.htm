@@ -32,10 +32,10 @@
 			<a-mixin id="mfisicas" physics-collider collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.018" super-hands="colliderEvent: collisions; colliderEventProperty: els; colliderEndEvent: collisions; colliderEndEventProperty: clearedEls;"></a-mixin>
 			 <a-mixin id="pointer" raycaster="showLine: true; objects: #poli1, a-link, a-cylinder, a-obj-model" collision-filter="collisionForces: false" static-body="shape: sphere; sphereRadius: 0.02" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-mixin>
 			<a-mixin id="controle" mixin="pointer"></a-mixin>
-			<a-mixin id="fc" rotation="-24.1 -63.5 -50.7" scale="0.157 0.157 0.157" obj-model="obj: #aq; mtl: #mt"></a-mixin>
+			<a-mixin id="fc" scale="0.157 0.157 0.157" obj-model="obj: #aq; mtl: #mt"></a-mixin>
 			<a-mixin id="mtl1" mixin="fc">
 			<a-asset-item id="mt" src="https://paulohscwb.github.io/polyhedra2/fractalnonconvex/vr/outros/c2.mtl"></a-asset-item>
-			<a-asset-item id="aq" src="https://paulohscwb.github.io/polyhedra/polyhedron/vr/outros/TrapezohedralTristetrahedron_n2.obj"></a-asset-item>
+			<a-asset-item id="aq" src="https://paulohscwb.github.io/polyhedra/polyhedron/vr/outros/TrapezohedralTristetrahedron_n21.obj"></a-asset-item>
 			<a-mixin id="mtl2" mixin="fc"></a-mixin>
 			<a-mixin id="mtl3" mixin="fc"></a-mixin>
 			<a-mixin id="mtl4" mixin="fc"></a-mixin>
@@ -53,8 +53,8 @@
         <a-box mixin="piso" class="piso" visible="false" position="0 -0.05 0"></a-box>
         <a-light type="point" color="yellow" intensity="0.47" position="0 0 0"></a-light>
 
-		<a-entity class="poli" position="0 1.6 0" rotation="-35 60 45" scale="0.7 0.7 0.7" shadow>
-			<a-entity scale="0.375 0.375 0.375" position="-0.5947 -0.5947 -0.5947" id="nivel4">
+		<a-entity class="poli" position="0 1 0" rotation="-35 60 45" scale="0.7 0.7 0.7" shadow>
+			<a-entity scale="0.375 0.375 0.375" id="nivel4">
 				<a-entity position="-4.6188 4.6188 -4.6188">
 					<a-entity position="-2.3094 2.3094 -2.3094">
 						<a-entity position="-1.1547 1.1547 -1.1547">
@@ -479,7 +479,7 @@
 						</a-entity>
 					</a-entity>
 				</a-entity>
-				<a-entity position="0 -0.217 0" rotation="0 0 -90">
+				<a-entity rotation="0 0 -90">
 				<a-entity position="-4.6188 4.6188 -4.6188">
 					<a-entity position="-2.3094 2.3094 -2.3094">
 						<a-entity position="-1.1547 1.1547 -1.1547">

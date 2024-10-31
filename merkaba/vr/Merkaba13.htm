@@ -14,19 +14,19 @@
 		<a-assets>
 			<a-asset-item id="mt" src="https://paulohscwb.github.io/polyhedra2/fractalnonconvex/vr/outros/c2.mtl"></a-asset-item>
 			<a-asset-item id="mt1" src="https://paulohscwb.github.io/SacredGeometry/symbols/vr/outros/c8.mtl"></a-asset-item>
-			<a-asset-item id="aq" src="https://paulohscwb.github.io/polyhedra/polyhedron/vr/outros/TrapezohedralTristetrahedron_n2.obj"></a-asset-item>
-			<a-asset-item id="aq1" src="https://paulohscwb.github.io/polyhedra/polyhedron/vr/outros/TrapezohedralTristetrahedron_n2L.obj"></a-asset-item>
+			<a-asset-item id="aq" src="https://paulohscwb.github.io/polyhedra/polyhedron/vr/outros/TrapezohedralTristetrahedron_n21.obj"></a-asset-item>
+			<a-asset-item id="aq1" src="https://paulohscwb.github.io/polyhedra/polyhedron/vr/outros/TrapezohedralTristetrahedron_n21L.obj"></a-asset-item>
 			<a-mixin id="fc" obj-model="obj: #aq; mtl: #mt">
 			<a-mixin id="ar" obj-model="obj: #aq1; mtl: #mt1"></a-mixin>
 		</a-assets>
 		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 0 250 700; minDistance: 500; maxDistance: 1100;"></a-entity>
 		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
-		<a-entity scale="1.37 1.37 1.37">
-			<a-entity mixin="ar" scale="0.58 0.58 0.58" position="0 0.69 0"></a-entity>
-			<a-entity mixin="fc" scale="0.578 0.578 0.578" position="0 0.69 0"></a-entity>
-			<a-entity rotation="0 180 180">
-				<a-entity mixin="ar" scale="0.58 0.58 0.58" position="0 0.69 0"></a-entity>
-				<a-entity mixin="fc" scale="0.578 0.578 0.578" position="0 0.69 0"></a-entity>
+		<a-entity scale="1.37 1.37 1.37" rotation="35 0 45">
+			<a-entity mixin="ar" scale="0.58 0.58 0.58"></a-entity>
+			<a-entity mixin="fc" scale="0.578 0.578 0.578"></a-entity>
+			<a-entity rotation="0 0 90">
+				<a-entity mixin="ar" scale="0.58 0.58 0.58"></a-entity>
+				<a-entity mixin="fc" scale="0.578 0.578 0.578"></a-entity>
 			</a-entity>	
 		</a-entity>
 		
