@@ -1,0 +1,136 @@
+## Alias MTL Material File
+
+newmtl Cor1
+illum 10
+Ka 0.1 0.1 0.1
+Kd 1 0.9 0.9
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/IMG_0295.jfif
+Ni 2.5
+d 1
+
+newmtl Cor2
+illum 10
+Ka 0.1 0.1 0.1
+Kd 1 0.9 0.9
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/butterfly.jpg
+Ni 2.5
+d 1
+
+newmtl Cor3
+illum 10
+Ka 0.1 0.1 0.1
+Kd 1 0.9 0.9
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/escher_symmetrical-drawing-2.jpg
+Ni 2.5
+d 1
+
+newmtl Cor4
+illum 10
+Ka 0.1 0.2 0.1
+Kd 0.8 0.95 0.95
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/escher_symmetry-watercolor-55-fish.jpg
+Ni 2.5
+d 1
+
+newmtl Cor5
+illum 10
+Ka 0.1 0.1 0.2
+Kd 0.9 0.9 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/lizard_fish_bat.jpg
+Ni 2.5
+d 1
+
+newmtl Cor6
+illum 10
+Ka 0.1 0.2 0.1
+Kd 0.9 1 0.9
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/643905_mc-escher-mc-escher-1600x1106-wallpapers-butterflies-wallpapers_800x553_h.jpg
+Ni 2.5
+d 1
+
+newmtl Cor7
+illum 10
+Ka 0.05 0.1 0.2
+Kd 0.3 0.8 1.0
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/shell.png
+Ni 2.5
+d 1
+
+newmtl Cor8
+illum 10
+Ka 0.1 0.1 0.2
+Kd 0.95 0.8 0.8
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/shells_and_starfish.jpg
+Ni 2.5
+d 1
+
+newmtl Cor9
+illum 10
+Ka 0.2 0.15 0.15
+Kd 1 0.9 0.9
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/circle-limit-i.jpg
+Ni 2.5
+d 1
+
+newmtl CorL
+Ka 1 1 1
+Kd 0.3 0.3 0.3
+Ks 0.2 0.2 0.2
+Pr 0.7
+Pm 0.3
+d 1
+
+newmtl CorL1
+Kd 0.3 0.8 1.0
+Ks 0.2 0.2 0.2
+Pr 0.3
+Pm 1
+d 1
+
+newmtl CorL2
+Kd 0.3 0.8 0.3
+Ks 0.2 0.2 0.2
+Pr 0.3
+Pm 1
+d 1
+
+newmtl CorL3
+Kd 1.0 0.4 0.1
+Ks 0.2 0.2 0.2
+Pr 0.3
+Pm 1
+d 1
+
+newmtl CorL4
+Kd 0.4 0.4 0.4
+Ks 0.2 0.2 0.2
+Pr 0.3
+Pm 1
+d 0.2
