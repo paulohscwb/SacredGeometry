@@ -34,7 +34,7 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
   <p align="center"><a href="sala.htm" target="_blank">&#x1f517; room 1</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala1.htm" target="_blank">&#x1f517; room 2</a></p>
   <p align="center"><img src="vr/salas/videos/gs1.gif" style="max-width: 47.5%; border-radius:5px; margin-right:5%" loading="lazy"/><img src="vr/salas/videos/gs2.gif" style="max-width: 47.5%; border-radius:5px" loading="lazy"/></p>
   <hr>
-  <p>Inside a merkaba: choose a room</p>
+  <p id="mkb">Inside a merkaba: choose a room</p>
   <form style="margin: 0 auto; width:100%; margin-bottom:15px;">
 	<select id="url" onchange="document.getElementById('sim').src = this.options[this.selectedIndex].value" style="color:royalblue;">
 		<option selected value="sala2.htm">Merkaba of tetrahedra</option>

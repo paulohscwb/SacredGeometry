@@ -34,10 +34,10 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
  <p align="center"><a href="../sala.htm" target="_blank">&#x1f517; sala 1</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala1.htm" target="_blank">&#x1f517; sala 2</a></p>
   <p align="center"><img src="../vr/salas/videos/gs1.gif" style="max-width: 47.5%; border-radius:5px; margin-right:2%;" loading="lazy"/><img src="../vr/salas/videos/gs2.gif" style="max-width: 47.5%; border-radius:5px" loading="lazy"/></p>
   <hr>
-  <p>Dentro da merkaba: escolha uma sala</p>
+  <p id="mkb">Dentro da merkaba: escolha uma sala</p>
   <form style="margin: 0 auto; width:100%; margin-bottom:15px;">
 	<select id="url" onchange="document.getElementById('sim').src = this.options[this.selectedIndex].value" style="color:royalblue;">
-		<option selected value="sala2.htm">Merkaba de tetraedros</option>
+		<option selected value="../sala2.htm">Merkaba de tetraedros</option>
 		<option value="../sala5.htm">Merkaba de fractais de tetraedros</option>
 		<option value="../sala6.htm">Merkaba de fractais de tetraedros triakis</option>
 		<option value="../sala7.htm">Merkaba de fractais tetraedros combinados</option>
