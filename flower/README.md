@@ -35,7 +35,7 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
   <hr>
   <p>Inside a flower of life: choose a room</p>
   <form style="margin: 0 auto; width:100%; margin-bottom:15px;">
-	<select id="url" onclick="document.getElementById('sim').src = this.options[this.selectedIndex].value" style="color:royalblue;">
+	<select id="url" onchange="document.getElementById('sim').src = this.options[this.selectedIndex].value" style="color:royalblue;">
 		<option selected value="../merkaba/sala4.htm">Flower of life in a truncated icosahedron</option>
 		<option value="../merkaba/sala3.htm">Cylindrical flower of life</option>
 	</select>

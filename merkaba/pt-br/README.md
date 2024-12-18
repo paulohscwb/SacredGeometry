@@ -36,7 +36,7 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
   <hr>
   <p>Dentro da merkaba: escolha uma sala</p>
   <form style="margin: 0 auto; width:100%; margin-bottom:15px;">
-	<select id="url" onclick="document.getElementById('sim').src = this.options[this.selectedIndex].value" style="color:royalblue;">
+	<select id="url" onchange="document.getElementById('sim').src = this.options[this.selectedIndex].value" style="color:royalblue;">
 		<option selected value="sala2.htm">Merkaba de tetraedros</option>
 		<option value="../sala5.htm">Merkaba de fractais de tetraedros</option>
 		<option value="../sala6.htm">Merkaba de fractais de tetraedros triakis</option>

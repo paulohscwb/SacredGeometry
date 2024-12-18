@@ -36,7 +36,7 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
   <hr>
   <p>Inside a merkaba: choose a room</p>
   <form style="margin: 0 auto; width:100%; margin-bottom:15px;">
-	<select id="url" onclick="document.getElementById('sim').src = this.options[this.selectedIndex].value" style="color:royalblue;">
+	<select id="url" onchange="document.getElementById('sim').src = this.options[this.selectedIndex].value" style="color:royalblue;">
 		<option selected value="sala2.htm">Merkaba of tetrahedra</option>
 		<option value="sala5.htm">Merkaba of fractal tetrahedra</option>
 		<option value="sala6.htm">Merkaba of fractal triakis tetrahedra</option>
