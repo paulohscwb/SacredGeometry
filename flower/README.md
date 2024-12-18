@@ -29,9 +29,18 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 
 <p align="center"><a href="#ra">Augmented Reality</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="#m3d">3D Models</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../">Home</a></p>
   <hr>
- <h3 align="center">Immersive room</h3>
+ <h3 align="center">Immersive rooms</h3>
   <div class="embed-container"><iframe width="100%" src="sala.htm" title="Sala Imersiva dos símbolos da Geometria Sagrada" frameborder="0" loading="lazy"></iframe></div>
   <p align="center"><img align="middle" src="vr/salas/videos/flower.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy" alt="VR immersive room to Flower of Life"/><a href="sala.htm" target="_blank">&#x1f517; room link</a></p> 
+  <hr>
+  <p>Inside a flower of life: choose a room</p>
+  <form style="margin: 0 auto; width:100%; margin-bottom:15px;">
+	<select id="url" onclick="document.getElementById('sim').src = this.options[this.selectedIndex].value" style="color:royalblue;">
+		<option selected value="../merkaba/sala4.htm">Flower of life in a truncated icosahedron</option>
+		<option value="../merkaba/sala3.htm">Cylindrical flower of life</option>
+	</select>
+</form>
+  <div class="embed-container"><iframe width="100%" id="sim" src="../merkaba/sala4.htm" title="Sala Imersiva dos símbolos da Geometria Sagrada" frameborder="0" loading="lazy"></iframe></div>
   <hr>
   <h3 id="ra" align="center">Augmented Reality</h3>
   To view the polyhedra and models of the Flower of Life in AR, simply visit:

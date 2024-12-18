@@ -34,6 +34,24 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
   <p align="center"><a href="sala.htm" target="_blank">&#x1f517; room 1</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="sala1.htm" target="_blank">&#x1f517; room 2</a></p>
   <p align="center"><img src="vr/salas/videos/gs1.gif" style="max-width: 47.5%; border-radius:5px; margin-right:5%" loading="lazy"/><img src="vr/salas/videos/gs2.gif" style="max-width: 47.5%; border-radius:5px" loading="lazy"/></p>
   <hr>
+  <p>Inside a merkaba: choose a room</p>
+  <form style="margin: 0 auto; width:100%; margin-bottom:15px;">
+	<select id="url" onclick="document.getElementById('sim').src = this.options[this.selectedIndex].value" style="color:royalblue;">
+		<option selected value="sala2.htm">Merkaba of tetrahedra</option>
+		<option value="sala5.htm">Merkaba of fractal tetrahedra</option>
+		<option value="sala6.htm">Merkaba of fractal triakis tetrahedra</option>
+		<option value="sala7.htm">Merkaba of fractal joined tetrahedra</option>
+		<option value="sala8.htm">Merkaba of fractal tristetrahedra</option>
+		<option value="sala9.htm">Merkaba of fractal hexakis tetrahedra</option>
+		<option value="sala10.htm">Merkaba of fractal hexakis tetrahedra 2</option>
+		<option value="sala11.htm">Merkaba of fractal hexakis tetrahedra 3</option>
+		<option value="sala12.htm">Merkaba of fractal hexakis tetrahedra 4</option>
+		<option value="sala13.htm">Merkaba of fractal tristetrahedra 2</option>
+		<option value="sala14.htm">Merkaba of fractal Möbius deltahedra</option>
+	</select>
+</form>
+  <div class="embed-container"><iframe width="100%" id="sim" src="sala2.htm" title="Sala Imersiva dos símbolos da Geometria Sagrada" frameborder="0" loading="lazy"></iframe></div>
+  <hr>
   <h3 id="ra" align="center">Augmented Reality</h3>
   To view Sacred Geometry symbols in AR, simply visit the pages indicated in the 3D solid models using any browser with a webcam device (smartphone, tablet or notebook). 
 <br>Access to the VR pages is done by clicking on the blue circle that appears on top of the marker.

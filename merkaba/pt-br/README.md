@@ -34,6 +34,24 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
  <p align="center"><a href="../sala.htm" target="_blank">&#x1f517; sala 1</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../sala1.htm" target="_blank">&#x1f517; sala 2</a></p>
   <p align="center"><img src="../vr/salas/videos/gs1.gif" style="max-width: 47.5%; border-radius:5px; margin-right:2%;" loading="lazy"/><img src="../vr/salas/videos/gs2.gif" style="max-width: 47.5%; border-radius:5px" loading="lazy"/></p>
   <hr>
+  <p>Dentro da merkaba: escolha uma sala</p>
+  <form style="margin: 0 auto; width:100%; margin-bottom:15px;">
+	<select id="url" onclick="document.getElementById('sim').src = this.options[this.selectedIndex].value" style="color:royalblue;">
+		<option selected value="sala2.htm">Merkaba de tetraedros</option>
+		<option value="../sala5.htm">Merkaba de fractais de tetraedros</option>
+		<option value="../sala6.htm">Merkaba de fractais de tetraedros triakis</option>
+		<option value="../sala7.htm">Merkaba de fractais tetraedros combinados</option>
+		<option value="../sala8.htm">Merkaba de fractais tristetraedros</option>
+		<option value="../sala9.htm">Merkaba de fractais de tetraedros hexakis</option>
+		<option value="../sala10.htm">Merkaba de fractais de tetraedros hexakis 2</option>
+		<option value="../sala11.htm">Merkaba de fractais de tetraedros hexakis 3</option>
+		<option value="../sala12.htm">Merkaba de fractais de tetraedros hexakis 4</option>
+		<option value="../sala13.htm">Merkaba de fractais tristetraedros 2</option>
+		<option value="../sala14.htm">Merkaba de fractais de deltaedros de Möbius</option>
+	</select>
+</form>
+  <div class="embed-container"><iframe width="100%" id="sim" src="../sala2.htm" title="Sala Imersiva dos símbolos da Geometria Sagrada" frameborder="0" loading="lazy"></iframe></div>
+  <hr>
   <h3 id="ra" align="center">Realidade Aumentada</h3>
   Para visualizar os símbolos da Geometria Sagrada em RA, visite as páginas indicadas nos modelos 3D dos sólidos utilizando qualquer navegador com um dispositivo de webcam (smartphone, tablet ou notebook).
 <br>O acesso às páginas de RV é feito clicando no círculo azul que aparece em cima de cada marcador.
