@@ -286,7 +286,7 @@
 			
 			<a-entity id="nivel0">
 				<a-entity rotation="35 0 45" animation="property: rotation; from: 35 0 45; to: 35 360 45; loop: true; dur: 60000; dir: alternate; delay: 15000;">
-					<a-tetrahedron radius="2.5832" material="side: double; color:white; wireframe:true"></a-tetrahedron>
+					<a-tetrahedron radius="2.5832" material="side: double; color:white; wireframe:true; wireframeLinewidth:1"></a-tetrahedron>
 					<a-tetrahedron mixin="mtl2" radius="2.583"></a-tetrahedron>
 				</a-entity>
 				<a-text mixin="texto" value="Tetraedro / Tetrahedron"></a-text>
@@ -302,7 +302,7 @@
 				
 			<a-entity id="nivel2" visible="false">
 				<a-entity rotation="35 0 45" animation="property: rotation; from: 35 0 45; to: 35 360 45; loop: true; dur: 60000; dir: alternate; delay: 15000;">
-					<a-octahedron radius="1.5003" material="side: double; color:white; wireframe:true"></a-octahedron>
+					<a-octahedron radius="1.5003" material="side: double; color:white; wireframe:true; wireframeLinewidth:1"></a-octahedron>
 					<a-octahedron mixin="mtl2" radius="1.5"></a-octahedron>
 				</a-entity>
 				<a-text mixin="texto" value="Octaedro / Octahedron"></a-text>
@@ -310,7 +310,7 @@
 				
 			<a-entity id="nivel4" visible="false">
 				<a-entity rotation="35 0 45" animation="property: rotation; from: 35 0 45; to: 35 360 45; loop: true; dur: 60000; dir: alternate; delay: 15000;">
-					<a-icosahedron radius="3.2845" material="side: double; color:white; wireframe:true"></a-icosahedron>
+					<a-icosahedron radius="3.2845" material="side: double; color:white; wireframe:true; wireframeLinewidth:1"></a-icosahedron>
 					<a-icosahedron mixin="mtl2" radius="3.284"></a-icosahedron>
 				</a-entity>
 				<a-text mixin="texto" value="Icosaedro / Icosahedron"></a-text>
@@ -327,14 +327,14 @@
 			<a-entity id="nivel6" visible="false">
 				<a-entity rotation="35 0 45" animation="property: rotation; from: 35 0 45; to: 35 360 45; loop: true; dur: 60000; dir: alternate; delay: 15000;">
 					<a-entity scale="2.1264 2.1264 2.1264">
-						<a-triangle material="color:white; wireframe:true" vertex-a="0.707 0.0 0.707" vertex-b="0.707 0.707 0.0" vertex-c="0.0 0.707 0.707"></a-triangle>
-						<a-triangle material="color:white; wireframe:true" vertex-a="0.707 0.0 -0.707" vertex-b="0.707 -0.707 0.0" vertex-c="0.0 -0.707 -0.707"></a-triangle>
-						<a-triangle material="color:white; wireframe:true" vertex-a="-0.707 0.0 0.707" vertex-b="-0.707 -0.707 0.0" vertex-c="0.0 -0.707 0.707"></a-triangle>
-						<a-triangle material="color:white; wireframe:true" vertex-a="-0.707 0.0 -0.707" vertex-b="-0.707 0.707 0.0" vertex-c="0.0 0.707 -0.707"></a-triangle>
-						<a-triangle material="color:white; wireframe:true" vertex-a="0.707 0.707 0.0" vertex-b="0.707 0.0 -0.707" vertex-c="0.0 0.707 -0.707"></a-triangle>
-						<a-triangle material="color:white; wireframe:true" vertex-a="0.707 -0.707 0.0" vertex-b="0.707 0.0 0.707" vertex-c="0.0 -0.707 0.707"></a-triangle>
-						<a-triangle material="color:white; wireframe:true" vertex-a="-0.707 0.707 0.0" vertex-b="-0.707 0.0 0.707" vertex-c="0.0 0.707 0.707"></a-triangle>
-						<a-triangle material="color:white; wireframe:true" vertex-a="-0.707 -0.707 0.0" vertex-b="-0.707 0.0 -0.707" vertex-c="0.0 -0.707 -0.707"></a-triangle>
+						<a-triangle material="color:white; wireframe:true; wireframeLinewidth:1" vertex-a="0.707 0.0 0.707" vertex-b="0.707 0.707 0.0" vertex-c="0.0 0.707 0.707"></a-triangle>
+						<a-triangle material="color:white; wireframe:true; wireframeLinewidth:1" vertex-a="0.707 0.0 -0.707" vertex-b="0.707 -0.707 0.0" vertex-c="0.0 -0.707 -0.707"></a-triangle>
+						<a-triangle material="color:white; wireframe:true; wireframeLinewidth:1" vertex-a="-0.707 0.0 0.707" vertex-b="-0.707 -0.707 0.0" vertex-c="0.0 -0.707 0.707"></a-triangle>
+						<a-triangle material="color:white; wireframe:true; wireframeLinewidth:1" vertex-a="-0.707 0.0 -0.707" vertex-b="-0.707 0.707 0.0" vertex-c="0.0 0.707 -0.707"></a-triangle>
+						<a-triangle material="color:white; wireframe:true; wireframeLinewidth:1" vertex-a="0.707 0.707 0.0" vertex-b="0.707 0.0 -0.707" vertex-c="0.0 0.707 -0.707"></a-triangle>
+						<a-triangle material="color:white; wireframe:true; wireframeLinewidth:1" vertex-a="0.707 -0.707 0.0" vertex-b="0.707 0.0 0.707" vertex-c="0.0 -0.707 0.707"></a-triangle>
+						<a-triangle material="color:white; wireframe:true; wireframeLinewidth:1" vertex-a="-0.707 0.707 0.0" vertex-b="-0.707 0.0 0.707" vertex-c="0.0 0.707 0.707"></a-triangle>
+						<a-triangle material="color:white; wireframe:true; wireframeLinewidth:1" vertex-a="-0.707 -0.707 0.0" vertex-b="-0.707 0.0 -0.707" vertex-c="0.0 -0.707 -0.707"></a-triangle>
 					</a-entity>
 					<a-entity scale="2.1262 2.1262 2.1262">
 						<a-triangle mixin="mtl3" vertex-a="0.707 0.0 0.707" vertex-b="0.707 0.707 0.0" vertex-c="0.0 0.707 0.707"></a-triangle>
@@ -364,8 +364,8 @@
 				
 			<a-entity id="nivel5" visible="false">
 				<a-entity rotation="35 0 45" animation="property: rotation; from: 35 0 45; to: 35 360 45; loop: true; dur: 60000; dir: alternate; delay: 15000;">
-					<a-tetrahedron radius="2.5832" material="side: double; color:white; wireframe:true"></a-tetrahedron>
-					<a-tetrahedron rotation="0 0 -90" radius="2.5832" material="side: double; color:white; wireframe:true"></a-tetrahedron>
+					<a-tetrahedron radius="2.5832" material="side: double; color:white; wireframe:true; wireframeLinewidth:1"></a-tetrahedron>
+					<a-tetrahedron rotation="0 0 -90" radius="2.5832" material="side: double; color:white; wireframe:true; wireframeLinewidth:1"></a-tetrahedron>
 					<a-tetrahedron mixin="mtl2" radius="2.583"></a-tetrahedron>
 					<a-tetrahedron rotation="0 0 -90" mixin="mtl2" radius="2.583"></a-tetrahedron>
 				</a-entity>
