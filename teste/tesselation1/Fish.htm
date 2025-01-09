@@ -21,12 +21,12 @@
 			<a-mixin id="esfera8" mixin="esfera" geometry="radius: 0.0145"></a-mixin>
 			<a-mixin id="ar">
 			<a-asset-item id="materialw" src="https://paulohscwb.github.io/polyhedra/platonic/vr/outros/solidos.mtl"></a-asset-item>
-			<a-asset-item id="material" src="https://paulohscwb.github.io/SacredGeometry/teste/tesselation1/obj/solidos.mtl"></a-asset-item>
+			<a-asset-item id="material" src="obj/solidos.mtl"></a-asset-item>
 		</a-assets>
 		
 		<a-light type="point" color="white" intensity="0.5" position="0 0 0"></a-light>
 		<a-entity scale="9.3 9.3 9.3" rotation="-35 0 -45" id="nivel0">
-			<a-obj-model src="https://paulohscwb.github.io/SacredGeometry/teste/tesselation1/obj/_StellaOctangula2.obj" mtl="#material" scale="0.9985 0.9985 0.9985"></a-obj-model>
+			<a-obj-model src="obj/StellaOctangula2.obj" mtl="#material" scale="0.9985 0.9985 0.9985"></a-obj-model>
 			<a-obj-model mixin="ar" src="https://paulohscwb.github.io/polyhedra/nonconvex/vr/outros/StellaOctangulaL.obj" mtl="#materialw"></a-obj-model>
 			<a-sphere mixin='esfera7' position='0.0 0.0 -0.35355'></a-sphere>
 			<a-sphere mixin='esfera7' position='0.35355 0.0 0.0'></a-sphere>
@@ -45,7 +45,7 @@
 		</a-entity>
 			
 		<a-entity scale="9.5 9.5 9.5" rotation="-35 0 -45" id="nivel1" visible="false">
-			<a-obj-model src="https://paulohscwb.github.io/SacredGeometry/teste/tesselation1/obj/_Tetrahedron3.obj" mtl="#material" scale="0.9985 0.9985 0.9985"></a-obj-model>
+			<a-obj-model src="obj/Tetrahedron3.obj" mtl="#material" scale="0.9985 0.9985 0.9985"></a-obj-model>
 			<a-obj-model mixin="ar" src="https://paulohscwb.github.io/polyhedra/platonic/vr/outros/TetrahedronL.obj" mtl="#materialw"></a-obj-model>
 			<a-sphere mixin='esfera8' position='0.35355 0.35355 -0.35355'></a-sphere>
 			<a-sphere mixin='esfera8' position='-0.35355 0.35355 0.35355'></a-sphere>
