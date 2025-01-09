@@ -1,0 +1,290 @@
+## Alias MTL Material File
+
+newmtl Cor1
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/0d3b3-e66bb9eb-d322-4742-9152-79005170e988.webp
+Ni 2.5
+d 1
+
+newmtl Cor2
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/BarbWiden-lg.png
+Ni 2.5
+d 1
+
+newmtl Cor3
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/amphibian-max.png
+Ni 2.5
+d 1
+
+newmtl Cor4
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/angel-queen-max.png
+Ni 2.5
+d 1
+
+newmtl Cor5
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/birds-fish-max.png
+Ni 2.5
+d 1
+
+newmtl Cor6
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/butterflies-lizards-max.png
+Ni 2.5
+d 1
+
+newmtl Cor7
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/cat-fish-bird-max.png
+Ni 2.5
+d 1
+
+newmtl Cor8
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/cherub-demon-max.png
+Ni 2.5
+d 1
+
+newmtl Cor9
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/chinese-x3-max.png
+Ni 2.5
+d 1
+
+newmtl Cor10
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/duck-120-max.png
+Ni 2.5
+d 1
+
+newmtl Cor11
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/fire-queen-max.png
+Ni 2.5
+d 1
+
+newmtl Cor12
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/fish-royal-max.png
+Ni 2.5
+d 1
+
+newmtl Cor13
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/heartbug-max.png
+Ni 2.5
+d 1
+
+newmtl Cor14
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/lil-dragon-max.png
+Ni 2.5
+d 1
+
+newmtl Cor15
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/lizard-bird-fish-max.png
+Ni 2.5
+d 1
+
+newmtl Cor16
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/lizards-x2-max.png
+Ni 2.5
+d 1
+
+newmtl Cor17
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/MassimoRana1-lg.png
+Ni 2.5
+d 1
+
+newmtl Cor18
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/monsters-max.png
+Ni 2.5
+d 1
+
+newmtl Cor19
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/panda-bat-fish-max.png
+Ni 2.5
+d 1
+
+newmtl Cor20
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/shell-fish-bird-max.png
+Ni 2.5
+d 1
+
+newmtl Cor21
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/squirrel-bird-fish-max.png
+Ni 2.5
+d 1
+
+newmtl Cor22
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/starfish-bird-fish-max.png
+Ni 2.5
+d 1
+
+newmtl Cor23
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/tessellation-hummingbird-in-p4m-canyouseedotca.webp
+Ni 2.5
+d 1
+
+newmtl CorL
+Ka 1 1 1
+Kd 0.3 0.3 0.3
+Ks 0.2 0.2 0.2
+Pr 0.7
+Pm 0.3
+d 1
+
+newmtl CorL1
+Kd 0.3 0.8 1.0
+Ks 0.2 0.2 0.2
+Pr 0.3
+Pm 1
+d 1
+
+newmtl CorL2
+Kd 0.3 0.8 0.3
+Ks 0.2 0.2 0.2
+Pr 0.3
+Pm 1
+d 1
+
+newmtl CorL3
+Kd 1.0 0.4 0.1
+Ks 0.2 0.2 0.2
+Pr 0.3
+Pm 1
+d 1
+
+newmtl CorL4
+Kd 0.4 0.4 0.4
+Ks 0.2 0.2 0.2
+Pr 0.3
+Pm 1
+d 0.2

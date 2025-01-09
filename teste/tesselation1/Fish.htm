@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <title>Escher</title>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="salas/imagens/icone.png">
+	<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+	<script src="https://unpkg.com/aframe-orbit-controls@1.3.0/dist/aframe-orbit-controls.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script src="nomes.js"></script>
+	<link rel="stylesheet" href="nomes.css">
+  </head>
+  <body>
+  <div class="box" style="visibility: hidden;">
+		<label for="rangevalue">order: </label><output id="rangevalue">0</output>&nbsp;&nbsp;&nbsp;<input type="range" id="nv" min="0" max="10" step="1" value="0" onchange="rangevalue.value=value; mnivelRA()">
+	</div>
+<div style='color:#fada99; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Lato; font-size:2.5vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2025 Paulo Henrique Siqueira</div>
+    <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
+		<a-assets>
+			<a-mixin id="esfera" mixin="mtl9" geometry="segments-height:20; segments-width:20;" material="color: #8ec; side:double; metalness:0.4; roughness:0.5;"></a-mixin>
+			<a-mixin id="esfera7" mixin="esfera" geometry="radius: 0.015"></a-mixin>
+			<a-mixin id="esfera8" mixin="esfera" geometry="radius: 0.0145"></a-mixin>
+			<a-mixin id="ar">
+			<a-asset-item id="materialw" src="https://paulohscwb.github.io/polyhedra/platonic/vr/outros/solidos.mtl"></a-asset-item>
+			<a-asset-item id="material" src="obj/solidos.mtl"></a-asset-item>
+		</a-assets>
+		
+		<a-light type="point" color="white" intensity="0.5" position="0 0 0"></a-light>
+		<a-entity scale="9.3 9.3 9.3" rotation="-35 0 -45" id="nivel0">
+			<a-obj-model src="obj/_StellaOctangula2.obj" mtl="#material" scale="0.9985 0.9985 0.9985"></a-obj-model>
+			<a-obj-model mixin="ar" src="https://paulohscwb.github.io/polyhedra/nonconvex/vr/outros/StellaOctangulaL.obj" mtl="#materialw"></a-obj-model>
+			<a-sphere mixin='esfera7' position='0.0 0.0 -0.35355'></a-sphere>
+			<a-sphere mixin='esfera7' position='0.35355 0.0 0.0'></a-sphere>
+			<a-sphere mixin='esfera7' position='-0.35355 0.0 0.0'></a-sphere>
+			<a-sphere mixin='esfera7' position='0.0 0.35355 0.0'></a-sphere>
+			<a-sphere mixin='esfera7' position='0.0 -0.35355 0.0'></a-sphere>
+			<a-sphere mixin='esfera7' position='0.35355 0.35355 0.35355'></a-sphere>
+			<a-sphere mixin='esfera7' position='0.35355 0.35355 -0.35355'></a-sphere>
+			<a-sphere mixin='esfera7' position='0.35355 -0.35355 0.35355'></a-sphere>
+			<a-sphere mixin='esfera7' position='0.35355 -0.35355 -0.35355'></a-sphere>
+			<a-sphere mixin='esfera7' position='-0.35355 0.35355 0.35355'></a-sphere>
+			<a-sphere mixin='esfera7' position='-0.35355 0.35355 -0.35355'></a-sphere>
+			<a-sphere mixin='esfera7' position='-0.35355 -0.35355 0.35355'></a-sphere>
+			<a-sphere mixin='esfera7' position='-0.35355 -0.35355 -0.35355'></a-sphere>
+			<a-sphere mixin='esfera7' position='0.0 0.0 0.35355'></a-sphere>
+		</a-entity>
+			
+		<a-entity scale="9.5 9.5 9.5" rotation="-35 0 -45" id="nivel1" visible="false">
+			<a-obj-model src="obj/_Tetrahedron3.obj" mtl="#material" scale="0.9985 0.9985 0.9985"></a-obj-model>
+			<a-obj-model mixin="ar" src="https://paulohscwb.github.io/polyhedra/platonic/vr/outros/TetrahedronL.obj" mtl="#materialw"></a-obj-model>
+			<a-sphere mixin='esfera8' position='0.35355 0.35355 -0.35355'></a-sphere>
+			<a-sphere mixin='esfera8' position='-0.35355 0.35355 0.35355'></a-sphere>
+			<a-sphere mixin='esfera8' position='-0.35355 -0.35355 -0.35355'></a-sphere>
+			<a-sphere mixin='esfera8' position='0.35355 -0.35355 0.35355'></a-sphere>
+		</a-entity>
+		
+		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 150 300 700; maxDistance: 1500;"></a-entity>
+	  
+		<a-light type="ambient" color="white" intensity="0.5"></a-light>
+		<a-light type="directional" color="white" intensity="0.8" position="-3 2 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.8" position="3 -2 1"></a-light>
+
+		<a-sky color="#f6fff6"></a-sky>
+    </a-scene>
+	<div class="box">
+		<span class="titulo">Fish - peixes</span>
+		<hr><input type="checkbox" id="arestas" checked onclick="marestas()">edges&nbsp;&nbsp;&nbsp; 
+		<input type="checkbox" id="vertices" checked onclick="mvertices()">vertices
+		<hr><select id="url" onchange="nv.value=this.value; mnivelRA()">
+			<option value="0" selected>Stella octangula</option>
+			<option value="1">Tetrahedron</option>
+		</select>
+	</div>
+  </body>
+</html>
