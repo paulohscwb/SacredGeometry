@@ -1,0 +1,345 @@
+## Alias MTL Material File
+
+newmtl Cor1
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1Chromatic-Geometry-10.png
+Ni 2.5
+d 1
+
+newmtl Cor2
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1Chromatic-Star.png
+Ni 2.5
+d 1
+
+newmtl Cor3
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/214285597.png
+Ni 2.5
+d 1
+
+newmtl Cor4
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/214285604.png
+Ni 2.5
+d 1
+
+newmtl Cor5
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/214285647.png
+Ni 2.5
+d 1
+
+newmtl Cor6
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1Hexagonal-Tessellation-Design.png
+Ni 2.5
+d 1
+
+newmtl Cor7
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1Hexagonal-Tessellation-Design-2.png
+Ni 2.5
+d 1
+
+newmtl Cor8
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1images-11.jpeg
+Ni 2.5
+d 1
+
+newmtl Cor9
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1images-16.jpg
+Ni 2.5
+d 1
+
+newmtl Cor10
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1p6m-2013-12-12-19-46-53-0000.png
+Ni 2.5
+d 1
+
+newmtl Cor11
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1p6m-take-care-of-it.jpg
+Ni 2.5
+d 1
+
+newmtl Cor12
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/18421966.png
+Ni 2.5
+d 1
+
+newmtl Cor13
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1Chromatic-Geometry-00.png
+Ni 2.5
+d 1
+
+newmtl Cor14
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1Chromatic-Geometry-01.png
+Ni 2.5
+d 1
+
+newmtl Cor15
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1Chromatic-Geometry-02.jpg
+Ni 2.5
+d 1
+
+newmtl Cor16
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1Chromatic-Geometry-03.jpg
+Ni 2.5
+d 1
+
+newmtl Cor17
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1Chromatic-Geometry-04.jpg
+Ni 2.5
+d 1
+
+newmtl Cor18
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1Chromatic-Geometry-05.jpg
+Ni 2.5
+d 1
+
+newmtl Cor19
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1Chromatic-Geometry-06.jpg
+Ni 2.5
+d 1
+
+newmtl Cor20
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1Chromatic-Geometry-07.jpg
+Ni 2.5
+d 1
+
+newmtl Cor21
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1Chromatic-Geometry-11.png
+Ni 2.5
+d 1
+
+newmtl Cor22
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1Chromatic-Geometry-12.png
+Ni 2.5
+d 1
+
+newmtl Cor23
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1Chromatic-Geometry-13.png
+Ni 2.5
+d 1
+
+newmtl Cor24
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1Chromatic-Geometry-14.png
+Ni 2.5
+d 1
+
+newmtl Cor25
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1Chromatic-Geometry-15a.png
+Ni 2.5
+d 1
+
+newmtl Cor26
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1Chromatic-Geometry-16.png
+Ni 2.5
+d 1
+
+newmtl Cor27
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1Chromatic-Geometry-17.png
+Ni 2.5
+d 1
+
+newmtl Cor28
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1Chromatic-Geometry-18.png
+Ni 2.5
+d 1
+
+newmtl CorL
+Ka 1 1 1
+Kd 0.3 0.3 0.3
+Ks 0.2 0.2 0.2
+Pr 0.7
+Pm 0.3
+d 1
+
+newmtl CorL1
+Kd 0.3 0.8 1.0
+Ks 0.2 0.2 0.2
+Pr 0.3
+Pm 1
+d 1
+
+newmtl CorL2
+Kd 0.3 0.8 0.3
+Ks 0.2 0.2 0.2
+Pr 0.3
+Pm 1
+d 1
+
+newmtl CorL3
+Kd 1.0 0.4 0.1
+Ks 0.2 0.2 0.2
+Pr 0.3
+Pm 1
+d 1
+
+newmtl CorL4
+Kd 0.4 0.4 0.4
+Ks 0.2 0.2 0.2
+Pr 0.3
+Pm 1
+d 0.2
