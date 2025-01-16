@@ -30,6 +30,7 @@
 	],
 	"materials":[
 		{
+			"alphaMode":"MASK",
 			"doubleSided":true,
 			"extensions":{
 				"KHR_materials_specular":{
@@ -39,13 +40,19 @@
 					"ior":2.5
 				}
 			},
-			"name":"Cor14.003",
+			"name":"Cor12",
 			"pbrMetallicRoughness":{
+				"baseColorFactor":[
+					1,
+					1,
+					1,
+					1
+				],
 				"baseColorTexture":{
 					"index":0
 				},
-				"metallicFactor":0,
-				"roughnessFactor":0.7654792070388794
+				"metallicFactor":0.27,
+				"roughnessFactor":0.7
 			}
 		}
 	],
