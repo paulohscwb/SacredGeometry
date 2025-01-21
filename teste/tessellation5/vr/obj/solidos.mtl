@@ -1,0 +1,433 @@
+## Alias MTL Material File
+
+newmtl Cor1
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/1Chromatic-Cross.png
+Ni 2.5
+d 1
+
+newmtl Cor2
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/2Chromatic-Decorative-Ornament.png
+Ni 2.5
+d 1
+
+newmtl Cor3
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/3Chromatic-Geometric-Arrows-2.png
+Ni 2.5
+d 1
+
+newmtl Cor4
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/4Chromatic-Geometric-Arrows-3.png
+Ni 2.5
+d 1
+
+newmtl Cor5
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/5Chromatic-Geometric-Frame-2.png
+Ni 2.5
+d 1
+
+newmtl Cor6
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/6Chromatic-Geometric-Line-Art-3.png
+Ni 2.5
+d 1
+
+newmtl Cor7
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/7Chromatic-Chubby-Star-3.png
+Ni 2.5
+d 1
+
+newmtl Cor8
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/8Chromatic-Flower-Silhouette-6-No-Background.png
+Ni 2.5
+d 1
+
+newmtl Cor9
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/9Chromatic-Gold-Flourish-Ornament-5-No-Background.png
+Ni 2.5
+d 1
+
+newmtl Cor10
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/10Chromatic-Psychedelic-Star.png
+Ni 2.5
+d 1
+
+newmtl Cor11
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/11Organic-Star.png
+Ni 2.5
+d 1
+
+newmtl Cor12
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/12Pentagonal-Emission.png
+Ni 2.5
+d 1
+
+newmtl Cor13
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/13Pentagonal-Emission-2.png
+Ni 2.5
+d 1
+
+newmtl Cor14
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/14Psychedelic-Geometric-6.png
+Ni 2.5
+d 1
+
+newmtl Cor15
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/15Quintupular-Metatarsal.png
+Ni 2.5
+d 1
+
+newmtl Cor16
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/16_1404333466.png
+Ni 2.5
+d 1
+
+newmtl Cor17
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/17Celtic-Knot-Triangle.png
+Ni 2.5
+d 1
+
+newmtl Cor18
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/18Chromatic-Triad.png
+Ni 2.5
+d 1
+
+newmtl Cor19
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/19dice-triangle.png
+Ni 2.5
+d 1
+
+newmtl Cor20
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/20Prism-10.png
+Ni 2.5
+d 1
+
+newmtl Cor21
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/21Chromatic-Flower-Silhouette-6-No-Background.png
+Ni 2.5
+d 1
+
+newmtl Cor22
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/22Celtic-Knot-Frame-12.png
+Ni 2.5
+d 1
+
+newmtl Cor23
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/23celtic-mandala2.png
+Ni 2.5
+d 1
+
+newmtl Cor24
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/24Chromatic-Geometric-Star.png
+Ni 2.5
+d 1
+
+newmtl Cor25
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/25Colorful-Floral-Spatter-4A.png
+Ni 2.5
+d 1
+
+newmtl Cor26
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/26Gerald-G-Celtic-Knot-stylized.png
+Ni 2.5
+d 1
+
+newmtl Cor27
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/27Prismatic-Waves-Design-11.png
+Ni 2.5
+d 1
+
+newmtl Cor28
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/28Flourishy-Floral-Design-5.png
+Ni 2.5
+d 1
+
+newmtl Cor29
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/29PlantDesign1.png
+Ni 2.5
+d 1
+
+newmtl Cor30
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/30Floral-Tree-Design-6.png
+Ni 2.5
+d 1
+
+newmtl Cor31
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/31Golden-Celtic-Knot-Cross-3-Variation-2-Without-Background.png
+Ni 2.5
+d 1
+
+newmtl Cor32
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/32Petty-Larceny.png
+Ni 2.5
+d 1
+
+newmtl Cor33
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/33Prismatic-Celtic-Knot-Design-13.png
+Ni 2.5
+d 1
+
+newmtl Cor34
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/34Prismatic-Waves-Design-4.png
+Ni 2.5
+d 1
+
+newmtl Cor35
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/35Colorful-Floral-Spatter-10.png
+Ni 2.5
+d 1
+
+newmtl Cor36
+illum 10
+Ka 0.5 0.5 0.5
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+Ns 55
+map_Kd imagens/36Celtic-Knot-Mandala-6.png
+Ni 2.5
+d 1
+
+newmtl CorL
+Ka 1 1 1
+Kd 0.3 0.3 0.3
+Ks 0.2 0.2 0.2
+Pr 0.7
+Pm 0.3
+d 1
+
+newmtl CorL1
+Kd 0.3 0.8 1.0
+Ks 0.2 0.2 0.2
+Pr 0.3
+Pm 1
+d 1
+
+newmtl CorL2
+Kd 0.3 0.8 0.3
+Ks 0.2 0.2 0.2
+Pr 0.3
+Pm 1
+d 1
+
+newmtl CorL3
+Kd 1.0 0.4 0.1
+Ks 0.2 0.2 0.2
+Pr 0.3
+Pm 1
+d 1
+
+newmtl CorL4
+Kd 0.4 0.4 0.4
+Ks 0.2 0.2 0.2
+Pr 0.3
+Pm 1
+d 0.2
