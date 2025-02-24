@@ -23,7 +23,8 @@
 			get.style.display = 'none';
 		}, 5000);
 	</script>
-    <a-scene physics="gravity:-1; iterations:5;" shadow="type: pcfsoft" renderer="antialias: true; colorManagement: true; highRefreshRate: true;">  <!--logarithmicDepthBuffer: true-->
+    <a-scene physics="gravity:-1; iterations:5;" shadow="type: pcfsoft" renderer="antialias: true; colorManagement: true; highRefreshRate: true; logarithmicDepthBuffer: true; maxCanvasWidth: 30720; maxCanvasHeight: 30720;">
+	<!--logarithmicDepthBuffer: true-->
         <a-assets>
            <a-mixin id="poli1" shadow hoverable grabbable stretchable draggable droppable dynamic-body="linearDamping:0.05; angularDamping:0.05; mass:5; shape: auto"></a-mixin>
 		   <a-mixin id="poli2" shadow hoverable grabbable stretchable draggable droppable dynamic-body="linearDamping:0.05; angularDamping:0.05; mass:5; shape: sphere; sphereRadius: 0.33"></a-mixin>
