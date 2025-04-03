@@ -16,6 +16,9 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <h3 style="margin-top:3px"><a target="_blank" href="metatron/"><img src="metatron/ar/73A.png" style="margin-bottom:-10px" width="40"> Metatron Cube and the polyhedra of Plato and Archimedes</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="merkaba/"><img src="merkaba/ar/60A.png" style="margin-bottom:-10px" width="40"> Merkaba Star</a></h3>
 <hr>
+<h3 style="margin-top:3px"><a target="_blank" href="https://paulohscwb.github.io/grid-of-life/"><img src="https://paulohscwb.github.io/grid-of-life/archimedes/vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="40"> The Grid of Life symbol and other polyhedrons</a></h3>
+<h3 style="margin-top:3px"><a target="_blank" href="https://paulohscwb.github.io/metatron/"><img src="https://paulohscwb.github.io/metatron/catalan/vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="40"> The Grid of Life symbol and other polyhedrons</a></h3>
+<hr>
 <h3 align="center">Immersive rooms</h3>
 <p align="center"><img src="symbols/vr/salas/videos/gs1.gif" style="max-width: 47%; border-radius:5px; margin-right:10px" loading="lazy"/><img src="symbols/vr/salas/videos/gs2.gif" style="max-width: 47%; border-radius:5px;" loading="lazy"/></p>
 <h3 align="center">Augmented Reality and 3D models</h3>
