@@ -212,6 +212,27 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
  <br><br><br>Vector Equilibrium is considered as the underlying structure of the Torus, also known as the geometric shape capable of transforming energy into matter. In this representation we have the 3D model built with 3 rotations around one of the models.
  <br><br>
  <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>29. Sri Yantra</h4>
+<a href="vr/SriYantra.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/29A.png" class="foto" alt="Sri Yantra"></a>
+ <br><br><br>The Sri Yantra is a geometric draw that represents the union of the masculine and feminine energies of the universe. It is one of the most complex and powerful forms of Sacred Geometry. This symbol has nine interlocking triangles that surround a central point and guide the mind to higher states of consciousness. Focusing on the central point, called the "bindu", helps to access a deep connection with universal energy. The "bindu" symbolizes the origin of the universe, the point from which all creation emanates, and around which reality is organized. The word "Sri" means wealth and prosperity, and "Yantra" means instrument.
+ <br><br>
+ <hr>
+<h4>30. Sri Yantra 3D</h4>
+<a href="vr/SriYantrav1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/30A.png" class="foto" alt="Sri Yantra 3D"></a>
+ <br><br><br>The Sri Yantra consists of four triangles pointing upwards (masculine energy, Shiva) and five pointing downwards (feminine energy, Shakti). The intersections between the triangles form 43 smaller triangles, which mirror the cosmos. Each smaller triangle is related to an intelligence or archetype. The Sri Yantra is one of the most complex and powerful forms of Sacred Geometry. The word "Sri" means wealth and prosperity, and "Yantra" means instrument.
+ <br><br>
+<p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<hr>
+<h4>31. Triquetra</h4>
+<a href="vr/Triquetra.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/31A.png" class="foto" alt="Triquetra"></a>
+ <br><br><br>The triquetra is a geometric symbol that represents eternity, trinity and unity. It is made up of three intertwined arches, with no beginning or end. The word triquetra comes from the Latin triquætra (three points). The symbol is similar to a triskelion (a Celtic symbol that represents the three worlds: the celestial, physical and spiritual). The triquetra is present in many cultures and traditions.
+ <br><br>
+ <hr>
+<h4>32. Triquetra 3D</h4>
+<a href="vr/Triquetrav1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/32A.png" class="foto" alt="Triquetra 3D"></a>
+ <br><br><br>The triquetra is used in Christianity, magic and the occult in general. This symbol is associated with trinity concepts, such as life, death and rebirth, or earth, sea and sky. The triquetra represents infinity in three dimensions and can be found in many works of art, monuments, films, popular series, pendants, mandalas and paintings.
+ <br><br>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
