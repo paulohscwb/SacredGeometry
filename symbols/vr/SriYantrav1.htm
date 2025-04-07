@@ -1,0 +1,2265 @@
+<html>
+  <head>
+    <title>Sacred Geometry</title>
+	<link rel="icon" type="image/png" href="salas/imagens/icone.png">
+	<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+	<script src="https://unpkg.com/aframe-orbit-controls@1.3.0/dist/aframe-orbit-controls.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script src="nomes.js"></script>
+	<link rel="stylesheet" href="nomes.css">
+  </head>
+  <body>
+<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Lato; font-size:2.75vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2025 Paulo Henrique Siqueira</div>
+    <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
+		<a-assets>
+			<a-mixin id="mtl1" material="side: double; color: #5cb404; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl2" material="side: double; color: #fc0; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl3" material="side: double; color: #f84; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl4" material="side: double; color: #8af; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl5" material="side: double; color: #5ef; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="ci" geometry="height:5.1962; radius:0.015;" mixin="mtl1"></a-mixin>
+			<a-mixin id="esferad" mixin="mtl1" geometry="radius: 0.015;" material="metalness:0.5; roughness:0.3;"></a-mixin>
+			<a-mixin id="tr" rotation="90 0 0" geometry="radius-tubular:0.0075; arc:360; radius:1; segments-tubular: 100" mixin="mtl2">
+			<a-mixin id="trv" mixin="tr mtl3">
+			<a-mixin id="trb" mixin="tr mtl4">
+			<a-mixin id="ci1" mixin="ci mtl5">
+			<a-mixin id="esferad1" mixin="esferad mtl5">
+		</a-assets>
+		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0; initialPosition: 350 380 700; minDistance: 500; maxDistance: 1100;"></a-entity>
+		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
+		
+		<a-entity scale="4 4 4">
+			<a-entity rotation="19.5 270 30">
+				<!--<a-entity rotation="0 0 45">
+					<a-entity>
+						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
+						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="-0.57 1.9 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.9 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.57 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.5 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.6 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.6 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
+						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="-0.57 1.9 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.9 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.57 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.5 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.6 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.6 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
+						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="-0.57 1.9 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.9 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.57 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.5 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.6 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.6 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
+						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="-0.57 1.9 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.9 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.57 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.5 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.6 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.6 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
+					</a-entity>
+					</a-entity>-->
+				<a-entity scale="0.98 0.98 0.98">
+					<a-entity>
+						<a-entity>
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -90">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 180">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -45">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 135">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -135">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						</a-entity>
+					<a-entity rotation="0 -180 0">
+						<a-entity>
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -90">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 180">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -45">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 135">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -135">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+					</a-entity>
+					<a-torus mixin="tr" rotation="0 0 0" geometry="radius:1.125;"></a-torus>
+					<a-entity>
+						<a-entity>
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 180">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 -90">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 -180 0">
+						<a-entity>
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 180">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 -90">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-torus mixin="trv" rotation="0 0 0" geometry="radius:1.325;"></a-torus>
+					<a-torus mixin="trb" rotation="0 0 0" geometry="radius:1.525;"></a-torus>
+					</a-entity>
+				<a-entity scale="1.16 1.16 1.16">
+				<a-cylinder mixin="ci1" position="0 0.248 0" rotation="0 0 90" height="1.778"></a-cylinder>
+				<a-cylinder mixin="ci1" position="0 -0.228 0" rotation="0 0 90" height="1.778"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-0.889 0.248 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.889 0.248 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="-0.889 -0.228 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.889 -0.228 0"></a-sphere>
+				<a-entity rotation="0 0 127" position="-0.447 -0.346 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.487"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.7435 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.7435 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -127" position="0.447 -0.346 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.487"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.7435 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.7435 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -127.914" position="-0.451 0.351 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.466"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.733 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.733 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 127.914" position="0.451 0.351 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.466"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.733 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.733 0 0"></a-sphere>
+				</a-entity>
+				<a-cylinder mixin="ci1" position="0 0.448 0" rotation="0 0 90" height="1.278"></a-cylinder>
+				<a-cylinder mixin="ci1" position="0 -0.47 0" rotation="0 0 90" height="1.354"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-0.639 0.448 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.639 0.448 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="-0.677 -0.47 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.677 -0.47 0"></a-sphere>
+				<a-entity rotation="0 0 119.959" position="-0.32 -0.108 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.278"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.639 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.639 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -119.959" position="0.32 -0.108 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.278"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.64 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.64 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -120.866" position="-0.338 0.094 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.319"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.6595 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.6595 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 120.866" position="0.338 0.094 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.319"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.6595 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.6595 0 0"></a-sphere>
+				</a-entity>
+				<a-cylinder mixin="ci1" position="0 0.657 0" rotation="0 0 90" height="1.02"></a-cylinder>
+				<a-cylinder mixin="ci1" position="0 -0.67 0" rotation="0 0 90" height="0.93"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-0.51 0.657 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.51 0.657 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="-0.465 -0.67 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.465 -0.67 0"></a-sphere>
+				<a-entity rotation="0 0 124.193" position="-0.258 0.277 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.919"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.4595 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.4595 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -124.193" position="0.258 0.277 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.919"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.4595 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.4595 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -116.87" position="-0.234 -0.21 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.035"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.5175 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.5175 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 116.87" position="0.234 -0.21 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.035"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.5175 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.5175 0 0"></a-sphere>
+				</a-entity>
+				<a-cylinder mixin="ci1" position="0 0.155 0" rotation="0 0 90" height="0.596"></a-cylinder>
+				<a-cylinder mixin="ci1" position="0 -0.102 0" rotation="0 0 90" height="0.644"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-0.298 0.155 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.298 0.155 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="-0.322 -0.102 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.322 -0.102 0"></a-sphere>
+				<a-entity rotation="0 0 116.118" position="-0.15 -0.154 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.689"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.3445 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.3445 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -116.118" position="0.15 -0.154 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.689"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.3445 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.3445 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -120.525" position="-0.163 0.174 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.64"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.32 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.32 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 120.525" position="0.163 0.174 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.64"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.32 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.32 0 0"></a-sphere>
+				</a-entity>
+				
+				<a-cylinder mixin="ci1" position="0 0.054 0" rotation="0 0 90" height="0.462"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-0.231 0.054 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.231 0.054 0"></a-sphere>
+				<a-entity rotation="0 0 130.141" position="-0.118 -0.082 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.366"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.183 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.183 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -130.141" position="0.118 -0.082 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.366"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.183 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.183 0 0"></a-sphere>
+				</a-entity>
+				
+				<a-sphere mixin="esferad1" position="0 0 0" color="yellow" radius="0.025"></a-sphere>
+			</a-entity>
+			</a-entity>
+			<a-entity rotation="19.5 150 30">
+				<!--<a-entity rotation="0 0 45">
+					<a-entity>
+						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
+						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="-0.57 1.9 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.9 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.57 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.5 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.6 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.6 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
+						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="-0.57 1.9 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.9 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.57 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.5 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.6 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.6 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
+						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="-0.57 1.9 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.9 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.57 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.5 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.6 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.6 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
+						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="-0.57 1.9 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.9 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.57 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.5 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.6 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.6 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
+					</a-entity>
+					</a-entity>-->
+				<a-entity scale="0.98 0.98 0.98">
+					<a-entity>
+						<a-entity>
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -90">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 180">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -45">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 135">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -135">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						</a-entity>
+					<a-entity rotation="0 -180 0">
+						<a-entity>
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -90">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 180">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -45">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 135">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -135">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+					</a-entity>
+					<a-torus mixin="tr" rotation="0 0 0" geometry="radius:1.125;"></a-torus>
+					<a-entity>
+						<a-entity>
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 180">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 -90">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 -180 0">
+						<a-entity>
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 180">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 -90">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-torus mixin="trv" rotation="0 0 0" geometry="radius:1.325;"></a-torus>
+					<a-torus mixin="trb" rotation="0 0 0" geometry="radius:1.525;"></a-torus>
+					</a-entity>
+				<a-entity scale="1.16 1.16 1.16">
+				<a-cylinder mixin="ci1" position="0 0.248 0" rotation="0 0 90" height="1.778"></a-cylinder>
+				<a-cylinder mixin="ci1" position="0 -0.228 0" rotation="0 0 90" height="1.778"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-0.889 0.248 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.889 0.248 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="-0.889 -0.228 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.889 -0.228 0"></a-sphere>
+				<a-entity rotation="0 0 127" position="-0.447 -0.346 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.487"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.7435 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.7435 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -127" position="0.447 -0.346 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.487"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.7435 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.7435 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -127.914" position="-0.451 0.351 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.466"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.733 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.733 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 127.914" position="0.451 0.351 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.466"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.733 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.733 0 0"></a-sphere>
+				</a-entity>
+				<a-cylinder mixin="ci1" position="0 0.448 0" rotation="0 0 90" height="1.278"></a-cylinder>
+				<a-cylinder mixin="ci1" position="0 -0.47 0" rotation="0 0 90" height="1.354"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-0.639 0.448 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.639 0.448 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="-0.677 -0.47 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.677 -0.47 0"></a-sphere>
+				<a-entity rotation="0 0 119.959" position="-0.32 -0.108 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.278"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.639 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.639 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -119.959" position="0.32 -0.108 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.278"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.64 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.64 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -120.866" position="-0.338 0.094 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.319"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.6595 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.6595 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 120.866" position="0.338 0.094 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.319"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.6595 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.6595 0 0"></a-sphere>
+				</a-entity>
+				<a-cylinder mixin="ci1" position="0 0.657 0" rotation="0 0 90" height="1.02"></a-cylinder>
+				<a-cylinder mixin="ci1" position="0 -0.67 0" rotation="0 0 90" height="0.93"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-0.51 0.657 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.51 0.657 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="-0.465 -0.67 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.465 -0.67 0"></a-sphere>
+				<a-entity rotation="0 0 124.193" position="-0.258 0.277 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.919"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.4595 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.4595 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -124.193" position="0.258 0.277 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.919"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.4595 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.4595 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -116.87" position="-0.234 -0.21 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.035"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.5175 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.5175 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 116.87" position="0.234 -0.21 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.035"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.5175 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.5175 0 0"></a-sphere>
+				</a-entity>
+				<a-cylinder mixin="ci1" position="0 0.155 0" rotation="0 0 90" height="0.596"></a-cylinder>
+				<a-cylinder mixin="ci1" position="0 -0.102 0" rotation="0 0 90" height="0.644"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-0.298 0.155 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.298 0.155 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="-0.322 -0.102 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.322 -0.102 0"></a-sphere>
+				<a-entity rotation="0 0 116.118" position="-0.15 -0.154 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.689"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.3445 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.3445 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -116.118" position="0.15 -0.154 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.689"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.3445 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.3445 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -120.525" position="-0.163 0.174 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.64"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.32 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.32 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 120.525" position="0.163 0.174 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.64"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.32 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.32 0 0"></a-sphere>
+				</a-entity>
+				
+				<a-cylinder mixin="ci1" position="0 0.054 0" rotation="0 0 90" height="0.462"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-0.231 0.054 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.231 0.054 0"></a-sphere>
+				<a-entity rotation="0 0 130.141" position="-0.118 -0.082 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.366"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.183 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.183 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -130.141" position="0.118 -0.082 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.366"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.183 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.183 0 0"></a-sphere>
+				</a-entity>
+				
+				<a-sphere mixin="esferad1" position="0 0 0" color="yellow" radius="0.025"></a-sphere>
+			</a-entity>
+			</a-entity>
+			<a-entity rotation="19.5 30 30">
+				<!--<a-entity rotation="0 0 45">
+					<a-entity>
+						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
+						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="-0.57 1.9 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.9 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.57 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.5 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.6 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.6 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
+						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="-0.57 1.9 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.9 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.57 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.5 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.6 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.6 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
+						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="-0.57 1.9 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.9 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.57 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.5 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.6 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.6 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
+						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="-0.57 1.9 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.9 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.57 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.5 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.6 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.6 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
+					</a-entity>
+					</a-entity>-->
+				<a-entity scale="0.98 0.98 0.98">
+					<a-entity>
+						<a-entity>
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -90">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 180">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -45">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 135">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -135">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						</a-entity>
+					<a-entity rotation="0 -180 0">
+						<a-entity>
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -90">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 180">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -45">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 135">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -135">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+					</a-entity>
+					<a-torus mixin="tr" rotation="0 0 0" geometry="radius:1.125;"></a-torus>
+					<a-entity>
+						<a-entity>
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 180">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 -90">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 -180 0">
+						<a-entity>
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 180">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 -90">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-torus mixin="trv" rotation="0 0 0" geometry="radius:1.325;"></a-torus>
+					<a-torus mixin="trb" rotation="0 0 0" geometry="radius:1.525;"></a-torus>
+					</a-entity>
+				<a-entity scale="1.16 1.16 1.16">
+				<a-cylinder mixin="ci1" position="0 0.248 0" rotation="0 0 90" height="1.778"></a-cylinder>
+				<a-cylinder mixin="ci1" position="0 -0.228 0" rotation="0 0 90" height="1.778"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-0.889 0.248 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.889 0.248 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="-0.889 -0.228 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.889 -0.228 0"></a-sphere>
+				<a-entity rotation="0 0 127" position="-0.447 -0.346 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.487"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.7435 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.7435 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -127" position="0.447 -0.346 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.487"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.7435 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.7435 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -127.914" position="-0.451 0.351 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.466"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.733 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.733 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 127.914" position="0.451 0.351 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.466"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.733 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.733 0 0"></a-sphere>
+				</a-entity>
+				<a-cylinder mixin="ci1" position="0 0.448 0" rotation="0 0 90" height="1.278"></a-cylinder>
+				<a-cylinder mixin="ci1" position="0 -0.47 0" rotation="0 0 90" height="1.354"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-0.639 0.448 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.639 0.448 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="-0.677 -0.47 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.677 -0.47 0"></a-sphere>
+				<a-entity rotation="0 0 119.959" position="-0.32 -0.108 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.278"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.639 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.639 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -119.959" position="0.32 -0.108 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.278"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.64 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.64 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -120.866" position="-0.338 0.094 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.319"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.6595 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.6595 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 120.866" position="0.338 0.094 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.319"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.6595 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.6595 0 0"></a-sphere>
+				</a-entity>
+				<a-cylinder mixin="ci1" position="0 0.657 0" rotation="0 0 90" height="1.02"></a-cylinder>
+				<a-cylinder mixin="ci1" position="0 -0.67 0" rotation="0 0 90" height="0.93"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-0.51 0.657 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.51 0.657 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="-0.465 -0.67 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.465 -0.67 0"></a-sphere>
+				<a-entity rotation="0 0 124.193" position="-0.258 0.277 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.919"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.4595 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.4595 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -124.193" position="0.258 0.277 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.919"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.4595 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.4595 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -116.87" position="-0.234 -0.21 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.035"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.5175 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.5175 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 116.87" position="0.234 -0.21 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.035"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.5175 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.5175 0 0"></a-sphere>
+				</a-entity>
+				<a-cylinder mixin="ci1" position="0 0.155 0" rotation="0 0 90" height="0.596"></a-cylinder>
+				<a-cylinder mixin="ci1" position="0 -0.102 0" rotation="0 0 90" height="0.644"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-0.298 0.155 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.298 0.155 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="-0.322 -0.102 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.322 -0.102 0"></a-sphere>
+				<a-entity rotation="0 0 116.118" position="-0.15 -0.154 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.689"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.3445 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.3445 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -116.118" position="0.15 -0.154 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.689"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.3445 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.3445 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -120.525" position="-0.163 0.174 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.64"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.32 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.32 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 120.525" position="0.163 0.174 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.64"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.32 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.32 0 0"></a-sphere>
+				</a-entity>
+				
+				<a-cylinder mixin="ci1" position="0 0.054 0" rotation="0 0 90" height="0.462"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-0.231 0.054 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.231 0.054 0"></a-sphere>
+				<a-entity rotation="0 0 130.141" position="-0.118 -0.082 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.366"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.183 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.183 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -130.141" position="0.118 -0.082 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.366"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.183 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.183 0 0"></a-sphere>
+				</a-entity>
+				
+				<a-sphere mixin="esferad1" position="0 0 0" color="yellow" radius="0.025"></a-sphere>
+			</a-entity>
+			</a-entity>
+			<a-entity rotation="90 0 0">
+				<!--<a-entity rotation="0 0 45">
+					<a-entity>
+						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
+						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="-0.57 1.9 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.9 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.57 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.5 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.6 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.6 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
+						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="-0.57 1.9 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.9 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.57 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.5 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.6 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.6 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
+						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="-0.57 1.9 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.9 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.57 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.5 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.6 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.6 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
+						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="-0.57 1.9 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.9 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.57 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.5 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.6 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.6 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
+					</a-entity>
+					</a-entity>-->
+				<a-entity scale="0.98 0.98 0.98">
+					<a-entity>
+						<a-entity>
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -90">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 180">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -45">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 135">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -135">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						</a-entity>
+					<a-entity rotation="0 -180 0">
+						<a-entity>
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -90">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 180">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -45">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 135">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+						<a-entity rotation="0 0 -135">
+							<a-torus mixin="tr" position="-0.085 1.34 0" rotation="0 0 -94" geometry="radius:0.09; arc:80.78;"></a-torus>
+							<a-torus mixin="tr" position="-0.085 0.4 0" rotation="0 0 90" geometry="radius:0.85; arc:19.4;"></a-torus>
+							<a-torus mixin="tr" position="-0.315 1.087 0" rotation="0 0 113" geometry="radius:0.125; arc:91.4;"></a-torus>
+						</a-entity>
+					</a-entity>
+					<a-torus mixin="tr" rotation="0 0 0" geometry="radius:1.125;"></a-torus>
+					<a-entity>
+						<a-entity>
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 180">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 -90">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 -180 0">
+						<a-entity>
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 180">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 -90">
+							<a-entity>
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 22.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 45">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+							<a-entity rotation="0 0 67.5">
+								<a-torus mixin="trv" position="-0.06 1.51 0" rotation="0 0 -90" geometry="radius:0.06; arc:90.5;"></a-torus>
+								<a-torus mixin="trv" position="-0.06 1.17 0" rotation="0 0 90" geometry="radius:0.28; arc:31.8;"></a-torus>
+								<a-torus mixin="trv" position="-0.14 1.31 0" rotation="0 0 113" geometry="radius:0.12; arc:66.4;"></a-torus>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-torus mixin="trv" rotation="0 0 0" geometry="radius:1.325;"></a-torus>
+					<a-torus mixin="trb" rotation="0 0 0" geometry="radius:1.525;"></a-torus>
+					</a-entity>
+				<a-entity scale="1.16 1.16 1.16">
+				<a-cylinder mixin="ci1" position="0 0.248 0" rotation="0 0 90" height="1.778"></a-cylinder>
+				<a-cylinder mixin="ci1" position="0 -0.228 0" rotation="0 0 90" height="1.778"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-0.889 0.248 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.889 0.248 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="-0.889 -0.228 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.889 -0.228 0"></a-sphere>
+				<a-entity rotation="0 0 127" position="-0.447 -0.346 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.487"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.7435 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.7435 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -127" position="0.447 -0.346 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.487"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.7435 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.7435 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -127.914" position="-0.451 0.351 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.466"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.733 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.733 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 127.914" position="0.451 0.351 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.466"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.733 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.733 0 0"></a-sphere>
+				</a-entity>
+				<a-cylinder mixin="ci1" position="0 0.448 0" rotation="0 0 90" height="1.278"></a-cylinder>
+				<a-cylinder mixin="ci1" position="0 -0.47 0" rotation="0 0 90" height="1.354"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-0.639 0.448 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.639 0.448 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="-0.677 -0.47 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.677 -0.47 0"></a-sphere>
+				<a-entity rotation="0 0 119.959" position="-0.32 -0.108 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.278"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.639 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.639 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -119.959" position="0.32 -0.108 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.278"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.64 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.64 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -120.866" position="-0.338 0.094 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.319"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.6595 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.6595 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 120.866" position="0.338 0.094 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.319"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.6595 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.6595 0 0"></a-sphere>
+				</a-entity>
+				<a-cylinder mixin="ci1" position="0 0.657 0" rotation="0 0 90" height="1.02"></a-cylinder>
+				<a-cylinder mixin="ci1" position="0 -0.67 0" rotation="0 0 90" height="0.93"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-0.51 0.657 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.51 0.657 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="-0.465 -0.67 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.465 -0.67 0"></a-sphere>
+				<a-entity rotation="0 0 124.193" position="-0.258 0.277 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.919"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.4595 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.4595 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -124.193" position="0.258 0.277 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.919"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.4595 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.4595 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -116.87" position="-0.234 -0.21 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.035"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.5175 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.5175 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 116.87" position="0.234 -0.21 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="1.035"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.5175 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.5175 0 0"></a-sphere>
+				</a-entity>
+				<a-cylinder mixin="ci1" position="0 0.155 0" rotation="0 0 90" height="0.596"></a-cylinder>
+				<a-cylinder mixin="ci1" position="0 -0.102 0" rotation="0 0 90" height="0.644"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-0.298 0.155 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.298 0.155 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="-0.322 -0.102 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.322 -0.102 0"></a-sphere>
+				<a-entity rotation="0 0 116.118" position="-0.15 -0.154 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.689"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.3445 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.3445 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -116.118" position="0.15 -0.154 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.689"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.3445 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.3445 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -120.525" position="-0.163 0.174 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.64"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.32 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.32 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 120.525" position="0.163 0.174 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.64"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.32 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.32 0 0"></a-sphere>
+				</a-entity>
+				
+				<a-cylinder mixin="ci1" position="0 0.054 0" rotation="0 0 90" height="0.462"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-0.231 0.054 0"></a-sphere>
+				<a-sphere mixin="esferad1" position="0.231 0.054 0"></a-sphere>
+				<a-entity rotation="0 0 130.141" position="-0.118 -0.082 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.366"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.183 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.183 0 0"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 -130.141" position="0.118 -0.082 0">
+					<a-cylinder mixin="ci1" rotation="0 0 90" height="0.366"></a-cylinder>
+					<a-sphere mixin="esferad1" position="-0.183 0 0"></a-sphere>
+					<a-sphere mixin="esferad1" position="0.183 0 0"></a-sphere>
+				</a-entity>
+				
+				<a-sphere mixin="esferad1" position="0 0 0" color="yellow" radius="0.025"></a-sphere>
+			</a-entity>
+			</a-entity>
+		</a-entity>
+		
+		
+		<a-light type="ambient" color="white" intensity="0.5"></a-light>
+		<a-light type="directional" color="white" intensity="0.5" position="-7 5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.5" position="7 -5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.5" position="7 5 -1"></a-light>
+		<a-sky color="black" radius="25"></a-sky><a-sky src="https://paulohscwb.github.io/SacredGeometry/imagens/8k_stars_milky_way.jpg" radius="18"></a-sky>
+    </a-scene>
+	<div class="box">
+		<span class="titulo">Sri Yantra</span>
+	</div>
+  </body>
+</html>
