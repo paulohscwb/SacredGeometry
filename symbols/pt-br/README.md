@@ -212,6 +212,26 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
+<h4>29. Sri Yantra</h4>
+<a href="../vr/SriYantra.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/29A.png" class="foto" alt="Sri Yantra"></a>
+ <br><br><br>O Sri Yantra é um desenho geométrico que representa a união das energias masculinas e femininas do universo. É uma das formas mais complexas e poderosas da Geometria Sagrada. Este símbolo possui nove triângulos entrelaçados que cercam um ponto central e guia a mente para estados superiores de consciência. Focar no ponto central, chamado "bindu", ajuda a acessar uma conexão profunda com a energia universal. O "bindu" simboliza a origem do universo, o ponto de onde toda a criação emana, e ao redor do qual a realidade se organiza. A palavra "Sri" significa riqueza e prosperidade, e "Yantra" significa instrumento. 
+ <br><br><br>
+<hr>
+<h4>30. Sri Yantra 3D</h4>
+<a href="../vr/SriYantrav1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/30A.png" class="foto" alt="Sri Yantra 3D"></a>
+ <br><br><br>O Sri Yantra é constituído por quatro triângulos apontando para cima (energia masculina, Shiva) e cinco para baixo (energia feminina, Shakti). As intersecções entre os triângulos formam 43 triângulos menores, que espelham o cosmos. Cada triângulo menor está relacionado com uma inteligência ou arquétipo. O Sri Yantra é uma das formas mais complexas e poderosas da Geometria Sagrada. A palavra "Sri" significa riqueza e prosperidade, e "Yantra" significa instrumento. 
+ <br><br><br>
+<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<hr>
+<h4>31. Triquetra</h4>
+<a href="../vr/Triquetra.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/31A.png" class="foto" alt="Triquetra"></a>
+ <br><br><br>A triquetra é um símbolo geométrico que representa a eternidade, a trindade e a unidade. É composta por três arcos entrelaçados, sem começo nem fim. A palavra triquetra vem do latim triquætra (três pontas). O símbolo é parecido com um tríscele (símbolo celta que representa os três mundos: o celestial, físico e espiritual). A triquetra está presente em muitas culturas e tradições. 
+ <br><br><br>
+<hr>
+<h4>32. Triquetra 3D</h4>
+<a href="../vr/Triquetrav1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/32A.png" class="foto" alt="Triquetra 3D"></a>
+ <br><br><br>A triquetra é usada no cristianismo, na magia e de maneira geral no ocultismo. Este símbolo está associado a conceitos de trindade, como a vida, morte e renascimento, ou a terra, mar e céu. A triquetra representa o infinito nas três dimensões e pode ser encontrada em muitas obras de arte, monumentos, filmes, séries populares, pingentes, mandalas e quadros.
+ <br><br><br>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
