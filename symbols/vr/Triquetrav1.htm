@@ -14,47 +14,47 @@
 		<a-assets>
 			<a-mixin id="mtl2" material="side: double; color: #0df; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="tr" geometry="radius: 1.427; radius-tubular:0.028; segments-tubular: 100; arc: 172.44" mixin="mtl2"></a-mixin>
-			<a-mixin id="esferad" mixin="mtl2" geometry="radius: 0.052;" material="metalness:0.5; roughness:0.3;"></a-mixin>
+			<a-mixin id="esferad" mixin="mtl2" geometry="radius: 0.06;" material="metalness:0.5; roughness:0.3;"></a-mixin>
 		</a-assets>
 		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 0 0 700; minDistance: 500; maxDistance: 1100;"></a-entity>
 		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
 		
 		<a-entity scale="3.3 3.3 3.3" rotation="-90 0 0">
 			<a-entity rotation="19.5 150 30">
+				<a-sphere mixin="esferad" position="-1.421 -0.831 0"></a-sphere>
+				<a-sphere mixin="esferad" position="1.421 -0.831 0"></a-sphere>
+				<a-sphere mixin="esferad" position="0 1.63 0"></a-sphere>
 				<a-torus mixin="tr" geometry="radius: 1; arc: 360"></a-torus>
 				<a-torus mixin="tr" rotation="0 0 3.78" position="0 -0.93 0"></a-torus>
 				<a-torus mixin="tr" rotation="0 0 -116.22" position="-0.815 0.459 0"></a-torus>
 				<a-torus mixin="tr" rotation="0 0 123.78" position="0.815 0.459 0"></a-torus>
-				<a-sphere mixin="esferad" position="-1.427 -0.836 0"></a-sphere>
-				<a-sphere mixin="esferad" position="1.427 -0.836 0"></a-sphere>
-				<a-sphere mixin="esferad" position="0 1.636 0"></a-sphere>
 			</a-entity>
 			<a-entity rotation="19.5 270 30">
+				<a-sphere mixin="esferad" position="-1.421 -0.831 0"></a-sphere>
+				<a-sphere mixin="esferad" position="1.421 -0.831 0"></a-sphere>
+				<a-sphere mixin="esferad" position="0 1.63 0"></a-sphere>
 				<a-torus mixin="tr" geometry="radius: 1; arc: 360"></a-torus>
 				<a-torus mixin="tr" rotation="0 0 3.78" position="0 -0.93 0"></a-torus>
 				<a-torus mixin="tr" rotation="0 0 -116.22" position="-0.815 0.459 0"></a-torus>
 				<a-torus mixin="tr" rotation="0 0 123.78" position="0.815 0.459 0"></a-torus>
-				<a-sphere mixin="esferad" position="-1.427 -0.836 0"></a-sphere>
-				<a-sphere mixin="esferad" position="1.427 -0.836 0"></a-sphere>
-				<a-sphere mixin="esferad" position="0 1.636 0"></a-sphere>
 			</a-entity>
 			<a-entity rotation="19.5 30 30">
+				<a-sphere mixin="esferad" position="-1.421 -0.831 0"></a-sphere>
+				<a-sphere mixin="esferad" position="1.421 -0.831 0"></a-sphere>
+				<a-sphere mixin="esferad" position="0 1.63 0"></a-sphere>
 				<a-torus mixin="tr" geometry="radius: 1; arc: 360"></a-torus>
 				<a-torus mixin="tr" rotation="0 0 3.78" position="0 -0.93 0"></a-torus>
 				<a-torus mixin="tr" rotation="0 0 -116.22" position="-0.815 0.459 0"></a-torus>
 				<a-torus mixin="tr" rotation="0 0 123.78" position="0.815 0.459 0"></a-torus>
-				<a-sphere mixin="esferad" position="-1.427 -0.836 0"></a-sphere>
-				<a-sphere mixin="esferad" position="1.427 -0.836 0"></a-sphere>
-				<a-sphere mixin="esferad" position="0 1.636 0"></a-sphere>
 			</a-entity>
 			<a-entity rotation="90 0 0">
+				<a-sphere mixin="esferad" position="-1.421 -0.831 0"></a-sphere>
+				<a-sphere mixin="esferad" position="1.421 -0.831 0"></a-sphere>
+				<a-sphere mixin="esferad" position="0 1.63 0"></a-sphere>
 				<a-torus mixin="tr" geometry="radius: 1; arc: 360"></a-torus>
 				<a-torus mixin="tr" rotation="0 0 3.78" position="0 -0.93 0"></a-torus>
 				<a-torus mixin="tr" rotation="0 0 -116.22" position="-0.815 0.459 0"></a-torus>
 				<a-torus mixin="tr" rotation="0 0 123.78" position="0.815 0.459 0"></a-torus>
-				<a-sphere mixin="esferad" position="-1.427 -0.836 0"></a-sphere>
-				<a-sphere mixin="esferad" position="1.427 -0.836 0"></a-sphere>
-				<a-sphere mixin="esferad" position="0 1.636 0"></a-sphere>
 			</a-entity>
 		</a-entity>
 		
