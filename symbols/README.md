@@ -370,6 +370,11 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <a href="vr/GridDodecagramv1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/59A.png" class="foto" alt="Dodecagram Grid 3D"></a>
  <br><br><br><br>This symbol has been used in many belief systems, including Judaism and Christianity. In Judaism, the dodecagram symbolizes the 12 tribes of Israel. In Christianity, the dodecagram symbolizes the 12 disciples. The dodecagram is an ancient symbol with many meanings. By considering the combinations of 5 by 5, 4 by 4, 3 by 3 and 2 by 2 vertices, we create the Dodecagram Grid. In Sacred Geometry, the dodecagram, or 12-pointed star, symbolizes creation, balance, harmony, and the cyclical nature of existence.
  <br><br><br>
+ <hr>
+<h4>60. Golden Rectangles v2</h4>
+<a href="vr/GoldenRectanglesf.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/60A.png" class="foto" alt="Golden Rectangles"></a>
+ <br><br><br><br>The symbol formed by three interconnected golden rectangles can be constructed in two ways. We can define the sides of a golden rectangle as two opposite edges and the respective perpendicular diagonals of an icosahedron. The second way to construct this symbol is by choosing the lines with golden proportions that appear in the symbol of the Flower of Life. In Sacred Geometry, three interconnected golden rectangles represent the cosmos and the union of forces.
+ <br><br><br>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
