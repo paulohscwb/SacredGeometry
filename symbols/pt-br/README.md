@@ -368,6 +368,11 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 <h4>59. Grade Dodecagrâmica 3D</h4>
 <a href="../vr/GridDodecagramv1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/59A.png" class="foto" alt="Grade Dodecagrâmica 3D"></a>
  <br><br><br>Este símbolo tem sido usado em diversos sistemas de crenças, incluindo o judaísmo e o cristianismo. No Judaísmo, o dodecagrama simboliza as 12 tribos de Israel. No Cristianismo, o dodecagrama simboliza os 12 discípulos. Ao considerarmos as combinações de 5 em 5, 4 em 4, 3 em 3 e 2 em 2 vértices, criamos a Grade Dodecagrâmica. Na Geometria Sagrada, o dodecagrama ou estrela de 12 pontas, simboliza a criação, o equilíbrio, a harmonia e a natureza cíclica da existência.
+ <br><br><br>																
+ <hr>
+<h4>60. Retângulos Áureos v2</h4>
+<a href="../vr/GoldenRectanglesf.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/60A.png" class="foto" alt="O Retângulos Áureos"></a>
+ <br><br><br>O símbolo formado por três retângulos dourados interligados pode ser construído de duas maneiras. Podemos definir os lados de um retângulo áureo como duas arestas opostas e as respectivas diagonais perpendiculares de um icosaedro. A segunda maneira de construir este símbolo está na escolha das linhas com proporções áureas que aparecem no símbolo da Flor da Vida. Na Geometria Sagrada, três retângulos áureos interligados representam o cosmos e a união de forças.
  <br><br><br> 
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
