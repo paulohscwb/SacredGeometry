@@ -233,11 +233,6 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <a href="vr/Triquetrav1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/32A.png" class="foto" alt="Triquetra 3D"></a>
  <br><br><br><br>The triquetra is used in Christianity, magic and the occult in general. This symbol is associated with trinity concepts, such as life, death and rebirth, or earth, sea and sky. The triquetra represents infinity in three dimensions and can be found in many works of art, monuments, films, popular series, pendants, mandalas and paintings.
  <br><br><br>
-<hr>
-<h4>32. Triquetra 3D</h4>
-<a href="vr/Triquetrav1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/32A.png" class="foto" alt="Triquetra 3D"></a>
- <br><br><br><br>The triquetra is used in Christianity, magic and the occult in general. This symbol is associated with trinity concepts, such as life, death and rebirth, or earth, sea and sky. The triquetra represents infinity in three dimensions and can be found in many works of art, monuments, films, popular series, pendants, mandalas and paintings.
- <br><br><br>
  <hr>
 <h4>33. Lotus of Life</h4>
 <a href="vr/LotusOfLife.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/33A.png" class="foto" alt="Lotus of Life"></a>
