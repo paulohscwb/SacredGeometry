@@ -232,6 +232,143 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 <a href="../vr/Triquetrav1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/32A.png" class="foto" alt="Triquetra 3D"></a>
  <br><br><br>A triquetra é usada no cristianismo, na magia e de maneira geral no ocultismo. Este símbolo está associado a conceitos de trindade, como a vida, morte e renascimento, ou a terra, mar e céu. A triquetra representa o infinito nas três dimensões e pode ser encontrada em muitas obras de arte, monumentos, filmes, séries populares, pingentes, mandalas e quadros.
  <br><br><br>
+<hr>
+<h4>33. Lótus da Vida</h4>
+<a href="../vr/LotusOfLife.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/33A.png" class="foto" alt="Lótus da Vida"></a>
+ <br><br><br>O Lótus da Vida é um símbolo da Geometria Sagrada, derivado dos símbolos da Semente da Vida e da Flor da vida. Este símbolo contém 12 pétalas, e pode ser obtido rotacionando-se um símbolo da Semente da Vida em torno do centro com um ângulo de 30&ordm;. O centro do Lótus representa o ponto zero ou centro da vida e da criação. Deste ponto central, toda a vida (representada pelas pétalas) brota e toda a vida está conectada a este ponto. Acredita-se que ao contemplar ou meditar usando-se o Lótus da Vida, podemos sentir uma sensação de paz, tranquilidade e iluminação.
+ <br><br><br>
+ <hr>
+<h4>34. Lótus da Vida 3D</h4>
+<a href="../vr/LotusOfLife3dv1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/34A.png" class="foto" alt="Lótus da Vida 3D"></a>
+ <br><br><br>Acredita-se que ao contemplar ou meditar usando-se o Lótus da Vida, podemos sentir uma sensação de paz, tranquilidade e iluminação. Este símbolo contém 12 pétalas, e pode ser obtido rotacionando-se um símbolo da Semente da Vida em torno do centro com um ângulo de 30&ordm;. O centro do Lótus representa o ponto zero ou centro da vida e da criação. Deste ponto central, toda a vida (representada pelas pétalas) brota e toda a vida está conectada a este ponto. 
+ <br><br><br>
+ <hr>
+<h4>35. Lótus da Vida 3D v2</h4>
+<a href="../vr/LotusOfLife3dv2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/35A.png" class="foto" alt="Lótus da Vida 3D"></a>
+ <br><br><br>Este símbolo contém 12 pétalas, e pode ser obtido rotacionando-se um símbolo da Semente da Vida em torno do centro com um ângulo de 30&ordm;. O centro do Lótus representa o ponto zero ou centro da vida e da criação. Deste ponto central, toda a vida (representada pelas pétalas) brota e toda a vida está conectada a este ponto. Acredita-se que ao contemplar ou meditar usando-se o Lótus da Vida, podemos sentir uma sensação de paz, tranquilidade e iluminação.
+ <br><br><br>
+ <hr>
+<h4>36. Lótus da Vida 3D v3</h4>
+<a href="../vr/LotusOfLife3dv3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/36A.png" class="foto" alt="Lótus da Vida 3D"></a>
+ <br><br><br>O centro do Lótus representa o ponto zero ou centro da vida e da criação. Deste ponto central, toda a vida (representada pelas pétalas) brota e toda a vida está conectada a este ponto. Acredita-se que ao contemplar ou meditar usando-se o Lótus da Vida, podemos sentir uma sensação de paz, tranquilidade e iluminação. Este símbolo contém 12 pétalas, e pode ser obtido rotacionando-se um símbolo da Semente da Vida em torno do centro com um ângulo de 30&ordm;.
+ <br><br><br>
+ <hr>
+<h4>37. Hexagrama Unicursal</h4>
+<a href="../vr/UnicursalHexagram.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/37A.png" class="foto" alt="Hexagrama Unicursal"></a>
+ <br><br><br>O hexagrama unicursal é uma estrela de seis pontas que pode ser desenhada em uma linha contínua. É um símbolo da Geometria Sagrada que significa unidade, fluxo contínuo de energia e de vida, além da interconexão de tudo. O hexagrama unicursal é frequentemente representado com suas linhas se cruzando para formar um nó. Este símbolo pode ser desenhado dentro de um círculo com as pontas se tocando. Trata-se de um exemplo de uma forma discutida na obra "Hexagrammum Mysticum" de Blaise Pascal (1639).
+ <br><br><br>
+ <hr>
+<h4>38. Hexagrama Unicursal 3D</h4>
+<a href="../vr/UnicursalHexagramv1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/38A.png" class="foto" alt="Hexagrama Unicursal 3D"></a>
+ <br><br><br>O hexagrama unicursal é frequentemente representado com suas linhas se cruzando para formar um nó. Este símbolo pode ser desenhado dentro de um círculo com as pontas se tocando. Este símbolo tem sido estudado na cabala, no Thelema e em outras ciências ocultas. O filósofo italiano Giordano Bruno usou o hexagrama unicursal para representar a "figura do amor" em sua obra "Ensaios sobre a Matemática de Mordente" (1588). Trata-se de um exemplo de uma forma discutida na obra "Hexagrammum Mysticum" de Blaise Pascal (1639).
+ <br><br><br>
+ <hr>
+<h4>39. O Lírio</h4>
+<a href="../vr/Lily.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/39A.png" class="foto" alt="O Lírio"></a>
+ <br><br><br>O Lírio tem sido usado na Geometria Sagrada para simbolizar pureza, fertilidade, maternidade e sexualidade. As pétalas e os estames do lírio criam uma geometria orgânica que pode ser vista em mandalas. O símbolo do Lírio representa a flor homônima, colocada dentro de um triângulo, com suas pétalas estendendo-se em direção a três pontos. Outro triângulo forma um ângulo de 60&ordm; em relação ao primeiro triângulo, e é formado por três pétalas menores.
+ <br><br><br>
+ <hr>
+<h4>40. O Lírio 3D</h4>
+<a href="../vr/Lilyv1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/40A.png" class="foto" alt="O Lírio 3D"></a>
+ <br><br><br>O símbolo do Lírio representa a flor homônima, colocada dentro de um triângulo, com suas pétalas estendendo-se em direção a três pontos. Outro triângulo forma um ângulo de 60&ordm; em relação ao primeiro triângulo, e é formado por três pétalas menores. O Lírio tem sido usado na Geometria Sagrada para simbolizar pureza, fertilidade, maternidade e sexualidade. As pétalas e os estames do lírio criam uma geometria orgânica que pode ser vista em mandalas.
+ <br><br><br>
+<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<hr>
+<h4>41. Retângulos Áureos</h4>
+<a href="../vr/GoldenRectangles.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/41A.png" class="foto" alt="O Retângulos Áureos"></a>
+ <br><br><br>Na Geometria Sagrada, três retângulos áureos interligados representam o cosmos e a união de forças. O símbolo formado por três retângulos dourados interligados pode ser construído de duas maneiras. Podemos definir os lados de um retângulo áureo como duas arestas opostas e as respectivas diagonais perpendiculares de um icosaedro. A segunda maneira de construir este símbolo está na escolha das linhas com proporções áureas que aparecem no símbolo da Flor da Vida.
+ <br><br><br>
+ <hr>
+<h4>42. Merkaba curvada</h4>
+<a href="../vr/CurvedMerkaba.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/42A.png" class="foto" alt="Merkaba curvada"></a>
+ <br><br><br>A Merkaba é um símbolo geométrico sagrado que representa a união das energias masculina e feminina e a integração dos reinos terrestre e cósmico. É composta por dois tetraedros que giram em direções opostas, formando uma estrela tridimensional. O símbolo com a substituição de arestas por arcos que passam pelos vértices dos tetraedros representa a Merkaba curvada. A estrutura geométrica e a simetria da Merkaba capturaram a imaginação dos interessados ​​em Geometria Sagrada.
+ <br><br><br>
+ <hr>
+<h4>43. Merkaba curvada 3D</h4>
+<a href="../vr/CurvedMerkabav1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/43A.png" class="foto" alt="Merkaba curvada 3D"></a>
+ <br><br><br>O símbolo com a substituição de arestas por arcos que passam pelos vértices dos tetraedros representa a Merkaba curvada. A estrutura geométrica e a simetria da Merkaba capturaram a imaginação dos interessados ​​em Geometria Sagrada. A Merkaba é um símbolo geométrico sagrado que representa a união das energias masculina e feminina e a integração dos reinos terrestre e cósmico. É composta por dois tetraedros que giram em direções opostas, formando uma estrela tridimensional.
+ <br><br><br>
+ <hr>
+<h4>44. Merkaba curvada v2</h4>
+<a href="../vr/CurvedMerkabav2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/44A.png" class="foto" alt="Merkaba curvada"></a>
+ <br><br><br>A Merkaba é um símbolo geométrico sagrado que representa a união das energias masculina e feminina e a integração dos reinos terrestre e cósmico. É composta por dois tetraedros que giram em direções opostas, formando uma estrela tridimensional. O símbolo com a substituição de arestas por arcos que passam pelos vértices dos tetraedros representa a Merkaba curvada. A estrutura geométrica e a simetria da Merkaba capturaram a imaginação dos interessados ​​em Geometria Sagrada.
+ <br><br><br>
+ <hr>
+<h4>45. Merkaba curvada 3D v2</h4>
+<a href="../vr/CurvedMerkabav3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/45A.png" class="foto" alt="Merkaba curvada 3D"></a>
+ <br><br><br>O símbolo com a substituição de arestas por arcos que passam pelos vértices dos tetraedros representa a Merkaba curvada. A estrutura geométrica e a simetria da Merkaba capturaram a imaginação dos interessados ​​em Geometria Sagrada. A Merkaba é um símbolo geométrico sagrado que representa a união das energias masculina e feminina e a integração dos reinos terrestre e cósmico. É composta por dois tetraedros que giram em direções opostas, formando uma estrela tridimensional.
+ <br><br><br>
+ <hr>
+<h4>46. Cubo de Metatron curvado</h4>
+<a href="../vr/CurvedMetatronCube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/46A.png" class="foto" alt="Cubo de Metatron curvado"></a>
+ <br><br><br>O Cubo de Metatron é um símbolo geométrico sagrado que representa a estrutura da criação e o equilíbrio energético do universo. É composto por 13 círculos e linhas que conectam seus centros. O cubo recebeu o nome do Arcanjo Metatron, que se acredita supervisionar o fluxo de energia no cubo. O símbolo com a substituição de arestas por arcos que passam pelos vértices dos tetraedros representa o Cubo de Metatron curvado.
+ <br><br><br>
+ <hr>
+<h4>47. Cubo de Metatron curvado 3D</h4>
+<a href="../vr/CurvedMetatronCubev1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/47A.png" class="foto" alt="Cubo de Metatron curvado 3D"></a>
+ <br><br><br>O símbolo com a substituição de arestas por arcos que passam pelos vértices dos tetraedros representa o Cubo de Metatron curvado. O Cubo de Metatron é um símbolo geométrico sagrado que representa a estrutura da criação e o equilíbrio energético do universo. É composto por 13 círculos e linhas que conectam seus centros. O cubo recebeu o nome do Arcanjo Metatron, que se acredita supervisionar o fluxo de energia no cubo. 
+ <br><br><br>
+ <hr>
+<h4>48. Grade Heptagrâmica</h4>
+<a href="../vr/GridHeptagram.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/48A.png" class="foto" alt="Grade Heptagrâmica 3D"></a>
+ <br><br><br>O heptagrama ou estrela de sete pontas, possui muitos significados sagrados em vários sistemas de crenças, incluindo Cristianismo, judaísmo, islamismo, alquimia e paganismo. No Cristianismo, o heptagrama simboliza os sete dias da criação, a perfeição, Deus, além de ser considerado um símbolo tradicional para afastar o mal. No judaísmo, o heptagrama representa a sétima esfera da Árvore da Vida do judaísmo cabalístico. Ao considerarmos as combinações de 3 em 3 e 2 em 2 vértices, criamos a Grade Heptagrâmica.
+ <br><br><br>
+ <hr>
+<h4>49. Grade Heptagrâmica 3D</h4>
+<a href="../vr/GridHeptagramv1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/49A.png" class="foto" alt="Grade Heptagrâmica 3D"></a>
+ <br><br><br>No judaísmo, o heptagrama representa a sétima esfera da Árvore da Vida do judaísmo cabalístico. Ao considerarmos as combinações de 3 em 3 e 2 em 2 vértices, criamos a Grade Heptagrâmica. O heptagrama ou estrela de sete pontas, possui muitos significados sagrados em vários sistemas de crenças, incluindo Cristianismo, judaísmo, islamismo, alquimia e paganismo. No Cristianismo, o heptagrama simboliza os sete dias da criação, a perfeição, Deus, além de ser considerado um símbolo tradicional para afastar o mal.
+ <br><br><br>
+ <hr>
+<h4>50. Grade Octogrâmica</h4>
+<a href="../vr/GridOctagram.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/50A.png" class="foto" alt="Grade Octogrâmica 3D"></a>
+ <br><br><br>Na Geometria Sagrada, o octógono e o octograma em forma de estrela simbolizam a união do círculo e do quadrado, que representam o céu e a terra, respectivamente. Acredita-se que essas formas equilibram e unificam as duas entidades. O octógono simboliza proteção, boa sorte e renascimento. A estrela de oito pontas simboliza entidades celestes como a lua, o sol, planetas, estrelas e cometas. Considerando as combinações de vértices 3 por 3 e 2 por 2, criamos a Grade do Octograma.
+ <br><br><br>
+<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+ <hr>
+<h4>51. Grade Octogrâmica 3D</h4>
+<a href="../vr/GridOctagramv1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/51A.png" class="foto" alt="Grade Octogrâmica 3D"></a>
+ <br><br><br>O octógono simboliza a transição do plano terrestre (quadrado) para o plano celestial (círculo). O octógono era usado em pias batismais em muitas igrejas por simbolizar as qualidades de renovação, regeneração e transição. O octograma em forma de estrela é um emblema eclesiástico que significa ressurreição. Considerando as combinações de vértices 3 por 3 e 2 por 2, criamos a Grade do Octograma. A estrela de oito pontas simboliza entidades celestes como a lua, o sol, planetas, estrelas e cometas.
+ <br><br><br>
+ <hr>
+<h4>52. Grade Eneagrâmica</h4>
+<a href="../vr/GridEnneagram.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/52A.png" class="foto" alt="Grade Eneagrâmica 3D"></a>
+ <br><br><br>O eneagrama é um símbolo frequentemente considerado Geometria Sagrada, pois integra formas e leis geométricas à ideia de tipos de personalidade. Formado por três triângulos sobrepostos, pode representar uma trindade de trindades, um símbolo de santidade ou plenitude espiritual. Podemos usar um eneagrama também como símbolo da totalidade universal. O eneagrama é usado em crescimento pessoal, terapia, espiritualidade, educação e negócios. Ao considerarmos as combinações de 4 em 4, 3 em 3 e 2 em 2 vértices, criamos a Grade Eneagrâmica.
+ <br><br><br>
+ <hr>
+<h4>53. Grade Eneagrâmica 3D</h4>
+<a href="../vr/GridEnneagramv1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/53A.png" class="foto" alt="Grade Eneagrâmica 3D"></a>
+ <br><br><br>O eneagrama é usado em crescimento pessoal, terapia, espiritualidade, educação e negócios. Ao considerarmos as combinações de 4 em 4, 3 em 3 e 2 em 2 vértices, criamos a Grade Eneagrâmica. O eneagrama é um símbolo frequentemente considerado Geometria Sagrada, pois integra formas e leis geométricas à ideia de tipos de personalidade. Formado por três triângulos sobrepostos, pode representar uma trindade de trindades, um símbolo de santidade ou plenitude espiritual. Podemos usar um eneagrama também como símbolo da totalidade universal.
+ <br><br><br>
+ <hr>
+<h4>54. Grade Decagrâmica</h4>
+<a href="../vr/GridDecagram.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/54A.png" class="foto" alt="Grade Decagrâmica 3D"></a>
+ <br><br><br>Na Geometria Sagrada, o decagrama ou estrela de 10 pontas, simboliza a união dos opostos, novos começos e as dez Sephirot da Cabala. É composto por dois pentagramas sobrepostos. Formas geométricas na Geometria Sagrada, como o decágono, incorporam princípios de harmonia matemática, proporção e simetria. Esses princípios frequentemente refletem a ordem e o equilíbrio do universo. Ao considerarmos as combinações de 4 em 4, 3 em 3 e 2 em 2 vértices, criamos a Grade Decagrâmica.
+ <br><br><br>
+ <hr>
+<h4>55. Grade Decagrâmica 3D</h4>
+<a href="../vr/GridDecagramv1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/55A.png" class="foto" alt="Grade Decagrâmica 3D"></a>
+ <br><br><br>Um pentagrama pode representar os cinco elementos, e um decagrama pode representar os aspectos positivos e negativos de todos os elementos. Ao considerarmos as combinações de 4 em 4, 3 em 3 e 2 em 2 vértices, criamos a Grade Decagrâmica. Na Geometria Sagrada, o decagrama ou estrela de 10 pontas, simboliza a união dos opostos, novos começos e as dez Sephirot da Cabala. É composto por dois pentagramas sobrepostos. Formas geométricas na Geometria Sagrada, como o decágono, incorporam princípios de harmonia matemática, proporção e simetria.
+ <br><br><br>
+<hr>
+<h4>56. Grade Undecagrâmica</h4>
+<a href="../vr/GridUndecagram.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/56A.png" class="foto" alt="Grade Undecagrâmica 3D"></a>
+ <br><br><br><br>O undecagrama, também chamado hendecagrama, é um símbolo que tem sido usado em joias, colares e outros itens, mas não possui um significado específico na Geometria Sagrada. Neste símbolo, podemos visualizar pentagramas sobrepostos a hexagramas. Ao considerarmos as combinações de 5 em 5, 4 em 4, 3 em 3 e 2 em 2 vértices, criamos a Grade Undecagrâmica.
+ <br><br><br>
+ <hr>
+<h4>57. Grade Undecagrâmica 3D</h4>
+<a href="../vr/GridUndecagramv1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/57A.png" class="foto" alt="Grade Undecagrâmica 3D"></a>
+ <br><br><br>Neste símbolo, podemos visualizar pentagramas sobrepostos a hexagramas. Ao considerarmos as combinações de 5 em 5, 4 em 4, 3 em 3 e 2 em 2 vértices, criamos a Grade Undecagrâmica. O undecagrama, também chamado hendecagrama, é um símbolo que tem sido usado em joias, colares e outros itens, mas não possui um significado específico na Geometria Sagrada.
+ <br><br><br> 
+ <hr>
+<h4>58. Grade Dodecagrâmica</h4>
+<a href="../vr/GridDodecagram.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/58A.png" class="foto" alt="Grade Dodecagrâmica 3D"></a>
+ <br><br><br>Na Geometria Sagrada, o dodecagrama ou estrela de 12 pontas, simboliza a criação, o equilíbrio, a harmonia e a natureza cíclica da existência. Este símbolo tem sido usado em diversos sistemas de crenças, incluindo o judaísmo e o cristianismo. No Judaísmo, o dodecagrama simboliza as 12 tribos de Israel. No Cristianismo, o dodecagrama simboliza os 12 discípulos. Ao considerarmos as combinações de 5 em 5, 4 em 4, 3 em 3 e 2 em 2 vértices, criamos a Grade Dodecagrâmica.
+ <br><br><br>
+ <hr>
+<h4>59. Grade Dodecagrâmica 3D</h4>
+<a href="../vr/GridDodecagramv1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/59A.png" class="foto" alt="Grade Dodecagrâmica 3D"></a>
+ <br><br><br>Este símbolo tem sido usado em diversos sistemas de crenças, incluindo o judaísmo e o cristianismo. No Judaísmo, o dodecagrama simboliza as 12 tribos de Israel. No Cristianismo, o dodecagrama simboliza os 12 discípulos. Ao considerarmos as combinações de 5 em 5, 4 em 4, 3 em 3 e 2 em 2 vértices, criamos a Grade Dodecagrâmica. Na Geometria Sagrada, o dodecagrama ou estrela de 12 pontas, simboliza a criação, o equilíbrio, a harmonia e a natureza cíclica da existência.
+ <br><br><br> 
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
