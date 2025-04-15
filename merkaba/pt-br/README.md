@@ -181,6 +181,27 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
+<h4>21. Merkaba curvada</h4>
+<a href="../../symbols/vr/CurvedMerkaba.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../symbols/ar/42A.png" class="foto" alt="Merkaba curvada"></a>
+ <br><br><br>A Merkaba é um símbolo geométrico sagrado que representa a união das energias masculina e feminina e a integração dos reinos terrestre e cósmico. É composta por dois tetraedros que giram em direções opostas, formando uma estrela tridimensional. O símbolo com a substituição de arestas por arcos que passam pelos vértices dos tetraedros representa a Merkaba curvada. A estrutura geométrica e a simetria da Merkaba capturaram a imaginação dos interessados ​​em Geometria Sagrada.
+ <br><br><br>
+ <hr>
+<h4>22. Merkaba curvada 3D</h4>
+<a href="../../symbols/vr/CurvedMerkabav1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../symbols/ar/43A.png" class="foto" alt="Merkaba curvada 3D"></a>
+ <br><br><br>O símbolo com a substituição de arestas por arcos que passam pelos vértices dos tetraedros representa a Merkaba curvada. A estrutura geométrica e a simetria da Merkaba capturaram a imaginação dos interessados ​​em Geometria Sagrada. A Merkaba é um símbolo geométrico sagrado que representa a união das energias masculina e feminina e a integração dos reinos terrestre e cósmico. É composta por dois tetraedros que giram em direções opostas, formando uma estrela tridimensional.
+ <br><br><br>
+ <hr>
+<h4>23. Merkaba curvada v2</h4>
+<a href="../../symbols/vr/CurvedMerkabav2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../symbols/ar/44A.png" class="foto" alt="Merkaba curvada"></a>
+ <br><br><br>A Merkaba é um símbolo geométrico sagrado que representa a união das energias masculina e feminina e a integração dos reinos terrestre e cósmico. É composta por dois tetraedros que giram em direções opostas, formando uma estrela tridimensional. O símbolo com a substituição de arestas por arcos que passam pelos vértices dos tetraedros representa a Merkaba curvada. A estrutura geométrica e a simetria da Merkaba capturaram a imaginação dos interessados ​​em Geometria Sagrada.
+ <br><br><br>
+ <hr>
+<h4>24. Merkaba curvada 3D v2</h4>
+<a href="../../symbols/vr/CurvedMerkabav3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../symbols/ar/45A.png" class="foto" alt="Merkaba curvada 3D"></a>
+ <br><br><br>O símbolo com a substituição de arestas por arcos que passam pelos vértices dos tetraedros representa a Merkaba curvada. A estrutura geométrica e a simetria da Merkaba capturaram a imaginação dos interessados ​​em Geometria Sagrada. A Merkaba é um símbolo geométrico sagrado que representa a união das energias masculina e feminina e a integração dos reinos terrestre e cósmico. É composta por dois tetraedros que giram em direções opostas, formando uma estrela tridimensional.
+ <br><br><br>
+ <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<hr>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Merkaba star - Visualization of symbols with Augmented Reality and Virtual Reality</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/SacredGeometry/merkaba/pt-br/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional</a>.
 
