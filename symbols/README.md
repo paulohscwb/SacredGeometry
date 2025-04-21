@@ -280,65 +280,65 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
  <br><br><br><br>In Sacred Geometry, three interconnected golden rectangles represent the cosmos and the union of forces. The symbol formed by three interconnected golden rectangles can be constructed in two ways. We can define the sides of a golden rectangle as two opposite edges and the respective perpendicular diagonals of an icosahedron. The second way to construct this symbol is by choosing the lines with golden proportions that appear in the symbol of the Flower of Life.
  <br><br><br>
  <hr>
-<h4>42. Curved Merkaba</h4>
+<h4>42. Golden Rectangles v2</h4>
+<a href="vr/GoldenRectanglesf.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/60A.png" class="foto" alt="Golden Rectangles"></a>
+ <br><br><br><br>The symbol formed by three interconnected golden rectangles can be constructed in two ways. We can define the sides of a golden rectangle as two opposite edges and the respective perpendicular diagonals of an icosahedron. The second way to construct this symbol is by choosing the lines with golden proportions that appear in the symbol of the Flower of Life. In Sacred Geometry, three interconnected golden rectangles represent the cosmos and the union of forces.
+ <br><br><br>
+ <hr>
+<h4>43. Curved Merkaba</h4>
 <a href="vr/CurvedMerkaba.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/42A.png" class="foto" alt="Curved Merkaba"></a>
  <br><br><br><br>The Merkaba is a sacred geometric symbol that represents the union of masculine and feminine energies and the integration of the earthly and cosmic realms. It is composed of two tetrahedrons rotating in opposite directions, forming a three-dimensional star. The symbol with the replacement of edges by arcs passing through the vertices of the tetrahedrons represents the curved Merkaba. The geometric structure and symmetry of the Merkaba have captured the imagination of those interested in Sacred Geometry.
  <br><br><br>
  <hr>
-<h4>43. Curved Merkaba 3D</h4>
+<h4>44. Curved Merkaba 3D</h4>
 <a href="vr/CurvedMerkabav1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/43A.png" class="foto" alt="Curved Merkaba 3D"></a>
  <br><br><br><br>The symbol with the replacement of edges by arcs passing through the vertices of the tetrahedrons represents the curved Merkaba. The geometric structure and symmetry of the Merkaba have captured the imagination of those interested in Sacred Geometry. The Merkaba is a sacred geometric symbol that represents the union of masculine and feminine energies and the integration of the earthly and cosmic realms. It is composed of two tetrahedrons rotating in opposite directions, forming a three-dimensional star.
  <br><br><br>
  <hr>
-<h4>44. Curved Merkaba v2</h4>
+<h4>45. Curved Merkaba v2</h4>
 <a href="vr/CurvedMerkabav2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/44A.png" class="foto" alt="Curved Merkaba"></a>
  <br><br><br><br>The Merkaba is a sacred geometric symbol that represents the union of masculine and feminine energies and the integration of the earthly and cosmic realms. It is composed of two tetrahedrons rotating in opposite directions, forming a three-dimensional star. The symbol with the replacement of edges by arcs passing through the vertices of the tetrahedrons represents the curved Merkaba. The geometric structure and symmetry of the Merkaba have captured the imagination of those interested in Sacred Geometry.
  <br><br><br>
  <hr>
-<h4>45. Curved Merkaba 3D v2</h4>
+<h4>46. Curved Merkaba 3D v2</h4>
 <a href="vr/CurvedMerkabav3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/45A.png" class="foto" alt="Curved Merkaba 3D"></a>
  <br><br><br><br>The symbol with the replacement of edges by arcs passing through the vertices of the tetrahedrons represents the curved Merkaba. The geometric structure and symmetry of the Merkaba have captured the imagination of those interested in Sacred Geometry. The Merkaba is a sacred geometric symbol that represents the union of masculine and feminine energies and the integration of the earthly and cosmic realms. It is composed of two tetrahedrons rotating in opposite directions, forming a three-dimensional star.
  <br><br><br>
  <hr>
-<h4>46. Curved Metatron's Cube</h4>
+<h4>47. Curved Metatron's Cube</h4>
 <a href="vr/CurvedMetatronCube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/46A.png" class="foto" alt="Curved Metatron's Cube"></a>
  <br><br><br><br>Metatron's Cube is a sacred geometric symbol that represents the structure of creation and the energetic balance of the universe. It consists of 13 circles and lines connecting their centers. The cube is named after Archangel Metatron, who is believed to oversee the flow of energy in the cube. The symbol with the replacement of edges by arcs passing through the vertices of the tetrahedrons represents the curved Metatron's Cube.
  <br><br><br>
  <hr>
-<h4>47. Curved Metatron's Cube 3D</h4>
+<h4>48. Curved Metatron's Cube 3D</h4>
 <a href="vr/CurvedMetatronCubev1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/47A.png" class="foto" alt="Curved Metatron's Cube 3D"></a>
  <br><br><br><br>The symbol with the replacement of edges by arcs passing through the vertices of the tetrahedrons represents the curved Metatron's Cube. Metatron's Cube is a sacred geometric symbol that represents the structure of creation and the energetic balance of the universe. It consists of 13 circles and lines connecting their centers. The cube is named after Archangel Metatron, who is believed to oversee the flow of energy in the cube.
  <br><br><br>
  <hr>
-<h4>48. Heptagram Grid</h4>
+<h4>49. Pentagram</h4>
+<a href="vr/Pentagram.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/53A.png" class="foto" alt="Pentagram"></a>
+ <br><br><br><br>In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit. This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery. The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole. The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites.
+ <br><br><br>
+ <hr>
+ <h4>50. Hexagram</h4>
+<a href="vr/Hexagram.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/38A.png" class="foto" alt="Hexagram"></a>
+ <br><br><br><br>In Sacred Geometry, the hexagram (six-pointed star) symbolizes the union of opposites and cosmic balance. It's formed by two interlocking equilateral triangles, one pointing up and the other down, often representing the masculine and feminine, or earth and sky, in harmonious balance. The hexagram is found in various religious traditions, including Jewish, Islamic, and Indic (Hindu, Buddhist, Jain). The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites.
+ <br><br><br>
+<p class="topop"><a href="#p1" class="topo">back to top</a></p>
+ <hr>
+<h4>51. Heptagram Grid</h4>
 <a href="vr/GridHeptagram.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/48A.png" class="foto" alt="Heptagram Grid"></a>
  <br><br><br><br>The heptagram, or seven-pointed star, has many sacred meanings in various belief systems, including Christianity, Judaism, Islam, alchemy, and paganism. In Christianity, the heptagram symbolizes the seven days of creation, perfection, and God, and is considered a traditional symbol for warding off evil. In Judaism, the heptagram represents the seventh sphere of the Tree of Life of Kabbalistic Judaism. By considering the combinations of 3 by 3 and 2 by 2 vertices, we create the Heptagram Grid.
  <br><br><br>
  <hr>
-<h4>49. Heptagram Grid 3D</h4>
-<a href="vr/GridHeptagramv1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/49A.png" class="foto" alt="Heptagram Grid 3D"></a>
- <br><br><br><br>In Judaism, the heptagram represents the seventh sphere of the Tree of Life of Kabbalistic Judaism. By considering the combinations of 3 by 3 and 2 by 2 vertices, we create the Heptagram Grid. The heptagram, or seven-pointed star, has many sacred meanings in various belief systems, including Christianity, Judaism, Islam, alchemy, and paganism. In Christianity, the heptagram symbolizes the seven days of creation, perfection, and God, and is considered a traditional symbol for warding off evil.
- <br><br><br>
- <hr>
-<h4>50. Octagram Grid</h4>
+<h4>52. Octagram Grid</h4>
 <a href="vr/GridOctagram.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/50A.png" class="foto" alt="Octagram Grid"></a>
  <br><br><br><br>In Sacred Geometry, the octagon and the star-shaped octogram symbolize the union of the circle and the square, which represent heaven and earth, respectively. These shapes are believed to balance and unify the two entities. The octagon symbolizes protection, good fortune, and rebirth. The eight-pointed star symbolizes celestial entities such as the moon, sun, planets, stars, and comets. Considering the 3 by 3 and 2 by 2 vertex combinations, we created the Octagram Grid.
  <br><br><br>
-<p class="topop"><a href="#p1" class="topo">back to top</a></p>
  <hr>
-<h4>51. Octagram Grid 3D</h4>
-<a href="vr/GridOctagramv1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/51A.png" class="foto" alt="Octagram Grid 3D"></a>
- <br><br><br><br>The octagon symbolizes the transition from the earthly plane (square) to the heavenly plane (circle). The octagon was used in baptismal fonts in many churches because it symbolizes the qualities of renewal, regeneration, and transition. The star-shaped octogram is an ecclesiastical emblem that signifies resurrection. Considering the 3 by 3 and 2 by 2 vertex combinations, we created the Octagram Grid. The eight-pointed star symbolizes celestial entities such as the moon, sun, planets, stars, and comets.
- <br><br><br>
- <hr>
-<h4>52. Enneagram Grid</h4>
+<h4>53. Enneagram Grid</h4>
 <a href="vr/GridEnneagram.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/52A.png" class="foto" alt="Enneagram Grid"></a>
  <br><br><br><br>The enneagram is a symbol often considered Sacred Geometry, as it integrates geometric shapes and laws with the idea of ​​personality types. Formed by three overlapping triangles, it can represent a trinity of trinities, a symbol of holiness or spiritual wholeness. We can also use an enneagram as a symbol of universal wholeness. The enneagram is used in personal growth, therapy, spirituality, education, and business. By considering the combinations of 4 by 4, 3 by 3 and 2 by 2 vertices, we create the Enneagram Grid.
- <br><br><br>
- <hr>
-<h4>53. Enneagram Grid 3D</h4>
-<a href="vr/GridEnneagramv1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/53A.png" class="foto" alt="Enneagram Grid 3D"></a>
- <br><br><br><br>The enneagram is used in personal growth, therapy, spirituality, education, and business. By considering the combinations of 4 by 4, 3 by 3 and 2 by 2 vertices, we create the Enneagram Grid. The enneagram is a symbol often considered Sacred Geometry, as it integrates geometric shapes and laws with the idea of ​​personality types. Formed by three overlapping triangles, it can represent a trinity of trinities, a symbol of holiness or spiritual wholeness. We can also use an enneagram as a symbol of universal wholeness.
  <br><br><br>
  <hr>
 <h4>54. Decagram Grid</h4>
@@ -346,34 +346,19 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
  <br><br><br><br>In Sacred Geometry, the decagram, or 10-pointed star, symbolizes the union of opposites, new beginnings, and the ten Sephirot of Kabbalah. It is composed of two overlapping pentagrams. Geometric shapes in Sacred Geometry, such as the decagon, embody principles of mathematical harmony, proportion, and symmetry. These principles often reflect the order and balance of the universe. By considering the combinations of 4 by 4, 3 by 3 and 2 by 2 vertices, we create the Decagram Grid.
  <br><br><br>
  <hr>
-<h4>55. Decagram Grid 3D</h4>
-<a href="vr/GridDecagramv1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/55A.png" class="foto" alt="Decagram Grid 3D"></a>
- <br><br><br><br>A pentagram can represent the five elements, and a decagram can represent the positive and negative aspects of all the elements. By considering the combinations of 4 by 4, 3 by 3 and 2 by 2 vertices, we create the Decagram Grid. In Sacred Geometry, the decagram, or 10-pointed star, symbolizes the union of opposites, new beginnings, and the ten Sephirot of Kabbalah. It is composed of two overlapping pentagrams. Geometric shapes in Sacred Geometry, such as the decagon, embody principles of mathematical harmony, proportion, and symmetry.
- <br><br><br>
- <hr>
-<h4>56. Undecagram Grid</h4>
+<h4>55. Undecagram Grid</h4>
 <a href="vr/GridUndecagram.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/56A.png" class="foto" alt="Undecagram Grid"></a>
  <br><br><br><br>The undecagram, also called the hendecagram, is a symbol that has been used on jewelry, necklaces, and other items, but it has no specific meaning in Sacred Geometry. In this symbol, we can see pentagrams superimposed on hexagrams. By considering the combinations of 5 by 5, 4 by 4, 3 by 3 and 2 by 2 vertices, we create the Undecagram Grid.
  <br><br><br>
  <hr>
-<h4>57. Undecagram Grid 3D</h4>
-<a href="vr/GridUndecagramv1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/57A.png" class="foto" alt="Undecagram Grid 3D"></a>
- <br><br><br><br>In this symbol, we can see pentagrams superimposed on hexagrams. By considering the combinations of 5 by 5, 4 by 4, 3 by 3 and 2 by 2 vertices, we create the Undecagram Grid. The undecagram, also called the hendecagram, is a symbol that has been used on jewelry, necklaces, and other items, but it has no specific meaning in Sacred Geometry.
- <br><br><br>
- <hr>
-<h4>58. Dodecagram Grid</h4>
+<h4>56. Dodecagram Grid</h4>
 <a href="vr/GridDodecagram.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/58A.png" class="foto" alt="Dodecagram Grid"></a>
  <br><br><br><br>In Sacred Geometry, the dodecagram, or 12-pointed star, symbolizes creation, balance, harmony, and the cyclical nature of existence. This symbol has been used in many belief systems, including Judaism and Christianity. In Judaism, the dodecagram symbolizes the 12 tribes of Israel. In Christianity, the dodecagram symbolizes the 12 disciples. The dodecagram is an ancient symbol with many meanings. By considering the combinations of 5 by 5, 4 by 4, 3 by 3 and 2 by 2 vertices, we create the Dodecagram Grid.
  <br><br><br>
  <hr>
-<h4>59. Dodecagram Grid 3D</h4>
+<h4>57. Dodecagram Grid 3D</h4>
 <a href="vr/GridDodecagramv1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/59A.png" class="foto" alt="Dodecagram Grid 3D"></a>
  <br><br><br><br>This symbol has been used in many belief systems, including Judaism and Christianity. In Judaism, the dodecagram symbolizes the 12 tribes of Israel. In Christianity, the dodecagram symbolizes the 12 disciples. The dodecagram is an ancient symbol with many meanings. By considering the combinations of 5 by 5, 4 by 4, 3 by 3 and 2 by 2 vertices, we create the Dodecagram Grid. In Sacred Geometry, the dodecagram, or 12-pointed star, symbolizes creation, balance, harmony, and the cyclical nature of existence.
- <br><br><br>
- <hr>
-<h4>60. Golden Rectangles v2</h4>
-<a href="vr/GoldenRectanglesf.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/60A.png" class="foto" alt="Golden Rectangles"></a>
- <br><br><br><br>The symbol formed by three interconnected golden rectangles can be constructed in two ways. We can define the sides of a golden rectangle as two opposite edges and the respective perpendicular diagonals of an icosahedron. The second way to construct this symbol is by choosing the lines with golden proportions that appear in the symbol of the Flower of Life. In Sacred Geometry, three interconnected golden rectangles represent the cosmos and the union of forces.
  <br><br><br>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
@@ -381,7 +366,7 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Sacred Geometry - Visualization of symbols with Augmented Reality and Virtual Reality</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/SacredGeometry/symbols/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> is licensed with a license <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</a>.
 
 <h4>How to cite this work:</h4> 
-<p>Siqueira, P.H., "Sacred Geometry: Visualization of symbols with Augmented Reality and Virtual Reality". Available in: <https://paulohscwb.github.io/SacredGeometry/symbols/>, May 2024.</p>
+<p>Siqueira, P.H., "Sacred Geometry: Visualization of symbols with Augmented Reality and Virtual Reality". Available in: <https://paulohscwb.github.io/SacredGeometry/symbols/>, May 2025.</p>
 <a target="_blank" href="https://doi.org/10.5281/zenodo.14502405"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.14502405.svg" alt="DOI"></a>
 <br><br><b>References:</b>
 <br>Pardesco. "Sacred Geometry Art, Symbols & Meanings". <a href="https://pardesco.com/blogs/news/sacred-geometry-art-symbols-meanings" target="_blank">https://pardesco.com/blogs/news/sacred-geometry-art-symbols-meanings</a>
