@@ -406,6 +406,11 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <a href="vr/VenusFlower.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/66A.png" class="foto" alt="Venus Flower"></a>
  <br><br><br><br>The Venus Flower, also known as the Rose of Venus or the Pentagram of Venus, is a symbol of Sacred Geometry determined by the orbits of the planets Venus and Earth around the Sun. This pattern, observable over a period of 8 years, visually resembles a five-petaled rose and is associated with love, beauty and harmony. The Venus Flower is a symbol of love, beauty, and the interconnectedness of the cosmos. Each petal is said to represent a stage on the path to all-encompassing love. 
  <br><br><br>
+ <hr>
+<h4>67. Pentagram</h4>
+<a href="vr/Pentagram11.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/67A.png" class="foto" alt="Pentagram"></a>
+ <br><br><br><br>The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole. The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites. In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit. This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery.
+ <br><br><br>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
