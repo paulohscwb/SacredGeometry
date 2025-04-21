@@ -1,0 +1,116 @@
+<html>
+  <head>
+    <title>Sacred Geometry</title>
+	<link rel="icon" type="image/png" href="salas/imagens/icone.png">
+	<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+	<script src="https://unpkg.com/aframe-orbit-controls@1.3.0/dist/aframe-orbit-controls.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script src="nomes.js"></script>
+	<link rel="stylesheet" href="nomes.css">
+  </head>
+  <body>
+<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Lato; font-size:2.75vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2025 Paulo Henrique Siqueira</div>
+    <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
+		<a-assets>
+			<a-mixin id="mtl1" material="side: double; color: #4af; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl2" material="side: double; color: #4fa; opacity:0.45; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl3" material="side: double; color: #0088ff; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl4" material="side: double; color: #f44; opacity:0.45; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="ci" scale="2 1 5" geometry="radius:0.035;" mixin="mtl1"></a-mixin>
+			<a-mixin id="ci1" scale="1.5 1 4.5" mixin="ci mtl2"></a-mixin>
+			<a-mixin id="ci2" mixin="ci1"></a-mixin>
+			<a-mixin id="esferad" scale="2 2 5" mixin="mtl1" geometry="radius: 0.035;" material="metalness:0.5; roughness:0.3;"></a-mixin>
+			<a-mixin id="esferad1" mixin="esferad mtl2" geometry="radius: 0.036;"></a-mixin>
+			<a-mixin id="esferad2" mixin="esferad1" geometry="radius: 0.13;"></a-mixin>
+			<a-mixin id="tr" scale="1 1 2.1" geometry="radius-tubular:0.035; segments-tubular: 100;" mixin="mtl4">
+		</a-assets>
+		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0; initialPosition: 0 0 750; minDistance: 500; maxDistance: 1100;"></a-entity>
+		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
+		
+		<a-entity scale="1.4 1.4 1.4" position="2.25 0 0" rotation="90 90 90">
+			<a-entity>
+				<a-cylinder mixin="ci1" position="-1.518 0 0.225" rotation="90 -135 90" height="6.028"></a-cylinder>
+				<a-cylinder mixin="ci1" position="-1.518 0 -0.225" rotation="90 135 90" height="6.028"></a-cylinder>
+				<a-torus mixin="tr" position="-1.618 0 1.176" rotation="90 0 0" geometry="radius:2.351;"></a-torus>
+				<a-torus mixin="tr" position="-1.618 0 -1.176" rotation="90 0 0" geometry="radius:2.351;"></a-torus>
+				<a-torus mixin="tr" position="-3.654 0 0" rotation="90 0 0" geometry="radius:2.351;"></a-torus>
+				<a-entity>
+					<a-entity position="0.191 0 0.588" rotation="90 0 -18">
+						<a-cylinder mixin="ci" rotation="0 0 90" height="3.804"></a-cylinder>
+						<a-sphere mixin="esferad" position="1.902 0 0"></a-sphere>
+					</a-entity>
+				</a-entity>
+				<a-entity rotation="0 72 0">
+					<a-entity position="0.191 0 0.588" rotation="90 0 -18">
+						<a-cylinder mixin="ci" rotation="0 0 90" height="3.804"></a-cylinder>
+						<a-sphere mixin="esferad" position="1.902 0 0"></a-sphere>
+					</a-entity>
+				</a-entity>
+				<a-entity rotation="0 -72 0">
+					<a-entity position="0.191 0 0.588" rotation="90 0 -18">
+						<a-cylinder mixin="ci" rotation="0 0 90" height="3.804"></a-cylinder>
+						<a-sphere mixin="esferad" position="1.902 0 0"></a-sphere>
+					</a-entity>
+				</a-entity>
+				<a-entity rotation="0 144 0">
+					<a-entity position="0.191 0 0.588" rotation="90 0 -18">
+						<a-cylinder mixin="ci" rotation="0 0 90" height="3.804"></a-cylinder>
+						<a-sphere mixin="esferad" position="1.902 0 0"></a-sphere>
+					</a-entity>
+				</a-entity>
+				<a-entity rotation="0 -144 0">
+					<a-entity position="0.191 0 0.588" rotation="90 0 -18">
+						<a-cylinder mixin="ci" rotation="0 0 90" height="3.804"></a-cylinder>
+						<a-sphere mixin="esferad" position="1.902 0 0"></a-sphere>
+					</a-entity>
+				</a-entity>
+			</a-entity>
+			<a-entity position="-3.236 0 0" rotation="0 0 180">
+				<a-cylinder mixin="ci1" position="-1.518 0 0.225" rotation="90 -135 90" height="6.028"></a-cylinder>
+				<a-cylinder mixin="ci1" position="-1.518 0 -0.225" rotation="90 135 90" height="6.028"></a-cylinder>
+				<a-torus mixin="tr" position="-3.654 0 0" rotation="90 0 0" geometry="radius:2.351;"></a-torus>
+				<a-entity>
+					<a-entity position="0.191 0 0.588" rotation="90 0 -18">
+						<a-cylinder mixin="ci" rotation="0 0 90" height="3.804"></a-cylinder>
+						<a-sphere mixin="esferad" position="1.902 0 0"></a-sphere>
+					</a-entity>
+				</a-entity>
+				<a-entity rotation="0 72 0">
+					<a-entity position="0.191 0 0.588" rotation="90 0 -18">
+						<a-cylinder mixin="ci" rotation="0 0 90" height="3.804"></a-cylinder>
+						<a-sphere mixin="esferad" position="1.902 0 0"></a-sphere>
+					</a-entity>
+				</a-entity>
+				<a-entity rotation="0 -72 0">
+					<a-entity position="0.191 0 0.588" rotation="90 0 -18">
+						<a-cylinder mixin="ci" rotation="0 0 90" height="3.804"></a-cylinder>
+						<a-sphere mixin="esferad" position="1.902 0 0"></a-sphere>
+					</a-entity>
+				</a-entity>
+				<a-entity rotation="0 144 0">
+					<a-entity position="0.191 0 0.588" rotation="90 0 -18">
+						<a-cylinder mixin="ci" rotation="0 0 90" height="3.804"></a-cylinder>
+						<a-sphere mixin="esferad" position="1.902 0 0"></a-sphere>
+					</a-entity>
+				</a-entity>
+				<a-entity rotation="0 -144 0">
+					<a-entity position="0.191 0 0.588" rotation="90 0 -18">
+						<a-cylinder mixin="ci" rotation="0 0 90" height="3.804"></a-cylinder>
+						<a-sphere mixin="esferad" position="1.902 0 0"></a-sphere>
+					</a-entity>
+				</a-entity>
+			</a-entity>
+		</a-entity>
+		
+		<a-light type="ambient" color="white" intensity="0.4"></a-light>
+		<a-light type="directional" color="white" intensity="0.4" position="-7 5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.4" position="7 -5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.4" position="7 5 -1"></a-light>
+		<a-sky color="black" radius="25"></a-sky><a-sky src="../../imagens/8k_stars_milky_way.jpg" radius="18"></a-sky>
+    </a-scene>
+	<div class="box">
+		<span class="titulo">Pentagram</span>
+		<br><span class="titulo">Pentagrama</span>
+	</div>
+  </body>
+</html>
