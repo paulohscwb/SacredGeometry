@@ -16,11 +16,11 @@
 			<a-mixin id="mtl2" material="side: double; color: #ada; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="mtl3" material="side: double; color: #aad; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="mtl4" material="side: double; color: #f85; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
-			<a-mixin id="ci" geometry="radius:0.035;" mixin="mtl1"></a-mixin>
+			<a-mixin id="ci" scale="1.2 1 6" geometry="radius:0.035;" mixin="mtl1"></a-mixin>
 			<a-mixin id="ci1" mixin="ci mtl2"></a-mixin>
 			<a-mixin id="ci2" mixin="ci mtl3"></a-mixin>
 			<a-mixin id="ci3" mixin="ci mtl4"></a-mixin>
-			<a-mixin id="esferad" mixin="mtl1" geometry="radius: 0.035;" material="metalness:0.5; roughness:0.3;"></a-mixin>
+			<a-mixin id="esferad" scale="1.2 1.2 6" mixin="mtl1" geometry="radius: 0.035;" material="metalness:0.5; roughness:0.3;"></a-mixin>
 		</a-assets>
 		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0; initialPosition: 0 0 750; minDistance: 500; maxDistance: 1100;"></a-entity>
 		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>

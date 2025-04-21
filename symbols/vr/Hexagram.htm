@@ -12,9 +12,9 @@
 <div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Lato; font-size:2.75vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2025 Paulo Henrique Siqueira</div>
     <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
 		<a-assets>
-			<a-mixin id="mtl1" material="side: double; color: #8fc; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
-			<a-mixin id="mtl2" material="side: double; color: #fc0; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
-			<a-mixin id="mtl3" material="side: double; color: #0088ff; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl2" material="side: double; color: #8fc; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl3" material="side: double; color: #fc0; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl1" material="side: double; color: #0088ff; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="mtl4" material="side: double; color: #ffcc00; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="ci" scale="2 1 5" geometry="radius:0.035;" mixin="mtl1"></a-mixin>
 			<a-mixin id="esferad" scale="2 2 5"  mixin="mtl1" geometry="radius: 0.035;" material="metalness:0.5; roughness:0.3;"></a-mixin>
@@ -43,11 +43,11 @@
 				<a-sphere mixin="esferad" position="1.732 0 0"></a-sphere>
 				<a-sphere mixin="esferad" position="-1.732 0 0"></a-sphere>
 			</a-entity>
-			<a-entity rotation="90 0 60">
-				<a-cylinder mixin="ci" rotation="0 0 90" height="4"></a-cylinder>
+			<a-entity position="-1 0 0" rotation="90 0 0">
+				<a-cylinder mixin="ci" rotation="0 0 0" height="3.464"></a-cylinder>
 			</a-entity>
-			<a-entity rotation="90 0 -60">
-				<a-cylinder mixin="ci" rotation="0 0 90" height="4"></a-cylinder>
+			<a-entity position="1 0 0" rotation="90 0 0">
+				<a-cylinder mixin="ci" rotation="0 0 0" height="3.464"></a-cylinder>
 			</a-entity>
 		</a-entity>
 		
@@ -58,8 +58,8 @@
 		<a-sky color="black" radius="25"></a-sky><a-sky src="../../imagens/8k_stars_milky_way.jpg" radius="18"></a-sky>
     </a-scene>
 	<div class="box">
-		<span class="titulo">Unicursal Hexagram</span>
-		<br><span class="titulo">Hexagrama Unicursal</span>
+		<span class="titulo">Hexagram</span>
+		<br><span class="titulo">Hexagrama</span>
 	</div>
   </body>
 </html>
