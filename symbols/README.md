@@ -371,43 +371,48 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
  <br><br><br><br>In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit. This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery. The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole. The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites.
  <br><br><br>
  <hr>
-<h4>60. Pentagram and the Golden Spiral</h4>
+ <h4>60. Pentagram and the Golden Spiral</h4>
+<a href="vr/GoldenSpiral1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/68A.png" class="foto" alt="Golden Spiral"></a>
+ <br><br><br>We define that the numbers <b>a</b> and <b>b</b> are in the golden ratio when <b>(a + b) / a = a / b = &Phi;</b>. Putting this ratio in two dimensions, we can construct golden triangles (or rectangles), where their sides are in the golden ratio.  This term was introduced by Leonardo da Vinci as a proportion of "ideal perfect body" and appears in the petals of various flowers, sunflower seed arrangements, pine cone patterns and romanesco broccoli. This proportion is not just a mathematical notion, but also a symbol of beauty, harmony and perfection in art, science and nature.
+ <br><br>
+<p class="topop"><a href="#p1" class="topo">back to top</a></p>
+ <hr>
+<h4>61. Pentagram and the Golden Spiral</h4>
 <a href="vr/Pentagram5.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/55A.png" class="foto" alt="Pentagram and the Golden Spiral"></a>
  <br><br><br><br>The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole. The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites. In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit. This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery.
  <br><br><br>
-<p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
-<h4>61. Pentagram and the Golden Spiral</h4>
+<h4>62. Fractal Pentagram and the Golden Spiral</h4>
 <a href="vr/Pentagram6.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/61A.png" class="foto" alt="Pentagram Fractal and the Golden Spiral"></a>
  <br><br><br><br>The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites. In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit. This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery. The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole.
  <br><br><br>
  <hr>
-<h4>62. Curved Pentagram</h4>
+<h4>63. Curved Pentagram</h4>
 <a href="vr/Pentagram7.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/62A.png" class="foto" alt="Curved Pentagram"></a>
  <br><br><br><br>In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit. This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery. The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole. The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites.
  <br><br><br>
  <hr>
-<h4>63. Pentagram</h4>
+<h4>64. Pentagram</h4>
 <a href="vr/Pentagram8.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/63A.png" class="foto" alt="Pentagram"></a>
  <br><br><br><br>This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery. The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole. The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites. In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit.
  <br><br><br>
  <hr>
-<h4>64. Fractal Pentagram v3</h4>
+<h4>65. Fractal Pentagram v3</h4>
 <a href="vr/Pentagram9.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/64A.png" class="foto" alt="Fractal Pentagram"></a>
  <br><br><br><br>The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole. The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites. In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit. This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery.
  <br><br><br>
  <hr>
-<h4>65. Fractal Pentagram v4</h4>
+<h4>66. Fractal Pentagram v4</h4>
 <a href="vr/Pentagram10.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/65A.png" class="foto" alt="Fractal Pentagram"></a>
  <br><br><br><br>The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites. In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit. This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery. The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole.
  <br><br><br>
  <hr>
-<h4>66. Venus Flower</h4>
+<h4>67. Venus Flower</h4>
 <a href="vr/VenusFlower.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/66A.png" class="foto" alt="Venus Flower"></a>
  <br><br><br><br>The Venus Flower, also known as the Rose of Venus or the Pentagram of Venus, is a symbol of Sacred Geometry determined by the orbits of the planets Venus and Earth around the Sun. This pattern, observable over a period of 8 years, visually resembles a five-petaled rose and is associated with love, beauty and harmony. The Venus Flower is a symbol of love, beauty, and the interconnectedness of the cosmos. Each petal is said to represent a stage on the path to all-encompassing love. 
  <br><br><br>
  <hr>
-<h4>67. Pentagram</h4>
+<h4>68. Pentagram</h4>
 <a href="vr/Pentagram11.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/67A.png" class="foto" alt="Pentagram"></a>
  <br><br><br><br>The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole. The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites. In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit. This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery.
  <br><br><br>
