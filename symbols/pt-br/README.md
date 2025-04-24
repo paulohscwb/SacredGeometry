@@ -364,63 +364,68 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
  <br><br><br>Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo. O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos. Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito. Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual.
  <br><br><br>
  <hr>
-<h4>59. Pentagrama</h4>
-<a href="../vr/Pentagram4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/49A.png" class="foto" alt="Pentagrama"></a>
- <br><br><br>Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito. Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual. Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo. O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos.
+ <h4>59. Pentagrama Fractal v3</h4>
+<a href="../vr/Pentagram3a.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/71A.png" class="foto" alt="Pentagrama fractal"></a>
+ <br><br><br>O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos. Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito. Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual. Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo.
  <br><br><br>
  <hr>
-<h4>60. Pentagrama e a Espiral Áurea</h4>
-<a href="../vr/GoldenSpiral1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/68A.png" class="foto" alt="Pentagrama e a Espiral áurea"></a>
- <br><br><br>Definimos que os números <b>a</b> e <b>b</b> estão na proporção áurea quando <b>(a + b) / a = a / b = &Phi;</b>. Colocando-se esta razão em duas dimensões, podemos construir os triângulos (ou retângulos) áureos, onde seus lados estão na proporção áurea. Este termo foi introduzido por Leonardo da Vinci como uma proporção de "corpo perfeito ideal" e aparece em pétalas de diversas flores, arranjos das sementes de girassóis, padrões de pinhas e no brócolis romanesco. Esta proporção não é apenas uma noção matemática, mas também um símbolo de beleza, harmonia e perfeição na arte, na ciência e na natureza.
+<h4>60. Pentagrama</h4>
+<a href="../vr/Pentagram4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/49A.png" class="foto" alt="Pentagrama"></a>
+ <br><br><br>Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito. Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual. Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo. O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos.
  <br><br><br>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  <hr>
 <h4>61. Pentagrama e a Espiral Áurea</h4>
+<a href="../vr/GoldenSpiral1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/68A.png" class="foto" alt="Pentagrama e a Espiral áurea"></a>
+ <br><br><br>Definimos que os números <b>a</b> e <b>b</b> estão na proporção áurea quando <b>(a + b) / a = a / b = &Phi;</b>. Colocando-se esta razão em duas dimensões, podemos construir os triângulos (ou retângulos) áureos, onde seus lados estão na proporção áurea. Este termo foi introduzido por Leonardo da Vinci como uma proporção de "corpo perfeito ideal" e aparece em pétalas de diversas flores, arranjos das sementes de girassóis, padrões de pinhas e no brócolis romanesco. Esta proporção não é apenas uma noção matemática, mas também um símbolo de beleza, harmonia e perfeição na arte, na ciência e na natureza.
+ <br><br><br>
+ <hr>
+<h4>62. Pentagrama e a Espiral Áurea</h4>
 <a href="../vr/Pentagram5.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/55A.png" class="foto" alt="Pentagrama e a Espiral Áurea"></a>
  <br><br><br>Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo. O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos. Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito. Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual.
  <br><br><br>
 <hr>
-<h4>62. Pentagrama e a Espiral Áurea v2</h4>
+<h4>63. Pentagrama e a Espiral Áurea v2</h4>
 <a href="../vr/Pentagram5a.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/69A.png" class="foto" alt="Pentagrama e a Espiral Áurea"></a>
  <br><br><br>Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito. Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual. Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo. O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos.
  <br><br><br>
 <hr>
-<h4>63. Pentagrama Fractal e a Espiral Áurea</h4>
+<h4>64. Pentagrama Fractal e a Espiral Áurea</h4>
 <a href="../vr/Pentagram6.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/61A.png" class="foto" alt="Pentagrama Fractal e a Espiral Áurea"></a>
  <br><br><br>O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos. Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito. Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual. Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo.
  <br><br><br>
  <hr>
- <h4>64. Pentagrama Fractal e a Espiral Áurea v2</h4>
+ <h4>65. Pentagrama Fractal e a Espiral Áurea v2</h4>
 <a href="../vr/Pentagram6a.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/70A.png" class="foto" alt="Pentagrama Fractal e a Espiral Áurea"></a>
  <br><br><br>Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual. Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo. O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos. Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito.
  <br><br><br>
  <hr>
-<h4>65. Pentagrama curvado</h4>
+<h4>66. Pentagrama curvado</h4>
 <a href="../vr/Pentagram7.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/62A.png" class="foto" alt="Pentagrama curvado"></a>
  <br><br><br>Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito. Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual. Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo. O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos.
  <br><br><br>
  <hr>
-<h4>66. Pentagrama</h4>
+<h4>67. Pentagrama</h4>
 <a href="../vr/Pentagram8.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/63A.png" class="foto" alt="Pentagrama"></a>
  <br><br><br>Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual. Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo. O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos. Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito.
  <br><br><br>
  <hr>
-<h4>67. Pentagrama Fractal v3</h4>
+<h4>68. Pentagrama Fractal v3</h4>
 <a href="../vr/Pentagram9.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/64A.png" class="foto" alt="Pentagrama Fractal"></a>
  <br><br><br>Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo. O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos. Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito. Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual.
  <br><br><br>
  <hr>
-<h4>68. Pentagrama Fractal v4</h4>
+<h4>69. Pentagrama Fractal v4</h4>
 <a href="../vr/Pentagram10.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/65A.png" class="foto" alt="Pentagrama Fractal"></a>
  <br><br><br>O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos. Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito. Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual. Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo.
  <br><br><br>
  <hr>
-<h4>69. Flor de Vênus</h4>
+<h4>70. Flor de Vênus</h4>
 <a href="../vr/VenusFlower.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/66A.png" class="foto" alt="Flor de Vênus"></a>
  <br><br><br>A Flor de Vênus, também conhecida como Rosa de Vênus ou Pentagrama de Vênus, é um símbolo da Geometria Sagrada determinado pelas órbitas dos planetas Vênus e Terra ao redor do Sol. Este padrão, observável ao longo de um período de 8 anos, assemelha-se visualmente a uma rosa de cinco pétalas e está associado ao amor, à beleza e à harmonia. A Flor de Vênus é um símbolo do amor, da beleza e da interconexão do cosmos. Diz-se que cada pétala representa uma etapa no caminho para o amor que tudo abrange.
  <br><br><br>
  <hr>
-<h4>70. Pentagrama</h4>
+<h4>71. Pentagrama</h4>
 <a href="../vr/Pentagram11.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/67A.png" class="foto" alt="Pentagrama"></a>
  <br><br><br>Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo. O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos. Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito. Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual.
  <br><br><br>
