@@ -1,0 +1,122 @@
+<html>
+  <head>
+    <title>Sacred Geometry</title>
+	<link rel="icon" type="image/png" href="salas/imagens/icone.png">
+	<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+	<script src="https://unpkg.com/aframe-orbit-controls@1.3.0/dist/aframe-orbit-controls.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script src="nomes.js"></script>
+	<link rel="stylesheet" href="nomes.css">
+  </head>
+  <body>
+<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Lato; font-size:2.75vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2025 Paulo Henrique Siqueira</div>
+    <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
+		<a-assets>
+			<a-mixin id="mtl4a" material="side: double; color: #ccf; opacity:0.6; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="tr" scale="1 1 5" geometry="radius-tubular:0.02; segments-tubular: 7;" mixin="mtl4a"></a-mixin>
+		</a-assets>
+		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0; initialPosition: 0 0 750; minDistance: 500; maxDistance: 1100;"></a-entity>
+		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
+		
+		<a-entity scale="3 3 3" rotation="0 90 90">
+			<a-entity position="0 -1.4 0">
+				<a-torus mixin="tr" rotation="90 0 0" geometry="radius:2;" material="color: #0f0;"></a-torus>
+				<a-torus mixin="tr" position="0 0.03 0" rotation="90 11.25 0" geometry="radius:1.855;" material="color: #0f1;"></a-torus>
+				<a-torus mixin="tr" position="0 0.06 0" rotation="90 22.5 0" geometry="radius:1.7205;" material="color: #0f2;"></a-torus>
+				<a-torus mixin="tr" position="0 0.09 0" rotation="90 33.75 0" geometry="radius:1.5958;" material="color: #0f3;"></a-torus>
+				<a-torus mixin="tr" position="0 0.12 0" rotation="90 45 0" geometry="radius:1.48;" material="color: #0f4;"></a-torus>
+				<a-torus mixin="tr" position="0 0.15 0" rotation="90 56.25 0" geometry="radius:1.3728;" material="color: #0f5;"></a-torus>
+				<a-torus mixin="tr" position="0 0.18 0" rotation="90 67.5 0" geometry="radius:1.2732;" material="color: #0f6;"></a-torus>
+				<a-torus mixin="tr" position="0 0.21 0" rotation="90 78.75 0" geometry="radius:1.1809;" material="color: #0f7;"></a-torus>
+				<a-torus mixin="tr" position="0 0.24 0" rotation="90 90 0" geometry="radius:1.0953;" material="color: #0f8;"></a-torus>
+				<a-torus mixin="tr" position="0 0.27 0" rotation="90 101.25 0" geometry="radius:1.0159;" material="color: #0f9;"></a-torus>
+				<a-torus mixin="tr" position="0 0.3 0" rotation="90 112.5 0" geometry="radius:0.9423;" material="color: #0fa;"></a-torus>
+				<a-torus mixin="tr" position="0 0.33 0" rotation="90 123.75 0" geometry="radius:0.8739;" material="color: #1fb;"></a-torus>
+				<a-torus mixin="tr" position="0 0.36 0" rotation="90 135 0" geometry="radius:0.8106;" material="color: #2fc;"></a-torus>
+				<a-torus mixin="tr" position="0 0.39 0" rotation="90 146.25 0" geometry="radius:0.7518;" material="color: #3fd;"></a-torus>
+				<a-torus mixin="tr" position="0 0.42 0" rotation="90 157.5 0" geometry="radius:0.6973;" material="color: #4fe;"></a-torus>
+				<a-torus mixin="tr" position="0 0.45 0" rotation="90 168.75 0" geometry="radius:0.6468;" material="color: #5ff;"></a-torus>
+				<a-torus mixin="tr" position="0 0.48 0" rotation="90 180 0" geometry="radius:0.5999;" material="color: #6ff;"></a-torus>
+				<a-torus mixin="tr" position="0 0.51 0" rotation="90 191.25 0" geometry="radius:0.5564;" material="color: #7ff;"></a-torus>
+				<a-torus mixin="tr" position="0 0.54 0" rotation="90 202.5 0" geometry="radius:0.516;" material="color: #8ff;"></a-torus>
+				<a-torus mixin="tr" position="0 0.57 0" rotation="90 213.75 0" geometry="radius:0.4786;" material="color: #9ff;"></a-torus>
+				<a-torus mixin="tr" position="0 0.6 0" rotation="90 225 0" geometry="radius:0.4439;" material="color: #aff;"></a-torus>
+				<a-torus mixin="tr" position="0 0.63 0" rotation="90 236.25 0" geometry="radius:0.4117;" material="color: #bff;"></a-torus>
+				<a-torus mixin="tr" position="0 0.66 0" rotation="90 247.5 0" geometry="radius:0.3819;" material="color: #cff;"></a-torus>
+				<a-torus mixin="tr" position="0 0.69 0" rotation="90 258.75 0" geometry="radius:0.3542;" material="color: #dff;"></a-torus>
+				<a-torus mixin="tr" position="0 0.72 0" rotation="90 270 0" geometry="radius:0.3285;" material="color: #eff;"></a-torus>
+				<a-torus mixin="tr" position="0 0.75 0" rotation="90 281.25 0" geometry="radius:0.3047;" material="color: #fff;"></a-torus>
+				<a-torus mixin="tr" position="0 0.78 0" rotation="90 292.5 0" geometry="radius:0.2826;" material="color: #ffe;"></a-torus>
+				<a-torus mixin="tr" position="0 0.81 0" rotation="90 303.75 0" geometry="radius:0.2621;" material="color: #ffd;"></a-torus>
+				<a-torus mixin="tr" position="0 0.84 0" rotation="90 315 0" geometry="radius:0.2431;" material="color: #ffc;"></a-torus>
+				<a-torus mixin="tr" position="0 0.87 0" rotation="90 326.25 0" geometry="radius:0.2255;" material="color: #ffb;"></a-torus>
+				<a-torus mixin="tr" position="0 0.9 0" rotation="90 337.5 0" geometry="radius:0.2091;" material="color: #ffa;"></a-torus>
+				<a-torus mixin="tr" position="0 0.93 0" rotation="90 348.75 0" geometry="radius:0.1939;" material="color: #ff9;"></a-torus>
+				<a-torus mixin="tr" position="0 0.96 0" rotation="90 360 0" geometry="radius:0.1799;" material="color: #ff8;"></a-torus>
+				<a-torus mixin="tr" position="0 0.99 0" rotation="90 371.25 0" geometry="radius:0.1669;" material="color: #ff7;"></a-torus>
+				<a-torus mixin="tr" position="0 1.02 0" rotation="90 382.5 0" geometry="radius:0.1548;" material="color: #ef6;"></a-torus>
+				<a-torus mixin="tr" position="0 1.05 0" rotation="90 393.75 0" geometry="radius:0.1435;" material="color: #df5;"></a-torus>
+				<a-torus mixin="tr" position="0 1.08 0" rotation="90 405 0" geometry="radius:0.1331;" material="color: #cf4;"></a-torus>
+				<a-torus mixin="tr" position="0 1.12 0" rotation="90 416.25 0" geometry="radius:0.1249;" material="color: #bf3;"></a-torus>
+				<a-torus mixin="tr" position="0 1.15 0" rotation="90 427.5 0" geometry="radius:0.1145;" material="color: #af2;"></a-torus>
+				<a-torus mixin="tr" position="0 1.18 0" rotation="90 438.75 0" geometry="radius:0.1062;" material="color: #9f1;"></a-torus>
+				<a-torus mixin="tr" position="0 1.21 0" rotation="90 450 0" geometry="radius:0.0985;" material="color: #8f0;"></a-torus>
+			</a-entity>
+			
+			<a-entity position="0 1.4 0">
+				<a-torus mixin="tr" rotation="90 0 0" geometry="radius:2;" material="color: #0f0;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.03 0" rotation="90 11.25 0" geometry="radius:1.855;" material="color: #0f1;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.06 0" rotation="90 22.5 0" geometry="radius:1.7205;" material="color: #0f2;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.09 0" rotation="90 33.75 0" geometry="radius:1.5958;" material="color: #0f3;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.12 0" rotation="90 45 0" geometry="radius:1.48;" material="color: #0f4;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.15 0" rotation="90 56.25 0" geometry="radius:1.3728;" material="color: #0f5;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.18 0" rotation="90 67.5 0" geometry="radius:1.2732;" material="color: #0f6;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.21 0" rotation="90 78.75 0" geometry="radius:1.1809;" material="color: #0f7;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.24 0" rotation="90 90 0" geometry="radius:1.0953;" material="color: #0f8;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.27 0" rotation="90 101.25 0" geometry="radius:1.0159;" material="color: #0f9;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.3 0" rotation="90 112.5 0" geometry="radius:0.9423;" material="color: #0fa;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.33 0" rotation="90 123.75 0" geometry="radius:0.8739;" material="color: #1fb;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.36 0" rotation="90 135 0" geometry="radius:0.8106;" material="color: #2fc;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.39 0" rotation="90 146.25 0" geometry="radius:0.7518;" material="color: #3fd;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.42 0" rotation="90 157.5 0" geometry="radius:0.6973;" material="color: #4fe;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.45 0" rotation="90 168.75 0" geometry="radius:0.6468;" material="color: #5ff;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.48 0" rotation="90 180 0" geometry="radius:0.5999;" material="color: #6ff;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.51 0" rotation="90 191.25 0" geometry="radius:0.5564;" material="color: #7ff;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.54 0" rotation="90 202.5 0" geometry="radius:0.516;" material="color: #8ff;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.57 0" rotation="90 213.75 0" geometry="radius:0.4786;" material="color: #9ff;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.6 0" rotation="90 225 0" geometry="radius:0.4439;" material="color: #aff;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.63 0" rotation="90 236.25 0" geometry="radius:0.4117;" material="color: #bff;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.66 0" rotation="90 247.5 0" geometry="radius:0.3819;" material="color: #cff;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.69 0" rotation="90 258.75 0" geometry="radius:0.3542;" material="color: #dff;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.72 0" rotation="90 270 0" geometry="radius:0.3285;" material="color: #eff;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.75 0" rotation="90 281.25 0" geometry="radius:0.3047;" material="color: #fff;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.78 0" rotation="90 292.5 0" geometry="radius:0.2826;" material="color: #ffe;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.81 0" rotation="90 303.75 0" geometry="radius:0.2621;" material="color: #ffd;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.84 0" rotation="90 315 0" geometry="radius:0.2431;" material="color: #ffc;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.87 0" rotation="90 326.25 0" geometry="radius:0.2255;" material="color: #ffb;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.9 0" rotation="90 337.5 0" geometry="radius:0.2091;" material="color: #ffa;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.93 0" rotation="90 348.75 0" geometry="radius:0.1939;" material="color: #ff9;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.96 0" rotation="90 360 0" geometry="radius:0.1799;" material="color: #ff8;"></a-torus>
+				<a-torus mixin="tr" position="0 -0.99 0" rotation="90 371.25 0" geometry="radius:0.1669;" material="color: #ff7;"></a-torus>
+				<a-torus mixin="tr" position="0 -1.02 0" rotation="90 382.5 0" geometry="radius:0.1548;" material="color: #ef6;"></a-torus>
+				<a-torus mixin="tr" position="0 -1.05 0" rotation="90 393.75 0" geometry="radius:0.1435;" material="color: #df5;"></a-torus>
+				<a-torus mixin="tr" position="0 -1.08 0" rotation="90 405 0" geometry="radius:0.1331;" material="color: #cf4;"></a-torus>
+				<a-torus mixin="tr" position="0 -1.12 0" rotation="90 416.25 0" geometry="radius:0.1249;" material="color: #bf3;"></a-torus>
+				<a-torus mixin="tr" position="0 -1.15 0" rotation="90 427.5 0" geometry="radius:0.1145;" material="color: #af2;"></a-torus>
+				<a-torus mixin="tr" position="0 -1.18 0" rotation="90 438.75 0" geometry="radius:0.1062;" material="color: #9f1;"></a-torus>
+				<a-torus mixin="tr" position="0 -1.21 0" rotation="90 450 0" geometry="radius:0.0985;" material="color: #8f0;"></a-torus>
+			</a-entity>
+		</a-entity>
+		
+		<a-light type="ambient" color="white" intensity="0.4"></a-light>
+		<a-light type="directional" color="white" intensity="0.4" position="-7 5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.4" position="7 -5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.4" position="7 5 -1"></a-light>
+		<a-sky color="black" radius="25"></a-sky><a-sky src="https://paulohscwb.github.io/SacredGeometry/imagens/8k_stars_milky_way.jpg" radius="18" rotation="0 90 90"></a-sky>
+    </a-scene>
+	<div class="box">
+		<span class="titulo">Heptagons</span>
+		<br><span class="titulo">Heptágonos</span>
+	</div>
+  </body>
+</html>
