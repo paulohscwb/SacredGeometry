@@ -426,10 +426,61 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <a href="vr/VenusFlower.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/66A.png" class="foto" alt="Venus Flower"></a>
  <br><br><br><br>The Venus Flower, also known as the Rose of Venus or the Pentagram of Venus, is a symbol of Sacred Geometry determined by the orbits of the planets Venus and Earth around the Sun. This pattern, observable over a period of 8 years, visually resembles a five-petaled rose and is associated with love, beauty and harmony. The Venus Flower is a symbol of love, beauty, and the interconnectedness of the cosmos. Each petal is said to represent a stage on the path to all-encompassing love. 
  <br><br><br>
+<p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<hr>
+<h4>71. Venus Flower v1</h4>
+<a href="vr/VenusFlowerv1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/80A.png" class="foto" alt="Venus Flower"></a>
+ <br><br><br><br>Each petal is said to represent a stage on the path to all-encompassing love. The Venus Flower, also known as the Rose of Venus or the Pentagram of Venus, is a symbol of Sacred Geometry determined by the orbits of the planets Venus and Earth around the Sun. This pattern, observable over a period of 8 years, visually resembles a five-petaled rose and is associated with love, beauty and harmony. The Venus Flower is a symbol of love, beauty, and the interconnectedness of the cosmos. 
+ <br><br><br>
  <hr>
-<h4>71. Pentagram</h4>
+<h4>72. Venus Flower v2</h4>
+<a href="vr/VenusFlowerv2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/81A.png" class="foto" alt="Venus Flower"></a>
+ <br><br><br><br>This pattern, observable over a period of 8 years, visually resembles a five-petaled rose and is associated with love, beauty and harmony. The Venus Flower is a symbol of love, beauty, and the interconnectedness of the cosmos. Each petal is said to represent a stage on the path to all-encompassing love. The Venus Flower, also known as the Rose of Venus or the Pentagram of Venus, is a symbol of Sacred Geometry determined by the orbits of the planets Venus and Earth around the Sun.
+ <br><br><br>
+ <hr>
+<h4>73. Pentagram</h4>
 <a href="vr/Pentagram11.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/67A.png" class="foto" alt="Pentagram"></a>
  <br><br><br><br>The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole. The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites. In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit. This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery.
+ <br><br><br>
+ <hr>
+<h4>74. Triangles</h4>
+<a href="vr/Triangles.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/72A.png" class="foto" alt="Triangles"></a>
+ <br><br><br><br>In Sacred Geometry, triangles represent balance, harmony, and the intersection of three principles. Upward-facing triangles symbolize the elevation of consciousness, while inverted triangles represent feminine energy and reproduction. Triangles are believed to embody divine creation and balance, often associated with the Taoist concept of unity unfolding into duality. This symbol shows a spiral made of equilateral triangles, forming a kind of hyperboloid.
+ <br><br><br>
+ <hr>
+<h4>75. Squares</h4>
+<a href="vr/Squares.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/73A.png" class="foto" alt="Squares"></a>
+ <br><br><br><br>In Sacred Geometry, the square is considered a fundamental shape associated with stability, anchoring, and the four elements of nature. The square represents the fixed nature of matter and the foundations of physical reality. The four sides of a square are often associated with the four cardinal points, the four seasons, and the four Aristotelian elements (earth, water, air, and fire). This symbol represents a spiral composed of squares, forming a kind of hyperboloid.
+ <br><br><br>
+ <hr>
+<h4>76. Pentagons</h4>
+<a href="vr/Pentagons.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/74A.png" class="foto" alt="Pentagons"></a>
+ <br><br><br><br>In Sacred Geometry, pentagons, particularly the pentagram (the star formed by connecting the diagonals of a pentagon), symbolize fivefold symmetry and often represent harmony, unity, and the interconnectedness of things. Pentagons are also associated with the golden ratio and the Fibonacci sequence, which are considered fundamental principles of nature and the universe. This symbol represents a spiral composed of regular pentagons, forming a kind of hyperboloid.
+ <br><br><br>
+ <hr>
+<h4>77. Hexagons</h4>
+<a href="vr/Hexagons.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/75A.png" class="foto" alt="Hexagons"></a>
+ <br><br><br><br>In Sacred Geometry, hexagons are often seen as symbols of balance, harmony, and the potential of life. Their symmetrical shape, with six equal sides and angles, represents stability and balance. Hexagons are also associated with the Flower of Life and the six-pointed star (Merkabah), both symbols of interconnection and divine creation. This symbol represents a spiral composed of regular hexagons, forming a kind of hyperboloid.
+ <br><br><br>
+ <hr>
+<h4>78. Heptagons</h4>
+<a href="vr/Heptagons.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/76A.png" class="foto" alt="Heptagons"></a>
+ <br><br><br><br>In Sacred Geometry, heptagons are associated with concepts such as the seven chakras, the seven days of the week or the seven heavens, depending on the interpretation. Heptagrams (seven-pointed stars formed by the extension of the sides of a heptagon) also have symbolic meaning, with different types of triangles and proportions related to their angles. This symbol represents a spiral composed of regular heptagons, forming a kind of hyperboloid.
+ <br><br><br>
+ <hr>
+<h4>79. Octagons</h4>
+<a href="vr/Octagons.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/77A.png" class="foto" alt="Octagons"></a>
+ <br><br><br><br>In Sacred Geometry, the octagon is always seen as a symbol of unity and balance, arising from the combination of the circle (which represents the sky) and the square (which represents the earth). The octagon is believed to connect and harmonize these two elements. The octagon also has several symbolic meanings in different cultures and religions, including completeness, good luck and protection. This symbol represents a spiral composed of regular octagons, forming a kind of hyperboloid.
+ <br><br><br>
+ <hr>
+<h4>80. Enneagons</h4>
+<a href="vr/Enneagons.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/78A.png" class="foto" alt="Enneagons"></a>
+ <br><br><br><br>In Sacred Geometry, an enneagon is a geometric shape that symbolizes unity, completeness, balance, and the culmination of a cycle. It can also be represented as a nine-pointed star, known as an enneagram. The enneagon, along with other shapes such as the centered octogram, is used in various symbolic and spiritual interpretations within Sacred Geometry. This symbol represents a spiral composed of regular enneagons, forming a kind of hyperboloid.
+ <br><br><br>
+ <hr>
+<h4>81. Decagons</h4>
+<a href="vr/Decagons.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/79A.png" class="foto" alt="Decagons"></a>
+ <br><br><br><br>In Sacred Geometry, a decagon symbolizes balance, harmony, and the interconnectedness of the universe. It is a more complex shape than some others, such as the pentagon, offering a richer symbolic landscape. The ten sides of the decagon can represent the ten commandments, the ten realms of the soul, or the ten fingers and toes of the human form, suggesting a connection between the spiritual and physical worlds. This symbol represents a spiral composed of regular decagons, forming a kind of hyperboloid.
  <br><br><br>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
