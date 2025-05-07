@@ -356,7 +356,7 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 <hr>
 <h4>57. Grade Undecagrâmica</h4>
 <a href="../vr/GridUndecagram.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/56A.png" class="foto" alt="Grade Undecagrâmica 3D"></a>
- <br><br><br><br>O undecagrama, também chamado hendecagrama, é um símbolo que tem sido usado em joias, colares e outros itens, mas não possui um significado específico na Geometria Sagrada. Neste símbolo, podemos visualizar pentagramas sobrepostos a hexagramas. Ao considerarmos as combinações de 5 em 5, 4 em 4, 3 em 3 e 2 em 2 vértices, criamos a Grade Undecagrâmica.
+ <br><br><br><br>O undecagrama, também chamado hendecagrama, é um símbolo que tem sido usado em joias, colares e outros itens, e pode ser associado a vários significados simbólicos, incluindo equilíbrio, verdade e o arcanjo Uriel. Neste símbolo, podemos visualizar pentagramas sobrepostos a hexagramas. Embora não seja tão proeminente quanto outras formas como o hexágono ou o triângulo, os onze lados únicos do hendecágono podem representar uma sensação de completude ou interconexão, com o número 11 frequentemente associado à iluminação e à orientação divina. Ao considerarmos as combinações de 5 em 5, 4 em 4, 3 em 3 e 2 em 2 vértices, criamos a Grade Undecagrâmica.
  <br><br><br>
  <hr>
 <h4>58. Grade Dodecagrâmica</h4>
