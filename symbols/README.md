@@ -358,7 +358,7 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
  <hr>
 <h4>57. Undecagram Grid</h4>
 <a href="vr/GridUndecagram.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/56A.png" class="foto" alt="Undecagram Grid"></a>
- <br><br><br><br>The undecagram, also called the hendecagram, is a symbol that has been used on jewelry, necklaces, and other items, but it has no specific meaning in Sacred Geometry. In this symbol, we can see pentagrams superimposed on hexagrams. By considering the combinations of 5 by 5, 4 by 4, 3 by 3 and 2 by 2 vertices, we create the Undecagram Grid.
+ <br><br><br><br>The undecagram, also called the hendecagram, is a symbol that has been used on jewelry, necklaces and other items, and can be associated with various symbolic meanings, including balance, truth, and the archangel Uriel. In this symbol, we can see pentagrams superimposed on hexagrams. While not as prominent as other shapes like the hexagon or triangle, the hendecagram's unique eleven sides can represent a sense of completeness or interconnectedness, with the number 11 often associated with enlightenment and divine guidance. By considering the combinations of 5 by 5, 4 by 4, 3 by 3 and 2 by 2 vertices, we create the Undecagram Grid.
  <br><br><br>
  <hr>
 <h4>58. Dodecagram Grid</h4>
