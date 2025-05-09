@@ -498,6 +498,26 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <a href="vr/Decagons.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/79A.png" class="foto" alt="Decagons"></a>
  <br><br><br><br>In Sacred Geometry, a decagon symbolizes balance, harmony, and the interconnectedness of the universe. It is a more complex shape than some others, such as the pentagon, offering a richer symbolic landscape. The ten sides of the decagon can represent the ten commandments, the ten realms of the soul, or the ten fingers and toes of the human form, suggesting a connection between the spiritual and physical worlds. This symbol represents a spiral composed of regular decagons, forming a kind of hyperboloid.
  <br><br><br>
+<hr>
+<h4>85. Hypercube</h4>
+<a href="vr/Hypercube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/85A.png" class="foto" alt="Hypercube"></a>
+ <br><br><br><br>A hypercube, also known as an octacoron or tesseract, is a geometric shape that can be visualized as a cube that extends beyond our three-dimensional reality. In Sacred Geometry, the hypercube is seen as a symbol of the union of matter and energy, representing the fourth dimension, the expansion of consciousness, and the connection to dimensions beyond our three-dimensional understanding. A hypercube is formed by eight interconnected cubes and can be represented by joining the vertices of two parallel cubes.
+ <br><br><br>
+ <hr>
+<h4>86. Hypercube 3D</h4>
+<a href="vr/Hypercubev1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/86A.png" class="foto" alt="Hypercube"></a>
+ <br><br><br><br>In Sacred Geometry, the hypercube is seen as a symbol of the union of matter and energy, representing the fourth dimension, the expansion of consciousness, and the connection to dimensions beyond our three-dimensional understanding. A hypercube is formed by eight interconnected cubes and can be represented by joining the vertices of two parallel cubes. A hypercube, also known as an octacoron or tesseract, is a geometric shape that can be visualized as a cube that extends beyond our three-dimensional reality.
+ <br><br><br>
+ <hr>
+<h4>87. Hypercube 3D v1</h4>
+<a href="vr/Hypercubev2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/87A.png" class="foto" alt="Hypercube"></a>
+ <br><br><br><br>A hypercube is formed by eight interconnected cubes and can be represented by joining the vertices of two parallel cubes. A hypercube, also known as an octacoron or tesseract, is a geometric shape that can be visualized as a cube that extends beyond our three-dimensional reality. In Sacred Geometry, the hypercube is seen as a symbol of the union of matter and energy, representing the fourth dimension, the expansion of consciousness, and the connection to dimensions beyond our three-dimensional understanding.
+ <br><br><br>
+ <hr>
+<h4>88. Hypercube 3D v2</h4>
+<a href="vr/Hypercubev3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/88A.png" class="foto" alt="Hypercube"></a>
+ <br><br><br><br>A hypercube, also known as an octacoron or tesseract, is a geometric shape that can be visualized as a cube that extends beyond our three-dimensional reality. In Sacred Geometry, the hypercube is seen as a symbol of the union of matter and energy, representing the fourth dimension, the expansion of consciousness, and the connection to dimensions beyond our three-dimensional understanding. A hypercube is formed by eight interconnected cubes and can be represented by joining the vertices of two parallel cubes.
+ <br><br><br>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
