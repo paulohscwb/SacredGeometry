@@ -496,6 +496,26 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 <a href="../vr/Decagons.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/79A.png" class="foto" alt="Decágonos"></a>
  <br><br><br>Na Geometria Sagrada, um decágono simboliza equilíbrio, harmonia e a interconexão do universo. É uma forma mais complexa do que algumas outras, como o pentágono, oferecendo uma paisagem simbólica mais rica. Os dez lados do decágono podem representar os dez mandamentos, os dez reinos da alma ou os dez dedos das mãos e dos pés da forma humana, sugerindo uma conexão entre os mundos espiritual e físico. Este símbolo representa uma espiral composta de decágonos regulares, formando uma espécie de hiperboloide.
  <br><br><br>
+<hr>
+<h4>85. Hipercubo</h4>
+<a href="../vr/Hypercube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/85A.png" class="foto" alt="Hipercubo"></a>
+ <br><br><br>Um hipercubo, também denominado como octácoro ou tesseracto, é uma forma geométrica que pode ser visualizada como um cubo que se estende para além da nossa realidade tridimensional. Na Geometria Sagrada, o hipercubo é visto como um símbolo da união da matéria e da energia, representando a quarta dimensão, a expansão da consciência e a conexão com dimensões além da nossa compreensão tridimensional. Um hipercubo é formado por oito cubos interligados e pode ser representado unindo os vértices de dois cubos paralelos.
+ <br><br><br>
+ <hr>
+<h4>86. Hipercubo 3D</h4>
+<a href="../vr/Hypercubev1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/86A.png" class="foto" alt="Hipercubo"></a>
+ <br><br><br>Na Geometria Sagrada, o hipercubo é visto como um símbolo da união da matéria e da energia, representando a quarta dimensão, a expansão da consciência e a conexão com dimensões além da nossa compreensão tridimensional. Um hipercubo é formado por oito cubos interligados e pode ser representado unindo os vértices de dois cubos paralelos. Um hipercubo, também denominado como octácoro ou tesseracto, é uma forma geométrica que pode ser visualizada como um cubo que se estende para além da nossa realidade tridimensional.
+ <br><br><br>
+ <hr>
+<h4>87. Hipercubo 3D v1</h4>
+<a href="../vr/Hypercubev2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/87A.png" class="foto" alt="Hipercubo"></a>
+ <br><br><br>Um hipercubo é formado por oito cubos interligados e pode ser representado unindo os vértices de dois cubos paralelos. Um hipercubo, também denominado como octácoro ou tesseracto, é uma forma geométrica que pode ser visualizada como um cubo que se estende para além da nossa realidade tridimensional. Na Geometria Sagrada, o hipercubo é visto como um símbolo da união da matéria e da energia, representando a quarta dimensão, a expansão da consciência e a conexão com dimensões além da nossa compreensão tridimensional.
+ <br><br><br>
+ <hr>
+<h4>88. Hipercubo 3D v2</h4>
+<a href="../vr/Hypercubev3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/88A.png" class="foto" alt="Hipercubo"></a>
+ <br><br><br>Um hipercubo, também denominado como octácoro ou tesseracto, é uma forma geométrica que pode ser visualizada como um cubo que se estende para além da nossa realidade tridimensional. Na Geometria Sagrada, o hipercubo é visto como um símbolo da união da matéria e da energia, representando a quarta dimensão, a expansão da consciência e a conexão com dimensões além da nossa compreensão tridimensional. Um hipercubo é formado por oito cubos interligados e pode ser representado unindo os vértices de dois cubos paralelos.
+ <br><br><br>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
