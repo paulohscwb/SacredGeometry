@@ -208,7 +208,7 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
  <hr>
 <h4>26. Curved Merkaba 3D v4</h4>
 <a href="../symbols/vr/CurvedMerkabav5.htm" target="_blank" title="3D model" class="fotoA"><img src="../symbols/ar/83A.png" class="foto" alt="Curved Merkaba 3D"></a>
- <br><br><br><br>It is composed of two tetrahedrons rotating in opposite directions, forming a three-dimensional star. The symbol with the replacement of edges by arcs passing through the vertices of the tetrahedrons represents the curved Merkaba. The geometric structure and symmetry of the Merkaba have captured the imagination of those interested in Sacred Geometry. The Merkaba is a sacred geometric symbol that represents the union of masculine and feminine energies and the integration of the earthly and cosmic realms.
+ <br><br><br><br>The geometric structure and symmetry of the Merkaba have captured the imagination of those interested in Sacred Geometry. It is composed of two tetrahedrons rotating in opposite directions, forming a three-dimensional star. The symbol with the replacement of edges by arcs passing through the vertices of the tetrahedrons represents the curved Merkaba. The Merkaba is a sacred geometric symbol that represents the union of masculine and feminine energies and the integration of the earthly and cosmic realms.
  <br><br><br>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
