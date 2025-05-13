@@ -200,6 +200,16 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 <a href="../../symbols/vr/CurvedMerkabav3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../symbols/ar/45A.png" class="foto" alt="Merkaba curvada 3D"></a>
  <br><br><br>O símbolo com a substituição de arestas por arcos que passam pelos vértices dos tetraedros representa a Merkaba curvada. A estrutura geométrica e a simetria da Merkaba capturaram a imaginação dos interessados ​​em Geometria Sagrada. A Merkaba é um símbolo geométrico sagrado que representa a união das energias masculina e feminina e a integração dos reinos terrestre e cósmico. É composta por dois tetraedros que giram em direções opostas, formando uma estrela tridimensional.
  <br><br><br>
+ <hr>
+<h4>25. Merkaba curvada 3D v3</h4>
+<a href="../../symbols/vr/CurvedMerkabav4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../symbols/ar/82A.png" class="foto" alt="Merkaba curvada 3D"></a>
+ <br><br><br>A estrutura geométrica e a simetria da Merkaba capturaram a imaginação dos interessados ​​em Geometria Sagrada. A Merkaba é um símbolo geométrico sagrado que representa a união das energias masculina e feminina e a integração dos reinos terrestre e cósmico. É composta por dois tetraedros que giram em direções opostas, formando uma estrela tridimensional. O símbolo com a substituição de arestas por arcos que passam pelos vértices dos tetraedros representa a Merkaba curvada.
+ <br><br><br>
+ <hr>
+<h4>26. Merkaba curvada 3D v4</h4>
+<a href="../../symbols/vr/CurvedMerkabav5.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../symbols/ar/83A.png" class="foto" alt="Merkaba curvada 3D"></a>
+ <br><br><br>A Merkaba é um símbolo geométrico sagrado que representa a união das energias masculina e feminina e a integração dos reinos terrestre e cósmico. É composta por dois tetraedros que giram em direções opostas, formando uma estrela tridimensional. O símbolo com a substituição de arestas por arcos que passam pelos vértices dos tetraedros representa a Merkaba curvada. A estrutura geométrica e a simetria da Merkaba capturaram a imaginação dos interessados ​​em Geometria Sagrada.
+ <br><br><br>
  <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
