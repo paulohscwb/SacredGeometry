@@ -1,0 +1,2924 @@
+<html>
+  <head>
+    <title>Sacred Geometry</title>
+	<link rel="icon" type="image/png" href="salas/imagens/icone.png">
+	<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+	<script src="https://unpkg.com/aframe-orbit-controls@1.3.0/dist/aframe-orbit-controls.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script src="nomes.js"></script>
+	<link rel="stylesheet" href="nomes.css">
+  </head>
+  <body>
+<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Lato; font-size:2.75vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2025 Paulo Henrique Siqueira</div>
+    <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
+		<a-assets>
+			<a-mixin id="mtl3" material="side: double; color: #fd0; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl1" material="side: double; color: #5df; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl4" material="side: double; color: #8af; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl5" material="side: double; color: #5ef; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="ci" geometry="height:5.1962; radius:0.015;" mixin="mtl1"></a-mixin>
+			<a-mixin id="esferad" mixin="mtl1" geometry="radius: 0.015;" material="metalness:0.5; roughness:0.3;"></a-mixin>
+			<a-mixin id="tr" rotation="0 -90 -45" scale="1.4 1.4 0.5" geometry="radius:0.1;" mixin="mtl3">
+			<a-mixin id="trv" mixin="tr mtl3">
+			<a-mixin id="trb" mixin="tr mtl4">
+			<a-mixin id="ci1" mixin="ci mtl5">
+			<a-mixin id="esferad1" mixin="esferad mtl5">
+		</a-assets>
+		<a-entity camera="fov:105; near:0.001;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; initialPosition: 0 0 5; minDistance: 0; maxDistance: 5000;"></a-entity>
+		<a-light type="point" color="yellow" intensity="0.5" position="0 0 0"></a-light>
+		
+		<a-entity scale="2.8 2.8 2.8">
+			<a-entity>
+				<a-entity>
+					<a-entity>
+						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
+						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="-0.57 1.9 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.9 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.57 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.5 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.6 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.6 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
+						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="-0.57 1.9 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.9 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.57 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.5 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.6 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.6 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
+						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="-0.57 1.9 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.9 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.57 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.5 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.6 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.6 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
+						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 2 0"></a-sphere>
+						<a-sphere mixin="esferad" position="-0.57 1.9 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.9 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.69 1.85 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.69 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.69 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.57 1.85 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.57 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.57 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.44 1.8 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.8 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.8 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.3 1.65 0" rotation="0 0 0" height="0.3"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.3 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.3 1.5 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.55 1.7 0" rotation="0 0 90" height="0.285"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.7 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.7 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.4 1.65 0" rotation="0 0 0" height="0.1"></a-cylinder>
+						<a-sphere mixin="esferad" position="-0.4 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="0.4 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="1 1.6 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.6 1.6 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.6 1.6 0"></a-sphere>
+						<a-cylinder mixin="ci" position="-0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-cylinder mixin="ci" position="0.9 1.5 0" rotation="0 0 90" height="1.2"></a-cylinder>
+						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
+						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
+					</a-entity>
+					</a-entity>
+				<a-entity>
+				<a-entity scale="1.2 1.2 1.2">
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity scale="1.2 1.2 1.2" position="0 0 -0.25" rotation="0 0 5.625">
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity scale="1.2 1.2 1.2" position="0 0 -0.51">
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity scale="1.2 1.2 1.2" position="0 0 -0.78" rotation="0 0 5.625">
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity scale="1.2 1.2 1.2" position="0 0 -1.06" >
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity scale="1.2 1.2 1.2" position="0 0 -1.35"  rotation="0 0 5.625">
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity scale="1.2 1.2 1.2" position="0 0 -1.65" >
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity scale="1.2 1.2 1.2" position="0 0 -1.96"  rotation="0 0 5.625">
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity scale="1.2 1.2 1.2" position="0 0 -2.28">
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity scale="1.2 1.2 1.2" position="0 0 -2.61" rotation="0 0 5.625">
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity scale="1.2 1.2 1.2" position="0 0 -2.95">
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity scale="1.2 1.2 1.2" position="0 0 -3.3" rotation="0 0 5.625">
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity scale="1.2 1.2 1.2" position="0 0 -3.66">
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity scale="1.2 1.2 1.2" position="0 0 -4.03" rotation="0 0 5.625">
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity scale="1.2 1.2 1.2" position="0 0 -4.41">
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity scale="1.2 1.2 1.2" position="0 0 -4.8" rotation="0 0 5.625">
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity scale="1.2 1.2 1.2" position="0 0 -5.2">
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity scale="1.2 1.2 1.2" position="0 0 -5.61" rotation="0 0 5.625">
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity scale="1.2 1.2 1.2" position="0 0 -6.03">
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity scale="1.2 1.2 1.2" position="0 0 -6.46" rotation="0 0 5.625">
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity scale="1.2 1.2 1.2" position="0 0 -6.9">
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity scale="1.2 1.2 1.2" position="0 0 -7.35" rotation="0 0 5.625">
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-entity scale="1.2 1.2 1.2" position="0 0 -7.81">
+					<a-entity>
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 180">
+						<a-entity rotation="0 0 0">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 11.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 22.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 33.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 45">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 56.25">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 67.5">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 78.75">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+						<a-entity rotation="0 0 90">
+							<a-tetrahedron mixin="tr" position="1.11 0 0"></a-tetrahedron>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				</a-entity>
+			</a-entity>
+		</a-entity>
+		
+		
+		<a-light type="ambient" color="white" intensity="0.5"></a-light>
+		<a-light type="directional" color="white" intensity="0.5" position="-7 5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.5" position="7 -5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.5" position="7 5 -1"></a-light>
+		<a-sky color="black" radius="25"></a-sky><a-sky src="https://paulohscwb.github.io/SacredGeometry/imagens/8k_stars_milky_way.jpg" radius="18"></a-sky>
+    </a-scene>
+	<div class="box">
+		<span class="titulo">Sahasrara Yantra</span>
+	</div>
+  </body>
+</html>
