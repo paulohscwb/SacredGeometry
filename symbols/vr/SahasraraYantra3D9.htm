@@ -19,7 +19,7 @@
 			<a-mixin id="mtl5" material="side: double; color: #5ef; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
 			<a-mixin id="ci" geometry="height:5.1962; radius:0.015;" mixin="mtl1"></a-mixin>
 			<a-mixin id="esferad" mixin="mtl1" geometry="radius: 0.015;" material="metalness:0.5; roughness:0.3;"></a-mixin>
-			<a-mixin id="tr" rotation="0 -90 -45" scale="0.137 0.127 0.064" obj-model="obj: #aq; mtl: #mt">
+			<a-mixin id="tr" rotation="0 -90 -45" scale="0.132 0.132 0.065" obj-model="obj: #aq; mtl: #mt">
 			<a-mixin id="trv" mixin="tr mtl3">
 			<a-mixin id="trb" mixin="tr mtl4">
 			<a-mixin id="ci1" mixin="ci mtl5">
@@ -29,7 +29,7 @@
 		</a-assets>
 		<a-box mixin="piso" class="piso" visible="false" position="0 -1.5 0"></a-box>
 		<a-entity camera="fov:1; near:0.001;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0; initialPosition: 0 0 750; maxDistance: 1100;"></a-entity>
-		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
+		<a-light type="point" color="yellow" intensity="0.5" position="0 0 0"></a-light>
 		
 		<a-entity scale="3 3 3">
 			<a-entity>
