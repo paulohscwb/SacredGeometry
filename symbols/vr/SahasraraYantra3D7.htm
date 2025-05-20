@@ -26,6 +26,16 @@
 			<a-mixin id="esferad1" mixin="esferad mtl5">
 			<a-asset-item id="mt" src="https://paulohscwb.github.io/polyhedra2/fractalnonconvex/vr/outros/c1.mtl"></a-asset-item>
 			<a-asset-item id="aq" src="https://paulohscwb.github.io/polyhedra/polyhedron/vr/outros/HexakisTetrahedron_n41.obj"></a-asset-item>
+			<a-mixin id="r1" rotation="0 0 11.25"></a-mixin>
+			<a-mixin id="r2" rotation="0 0 22.5"></a-mixin>
+			<a-mixin id="r3" rotation="0 0 33.75"></a-mixin>
+			<a-mixin id="r4" rotation="0 0 45"></a-mixin>
+			<a-mixin id="r5" rotation="0 0 56.25"></a-mixin>
+			<a-mixin id="r6" rotation="0 0 67.5"></a-mixin>
+			<a-mixin id="r7" rotation="0 0 78.75"></a-mixin>
+			<a-mixin id="r8" rotation="0 0 90"></a-mixin>
+			<a-mixin id="r9" rotation="0 0 -90"></a-mixin>
+			<a-mixin id="r10" rotation="0 0 180"></a-mixin>
 		</a-assets>
 		<a-box mixin="piso" class="piso" visible="false" position="0 -1.5 0"></a-box>
 		<a-entity camera="fov:1; near:0.001;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0; initialPosition: 0 0 750; maxDistance: 1100;"></a-entity>
@@ -74,7 +84,7 @@
 						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
 						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
 					</a-entity>
-					<a-entity rotation="0 0 90">
+					<a-entity mixin="r8">
 						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
 						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
 						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
@@ -114,7 +124,7 @@
 						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
 						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
 					</a-entity>
-					<a-entity rotation="0 0 180">
+					<a-entity mixin="r10">
 						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
 						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
 						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
@@ -154,7 +164,7 @@
 						<a-sphere mixin="esferad" position="-1.5 1.5 0"></a-sphere>
 						<a-sphere mixin="esferad" position="1.5 1.5 0"></a-sphere>
 					</a-entity>
-					<a-entity rotation="0 0 -90">
+					<a-entity mixin="r9">
 						<a-cylinder mixin="ci" position="0 2 0" rotation="0 0 90" height="1.4"></a-cylinder>
 						<a-cylinder mixin="ci" position="0 1.9 0" rotation="0 0 90" height="1.14"></a-cylinder>
 						<a-sphere mixin="esferad" position="-0.69 2 0"></a-sphere>
@@ -198,109 +208,109 @@
 				<a-entity>
 				<a-entity scale="1.2 1.2 1.2">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
@@ -308,109 +318,109 @@
 				</a-entity>
 				<a-entity scale="1.08 1.08 1.08" rotation="0 0 5.625">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
@@ -418,109 +428,109 @@
 				</a-entity>
 				<a-entity scale="0.972 0.972 0.972">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
@@ -528,109 +538,109 @@
 				</a-entity>
 				<a-entity scale="0.8748 0.8748 0.8748" rotation="0 0 5.625">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
@@ -638,109 +648,109 @@
 				</a-entity>
 				<a-entity scale="0.78732 0.78732 0.78732">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
@@ -748,109 +758,109 @@
 				</a-entity>
 				<a-entity scale="0.70859 0.70859 0.70859" rotation="0 0 5.625">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
@@ -858,109 +868,109 @@
 				</a-entity>
 				<a-entity scale="0.63773 0.63773 0.63773">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
@@ -968,109 +978,109 @@
 				</a-entity>
 				<a-entity scale="0.57396 0.57396 0.57396" rotation="0 0 5.625">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
@@ -1078,109 +1088,109 @@
 				</a-entity>
 				<a-entity scale="0.51656 0.51656 0.51656">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
@@ -1188,109 +1198,109 @@
 				</a-entity>
 				<a-entity scale="0.4649 0.4649 0.4649" rotation="0 0 5.625">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
@@ -1298,109 +1308,109 @@
 				</a-entity>
 				<a-entity scale="0.4184 0.4184 0.4184">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
@@ -1408,109 +1418,109 @@
 				</a-entity>
 				<a-entity scale="0.37657 0.37657 0.37657" rotation="0 0 5.625">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
@@ -1518,109 +1528,109 @@
 				</a-entity>
 				<a-entity scale="0.33892 0.33892 0.33892">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
@@ -1628,109 +1638,109 @@
 				</a-entity>
 				<a-entity scale="0.30502 0.30502 0.30502" rotation="0 0 5.625">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
@@ -1738,109 +1748,109 @@
 				</a-entity>
 				<a-entity scale="0.27452 0.27452 0.27452">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
@@ -1848,109 +1858,109 @@
 				</a-entity>
 				<a-entity scale="0.24707 0.24707 0.24707" rotation="0 0 5.625">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
@@ -1958,109 +1968,109 @@
 				</a-entity>
 				<a-entity scale="0.22236 0.22236 0.22236">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
@@ -2068,109 +2078,109 @@
 				</a-entity>
 				<a-entity scale="0.20013 0.20013 0.20013" rotation="0 0 5.625">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
@@ -2178,109 +2188,109 @@
 				</a-entity>
 				<a-entity scale="0.18011 0.18011 0.18011">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
@@ -2288,109 +2298,109 @@
 				</a-entity>
 				<a-entity scale="0.1621 0.1621 0.1621" rotation="0 0 5.625">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
@@ -2398,109 +2408,109 @@
 				</a-entity>
 				<a-entity scale="0.14589 0.14589 0.14589">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
@@ -2508,109 +2518,109 @@
 				</a-entity>
 				<a-entity scale="0.1313 0.1313 0.1313" rotation="0 0 5.625">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
@@ -2618,109 +2628,109 @@
 				</a-entity>
 				<a-entity scale="0.11817 0.11817 0.11817">
 					<a-entity>
-						<a-entity rotation="0 0 0">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						
-					</a-entity>
-					<a-entity rotation="0 0 90">
-						<a-entity rotation="0 0 0">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 11.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 22.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 33.75">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 45">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 56.25">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 67.5">
-							<a-entity mixin="tr"></a-entity>
-						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 -90">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r8">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
 					</a-entity>
-					<a-entity rotation="0 0 180">
-						<a-entity rotation="0 0 0">
+					<a-entity mixin="r9">
+						<a-entity>
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 11.25">
+						<a-entity mixin="r1">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 22.5">
+						<a-entity mixin="r2">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 33.75">
+						<a-entity mixin="r3">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 45">
+						<a-entity mixin="r4">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 56.25">
+						<a-entity mixin="r5">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 67.5">
+						<a-entity mixin="r6">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
-						<a-entity rotation="0 0 78.75">
+						<a-entity mixin="r7">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						
+					</a-entity>
+					<a-entity mixin="r10">
+						<a-entity>
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r1">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r2">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r3">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r4">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r5">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r6">
+							<a-entity mixin="tr"></a-entity>
+						</a-entity>
+						<a-entity mixin="r7">
 							<a-entity mixin="tr"></a-entity>
 						</a-entity>
 						
