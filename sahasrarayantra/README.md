@@ -26,8 +26,8 @@ function urlHandler(value) {
 <p id="p1"></p>
   <h2 align="center"><img src="vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Sahasrara Yantra</h2>
 The mathematical structures used in Sacred Geometry can be found in the arts, architecture and even in our DNA. These structures are everywhere, and serve as a link between analytical thinking and the intuitive side, or between science and spirituality.
-The Sahasrara Yantra is often depicted as a lotus flower with approximately eight hundred petals, symbolizing pure consciousness and enlightenment. The Sahasrara Yantra, often called the Crown Chakra Yantra, is a Sacred Geometry symbol that represents the Sahasrara chakra: the seventh and highest chakra in the chakra system. It is a powerful symbol that can raise energy, create sacred space, and support meditation and yoga practices.
-This work shows the Sahasrara Yantra symbols of Sacred Geometry modeled in 2D and 3D, with the views that can be accessed with the Virtual Reality resources with various polyhedrons.
+<br>The Sahasrara Yantra is often depicted as a lotus flower with approximately eight hundred petals, symbolizing pure consciousness and enlightenment. The Sahasrara Yantra, often called the Crown Chakra Yantra, is a Sacred Geometry symbol that represents the Sahasrara chakra: the seventh and highest chakra in the chakra system. It is a powerful symbol that can raise energy, create sacred space, and support meditation and yoga practices.
+<br>This work shows the Sahasrara Yantra symbols of Sacred Geometry modeled in 2D and 3D, with the views that can be accessed with the Virtual Reality resources with various polyhedrons.
 
 <p align="center"><a href="#m3d">3D Models</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../">Home</a></p>
 <hr>

@@ -26,8 +26,8 @@ function urlHandler(value) {
 <p id="p1"></p>
   <h2 align="center"><img src="../vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="45"> Sahasrara Yantra</h2>
   As estruturas matemáticas utilizadas na Geometria Sagrada podem ser encontradas nas artes, arquitetura e até em nosso DNA. Estas estruturas estão em toda parte, e servem de ligação entre o pensamento analítico e o lado intuitivo, ou então entre a ciência e a espiritualidade.
-  O Sahasrara Yantra, frequentemente chamado de Yantra do Chakra Coronário, é um símbolo da Geometria Sagrada que representa o chakra Sahasrara: o sétimo e mais elevado chakra do sistema de chakras. É um símbolo poderoso que pode elevar a energia, criar um espaço sagrado e apoiar práticas de meditação e yoga. O Sahasrara Yantra é frequentemente representado como uma flor de lótus com com aproximadamente oitocentas pétalas, simbolizando a consciência pura e a iluminação.
-  Este trabalho mostra os símbolos Sahasrara Yantra da Geometria Sagrada modelados em 2D e 3D, com as visualizações que podem ser acessadas com os recursos de Realidade Virtual com vários poliedros.
+  <br>O Sahasrara Yantra, frequentemente chamado de Yantra do Chakra Coronário, é um símbolo da Geometria Sagrada que representa o chakra Sahasrara: o sétimo e mais elevado chakra do sistema de chakras. É um símbolo poderoso que pode elevar a energia, criar um espaço sagrado e apoiar práticas de meditação e yoga. O Sahasrara Yantra é frequentemente representado como uma flor de lótus com com aproximadamente oitocentas pétalas, simbolizando a consciência pura e a iluminação.
+  <br>Este trabalho mostra os símbolos Sahasrara Yantra da Geometria Sagrada modelados em 2D e 3D, com as visualizações que podem ser acessadas com os recursos de Realidade Virtual com vários poliedros.
 
  <p align="center"><a href="#m3d">Modelos 3D</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="../../pt-br/">Página Inicial</a></p>
 <hr>
