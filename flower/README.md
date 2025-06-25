@@ -14,6 +14,7 @@
 		<option value="../grid/">Grid of life and the poyhedra of Plato and Archimedes</option>
 		<option value="../metatron/">Metatron and the polyhedra of Plato and Archimedes</option>
 		<option value="../merkaba/">Merkaba star</option>
+		<option value="../sahasrarayantra/">Sahasrara Yantra</option>
 	</select>
 </form>
 <script>

@@ -15,6 +15,7 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 <h3 style="margin-top:3px"><a target="_blank" href="../grid/pt-br/"><img src="../grid/ar/58A.png" style="margin-bottom:-10px" width="40"> Grade da vida e os poliedros de Platão e de Arquimedes</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="../metatron/pt-br/"><img src="../metatron/ar/73A.png" style="margin-bottom:-10px" width="40"> Cubo de Metatron e os poliedros de Platão e de Arquimedes</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="../merkaba/pt-br/"><img src="../merkaba/ar/60A.png" style="margin-bottom:-10px" width="40"> Estrela Merkaba</a></h3>
+<h3 style="margin-top:3px"><a target="_blank" href="../sahasrarayantra/pt-br/"><img src="../sahasrarayantra/ar/3A.png" style="margin-bottom:-10px" width="40"> Sahasrara Yantra</a></h3>
 <hr>
 <h3 style="margin-top:3px"><a target="_blank" href="https://paulohscwb.github.io/grid-of-life/pt-br/"><img src="https://paulohscwb.github.io/grid-of-life/archimedes/vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="40"> O símbolo da Grade da vida e outros poliedros</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="https://paulohscwb.github.io/metatron/pt-br/"><img src="https://paulohscwb.github.io/metatron/catalan/vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="40"> O símbolo do Cubo de Metatron e outros poliedros</a></h3>

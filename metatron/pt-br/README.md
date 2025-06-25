@@ -14,6 +14,7 @@
 		<option value="../../grid/pt-br/">Grade da vida e os poliedros de Platão e de Arquimedes</option>
 		<option disabled value="../../metatron/pt-br/">Cubo de Metatron e os poliedros de Platão e de Arquimedes</option>
 		<option value="../../merkaba/pt-br/">Estrela Merkaba</option>
+		<option value="../../sahasrarayantra/pt-br/">Sahasrara Yantra</option>
 	</select>
 </form>
 <script>

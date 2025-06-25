@@ -15,6 +15,7 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <h3 style="margin-top:3px"><a target="_blank" href="grid/"><img src="grid/ar/58A.png" style="margin-bottom:-10px" width="40"> Grid of life and the polyhedra of Plato and Archimedes</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="metatron/"><img src="metatron/ar/73A.png" style="margin-bottom:-10px" width="40"> Metatron Cube and the polyhedra of Plato and Archimedes</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="merkaba/"><img src="merkaba/ar/60A.png" style="margin-bottom:-10px" width="40"> Merkaba Star</a></h3>
+<h3 style="margin-top:3px"><a target="_blank" href="sahasrarayantra/"><img src="sahasrarayantra/ar/3A.png" style="margin-bottom:-10px" width="40"> Sahasrara Yantra</a></h3>
 <hr>
 <h3 style="margin-top:3px"><a target="_blank" href="https://paulohscwb.github.io/grid-of-life/"><img src="https://paulohscwb.github.io/grid-of-life/archimedes/vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="40"> The Grid of Life symbol and other polyhedrons</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="https://paulohscwb.github.io/metatron/"><img src="https://paulohscwb.github.io/metatron/catalan/vr/salas/imagens/icone.png" style="margin-bottom:-10px" width="40"> The Metatron's cube symbol and other polyhedrons</a></h3>
