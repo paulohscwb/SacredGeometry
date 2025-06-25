@@ -365,7 +365,6 @@ The mathematical structures used in Sacred Geometry can be found in the arts, ar
 <a href="vr/model32a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/64A.png" class="foto" alt="Sahasrara Yantra with great truncated icosahedrons"></a>
  <br>Sahasrara Yantra with great truncated icosahedrons
  <br>
-<hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 

@@ -365,7 +365,6 @@ function urlHandler(value) {
 <a href="../vr/model32a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/64A.png" class="foto" alt="Sahasrara Yantra com grandes icosaedros truncados"></a>
  <br>Sahasrara Yantra com grandes icosaedros truncados
  <br>
-<hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
