@@ -517,6 +517,16 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 <a href="../vr/Hypercubev3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/88A.png" class="foto" alt="Hipercubo"></a>
  <br><br><br>Um hipercubo, também denominado como octácoro ou tesseracto, é uma forma geométrica que pode ser visualizada como um cubo que se estende para além da nossa realidade tridimensional. Na Geometria Sagrada, o hipercubo é visto como um símbolo da união da matéria e da energia, representando a quarta dimensão, a expansão da consciência e a conexão com dimensões além da nossa compreensão tridimensional. Um hipercubo é formado por oito cubos interligados e pode ser representado unindo os vértices de dois cubos paralelos.
  <br><br><br>
+<hr>
+<h4>89. Retângulos e Espirais Áureos</h4>
+<a href="../vr/GoldenRectangles2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/89A.png" class="foto" alt="Retângulos Áureos"></a>
+ <br><br><br>O símbolo formado por três retângulos dourados interligados pode ser construído de duas maneiras. Podemos definir os lados de um retângulo áureo como duas arestas opostas e as respectivas diagonais perpendiculares de um icosaedro. A segunda maneira de construir este símbolo está na escolha das linhas com proporções áureas que aparecem no símbolo da Flor da Vida. Na Geometria Sagrada, três retângulos áureos interligados representam o cosmos e a união de forças.
+ <br><br><br> 
+ <hr>
+<h4>90. Retângulos e Espirais Áureos v2</h4>
+<a href="../vr/GoldenRectangles3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/90A.png" class="foto" alt="Retângulos Áureos"></a>
+ <br><br><br>Na Geometria Sagrada, três retângulos áureos interligados representam o cosmos e a união de forças. O símbolo formado por três retângulos dourados interligados pode ser construído de duas maneiras. Podemos definir os lados de um retângulo áureo como duas arestas opostas e as respectivas diagonais perpendiculares de um icosaedro. A segunda maneira de construir este símbolo está na escolha das linhas com proporções áureas que aparecem no símbolo da Flor da Vida.
+ <br><br><br>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
