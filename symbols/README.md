@@ -519,6 +519,15 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <a href="vr/Hypercubev3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/88A.png" class="foto" alt="Hypercube"></a>
  <br><br><br><br>A hypercube, also known as an octacoron or tesseract, is a geometric shape that can be visualized as a cube that extends beyond our three-dimensional reality. In Sacred Geometry, the hypercube is seen as a symbol of the union of matter and energy, representing the fourth dimension, the expansion of consciousness, and the connection to dimensions beyond our three-dimensional understanding. A hypercube is formed by eight interconnected cubes and can be represented by joining the vertices of two parallel cubes.
  <br><br><br>
+<hr>
+<h4>89. Golden Rectangles and Spirals</h4>
+<a href="vr/GoldenRectangles2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/89A.png" class="foto" alt="Golden Rectangles"></a>
+ <br><br><br><br>The symbol formed by three interconnected golden rectangles can be constructed in two ways. We can define the sides of a golden rectangle as two opposite edges and the respective perpendicular diagonals of an icosahedron. The second way to construct this symbol is by choosing the lines with golden proportions that appear in the symbol of the Flower of Life. In Sacred Geometry, three interconnected golden rectangles represent the cosmos and the union of forces.
+ <br><br><br>
+ <hr>
+<h4>90. Golden Rectangles and Spirals v2</h4>
+<a href="vr/GoldenRectangles3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/90A.png" class="foto" alt="Golden Rectangles"></a>
+ <br><br><br><br>In Sacred Geometry, three interconnected golden rectangles represent the cosmos and the union of forces. The symbol formed by three interconnected golden rectangles can be constructed in two ways. We can define the sides of a golden rectangle as two opposite edges and the respective perpendicular diagonals of an icosahedron. The second way to construct this symbol is by choosing the lines with golden proportions that appear in the symbol of the Flower of Life.
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
