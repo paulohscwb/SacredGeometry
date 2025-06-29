@@ -1,0 +1,214 @@
+<html>
+  <head>
+    <title>Sacred Geometry</title>
+	<link rel="icon" type="image/png" href="salas/imagens/icone.png">
+	<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+	<script src="https://unpkg.com/aframe-orbit-controls@1.3.0/dist/aframe-orbit-controls.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script src="nomes.js"></script>
+	<link rel="stylesheet" href="nomes.css">
+  </head>
+  <body>
+<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Lato; font-size:2.75vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2025 Paulo Henrique Siqueira</div>
+    <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
+		<a-assets>
+			<a-mixin id="esferad" mixin="mtl1" geometry="radius: 0.03;" material="metalness:0.5; roughness:0.3;"></a-mixin>
+			<a-mixin id="esferad1" mixin="mtl2" geometry="radius: 0.02;" material="metalness:0.5; roughness:0.3;"></a-mixin>
+			<a-mixin id="mtl1" material="side: double; color: #0fc; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl2" material="side: double; color: #fd0; opacity:0.35; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl3" material="side: double; color: #0088ff; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl4" material="side: double; color: #0fc; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="tr" geometry="radius-tubular:0.005; arc:90; radius:1; segments-tubular: 50" mixin="mtl1"></a-mixin>
+			<a-mixin id="ci" geometry="radius:0.01; height:1;" mixin="mtl2">
+			<a-mixin id="ci1" geometry="radius:0.02;" mixin="mtl2">
+			<a-mixin id="sfd" geometry="radius:0.01;" mixin="mtl1">
+			<a-mixin id="r1" geometry="radius:0.01618;">
+			<a-mixin id="r1t" geometry="radius-tubular:0.00809;">
+			<a-mixin id="r2" geometry="radius:0.02618;">
+			<a-mixin id="r2t" geometry="radius-tubular:0.01309;">
+			<a-mixin id="r3" geometry="radius:0.04236;">
+			<a-mixin id="r3t" geometry="radius-tubular:0.02118;">
+			<a-mixin id="r4" geometry="radius:0.06856;">
+			<a-mixin id="r4t" geometry="radius-tubular:0.034268;">
+			<a-mixin id="r5" geometry="radius:0.11089;">
+			<a-mixin id="r5t" geometry="radius-tubular:0.055445;">
+			<a-mixin id="r6" geometry="radius:0.17942;">
+			<a-mixin id="r6t" geometry="radius-tubular:0.08971;">
+			<a-mixin id="r7" geometry="radius:0.2903;">
+			<a-mixin id="r7t" geometry="radius-tubular:0.145151;">
+			<a-mixin id="r8" geometry="radius:0.4697;">
+			<a-mixin id="r8t" geometry="radius-tubular:0.2348541;">
+			<a-mixin id="r9" geometry="radius:0.75999;">
+			<a-mixin id="r9t" geometry="radius-tubular:0.37999;">
+			<a-mixin id="r10" geometry="radius:1.22966;">
+			<a-mixin id="r10t" geometry="radius-tubular:0.61483;">
+		</a-assets>
+		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0; initialPosition: 430 430 430; minDistance: 500; maxDistance: 1100;"></a-entity>
+		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
+		
+		<a-entity scale="3 3 3">
+			<a-icosahedron radius="2" material="wireframe: true; color: #eee; metalness:0.4; roughness:0.2"></a-icosahedron>
+			<a-entity rotation="0 0 90" position="1.05 -0.4 0" scale="2.1 2.1 2.1">
+				<a-entity rotation="-90 0 0">
+					<a-torus mixin="tr" position="0 0 0" rotation="90 0 0"></a-torus>
+					<a-sphere mixin="sfd" position="1 0 0"></a-sphere>
+					<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+						<a-torus mixin="tr r1t" position="0 0 0" rotation="90 0 0"></a-torus>
+						<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+							<a-torus mixin="tr r2t" position="0 0 0" rotation="90 0 0"></a-torus>
+							<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+								<a-torus mixin="tr r3t" position="0 0 0" rotation="90 0 0"></a-torus>
+								<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+									<a-torus mixin="tr r4t" position="0 0 0" rotation="90 0 0"></a-torus>
+									<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+										<a-torus mixin="tr r5t" position="0 0 0" rotation="90 0 0"></a-torus>
+										<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+											<a-torus mixin="tr r6t" position="0 0 0" rotation="90 0 0"></a-torus>
+											<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+												<a-torus mixin="tr r7t" position="0 0 0" rotation="90 0 0"></a-torus>
+												<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+													<a-torus mixin="tr r8t" position="0 0 0" rotation="90 0 0"></a-torus>
+													<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+														<a-torus mixin="tr r9t" position="0 0 0" rotation="90 0 0"></a-torus>
+														<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+															<a-torus mixin="tr r10t" position="0 0 0" rotation="90 0 0"></a-torus>
+															<a-sphere mixin="sfd r10" position="0 0 1"></a-sphere>
+														</a-entity>
+													</a-entity>
+												</a-entity>
+											</a-entity>
+										</a-entity>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+			</a-entity>
+			<a-entity rotation="0 90 180" position="0 1.05 -0.4" scale="2.1 2.1 2.1">
+				<a-entity rotation="-90 0 0">
+					<a-torus mixin="tr" position="0 0 0" rotation="90 0 0"></a-torus>
+					<a-sphere mixin="sfd" position="1 0 0"></a-sphere>
+					<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+						<a-torus mixin="tr r1t" position="0 0 0" rotation="90 0 0"></a-torus>
+						<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+							<a-torus mixin="tr r2t" position="0 0 0" rotation="90 0 0"></a-torus>
+							<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+								<a-torus mixin="tr r3t" position="0 0 0" rotation="90 0 0"></a-torus>
+								<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+									<a-torus mixin="tr r4t" position="0 0 0" rotation="90 0 0"></a-torus>
+									<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+										<a-torus mixin="tr r5t" position="0 0 0" rotation="90 0 0"></a-torus>
+										<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+											<a-torus mixin="tr r6t" position="0 0 0" rotation="90 0 0"></a-torus>
+											<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+												<a-torus mixin="tr r7t" position="0 0 0" rotation="90 0 0"></a-torus>
+												<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+													<a-torus mixin="tr r8t" position="0 0 0" rotation="90 0 0"></a-torus>
+													<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+														<a-torus mixin="tr r9t" position="0 0 0" rotation="90 0 0"></a-torus>
+														<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+															<a-torus mixin="tr r10t" position="0 0 0" rotation="90 0 0"></a-torus>
+															<a-sphere mixin="sfd r10" position="0 0 1"></a-sphere>
+														</a-entity>
+													</a-entity>
+												</a-entity>
+											</a-entity>
+										</a-entity>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+			</a-entity>
+			<a-entity rotation="-90 0 0" position="-0.4 0 1.05" scale="2.1 2.1 2.1">
+				<a-entity rotation="-90 0 0">
+					<a-torus mixin="tr" position="0 0 0" rotation="90 0 0"></a-torus>
+					<a-sphere mixin="sfd" position="1 0 0"></a-sphere>
+					<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+						<a-torus mixin="tr r1t" position="0 0 0" rotation="90 0 0"></a-torus>
+						<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+							<a-torus mixin="tr r2t" position="0 0 0" rotation="90 0 0"></a-torus>
+							<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+								<a-torus mixin="tr r3t" position="0 0 0" rotation="90 0 0"></a-torus>
+								<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+									<a-torus mixin="tr r4t" position="0 0 0" rotation="90 0 0"></a-torus>
+									<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+										<a-torus mixin="tr r5t" position="0 0 0" rotation="90 0 0"></a-torus>
+										<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+											<a-torus mixin="tr r6t" position="0 0 0" rotation="90 0 0"></a-torus>
+											<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+												<a-torus mixin="tr r7t" position="0 0 0" rotation="90 0 0"></a-torus>
+												<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+													<a-torus mixin="tr r8t" position="0 0 0" rotation="90 0 0"></a-torus>
+													<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+														<a-torus mixin="tr r9t" position="0 0 0" rotation="90 0 0"></a-torus>
+														<a-entity scale="0.618 0.618 0.618" position="0 0 0.382" rotation="0 -90 0">
+															<a-torus mixin="tr r10t" position="0 0 0" rotation="90 0 0"></a-torus>
+															<a-sphere mixin="sfd r10" position="0 0 1"></a-sphere>
+														</a-entity>
+													</a-entity>
+												</a-entity>
+											</a-entity>
+										</a-entity>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+			</a-entity>
+			<a-entity>
+				<a-cylinder mixin="ci1" rotation="0 0 90" position="0 0 1.05" height="3.4"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-1.7 0 1.05"></a-sphere>
+				<a-cylinder mixin="ci1" rotation="0 0 90" position="0 0 -1.05" height="3.4"></a-cylinder>
+				<a-sphere mixin="esferad1" position="1.7 0 -1.05"></a-sphere>
+				<a-cylinder mixin="ci1" rotation="0 90 90" position="-1.7 0 0" height="2.1"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-1.7 0 -1.05"></a-sphere>
+				<a-cylinder mixin="ci1" rotation="0 90 90" position="1.7 0 0" height="2.1"></a-cylinder>
+				<a-sphere mixin="esferad1" position="1.7 0 1.05"></a-sphere>
+			</a-entity>
+			<a-entity rotation="0 90 90">
+				<a-cylinder mixin="ci1" rotation="0 0 90" position="0 0 1.05" height="3.4"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-1.7 0 1.05"></a-sphere>
+				<a-cylinder mixin="ci1" rotation="0 0 90" position="0 0 -1.05" height="3.4"></a-cylinder>
+				<a-sphere mixin="esferad1" position="1.7 0 -1.05"></a-sphere>
+				<a-cylinder mixin="ci1" rotation="0 90 90" position="-1.7 0 0" height="2.1"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-1.7 0 -1.05"></a-sphere>
+				<a-cylinder mixin="ci1" rotation="0 90 90" position="1.7 0 0" height="2.1"></a-cylinder>
+				<a-sphere mixin="esferad1" position="1.7 0 1.05"></a-sphere>
+			</a-entity>
+			<a-entity rotation="90 90 0">
+				<a-cylinder mixin="ci1" rotation="0 0 90" position="0 0 1.05" height="3.4"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-1.7 0 1.05"></a-sphere>
+				<a-cylinder mixin="ci1" rotation="0 0 90" position="0 0 -1.05" height="3.4"></a-cylinder>
+				<a-sphere mixin="esferad1" position="1.7 0 -1.05"></a-sphere>
+				<a-cylinder mixin="ci1" rotation="0 90 90" position="-1.7 0 0" height="2.1"></a-cylinder>
+				<a-sphere mixin="esferad1" position="-1.7 0 -1.05"></a-sphere>
+				<a-cylinder mixin="ci1" rotation="0 90 90" position="1.7 0 0" height="2.1"></a-cylinder>
+				<a-sphere mixin="esferad1" position="1.7 0 1.05"></a-sphere>
+			</a-entity>
+			<a-entity>
+				<a-plane mixin="mtl2" height="3.4" width="2.1"></a-plane>
+			</a-entity>
+			<a-entity rotation="0 90 90">
+				<a-plane mixin="mtl2" height="3.4" width="2.1"></a-plane>
+			</a-entity>
+			<a-entity rotation="90 90 0">
+				<a-plane mixin="mtl2" height="3.4" width="2.1"></a-plane>
+			</a-entity>
+		</a-entity>
+		
+		<a-light type="ambient" color="white" intensity="0.4"></a-light>
+		<a-light type="directional" color="white" intensity="0.4" position="-7 5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.4" position="7 -5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.4" position="7 5 -1"></a-light>
+		<a-sky color="black" radius="25"></a-sky><a-sky src="https://paulohscwb.github.io/SacredGeometry/imagens/8k_stars_milky_way.jpg" radius="18"></a-sky>
+    </a-scene>
+	<div class="box">
+		<span class="titulo">Golden rectangles</span>
+		<br><span class="titulo">Retângulos áureos</span>
+	</div>
+  </body>
+</html>
