@@ -530,6 +530,70 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
  <br><br><br><br>In Sacred Geometry, three interconnected golden rectangles represent the cosmos and the union of forces. The symbol formed by three interconnected golden rectangles can be constructed in two ways. We can define the sides of a golden rectangle as two opposite edges and the respective perpendicular diagonals of an icosahedron. The second way to construct this symbol is by choosing the lines with golden proportions that appear in the symbol of the Flower of Life.
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
+<h4>91. Pentagons</h4>
+<a href="vr/Pentagonal.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/91A.png" class="foto" alt="Pentagons"></a>
+ <br><br><br><br>In Sacred Geometry, pentagons, particularly the pentagram (the star formed by connecting the diagonals of a pentagon), symbolize fivefold symmetry and often represent harmony, unity, and the interconnectedness of things. Pentagons are also associated with the golden ratio and the Fibonacci sequence, which are considered fundamental principles of nature and the universe. This symbol represents a pattern of regular pentagons, forming a kind of Flower of Life.
+ <br><br><br>
+ <hr>
+<h4>92. Hexagons</h4>
+<a href="vr/Hexagonal.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/92A.png" class="foto" alt="Hexagons"></a>
+ <br><br><br><br>In Sacred Geometry, hexagons are often seen as symbols of balance, harmony, and the potential of life. Their symmetrical shape, with six equal sides and angles, represents stability and balance. Hexagons are also associated with the Flower of Life and the six-pointed star (Merkabah), both symbols of interconnection and divine creation. This symbol represents a pattern of regular hexagons, forming a kind of Flower of Life.
+ <br><br><br>
+ <p class="topop"><a href="#p1" class="topo">back to top</a></p>
+ <hr>
+<h4>93. Heptagons</h4>
+<a href="vr/Heptagonal.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/93A.png" class="foto" alt="Heptagons"></a>
+ <br><br><br><br>In Sacred Geometry, heptagons are associated with concepts such as the seven chakras, the seven days of the week or the seven heavens, depending on the interpretation. Heptagrams (seven-pointed stars formed by the extension of the sides of a heptagon) also have symbolic meaning, with different types of triangles and proportions related to their angles. This symbol represents a pattern of regular heptagons, forming a kind of Flower of Life.
+ <br><br><br>
+ <hr>
+<h4>94. Octagons</h4>
+<a href="vr/Octagonal.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/94A.png" class="foto" alt="Octagons"></a>
+ <br><br><br><br>In Sacred Geometry, the octagon is always seen as a symbol of unity and balance, arising from the combination of the circle (which represents the sky) and the square (which represents the earth). The octagon is believed to connect and harmonize these two elements. The octagon also has several symbolic meanings in different cultures and religions, including completeness, good luck and protection. This symbol represents a pattern of regular octagons, forming a kind of Flower of Life.
+ <br><br><br>
+ <hr>
+<h4>95. Enneagons</h4>
+<a href="vr/Enneagonal.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/95A.png" class="foto" alt="Enneagons"></a>
+ <br><br><br><br>In Sacred Geometry, an enneagon is a geometric shape that symbolizes unity, completeness, balance, and the culmination of a cycle. It can also be represented as a nine-pointed star, known as an enneagram. The enneagon, along with other shapes such as the centered octogram, is used in various symbolic and spiritual interpretations within Sacred Geometry. This symbol represents a pattern of regular enneagons, forming a kind of Flower of Life.
+ <br><br><br>
+ <hr>
+<h4>96. Decagons</h4>
+<a href="vr/Decagonal.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/96A.png" class="foto" alt="Decagons"></a>
+ <br><br><br><br>In Sacred Geometry, a decagon symbolizes balance, harmony, and the interconnectedness of the universe. It is a more complex shape than some others, such as the pentagon, offering a richer symbolic landscape. The ten sides of the decagon can represent the ten commandments, the ten realms of the soul, or the ten fingers and toes of the human form, suggesting a connection between the spiritual and physical worlds. This symbol represents a pattern of regular decagons, forming a kind of Flower of Life.
+ <br><br><br>
+ <hr>
+<h4>97. Pentagons</h4>
+<a href="vr/Pentagonal1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/97A.png" class="foto" alt="Pentagons"></a>
+ <br><br><br><br>In Sacred Geometry, pentagons, particularly the pentagram (the star formed by connecting the diagonals of a pentagon), symbolize fivefold symmetry and often represent harmony, unity, and the interconnectedness of things. Pentagons are also associated with the golden ratio and the Fibonacci sequence, which are considered fundamental principles of nature and the universe. This symbol represents a pattern of regular pentagons, forming a kind of Flower of Life.
+ <br><br><br>
+ <hr>
+<h4>98. Hexagons</h4>
+<a href="vr/Hexagonal1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/98A.png" class="foto" alt="Hexagons"></a>
+ <br><br><br><br>In Sacred Geometry, hexagons are often seen as symbols of balance, harmony, and the potential of life. Their symmetrical shape, with six equal sides and angles, represents stability and balance. Hexagons are also associated with the Flower of Life and the six-pointed star (Merkabah), both symbols of interconnection and divine creation. This symbol represents a pattern of regular hexagons, forming a kind of Flower of Life.
+ <br><br><br>
+ <p class="topop"><a href="#p1" class="topo">back to top</a></p>
+ <hr>
+<h4>99. Heptagons</h4>
+<a href="vr/Heptagonal1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/99A.png" class="foto" alt="Heptagons"></a>
+ <br><br><br><br>In Sacred Geometry, heptagons are associated with concepts such as the seven chakras, the seven days of the week or the seven heavens, depending on the interpretation. Heptagrams (seven-pointed stars formed by the extension of the sides of a heptagon) also have symbolic meaning, with different types of triangles and proportions related to their angles. This symbol represents a pattern of regular heptagons, forming a kind of Flower of Life.
+ <br><br><br>
+ <hr>
+<h4>100. Octagons</h4>
+<a href="vr/Octagonal1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/100A.png" class="foto" alt="Octagons"></a>
+ <br><br><br><br>In Sacred Geometry, the octagon is always seen as a symbol of unity and balance, arising from the combination of the circle (which represents the sky) and the square (which represents the earth). The octagon is believed to connect and harmonize these two elements. The octagon also has several symbolic meanings in different cultures and religions, including completeness, good luck and protection. This symbol represents a pattern of regular octagons, forming a kind of Flower of Life.
+ <br><br><br>
+ <hr>
+ <p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<h4>101. Enneagons</h4>
+<a href="vr/Enneagonal1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/101A.png" class="foto" alt="Enneagons"></a>
+ <br><br><br><br>In Sacred Geometry, an enneagon is a geometric shape that symbolizes unity, completeness, balance, and the culmination of a cycle. It can also be represented as a nine-pointed star, known as an enneagram. The enneagon, along with other shapes such as the centered octogram, is used in various symbolic and spiritual interpretations within Sacred Geometry. This symbol represents a pattern of regular enneagons, forming a kind of Flower of Life.
+ <br><br><br>
+ <hr>
+<h4>102. Decagons</h4>
+<a href="vr/Decagonal1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/102A.png" class="foto" alt="Decagons"></a>
+ <br><br><br><br>In Sacred Geometry, a decagon symbolizes balance, harmony, and the interconnectedness of the universe. It is a more complex shape than some others, such as the pentagon, offering a richer symbolic landscape. The ten sides of the decagon can represent the ten commandments, the ten realms of the soul, or the ten fingers and toes of the human form, suggesting a connection between the spiritual and physical worlds. This symbol represents a pattern of regular decagons, forming a kind of Flower of Life.
+ <br><br><br>
+ <p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<hr>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Sacred Geometry - Visualization of symbols with Augmented Reality and Virtual Reality</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/SacredGeometry/symbols/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> is licensed with a license <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</a>.
 
