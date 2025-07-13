@@ -531,65 +531,65 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 <hr>
 <h4>91. Pentágonos</h4>
 <a href="../vr/Pentagonal.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/91A.png" class="foto" alt="Pentágonos"></a>
- <br><br><br>Na Geometria Sagrada, os pentágonos, particularmente o pentagrama (a estrela formada pela conexão das diagonais de um pentágono), simbolizam a simetria quíntupla e frequentemente representam harmonia, unidade e a interconexão das coisas. Os pentágonos também são associados à proporção áurea e à sequência de Fibonacci, consideradas princípios fundamentais da natureza e do universo. Este símbolo representa um padrão de pentágonos regulares, formando uma espécia de Flor da Vida.
+ <br><br><br>Na Geometria Sagrada, os pentágonos, particularmente o pentagrama (a estrela formada pela conexão das diagonais de um pentágono), simbolizam a simetria quíntupla e frequentemente representam harmonia, unidade e a interconexão das coisas. Os pentágonos também são associados à proporção áurea e à sequência de Fibonacci, consideradas princípios fundamentais da natureza e do universo. Este símbolo representa um padrão de pentágonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
  <hr>
 <h4>92. Hexágonos</h4>
 <a href="../vr/Hexagonal.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/92A.png" class="foto" alt="Hexágonos"></a>
- <br><br><br>Na Geometria Sagrada, os hexágonos são sempre vistos como símbolos de equilíbrio, harmonia e do potencial da vida. Sua forma simétrica, com seis lados e ângulos iguais, representa estabilidade e equilíbrio. Os hexágonos também são associados à Flor da Vida e à estrela de seis pontas (Merkabah), ambos símbolos de interconexão e criação divina. Este símbolo representa um padrão de hexágonos regulares, formando uma espécia de Flor da Vida.
+ <br><br><br>Na Geometria Sagrada, os hexágonos são sempre vistos como símbolos de equilíbrio, harmonia e do potencial da vida. Sua forma simétrica, com seis lados e ângulos iguais, representa estabilidade e equilíbrio. Os hexágonos também são associados à Flor da Vida e à estrela de seis pontas (Merkabah), ambos símbolos de interconexão e criação divina. Este símbolo representa um padrão de hexágonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
  <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  <hr>
 <h4>93. Heptágonos</h4>
 <a href="../vr/Heptagonal.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/93A.png" class="foto" alt="Heptágonos"></a>
- <br><br><br>Na Geometria Sagrada, os heptágonos são associados a conceitos como os sete chakras, os sete dias da semana ou os sete céus, dependendo da interpretação. Os heptagramas (estrelas de 7 pontas formadas pela extensão dos lados de um heptágono) também têm significado simbólico, com diferentes tipos de triângulos e proporções relacionadas aos seus ângulos. Este símbolo representa um padrão de heptágonos regulares, formando uma espécia de Flor da Vida.
+ <br><br><br>Na Geometria Sagrada, os heptágonos são associados a conceitos como os sete chakras, os sete dias da semana ou os sete céus, dependendo da interpretação. Os heptagramas (estrelas de 7 pontas formadas pela extensão dos lados de um heptágono) também têm significado simbólico, com diferentes tipos de triângulos e proporções relacionadas aos seus ângulos. Este símbolo representa um padrão de heptágonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
  <hr>
 <h4>94. Octógonos</h4>
 <a href="../vr/Octagonal.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/94A.png" class="foto" alt="Octógonos"></a>
- <br><br><br>Na Geometria Sagrada, o octógono é sempre visto como um símbolo de unidade e equilíbrio, surgindo da combinação do círculo (que representa o céu) e do quadrado (que representa a terra). Acredita-se que o octógono conecta e harmoniza esses dois elementos. O octógono também possui vários significados simbólicos em diferentes culturas e religiões, incluindo completude, boa sorte e proteção. Este símbolo representa um padrão de octógonos regulares, formando uma espécia de Flor da Vida.
+ <br><br><br>Na Geometria Sagrada, o octógono é sempre visto como um símbolo de unidade e equilíbrio, surgindo da combinação do círculo (que representa o céu) e do quadrado (que representa a terra). Acredita-se que o octógono conecta e harmoniza esses dois elementos. O octógono também possui vários significados simbólicos em diferentes culturas e religiões, incluindo completude, boa sorte e proteção. Este símbolo representa um padrão de octógonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
  <hr>
 <h4>95. Eneágonos</h4>
 <a href="../vr/Enneagonal.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/95A.png" class="foto" alt="Eneágonos"></a>
- <br><br><br>Na Geometria Sagrada, um eneágono é uma forma geométrica que simboliza unidade, completude, equilíbrio e a culminância de um ciclo. Também pode ser representado como uma estrela de nove pontas, conhecida como eneagrama. O eneágono, juntamente com outras formas, como o octograma centralizado, é usado em diversas interpretações simbólicas e espirituais dentro da Geometria Sagrada. Este símbolo representa um padrão de eneágonos regulares, formando uma espécia de Flor da Vida.
+ <br><br><br>Na Geometria Sagrada, um eneágono é uma forma geométrica que simboliza unidade, completude, equilíbrio e a culminância de um ciclo. Também pode ser representado como uma estrela de nove pontas, conhecida como eneagrama. O eneágono, juntamente com outras formas, como o octograma centralizado, é usado em diversas interpretações simbólicas e espirituais dentro da Geometria Sagrada. Este símbolo representa um padrão de eneágonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
  <hr>
 <h4>96. Decágonos</h4>
 <a href="../vr/Decagonal.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/96A.png" class="foto" alt="Decágonos"></a>
- <br><br><br>Na Geometria Sagrada, um decágono simboliza equilíbrio, harmonia e a interconexão do universo. É uma forma mais complexa do que algumas outras, como o pentágono, oferecendo uma paisagem simbólica mais rica. Os dez lados do decágono podem representar os dez mandamentos, os dez reinos da alma ou os dez dedos das mãos e dos pés da forma humana, sugerindo uma conexão entre os mundos espiritual e físico. Este símbolo representa um padrão de decágonos regulares, formando uma espécia de Flor da Vida.
+ <br><br><br>Na Geometria Sagrada, um decágono simboliza equilíbrio, harmonia e a interconexão do universo. É uma forma mais complexa do que algumas outras, como o pentágono, oferecendo uma paisagem simbólica mais rica. Os dez lados do decágono podem representar os dez mandamentos, os dez reinos da alma ou os dez dedos das mãos e dos pés da forma humana, sugerindo uma conexão entre os mundos espiritual e físico. Este símbolo representa um padrão de decágonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
  <hr>
 <h4>97. Pentágonos</h4>
 <a href="../vr/Pentagonal1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/97A.png" class="foto" alt="Pentágonos"></a>
- <br><br><br>Na Geometria Sagrada, os pentágonos, particularmente o pentagrama (a estrela formada pela conexão das diagonais de um pentágono), simbolizam a simetria quíntupla e frequentemente representam harmonia, unidade e a interconexão das coisas. Os pentágonos também são associados à proporção áurea e à sequência de Fibonacci, consideradas princípios fundamentais da natureza e do universo. Este símbolo representa um padrão de pentágonos regulares, formando uma espécia de Flor da Vida.
+ <br><br><br>Na Geometria Sagrada, os pentágonos, particularmente o pentagrama (a estrela formada pela conexão das diagonais de um pentágono), simbolizam a simetria quíntupla e frequentemente representam harmonia, unidade e a interconexão das coisas. Os pentágonos também são associados à proporção áurea e à sequência de Fibonacci, consideradas princípios fundamentais da natureza e do universo. Este símbolo representa um padrão de pentágonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
  <hr>
 <h4>98. Hexágonos</h4>
 <a href="../vr/Hexagonal1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/98A.png" class="foto" alt="Hexágonos"></a>
- <br><br><br>Na Geometria Sagrada, os hexágonos são sempre vistos como símbolos de equilíbrio, harmonia e do potencial da vida. Sua forma simétrica, com seis lados e ângulos iguais, representa estabilidade e equilíbrio. Os hexágonos também são associados à Flor da Vida e à estrela de seis pontas (Merkabah), ambos símbolos de interconexão e criação divina. Este símbolo representa um padrão de hexágonos regulares, formando uma espécia de Flor da Vida.
+ <br><br><br>Na Geometria Sagrada, os hexágonos são sempre vistos como símbolos de equilíbrio, harmonia e do potencial da vida. Sua forma simétrica, com seis lados e ângulos iguais, representa estabilidade e equilíbrio. Os hexágonos também são associados à Flor da Vida e à estrela de seis pontas (Merkabah), ambos símbolos de interconexão e criação divina. Este símbolo representa um padrão de hexágonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
  <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  <hr>
 <h4>99. Heptágonos</h4>
 <a href="../vr/Heptagonal1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/99A.png" class="foto" alt="Heptágonos"></a>
- <br><br><br>Na Geometria Sagrada, os heptágonos são associados a conceitos como os sete chakras, os sete dias da semana ou os sete céus, dependendo da interpretação. Os heptagramas (estrelas de 7 pontas formadas pela extensão dos lados de um heptágono) também têm significado simbólico, com diferentes tipos de triângulos e proporções relacionadas aos seus ângulos. Este símbolo representa um padrão de heptágonos regulares, formando uma espécia de Flor da Vida.
+ <br><br><br>Na Geometria Sagrada, os heptágonos são associados a conceitos como os sete chakras, os sete dias da semana ou os sete céus, dependendo da interpretação. Os heptagramas (estrelas de 7 pontas formadas pela extensão dos lados de um heptágono) também têm significado simbólico, com diferentes tipos de triângulos e proporções relacionadas aos seus ângulos. Este símbolo representa um padrão de heptágonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
  <hr>
 <h4>100. Octógonos</h4>
 <a href="../vr/Octagonal1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/100A.png" class="foto" alt="Octógonos"></a>
- <br><br><br>Na Geometria Sagrada, o octógono é sempre visto como um símbolo de unidade e equilíbrio, surgindo da combinação do círculo (que representa o céu) e do quadrado (que representa a terra). Acredita-se que o octógono conecta e harmoniza esses dois elementos. O octógono também possui vários significados simbólicos em diferentes culturas e religiões, incluindo completude, boa sorte e proteção. Este símbolo representa um padrão de octógonos regulares, formando uma espécia de Flor da Vida.
+ <br><br><br>Na Geometria Sagrada, o octógono é sempre visto como um símbolo de unidade e equilíbrio, surgindo da combinação do círculo (que representa o céu) e do quadrado (que representa a terra). Acredita-se que o octógono conecta e harmoniza esses dois elementos. O octógono também possui vários significados simbólicos em diferentes culturas e religiões, incluindo completude, boa sorte e proteção. Este símbolo representa um padrão de octógonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
  <hr>
  <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <h4>101. Eneágonos</h4>
 <a href="../vr/Enneagonal1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/101A.png" class="foto" alt="Eneágonos"></a>
- <br><br><br>Na Geometria Sagrada, um eneágono é uma forma geométrica que simboliza unidade, completude, equilíbrio e a culminância de um ciclo. Também pode ser representado como uma estrela de nove pontas, conhecida como eneagrama. O eneágono, juntamente com outras formas, como o octograma centralizado, é usado em diversas interpretações simbólicas e espirituais dentro da Geometria Sagrada. Este símbolo representa um padrão de eneágonos regulares, formando uma espécia de Flor da Vida.
+ <br><br><br>Na Geometria Sagrada, um eneágono é uma forma geométrica que simboliza unidade, completude, equilíbrio e a culminância de um ciclo. Também pode ser representado como uma estrela de nove pontas, conhecida como eneagrama. O eneágono, juntamente com outras formas, como o octograma centralizado, é usado em diversas interpretações simbólicas e espirituais dentro da Geometria Sagrada. Este símbolo representa um padrão de eneágonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
  <hr>
 <h4>102. Decágonos</h4>
 <a href="../vr/Decagonal1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/102A.png" class="foto" alt="Decágonos"></a>
- <br><br><br>Na Geometria Sagrada, um decágono simboliza equilíbrio, harmonia e a interconexão do universo. É uma forma mais complexa do que algumas outras, como o pentágono, oferecendo uma paisagem simbólica mais rica. Os dez lados do decágono podem representar os dez mandamentos, os dez reinos da alma ou os dez dedos das mãos e dos pés da forma humana, sugerindo uma conexão entre os mundos espiritual e físico. Este símbolo representa um padrão de decágonos regulares, formando uma espécia de Flor da Vida.
+ <br><br><br>Na Geometria Sagrada, um decágono simboliza equilíbrio, harmonia e a interconexão do universo. É uma forma mais complexa do que algumas outras, como o pentágono, oferecendo uma paisagem simbólica mais rica. Os dez lados do decágono podem representar os dez mandamentos, os dez reinos da alma ou os dez dedos das mãos e dos pés da forma humana, sugerindo uma conexão entre os mundos espiritual e físico. Este símbolo representa um padrão de decágonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
  <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
