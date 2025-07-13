@@ -21,6 +21,60 @@ function mfaces() {
 	}
 }
 
+function msides() {
+	var sceneEl = document.querySelector('a-scene')
+	var entityEl = sceneEl.querySelector('#tr0')
+	var entityEl1 = sceneEl.querySelector('#tr1')
+	var entityEl2 = sceneEl.querySelector('#tr2')
+	var entityEl3 = sceneEl.querySelector('#tr3')
+	var entityEl4 = sceneEl.querySelector('#tr4')
+	var entityEl5 = sceneEl.querySelector('#tr5')
+	var entityEl6 = sceneEl.querySelector('#tr6')
+	var entityEl7 = sceneEl.querySelector('#tr7')
+	var entityEl8 = sceneEl.querySelector('#tr8')
+	var entityEl9 = sceneEl.querySelector('#tr9')
+	var entityEl10 = sceneEl.querySelector('#tr10')
+	var p = document.getElementById("md").value
+	entityEl.setAttribute('geometry',`radius-tubular:0.05; primitive: torus; radius:3; segments-tubular: ${p}`);
+	entityEl1.setAttribute('geometry',`radius-tubular:0.05; primitive: torus; radius:3; segments-tubular: ${p}`);
+	entityEl2.setAttribute('geometry',`radius-tubular:0.05; primitive: torus; radius:3; segments-tubular: ${p}`);
+	entityEl3.setAttribute('geometry',`radius-tubular:0.05; primitive: torus; radius:3; segments-tubular: ${p}`);
+	entityEl4.setAttribute('geometry',`radius-tubular:0.05; primitive: torus; radius:3; segments-tubular: ${p}`);
+	entityEl5.setAttribute('geometry',`radius-tubular:0.05; primitive: torus; radius:3; segments-tubular: ${p}`);
+	entityEl6.setAttribute('geometry',`radius-tubular:0.05; primitive: torus; radius:3; segments-tubular: ${p}`);
+	entityEl7.setAttribute('geometry',`radius-tubular:0.05; primitive: torus; radius:3; segments-tubular: ${p}`);
+	entityEl8.setAttribute('geometry',`radius-tubular:0.05; primitive: torus; radius:3; segments-tubular: ${p}`);
+	entityEl9.setAttribute('geometry',`radius-tubular:0.05; primitive: torus; radius:3; segments-tubular: ${p}`);
+	entityEl10.setAttribute('geometry',`radius-tubular:0.05; primitive: torus; radius:3; segments-tubular: ${p}`);
+}
+
+function msides1() {
+	var sceneEl = document.querySelector('a-scene')
+	var entityEl = sceneEl.querySelector('#tr0')
+	var entityEl1 = sceneEl.querySelector('#tr1')
+	var entityEl2 = sceneEl.querySelector('#tr2')
+	var entityEl3 = sceneEl.querySelector('#tr3')
+	var entityEl4 = sceneEl.querySelector('#tr4')
+	var entityEl5 = sceneEl.querySelector('#tr5')
+	var entityEl6 = sceneEl.querySelector('#tr6')
+	var entityEl7 = sceneEl.querySelector('#tr7')
+	var entityEl8 = sceneEl.querySelector('#tr8')
+	var entityEl9 = sceneEl.querySelector('#tr9')
+	var entityEl10 = sceneEl.querySelector('#tr10')
+	var p = document.getElementById("md").value
+	entityEl.setAttribute('geometry',`radius-tubular:0.05; primitive: torus; radius:3; segments-tubular: ${p}`);
+	entityEl1.setAttribute('geometry',`radius-tubular:0.05; primitive: torus; radius:1.5; segments-tubular: ${p}`);
+	entityEl2.setAttribute('geometry',`radius-tubular:0.05; primitive: torus; radius:1.5; segments-tubular: ${p}`);
+	entityEl3.setAttribute('geometry',`radius-tubular:0.05; primitive: torus; radius:1.5; segments-tubular: ${p}`);
+	entityEl4.setAttribute('geometry',`radius-tubular:0.05; primitive: torus; radius:1.5; segments-tubular: ${p}`);
+	entityEl5.setAttribute('geometry',`radius-tubular:0.05; primitive: torus; radius:1.5; segments-tubular: ${p}`);
+	entityEl6.setAttribute('geometry',`radius-tubular:0.05; primitive: torus; radius:1.5; segments-tubular: ${p}`);
+	entityEl7.setAttribute('geometry',`radius-tubular:0.05; primitive: torus; radius:1.5; segments-tubular: ${p}`);
+	entityEl8.setAttribute('geometry',`radius-tubular:0.05; primitive: torus; radius:1.5; segments-tubular: ${p}`);
+	entityEl9.setAttribute('geometry',`radius-tubular:0.05; primitive: torus; radius:1.5; segments-tubular: ${p}`);
+	entityEl10.setAttribute('geometry',`radius-tubular:0.05; primitive: torus; radius:1.5; segments-tubular: ${p}`);
+}
+
 function marestas() {
 	var x = document.getElementById("arestas")
 	var sceneEl = document.querySelector('a-scene')
