@@ -133,6 +133,12 @@ O acesso às páginas de RV é feito clicando no círculo azul que aparece em ci
  <br><br><br>Os vértices do cuboctaedro de Arquimedes aparecem em algumas interseções das linhas do símbolo da Grade da Vida. Na representação em 3D, o cuboctaedro fica inscrito ao símbolo da Grade da Vida.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>16. Grade da vida 3D - tetraedro fractal</h4>
+<a href="../vr/GridOfLife_Fractal1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/61A.png" class="foto" alt="Grade da vida - tetraedro fractal"></a><img src="../ar/61.png" class="qr">
+ <br><br><br>Os vértices do tetraedro fractal aparecem em algumas interseções das linhas do símbolo da Grade da Vida. Na representação em 3D, o tetraedro fractal fica inscrito ao símbolo da Grade da Vida.
+ <br><br><br>
+<a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
