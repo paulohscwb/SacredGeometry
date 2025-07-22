@@ -132,6 +132,12 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
  <br><br><br>The vertices of Archimedes cuboctahedron appear overlapping with some intersections of the Grid of Life symbol lines. In the 3D representation, the cuboctahedron is inscribed with the Grid of Life symbol.
  <br><br>
   <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>16. Grid of life 3D - tetrahedron fractal</h4>
+<a href="vr/GridOfLife_Fractal1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/61A.png" class="foto" alt="Grid of life - tetrahedron fractal"></a><img src="ar/61.png" class="qr">
+ <br><br><br>The vertices of tetrahedron fractal appear overlapping with some intersections of the Grid of Life symbol lines. In the 3D representation, the tetrahedron fractal is inscribed with the Grid of Life symbol.
+ <br><br>
+  <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
