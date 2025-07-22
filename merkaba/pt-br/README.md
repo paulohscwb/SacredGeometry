@@ -214,13 +214,13 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
  <br><br><br>
  <hr>
 <h4>27. Estrela Merkaba do revestimento de Cairo</h4>
-<a href="../vr/Merkaba19.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/76A.png" class="foto" alt="Estrela Merkaba do revestimento de Cairo"></a><img src="../ar/76.png" class="qr">
+<a href="../vr/Merkaba23.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/76A.png" class="foto" alt="Estrela Merkaba do revestimento de Cairo"></a><img src="../ar/76.png" class="qr">
  <br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 revestimentos de Cairo idênticos que são interligados por meio de rotações em direções opostas. A interseção destes revestimentos de Cairo origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
 <hr>
 <h4>28. Estrela Merkaba fractal do revestimento de Cairo</h4>
-<a href="../vr/Merkaba20.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/77A.png" class="foto" alt="Estrela Merkaba fractal do revestimento de Cairo"></a><img src="../ar/77.png" class="qr">
+<a href="../vr/Merkaba24.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/77A.png" class="foto" alt="Estrela Merkaba fractal do revestimento de Cairo"></a><img src="../ar/77.png" class="qr">
  <br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 fractais de revestimentos de Cairo idênticos que são interligados por meio de rotações em direções opostas. A interseção destes fractais de revestimentos de Cairo origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
