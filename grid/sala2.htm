@@ -24,7 +24,7 @@
 		}, 5000);
 	</script>
 	<div class="box" style="visibility: hidden;">
-		<label for="rangevalue">order: </label><output id="rangevalue">0</output>&nbsp;&nbsp;&nbsp;<input type="range" id="nv" min="0" max="6" step="1" value="0" onchange="rangevalue.value=value; mnivelRA()">
+		<label for="rangevalue">order: </label><output id="rangevalue">0</output>&nbsp;&nbsp;&nbsp;<input type="range" id="nv" min="0" max="7" step="1" value="0" onchange="rangevalue.value=value; mnivelRA()">
 	</div>
     <a-scene physics="gravity:-1; iterations:5;" shadow="type: pcfsoft" renderer="antialias: true; colorManagement: true; highRefreshRate: true;"> <!--logarithmicDepthBuffer: true-->
         <a-assets>
@@ -77,6 +77,15 @@
 			<a-mixin id="mtl1a" mixin="mtl1" material="opacity:1;"></a-mixin>
 			<a-mixin id="mtl2a" mixin="mtl2" material="opacity:1;"></a-mixin>
 			<a-mixin id="texto" position="0 -3.8 4.5" rotation="-20 0 0" text="width:11; side:double; color: pink; xOffset:0.03; align:center;"></a-mixin>
+			<a-mixin id="fc7" geometry="primitive: tetrahedron; radius: 1;" material="opacity: 0.85; metalness:0.6; roughness:0.4;" mixin="mtl2"></a-mixin>
+			<a-mixin id="p1" position="-0.57735 0.57735 -0.57735"></a-mixin>
+			<a-mixin id="p2" position="0.57735 0.57735 0.57735"></a-mixin>
+			<a-mixin id="p3" position="-0.57735 -0.57735 0.57735">
+			<a-mixin id="p4" position="0.57735 -0.57735 -0.57735"></a-mixin>
+			<a-mixin id="p5" rotation="0 0 -90" position="-0.57735 0.57735 0.57735"></a-mixin>
+			<a-mixin id="p6" rotation="0 0 -90" position="-0.57735 -0.57735 -0.57735"></a-mixin>
+			<a-mixin id="p7" rotation="0 0 -90" position="0.57735 0.57735 -0.57735"></a-mixin>
+			<a-mixin id="p8" rotation="0 0 -90" position="0.57735 -0.57735 0.57735"></a-mixin>
         </a-assets>
         <a-entity id="cameraRig">
            <a-camera id="head" look-controls wasd-controls-enabled="false" position="0 1.7 1" cursor="rayOrigin:mouse" static-body="shape: sphere; sphereRadius: 0.001" super-hands="colliderEvent: raycaster-intersection; colliderEventProperty: els; colliderEndEvent:raycaster-intersection-cleared; colliderEndEventProperty: clearedEls;"></a-camera>
@@ -101,6 +110,8 @@
 		<a-tetrahedron position="0.51 0.82 -0.35" mixin="mtl1a" rotation="35 0 -45" radius="0.05"></a-tetrahedron>
 		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.51 0.77 -0.35" onclick="nv.value=5; mnivelRA()"></a-sphere>
 		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.65 0.77 -0.35" onclick="nv.value=6; mnivelRA()"></a-sphere>
+		<a-tetrahedron mixin="mtl1a" position="0.79 0.82 -0.35" radius="0.055"></a-tetrahedron>
+		<a-sphere mixin="botao1" rotation="-90 0 0" class="botao" position="0.79 0.77 -0.35" onclick="nv.value=7; mnivelRA()"></a-sphere>
 		<!--<a-entity position="0.65 0.82 -0.35" scale="0.05 0.05 0.05" mixin="fc"></a-entity>-->
 		
 		<a-entity position="0.65 0.82 -0.35" scale="0.05 0.05 0.05">
@@ -611,6 +622,671 @@
 				</a-entity>
 				<a-text mixin="texto" value="Tetraedro estrelado / Stellated tetrahedron"></a-text>
 			</a-entity>
+		
+			<a-entity id="nivel7" visible="false" scale="0.75 0.75 0.75">
+				<a-entity scale="0.6 0.6 0.6" animation="property: rotation; to: 0 360 0; loop: true; dur: 60000; dir: alternate; delay: 15000;">
+					<a-entity rotation="35 0 -45">
+							<a-entity position="-2.3094 2.3094 -2.3094">
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p6"></a-entity>
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p7"></a-entity>
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity position="2.3094 2.3094 2.3094">
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p6"></a-entity>
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p6"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p6"></a-entity>
+								<a-entity mixin="fc7 p7"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+								<a-entity mixin="fc7 p6"></a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity position="-2.3094 -2.3094 2.3094">
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p7"></a-entity>
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p6"></a-entity>
+								<a-entity mixin="fc7 p7"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p7"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+								<a-entity mixin="fc7 p7"></a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity position="2.3094 -2.3094 -2.3094">
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+								<a-entity mixin="fc7 p6"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+								<a-entity mixin="fc7 p7"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 -90" position="-2.3094 2.3094 -2.3094">
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+								<!--<a-entity mixin="fc7 p6"></a-entity>-->
+								<a-entity mixin="fc7 p7"></a-entity>
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p7"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 -90" position="2.3094 2.3094 2.3094">
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p6"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p7"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<!--<a-entity mixin="fc7 p5"></a-entity>-->
+								<a-entity mixin="fc7 p6"></a-entity>
+								<a-entity mixin="fc7 p7"></a-entity>
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 -90" position="-2.3094 -2.3094 2.3094">
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+								<a-entity mixin="fc7 p6"></a-entity>
+								<a-entity mixin="fc7 p7"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p6"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p7"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 -90" position="2.3094 -2.3094 -2.3094">
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p6"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+								<a-entity mixin="fc7 p6"></a-entity>
+								<a-entity mixin="fc7 p7"></a-entity>
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 -90">
+						<a-entity position="-2.3094 2.3094 -2.3094">
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p6"></a-entity>
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p7"></a-entity>
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity position="2.3094 2.3094 2.3094">
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p6"></a-entity>
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p6"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p6"></a-entity>
+								<a-entity mixin="fc7 p7"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+								<a-entity mixin="fc7 p6"></a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity position="-2.3094 -2.3094 2.3094">
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p7"></a-entity>
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p6"></a-entity>
+								<a-entity mixin="fc7 p7"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p7"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+								<a-entity mixin="fc7 p7"></a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity position="2.3094 -2.3094 -2.3094">
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+								<a-entity mixin="fc7 p6"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+								<a-entity mixin="fc7 p7"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 -90" position="-2.3094 2.3094 -2.3094">
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+								<!--<a-entity mixin="fc7 p6"></a-entity>-->
+								<a-entity mixin="fc7 p7"></a-entity>
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p7"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 -90" position="2.3094 2.3094 2.3094">
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p6"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p7"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<!--<a-entity mixin="fc7 p5"></a-entity>-->
+								<a-entity mixin="fc7 p6"></a-entity>
+								<a-entity mixin="fc7 p7"></a-entity>
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 -90" position="-2.3094 -2.3094 2.3094">
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+								<a-entity mixin="fc7 p6"></a-entity>
+								<a-entity mixin="fc7 p7"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p6"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p7"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity rotation="0 0 -90" position="2.3094 -2.3094 -2.3094">
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p1"></a-entity>
+								<a-entity mixin="fc7 p2"></a-entity>
+								<a-entity mixin="fc7 p3"></a-entity>
+								<a-entity mixin="fc7 p4"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 1.1547 -1.1547">
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 1.1547 1.1547">
+								<a-entity mixin="fc7 p6"></a-entity>
+							</a-entity>
+							<a-entity position="-1.1547 -1.1547 1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+								<a-entity mixin="fc7 p6"></a-entity>
+								<a-entity mixin="fc7 p7"></a-entity>
+								<a-entity mixin="fc7 p8"></a-entity>
+							</a-entity>
+							<a-entity position="1.1547 -1.1547 -1.1547">
+								<a-entity mixin="fc7 p5"></a-entity>
+							</a-entity>
+						</a-entity>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+				<a-text mixin="texto" value="Tetrahedron Fractal"></a-text>
+			</a-entity>
+		
 		</a-entity>
 		
 		<!-- segunda mesa: girada 180 graus, com afastamento 1.5-->
