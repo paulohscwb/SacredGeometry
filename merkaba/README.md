@@ -212,6 +212,18 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <a href="../symbols/vr/CurvedMerkabav5.htm" target="_blank" title="3D model" class="fotoA"><img src="../symbols/ar/83A.png" class="foto" alt="Curved Merkaba 3D"></a>
  <br><br><br><br>The geometric structure and symmetry of the Merkaba have captured the imagination of those interested in Sacred Geometry. It is composed of two tetrahedrons rotating in opposite directions, forming a three-dimensional star. The symbol with the replacement of edges by arcs passing through the vertices of the tetrahedrons represents the curved Merkaba. The Merkaba is a sacred geometric symbol that represents the union of masculine and feminine energies and the integration of the earthly and cosmic realms.
  <br><br><br>
+<hr>
+<h4>27. Merkaba star of Cairo tiling</h4>
+<a href="vr/Merkaba23.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/76A.png" class="foto" alt="Merkaba star fractal of Cairo tiling"></a><img src="ar/76.png" class="qr">
+ <br><br><br>The Sacred Geometry Merkaba symbol provides protection and can transport your consciousness to higher dimensions. It is the fusion of 2 identical Cairo tiling that are interconnected through rotations in opposite directions. The intersection of these Cairo tiling creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
+ <br><br>
+ <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+<h4>28. Merkaba star fractal of Cairo tiling</h4>
+<a href="vr/Merkaba24.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/77A.png" class="foto" alt="Merkaba star fractal of Cairo tiling"></a><img src="ar/77.png" class="qr">
+ <br><br><br>The Merkaba symbol, with its star shape, is believed to be a divine vehicle made of light and designed to transport or connect the spirit and body to higher kingdoms. It is the fusion of 2 identical fractal Cairo tiling that are interconnected through rotations in opposite directions. The intersection of these fractal Cairo tiling creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled in 3D.
+ <br><br>
+ <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
