@@ -212,6 +212,18 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 <a href="../../symbols/vr/CurvedMerkabav5.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../symbols/ar/83A.png" class="foto" alt="Merkaba curvada 3D"></a>
  <br><br><br>A Merkaba é um símbolo geométrico sagrado que representa a união das energias masculina e feminina e a integração dos reinos terrestre e cósmico. É composta por dois tetraedros que giram em direções opostas, formando uma estrela tridimensional. O símbolo com a substituição de arestas por arcos que passam pelos vértices dos tetraedros representa a Merkaba curvada. A estrutura geométrica e a simetria da Merkaba capturaram a imaginação dos interessados ​​em Geometria Sagrada.
  <br><br><br>
+ <hr>
+<h4>27. Estrela Merkaba do revestimento de Cairo</h4>
+<a href="../vr/Merkaba19.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/76A.png" class="foto" alt="Estrela Merkaba do revestimento de Cairo"></a><img src="../ar/76.png" class="qr">
+ <br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 revestimentos de Cairo idênticos que são interligados por meio de rotações em direções opostas. A interseção destes revestimentos de Cairo origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D.
+ <br><br><br>
+<a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<hr>
+<h4>28. Estrela Merkaba fractal do revestimento de Cairo</h4>
+<a href="../vr/Merkaba20.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/77A.png" class="foto" alt="Estrela Merkaba fractal do revestimento de Cairo"></a><img src="../ar/77.png" class="qr">
+ <br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 fractais de revestimentos de Cairo idênticos que são interligados por meio de rotações em direções opostas. A interseção destes fractais de revestimentos de Cairo origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D.
+ <br><br><br>
+<a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
  <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
