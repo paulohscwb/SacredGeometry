@@ -49,6 +49,7 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 		<option value="../sala12.htm">Merkaba de fractais de tetraedros hexakis 4</option>
 		<option value="../sala13.htm">Merkaba de fractais tristetraedros 2</option>
 		<option value="../sala14.htm">Merkaba de fractais de deltaedros de Möbius</option>
+		<option value="../sala15.htm">Merkaba de fractais de revestimentos de Cairo</option>
 	</select>
 </form>
   <div class="embed-container"><iframe width="100%" id="sim" src="../sala2.htm" title="Sala Imersiva dos símbolos da Geometria Sagrada" frameborder="0" loading="lazy"></iframe></div>
