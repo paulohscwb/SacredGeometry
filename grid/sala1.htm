@@ -21,7 +21,7 @@
 		setTimeout(() => {
 		let get = document.getElementById('info');
 			get.style.display = 'none';
-		}, 10000);
+		}, 5000);
 	</script>
 	<div class="box" style="visibility: hidden;">
 		<label for="rangevalue">order: </label><output id="rangevalue">0</output>&nbsp;&nbsp;&nbsp;<input type="range" id="nv" min="0" max="6" step="1" value="0" onchange="rangevalue.value=value; mnivelRA()">
@@ -54,8 +54,8 @@
 			<a-mixin id="r3" rotation="90 0 30"></a-mixin>
 			<a-mixin id="r4" rotation="90 0 -30"></a-mixin>
 			<a-mixin id="r5" rotation="90 0 90"></a-mixin>
-			<a-mixin id="esferad" mixin="mtl1" geometry="radius: 0.04;" material="metalness:0.5; roughness:0.3;">
-			<a-mixin id="esfera" mixin="mtl4" geometry="radius: 1;" material="metalness:0.5; roughness:0.3;">
+			<a-mixin id="esferad" mixin="mtl1" geometry="radius: 0.04;" material="metalness:0.5; roughness:0.3;"></a-mixin>
+			<a-mixin id="esfera" mixin="mtl4" geometry="radius: 1;" material="metalness:0.5; roughness:0.3;"></a-mixin>
 			<a-asset-item id="mt" src="vr/outros/c8.mtl"></a-asset-item>
 			<a-asset-item id="aq" src="vr/outros/Cuboctahedron.obj"></a-asset-item>
 			<a-asset-item id="aq1" src="vr/outros/CuboctahedronL.obj"></a-asset-item>
