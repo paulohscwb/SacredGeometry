@@ -371,224 +371,227 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <a href="vr/GridDodecagramv1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/59A.png" class="foto" alt="Dodecagram Grid 3D"></a>
  <br><br><br><br>This symbol has been used in many belief systems, including Judaism and Christianity. In Judaism, the dodecagram symbolizes the 12 tribes of Israel. In Christianity, the dodecagram symbolizes the 12 disciples. The dodecagram is an ancient symbol with many meanings. By considering the combinations of 5 by 5, 4 by 4, 3 by 3 and 2 by 2 vertices, we create the Dodecagram Grid. In Sacred Geometry, the dodecagram, or 12-pointed star, symbolizes creation, balance, harmony, and the cyclical nature of existence.
  <br><br><br>
+  <hr>
+ <h4>60. Tridecagram Grid</h4>
+<a href="vr/GridTridecagram.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/103A.png" class="foto" alt="Tridecagram Grid 3D"></a>
+ <br><br><br><br>The tridecagram, or 13-pointed star, is a figure of Sacred Geometry that represents cycles, thresholds and fundamental cosmic patterns. The tridecagram is considered a challenge to creation and hidden divine knowledge, as the exact construction of a regular tridecagon is impossible using only a ruler and compass. The number 13 is considered sacred in several traditions, symbolizing completion and new beginnings. This number is linked to lunar cycles and the structure of the universe, as in the symbol of the Fruit of Life. The tridecagram's symbolism is characterized by its connection to the mysteries of prime numbers, divine and hidden knowledge, and something simple that lies beyond human comprehension. The tridecagram is associated with concepts of immortality in a mystical context and can be found in symbolic representations, such as the center of the labyrinth of Chartres Cathedral. By considering the combinations of 6 by 6, 5 by 5, 4 by 4, 3 by 3 and 2 by 2 vertices, we create the Tridecagram Grid.
+ <br><br><br>
  <hr>
-<h4>60. Fractal Pentagram</h4>
+ <p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<h4>61. Fractal Pentagram</h4>
 <a href="vr/Pentagram2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/57A.png" class="foto" alt="Fractal Pentagram"></a>
  <br><br><br><br>In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit. This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery. The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole. The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites.
  <br><br><br>
- <p class="topop"><a href="#p1" class="topo">back to top</a></p>
  <hr>
-<h4>61. Fractal Pentagram v2</h4>
+<h4>62. Fractal Pentagram v2</h4>
 <a href="vr/Pentagram3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/51A.png" class="foto" alt="Fractal Pentagram"></a>
  <br><br><br><br>The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole. The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites. In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit. This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery.
  <br><br><br>
  <hr>
- <h4>62. Fractal Pentagram v3</h4>
+ <h4>63. Fractal Pentagram v3</h4>
 <a href="vr/Pentagram3a.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/71A.png" class="foto" alt="Fractal Pentagram"></a>
  <br><br><br><br>The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites. In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit. This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery. The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole.
  <br><br><br>
  <hr>
-<h4>63. Pentagram</h4>
+<h4>64. Pentagram</h4>
 <a href="vr/Pentagram4.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/49A.png" class="foto" alt="Pentagram"></a>
  <br><br><br><br>In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit. This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery. The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole. The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites.
  <br><br><br>
  <hr>
- <h4>64. Pentagram and the Golden Spiral</h4>
+ <h4>65. Pentagram and the Golden Spiral</h4>
 <a href="vr/GoldenSpiral1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/68A.png" class="foto" alt="Golden Spiral"></a>
  <br><br><br>We define that the numbers <b>a</b> and <b>b</b> are in the golden ratio when <b>(a + b) / a = a / b = &Phi;</b>. Putting this ratio in two dimensions, we can construct golden triangles (or rectangles), where their sides are in the golden ratio.  This term was introduced by Leonardo da Vinci as a proportion of "ideal perfect body" and appears in the petals of various flowers, sunflower seed arrangements, pine cone patterns and romanesco broccoli. This proportion is not just a mathematical notion, but also a symbol of beauty, harmony and perfection in art, science and nature.
  <br><br>
  <hr>
-<h4>65. Pentagram and the Golden Spiral</h4>
+<h4>66. Pentagram and the Golden Spiral</h4>
 <a href="vr/Pentagram5.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/55A.png" class="foto" alt="Pentagram and the Golden Spiral"></a>
  <br><br><br><br>The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole. The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites. In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit. This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery.
  <br><br><br>
  <hr>
-<h4>66. Pentagram and the Golden Spiral v2</h4>
+<h4>67. Pentagram and the Golden Spiral v2</h4>
 <a href="vr/Pentagram5a.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/69A.png" class="foto" alt="Pentagram and the Golden Spiral"></a>
  <br><br><br><br>In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit. This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery. The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole. The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites. 
  <br><br><br>
 <hr>
-<h4>67. Fractal Pentagram and the Golden Spiral</h4>
+<h4>68. Fractal Pentagram and the Golden Spiral</h4>
 <a href="vr/Pentagram6.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/61A.png" class="foto" alt="Pentagram Fractal and the Golden Spiral"></a>
  <br><br><br><br>The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites. In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit. This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery. The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole.
  <br><br><br>
  <hr>
- <h4>68. Fractal Pentagram and the Golden Spiral v2</h4>
+ <h4>69. Fractal Pentagram and the Golden Spiral v2</h4>
 <a href="vr/Pentagram6a.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/70A.png" class="foto" alt="Pentagram Fractal and the Golden Spiral"></a>
  <br><br><br><br>In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit. The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites. This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery. The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole.
  <br><br><br>
  <hr>
-<h4>69. Curved Pentagram</h4>
+<h4>70. Curved Pentagram</h4>
 <a href="vr/Pentagram7.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/62A.png" class="foto" alt="Curved Pentagram"></a>
  <br><br><br><br>In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit. This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery. The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole. The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites.
  <br><br><br>
  <hr>
-<h4>70. Pentagram</h4>
+ <p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<h4>71. Pentagram</h4>
 <a href="vr/Pentagram8.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/63A.png" class="foto" alt="Pentagram"></a>
  <br><br><br><br>This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery. The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole. The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites. In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit.
  <br><br><br>
- <p class="topop"><a href="#p1" class="topo">back to top</a></p>
  <hr>
-<h4>71. Fractal Pentagram v3</h4>
+<h4>72. Fractal Pentagram v3</h4>
 <a href="vr/Pentagram9.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/64A.png" class="foto" alt="Fractal Pentagram"></a>
  <br><br><br><br>The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole. The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites. In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit. This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery.
  <br><br><br>
  <hr>
-<h4>72. Fractal Pentagram v4</h4>
+<h4>73. Fractal Pentagram v4</h4>
 <a href="vr/Pentagram10.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/65A.png" class="foto" alt="Fractal Pentagram"></a>
  <br><br><br><br>The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites. In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit. This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery. The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole.
  <br><br><br>
  <hr>
-<h4>73. Venus Flower</h4>
+<h4>74. Venus Flower</h4>
 <a href="vr/VenusFlower.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/66A.png" class="foto" alt="Venus Flower"></a>
  <br><br><br><br>The Venus Flower, also known as the Rose of Venus or the Pentagram of Venus, is a symbol of Sacred Geometry determined by the orbits of the planets Venus and Earth around the Sun. This pattern, observable over a period of 8 years, visually resembles a five-petaled rose and is associated with love, beauty and harmony. The Venus Flower is a symbol of love, beauty, and the interconnectedness of the cosmos. Each petal is said to represent a stage on the path to all-encompassing love. 
  <br><br><br>
 <hr>
-<h4>74. Venus Flower v1</h4>
+<h4>75. Venus Flower v1</h4>
 <a href="vr/VenusFlowerv1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/80A.png" class="foto" alt="Venus Flower"></a>
  <br><br><br><br>Each petal is said to represent a stage on the path to all-encompassing love. The Venus Flower, also known as the Rose of Venus or the Pentagram of Venus, is a symbol of Sacred Geometry determined by the orbits of the planets Venus and Earth around the Sun. This pattern, observable over a period of 8 years, visually resembles a five-petaled rose and is associated with love, beauty and harmony. The Venus Flower is a symbol of love, beauty, and the interconnectedness of the cosmos. 
  <br><br><br>
  <hr>
-<h4>75. Venus Flower v2</h4>
+<h4>76. Venus Flower v2</h4>
 <a href="vr/VenusFlowerv2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/81A.png" class="foto" alt="Venus Flower"></a>
  <br><br><br><br>This pattern, observable over a period of 8 years, visually resembles a five-petaled rose and is associated with love, beauty and harmony. The Venus Flower is a symbol of love, beauty, and the interconnectedness of the cosmos. Each petal is said to represent a stage on the path to all-encompassing love. The Venus Flower, also known as the Rose of Venus or the Pentagram of Venus, is a symbol of Sacred Geometry determined by the orbits of the planets Venus and Earth around the Sun.
  <br><br><br>
  <hr>
-<h4>76. Pentagram</h4>
+<h4>77. Pentagram</h4>
 <a href="vr/Pentagram11.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/67A.png" class="foto" alt="Pentagram"></a>
  <br><br><br><br>The golden ratio is believed to represent a divine proportion and a harmonious relationship between different parts of a whole. The pentagram and the hexagram have been used in various religious and spiritual practices, representing harmony, balance, and the union of opposites. In Sacred Geometry, the pentagram (five-pointed star) represents the union of the five elements: air, fire, water, earth and spirit. This symbol is also linked to the golden ratio and is considered a symbol of balance, harmony and spiritual mastery.
  <br><br><br>
  <hr>
-<h4>77. Triangles</h4>
+<h4>78. Triangles</h4>
 <a href="vr/Triangles.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/72A.png" class="foto" alt="Triangles"></a>
  <br><br><br><br>In Sacred Geometry, triangles represent balance, harmony, and the intersection of three principles. Upward-facing triangles symbolize the elevation of consciousness, while inverted triangles represent feminine energy and reproduction. Triangles are believed to embody divine creation and balance, often associated with the Taoist concept of unity unfolding into duality. This symbol shows a spiral made of equilateral triangles, forming a kind of hyperboloid.
  <br><br><br>
  <hr>
-<h4>78. Squares</h4>
+<h4>79. Squares</h4>
 <a href="vr/Squares.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/73A.png" class="foto" alt="Squares"></a>
  <br><br><br><br>In Sacred Geometry, the square is considered a fundamental shape associated with stability, anchoring, and the four elements of nature. The square represents the fixed nature of matter and the foundations of physical reality. The four sides of a square are often associated with the four cardinal points, the four seasons, and the four Aristotelian elements (earth, water, air, and fire). This symbol represents a spiral composed of squares, forming a kind of hyperboloid.
  <br><br><br>
  <hr>
-<h4>79. Pentagons</h4>
+<h4>80. Pentagons</h4>
 <a href="vr/Pentagons.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/74A.png" class="foto" alt="Pentagons"></a>
  <br><br><br><br>In Sacred Geometry, pentagons, particularly the pentagram (the star formed by connecting the diagonals of a pentagon), symbolize fivefold symmetry and often represent harmony, unity, and the interconnectedness of things. Pentagons are also associated with the golden ratio and the Fibonacci sequence, which are considered fundamental principles of nature and the universe. This symbol represents a spiral composed of regular pentagons, forming a kind of hyperboloid.
  <br><br><br>
  <hr>
-<h4>80. Hexagons</h4>
+  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<h4>81. Hexagons</h4>
 <a href="vr/Hexagons.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/75A.png" class="foto" alt="Hexagons"></a>
  <br><br><br><br>In Sacred Geometry, hexagons are often seen as symbols of balance, harmony, and the potential of life. Their symmetrical shape, with six equal sides and angles, represents stability and balance. Hexagons are also associated with the Flower of Life and the six-pointed star (Merkabah), both symbols of interconnection and divine creation. This symbol represents a spiral composed of regular hexagons, forming a kind of hyperboloid.
  <br><br><br>
- <p class="topop"><a href="#p1" class="topo">back to top</a></p>
  <hr>
-<h4>81. Heptagons</h4>
+<h4>82. Heptagons</h4>
 <a href="vr/Heptagons.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/76A.png" class="foto" alt="Heptagons"></a>
  <br><br><br><br>In Sacred Geometry, heptagons are associated with concepts such as the seven chakras, the seven days of the week or the seven heavens, depending on the interpretation. Heptagrams (seven-pointed stars formed by the extension of the sides of a heptagon) also have symbolic meaning, with different types of triangles and proportions related to their angles. This symbol represents a spiral composed of regular heptagons, forming a kind of hyperboloid.
  <br><br><br>
  <hr>
-<h4>82. Octagons</h4>
+<h4>83. Octagons</h4>
 <a href="vr/Octagons.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/77A.png" class="foto" alt="Octagons"></a>
  <br><br><br><br>In Sacred Geometry, the octagon is always seen as a symbol of unity and balance, arising from the combination of the circle (which represents the sky) and the square (which represents the earth). The octagon is believed to connect and harmonize these two elements. The octagon also has several symbolic meanings in different cultures and religions, including completeness, good luck and protection. This symbol represents a spiral composed of regular octagons, forming a kind of hyperboloid.
  <br><br><br>
  <hr>
-<h4>83. Enneagons</h4>
+<h4>84. Enneagons</h4>
 <a href="vr/Enneagons.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/78A.png" class="foto" alt="Enneagons"></a>
  <br><br><br><br>In Sacred Geometry, an enneagon is a geometric shape that symbolizes unity, completeness, balance, and the culmination of a cycle. It can also be represented as a nine-pointed star, known as an enneagram. The enneagon, along with other shapes such as the centered octogram, is used in various symbolic and spiritual interpretations within Sacred Geometry. This symbol represents a spiral composed of regular enneagons, forming a kind of hyperboloid.
  <br><br><br>
  <hr>
-<h4>84. Decagons</h4>
+<h4>85. Decagons</h4>
 <a href="vr/Decagons.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/79A.png" class="foto" alt="Decagons"></a>
  <br><br><br><br>In Sacred Geometry, a decagon symbolizes balance, harmony, and the interconnectedness of the universe. It is a more complex shape than some others, such as the pentagon, offering a richer symbolic landscape. The ten sides of the decagon can represent the ten commandments, the ten realms of the soul, or the ten fingers and toes of the human form, suggesting a connection between the spiritual and physical worlds. This symbol represents a spiral composed of regular decagons, forming a kind of hyperboloid.
  <br><br><br>
 <hr>
-<h4>85. Hypercube</h4>
+<h4>86. Hypercube</h4>
 <a href="vr/Hypercube.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/85A.png" class="foto" alt="Hypercube"></a>
  <br><br><br><br>A hypercube, also known as an octacoron or tesseract, is a geometric shape that can be visualized as a cube that extends beyond our three-dimensional reality. In Sacred Geometry, the hypercube is seen as a symbol of the union of matter and energy, representing the fourth dimension, the expansion of consciousness, and the connection to dimensions beyond our three-dimensional understanding. A hypercube is formed by eight interconnected cubes and can be represented by joining the vertices of two parallel cubes.
  <br><br><br>
  <hr>
-<h4>86. Hypercube 3D</h4>
+<h4>87. Hypercube 3D</h4>
 <a href="vr/Hypercubev1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/86A.png" class="foto" alt="Hypercube"></a>
  <br><br><br><br>In Sacred Geometry, the hypercube is seen as a symbol of the union of matter and energy, representing the fourth dimension, the expansion of consciousness, and the connection to dimensions beyond our three-dimensional understanding. A hypercube is formed by eight interconnected cubes and can be represented by joining the vertices of two parallel cubes. A hypercube, also known as an octacoron or tesseract, is a geometric shape that can be visualized as a cube that extends beyond our three-dimensional reality.
  <br><br><br>
  <hr>
-<h4>87. Hypercube 3D v1</h4>
+<h4>88. Hypercube 3D v1</h4>
 <a href="vr/Hypercubev2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/87A.png" class="foto" alt="Hypercube"></a>
  <br><br><br><br>A hypercube is formed by eight interconnected cubes and can be represented by joining the vertices of two parallel cubes. A hypercube, also known as an octacoron or tesseract, is a geometric shape that can be visualized as a cube that extends beyond our three-dimensional reality. In Sacred Geometry, the hypercube is seen as a symbol of the union of matter and energy, representing the fourth dimension, the expansion of consciousness, and the connection to dimensions beyond our three-dimensional understanding.
  <br><br><br>
  <hr>
-<h4>88. Hypercube 3D v2</h4>
+<h4>89. Hypercube 3D v2</h4>
 <a href="vr/Hypercubev3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/88A.png" class="foto" alt="Hypercube"></a>
  <br><br><br><br>A hypercube, also known as an octacoron or tesseract, is a geometric shape that can be visualized as a cube that extends beyond our three-dimensional reality. In Sacred Geometry, the hypercube is seen as a symbol of the union of matter and energy, representing the fourth dimension, the expansion of consciousness, and the connection to dimensions beyond our three-dimensional understanding. A hypercube is formed by eight interconnected cubes and can be represented by joining the vertices of two parallel cubes.
  <br><br><br>
-<hr>
-<h4>89. Golden Rectangles and Spirals</h4>
+ <hr>
+<h4>90. Golden Rectangles and Spirals</h4>
 <a href="vr/GoldenRectangles2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/89A.png" class="foto" alt="Golden Rectangles"></a>
  <br><br><br><br>The symbol formed by three interconnected golden rectangles can be constructed in two ways. We can define the sides of a golden rectangle as two opposite edges and the respective perpendicular diagonals of an icosahedron. The second way to construct this symbol is by choosing the lines with golden proportions that appear in the symbol of the Flower of Life. In Sacred Geometry, three interconnected golden rectangles represent the cosmos and the union of forces.
  <br><br><br>
  <hr>
-<h4>90. Golden Rectangles and Spirals v2</h4>
+  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<h4>91. Golden Rectangles and Spirals v2</h4>
 <a href="vr/GoldenRectangles3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/90A.png" class="foto" alt="Golden Rectangles"></a>
  <br><br><br><br>In Sacred Geometry, three interconnected golden rectangles represent the cosmos and the union of forces. The symbol formed by three interconnected golden rectangles can be constructed in two ways. We can define the sides of a golden rectangle as two opposite edges and the respective perpendicular diagonals of an icosahedron. The second way to construct this symbol is by choosing the lines with golden proportions that appear in the symbol of the Flower of Life.
-<p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
-<h4>91. Pentagons</h4>
+<h4>92. Pentagons</h4>
 <a href="vr/Pentagonal.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/91A.png" class="foto" alt="Pentagons"></a>
  <br><br><br><br>In Sacred Geometry, pentagons, particularly the pentagram (the star formed by connecting the diagonals of a pentagon), symbolize fivefold symmetry and often represent harmony, unity, and the interconnectedness of things. Pentagons are also associated with the golden ratio and the Fibonacci sequence, which are considered fundamental principles of nature and the universe. This symbol represents a pattern of regular pentagons, forming a kind of Flower of Life.
  <br><br><br>
  <hr>
-<h4>92. Hexagons</h4>
+<h4>93. Hexagons</h4>
 <a href="vr/Hexagonal.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/92A.png" class="foto" alt="Hexagons"></a>
  <br><br><br><br>In Sacred Geometry, hexagons are often seen as symbols of balance, harmony, and the potential of life. Their symmetrical shape, with six equal sides and angles, represents stability and balance. Hexagons are also associated with the Flower of Life and the six-pointed star (Merkabah), both symbols of interconnection and divine creation. This symbol represents a pattern of regular hexagons, forming a kind of Flower of Life.
  <br><br><br>
- <p class="topop"><a href="#p1" class="topo">back to top</a></p>
- <hr>
-<h4>93. Heptagons</h4>
+  <hr>
+<h4>94. Heptagons</h4>
 <a href="vr/Heptagonal.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/93A.png" class="foto" alt="Heptagons"></a>
  <br><br><br><br>In Sacred Geometry, heptagons are associated with concepts such as the seven chakras, the seven days of the week or the seven heavens, depending on the interpretation. Heptagrams (seven-pointed stars formed by the extension of the sides of a heptagon) also have symbolic meaning, with different types of triangles and proportions related to their angles. This symbol represents a pattern of regular heptagons, forming a kind of Flower of Life.
  <br><br><br>
  <hr>
-<h4>94. Octagons</h4>
+<h4>95. Octagons</h4>
 <a href="vr/Octagonal.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/94A.png" class="foto" alt="Octagons"></a>
  <br><br><br><br>In Sacred Geometry, the octagon is always seen as a symbol of unity and balance, arising from the combination of the circle (which represents the sky) and the square (which represents the earth). The octagon is believed to connect and harmonize these two elements. The octagon also has several symbolic meanings in different cultures and religions, including completeness, good luck and protection. This symbol represents a pattern of regular octagons, forming a kind of Flower of Life.
  <br><br><br>
  <hr>
-<h4>95. Enneagons</h4>
+<h4>96. Enneagons</h4>
 <a href="vr/Enneagonal.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/95A.png" class="foto" alt="Enneagons"></a>
  <br><br><br><br>In Sacred Geometry, an enneagon is a geometric shape that symbolizes unity, completeness, balance, and the culmination of a cycle. It can also be represented as a nine-pointed star, known as an enneagram. The enneagon, along with other shapes such as the centered octogram, is used in various symbolic and spiritual interpretations within Sacred Geometry. This symbol represents a pattern of regular enneagons, forming a kind of Flower of Life.
  <br><br><br>
  <hr>
-<h4>96. Decagons</h4>
+<h4>97. Decagons</h4>
 <a href="vr/Decagonal.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/96A.png" class="foto" alt="Decagons"></a>
  <br><br><br><br>In Sacred Geometry, a decagon symbolizes balance, harmony, and the interconnectedness of the universe. It is a more complex shape than some others, such as the pentagon, offering a richer symbolic landscape. The ten sides of the decagon can represent the ten commandments, the ten realms of the soul, or the ten fingers and toes of the human form, suggesting a connection between the spiritual and physical worlds. This symbol represents a pattern of regular decagons, forming a kind of Flower of Life.
  <br><br><br>
  <hr>
-<h4>97. Pentagons</h4>
+<h4>98. Pentagons</h4>
 <a href="vr/Pentagonal1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/97A.png" class="foto" alt="Pentagons"></a>
  <br><br><br><br>In Sacred Geometry, pentagons, particularly the pentagram (the star formed by connecting the diagonals of a pentagon), symbolize fivefold symmetry and often represent harmony, unity, and the interconnectedness of things. Pentagons are also associated with the golden ratio and the Fibonacci sequence, which are considered fundamental principles of nature and the universe. This symbol represents a pattern of regular pentagons, forming a kind of Flower of Life.
  <br><br><br>
  <hr>
-<h4>98. Hexagons</h4>
+<h4>99. Hexagons</h4>
 <a href="vr/Hexagonal1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/98A.png" class="foto" alt="Hexagons"></a>
  <br><br><br><br>In Sacred Geometry, hexagons are often seen as symbols of balance, harmony, and the potential of life. Their symmetrical shape, with six equal sides and angles, represents stability and balance. Hexagons are also associated with the Flower of Life and the six-pointed star (Merkabah), both symbols of interconnection and divine creation. This symbol represents a pattern of regular hexagons, forming a kind of Flower of Life.
  <br><br><br>
- <p class="topop"><a href="#p1" class="topo">back to top</a></p>
  <hr>
-<h4>99. Heptagons</h4>
+<h4>100. Heptagons</h4>
 <a href="vr/Heptagonal1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/99A.png" class="foto" alt="Heptagons"></a>
  <br><br><br><br>In Sacred Geometry, heptagons are associated with concepts such as the seven chakras, the seven days of the week or the seven heavens, depending on the interpretation. Heptagrams (seven-pointed stars formed by the extension of the sides of a heptagon) also have symbolic meaning, with different types of triangles and proportions related to their angles. This symbol represents a pattern of regular heptagons, forming a kind of Flower of Life.
  <br><br><br>
  <hr>
-<h4>100. Octagons</h4>
+  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<h4>101. Octagons</h4>
 <a href="vr/Octagonal1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/100A.png" class="foto" alt="Octagons"></a>
  <br><br><br><br>In Sacred Geometry, the octagon is always seen as a symbol of unity and balance, arising from the combination of the circle (which represents the sky) and the square (which represents the earth). The octagon is believed to connect and harmonize these two elements. The octagon also has several symbolic meanings in different cultures and religions, including completeness, good luck and protection. This symbol represents a pattern of regular octagons, forming a kind of Flower of Life.
  <br><br><br>
  <hr>
- <p class="topop"><a href="#p1" class="topo">back to top</a></p>
-<h4>101. Enneagons</h4>
+<h4>102. Enneagons</h4>
 <a href="vr/Enneagonal1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/101A.png" class="foto" alt="Enneagons"></a>
  <br><br><br><br>In Sacred Geometry, an enneagon is a geometric shape that symbolizes unity, completeness, balance, and the culmination of a cycle. It can also be represented as a nine-pointed star, known as an enneagram. The enneagon, along with other shapes such as the centered octogram, is used in various symbolic and spiritual interpretations within Sacred Geometry. This symbol represents a pattern of regular enneagons, forming a kind of Flower of Life.
  <br><br><br>
  <hr>
-<h4>102. Decagons</h4>
+<h4>103. Decagons</h4>
 <a href="vr/Decagonal1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/102A.png" class="foto" alt="Decagons"></a>
  <br><br><br><br>In Sacred Geometry, a decagon symbolizes balance, harmony, and the interconnectedness of the universe. It is a more complex shape than some others, such as the pentagon, offering a richer symbolic landscape. The ten sides of the decagon can represent the ten commandments, the ten realms of the soul, or the ten fingers and toes of the human form, suggesting a connection between the spiritual and physical worlds. This symbol represents a pattern of regular decagons, forming a kind of Flower of Life.
  <br><br><br>
