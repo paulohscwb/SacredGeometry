@@ -370,224 +370,227 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
  <br><br><br>Este símbolo tem sido usado em diversos sistemas de crenças, incluindo o judaísmo e o cristianismo. No Judaísmo, o dodecagrama simboliza as 12 tribos de Israel. No Cristianismo, o dodecagrama simboliza os 12 discípulos. Ao considerarmos as combinações de 5 em 5, 4 em 4, 3 em 3 e 2 em 2 vértices, criamos a Grade Dodecagrâmica. Na Geometria Sagrada, o dodecagrama ou estrela de 12 pontas, simboliza a criação, o equilíbrio, a harmonia e a natureza cíclica da existência.
  <br><br><br>
  <hr>
-<h4>60. Pentagrama Fractal</h4>
+ <h4>60. Grade Tridecagrâmica</h4>
+<a href="../vr/GridTridecagram.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/103A.png" class="foto" alt="Grade Tridecagrâmica"></a>
+ <br><br><br>O tridecagrama, ou estrela de 13 pontas, é uma figura da Geometria Sagrada que possui significado na representação de limites, ciclos e padrões cósmicos fundamentais. O tridecagrama é considerado como um desafio da criação e do conhecimento divino oculto, pois a construção do tridecágono regular exata não é possível utilizando-se apenas a régua e o compasso. O número 13 é considerado sagrado em várias tradições, simbolizando a conclusão e novos começos. Este número tem ligação com os ciclos lunares e com a estrutura do universo, como no símbolo do Fruto da Vida. O simbolismo do tridecagrama caracteriza-se por sua conexão com os mistérios dos números primos, o conhecimento divino e oculto, e algo simples que encontra-se além da compreensão humana. O tridecagrama é associado a conceitos de imortalidade num contexto místico e pode ser encontrado em representações simbólicas, como o centro do labirinto da Catedral de Chartres. Ao considerarmos as combinações de 6 em 6, 5 em 5, 4 em 4, 3 em 3 e 2 em 2 vértices, criamos a Grade Tridecagrâmica. 
+ <br><br><br>
+ <hr>
+ <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<h4>61. Pentagrama Fractal</h4>
 <a href="../vr/Pentagram2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/57A.png" class="foto" alt="Pentagrama fractal"></a>
  <br><br><br>Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito. Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual. Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo. O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos.
  <br><br><br>
- <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  <hr>
-<h4>61. Pentagrama Fractal v2</h4>
+<h4>62. Pentagrama Fractal v2</h4>
 <a href="../vr/Pentagram3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/51A.png" class="foto" alt="Pentagrama fractal"></a>
  <br><br><br>Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo. O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos. Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito. Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual.
  <br><br><br>
  <hr>
- <h4>62. Pentagrama Fractal v3</h4>
+ <h4>63. Pentagrama Fractal v3</h4>
 <a href="../vr/Pentagram3a.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/71A.png" class="foto" alt="Pentagrama fractal"></a>
  <br><br><br>O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos. Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito. Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual. Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo.
  <br><br><br>
  <hr>
-<h4>63. Pentagrama</h4>
+<h4>64. Pentagrama</h4>
 <a href="../vr/Pentagram4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/49A.png" class="foto" alt="Pentagrama"></a>
  <br><br><br>Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito. Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual. Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo. O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos.
  <br><br><br>
  <hr>
-<h4>64. Pentagrama e a Espiral Áurea</h4>
+<h4>65. Pentagrama e a Espiral Áurea</h4>
 <a href="../vr/GoldenSpiral1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/68A.png" class="foto" alt="Pentagrama e a Espiral áurea"></a>
  <br><br><br>Definimos que os números <b>a</b> e <b>b</b> estão na proporção áurea quando <b>(a + b) / a = a / b = &Phi;</b>. Colocando-se esta razão em duas dimensões, podemos construir os triângulos (ou retângulos) áureos, onde seus lados estão na proporção áurea. Este termo foi introduzido por Leonardo da Vinci como uma proporção de "corpo perfeito ideal" e aparece em pétalas de diversas flores, arranjos das sementes de girassóis, padrões de pinhas e no brócolis romanesco. Esta proporção não é apenas uma noção matemática, mas também um símbolo de beleza, harmonia e perfeição na arte, na ciência e na natureza.
  <br><br><br>
  <hr>
-<h4>65. Pentagrama e a Espiral Áurea</h4>
+<h4>66. Pentagrama e a Espiral Áurea</h4>
 <a href="../vr/Pentagram5.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/55A.png" class="foto" alt="Pentagrama e a Espiral Áurea"></a>
  <br><br><br>Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo. O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos. Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito. Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual.
  <br><br><br>
 <hr>
-<h4>66. Pentagrama e a Espiral Áurea v2</h4>
+<h4>67. Pentagrama e a Espiral Áurea v2</h4>
 <a href="../vr/Pentagram5a.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/69A.png" class="foto" alt="Pentagrama e a Espiral Áurea"></a>
  <br><br><br>Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito. Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual. Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo. O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos.
  <br><br><br>
 <hr>
-<h4>67. Pentagrama Fractal e a Espiral Áurea</h4>
+<h4>68. Pentagrama Fractal e a Espiral Áurea</h4>
 <a href="../vr/Pentagram6.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/61A.png" class="foto" alt="Pentagrama Fractal e a Espiral Áurea"></a>
  <br><br><br>O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos. Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito. Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual. Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo.
  <br><br><br>
  <hr>
- <h4>68. Pentagrama Fractal e a Espiral Áurea v2</h4>
+ <h4>69. Pentagrama Fractal e a Espiral Áurea v2</h4>
 <a href="../vr/Pentagram6a.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/70A.png" class="foto" alt="Pentagrama Fractal e a Espiral Áurea"></a>
  <br><br><br>Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual. Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo. O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos. Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito.
  <br><br><br>
  <hr>
-<h4>69. Pentagrama curvado</h4>
+<h4>70. Pentagrama curvado</h4>
 <a href="../vr/Pentagram7.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/62A.png" class="foto" alt="Pentagrama curvado"></a>
  <br><br><br>Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito. Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual. Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo. O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos.
  <br><br><br>
  <hr>
-<h4>70. Pentagrama</h4>
+ <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<h4>71. Pentagrama</h4>
 <a href="../vr/Pentagram8.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/63A.png" class="foto" alt="Pentagrama"></a>
  <br><br><br>Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual. Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo. O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos. Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito.
  <br><br><br>
- <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  <hr>
-<h4>71. Pentagrama Fractal v3</h4>
+<h4>72. Pentagrama Fractal v3</h4>
 <a href="../vr/Pentagram9.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/64A.png" class="foto" alt="Pentagrama Fractal"></a>
  <br><br><br>Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo. O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos. Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito. Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual.
  <br><br><br>
  <hr>
-<h4>72. Pentagrama Fractal v4</h4>
+<h4>73. Pentagrama Fractal v4</h4>
 <a href="../vr/Pentagram10.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/65A.png" class="foto" alt="Pentagrama Fractal"></a>
  <br><br><br>O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos. Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito. Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual. Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo.
  <br><br><br>
  <hr>
-<h4>73. Flor de Vênus</h4>
+<h4>74. Flor de Vênus</h4>
 <a href="../vr/VenusFlower.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/66A.png" class="foto" alt="Flor de Vênus"></a>
  <br><br><br>A Flor de Vênus, também conhecida como Rosa de Vênus ou Pentagrama de Vênus, é um símbolo da Geometria Sagrada determinado pelas órbitas dos planetas Vênus e Terra ao redor do Sol. Este padrão, observável ao longo de um período de 8 anos, assemelha-se visualmente a uma rosa de cinco pétalas e está associado ao amor, à beleza e à harmonia. A Flor de Vênus é um símbolo do amor, da beleza e da interconexão do cosmos. Diz-se que cada pétala representa uma etapa no caminho para o amor que tudo abrange.
  <br><br><br>
 <hr>
-<h4>74. Flor de Vênus v1</h4>
+<h4>75. Flor de Vênus v1</h4>
 <a href="../vr/VenusFlowerv1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/80A.png" class="foto" alt="Flor de Vênus"></a>
  <br><br><br>Diz-se que cada pétala representa uma etapa no caminho para o amor que tudo abrange. A Flor de Vênus, também conhecida como Rosa de Vênus ou Pentagrama de Vênus, é um símbolo da Geometria Sagrada determinado pelas órbitas dos planetas Vênus e Terra ao redor do Sol. Este padrão, observável ao longo de um período de 8 anos, assemelha-se visualmente a uma rosa de cinco pétalas e está associado ao amor, à beleza e à harmonia. A Flor de Vênus é um símbolo do amor, da beleza e da interconexão do cosmos. 
  <br><br><br>
  <hr>
-<h4>75. Flor de Vênus v2</h4>
+<h4>76. Flor de Vênus v2</h4>
 <a href="../vr/VenusFlowerv2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/81A.png" class="foto" alt="Flor de Vênus"></a>
  <br><br><br>Este padrão, observável ao longo de um período de 8 anos, assemelha-se visualmente a uma rosa de cinco pétalas e está associado ao amor, à beleza e à harmonia. A Flor de Vênus é um símbolo do amor, da beleza e da interconexão do cosmos. Diz-se que cada pétala representa uma etapa no caminho para o amor que tudo abrange. A Flor de Vênus, também conhecida como Rosa de Vênus ou Pentagrama de Vênus, é um símbolo da Geometria Sagrada determinado pelas órbitas dos planetas Vênus e Terra ao redor do Sol.
  <br><br><br>
  <hr>
-<h4>76. Pentagrama</h4>
+<h4>77. Pentagrama</h4>
 <a href="../vr/Pentagram11.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/67A.png" class="foto" alt="Pentagrama"></a>
  <br><br><br>Acredita-se que a proporção áurea represente uma proporção divina e uma relação harmoniosa entre as diferentes partes de um todo. O pentagrama e o hexagrama têm sido usados ​​em várias práticas religiosas e espirituais, representando harmonia, equilíbrio e a união dos opostos. Na Geometria Sagrada, o pentagrama (estrela de cinco pontas) representa a união dos cinco elementos: ar, fogo, água, terra e espírito. Este símbolo também está ligado à proporção áurea e é considerado um símbolo de equilíbrio, harmonia e maestria espiritual.
  <br><br><br>
  <hr>
-<h4>77. Triângulos</h4>
+<h4>78. Triângulos</h4>
 <a href="../vr/Triangles.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/72A.png" class="foto" alt="Triângulos"></a>
  <br><br><br>Na Geometria Sagrada, os triângulos representam equilíbrio, harmonia e a intersecção de três princípios. Os triângulos voltados para cima simbolizam a elevação da consciência, enquanto os triângulos invertidos representam a energia feminina e a reprodução. Acredita-se que os triângulos personificam a criação divina e o equilíbrio, frequentemente associados ao conceito taoísta de unidade que se desdobra em dualidade. Este símbolo mostra uma espiral feita com triângulos equiláteros, formando uma espécie de hiperbolóide.
  <br><br><br>
  <hr>
-<h4>78. Quadrados</h4>
+<h4>79. Quadrados</h4>
 <a href="../vr/Squares.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/73A.png" class="foto" alt="Quadrados"></a>
  <br><br><br>Na Geometria Sagrada, o quadrado é considerado uma forma fundamental associada à estabilidade, à ancoragem e aos quatro elementos da natureza. O quadrado representa a natureza fixa da matéria e os fundamentos da realidade física. Os quatro lados de um quadrado são frequentemente associados aos quatro pontos cardeais, às quatro estações e aos quatro elementos Aristotélicos (terra, água, ar e fogo). Este símbolo representa uma espiral composta por quadrados, formando uma espécie de hiperboloide.
  <br><br><br>
  <hr>
-<h4>79. Pentágonos</h4>
+<h4>80. Pentágonos</h4>
 <a href="../vr/Pentagons.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/74A.png" class="foto" alt="Pentágonos"></a>
  <br><br><br>Na Geometria Sagrada, os pentágonos, particularmente o pentagrama (a estrela formada pela conexão das diagonais de um pentágono), simbolizam a simetria quíntupla e frequentemente representam harmonia, unidade e a interconexão das coisas. Os pentágonos também são associados à proporção áurea e à sequência de Fibonacci, consideradas princípios fundamentais da natureza e do universo. Este símbolo representa uma espiral composta de pentágonos regulares, formando uma espécie de hiperboloide.
  <br><br><br>
  <hr>
-<h4>80. Hexágonos</h4>
+ <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<h4>81. Hexágonos</h4>
 <a href="../vr/Hexagons.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/75A.png" class="foto" alt="Hexágonos"></a>
  <br><br><br>Na Geometria Sagrada, os hexágonos são sempre vistos como símbolos de equilíbrio, harmonia e do potencial da vida. Sua forma simétrica, com seis lados e ângulos iguais, representa estabilidade e equilíbrio. Os hexágonos também são associados à Flor da Vida e à estrela de seis pontas (Merkabah), ambos símbolos de interconexão e criação divina. Este símbolo representa uma espiral composta de hexágonos regulares, formando uma espécie de hiperboloide.
  <br><br><br>
- <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  <hr>
-<h4>81. Heptágonos</h4>
+<h4>82. Heptágonos</h4>
 <a href="../vr/Heptagons.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/76A.png" class="foto" alt="Heptágonos"></a>
  <br><br><br>Na Geometria Sagrada, os heptágonos são associados a conceitos como os sete chakras, os sete dias da semana ou os sete céus, dependendo da interpretação. Os heptagramas (estrelas de 7 pontas formadas pela extensão dos lados de um heptágono) também têm significado simbólico, com diferentes tipos de triângulos e proporções relacionadas aos seus ângulos. Este símbolo representa uma espiral composta de heptágonos regulares, formando uma espécie de hiperboloide.
  <br><br><br>
  <hr>
-<h4>82. Octógonos</h4>
+<h4>83. Octógonos</h4>
 <a href="../vr/Octagons.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/77A.png" class="foto" alt="Octógonos"></a>
  <br><br><br>Na Geometria Sagrada, o octógono é sempre visto como um símbolo de unidade e equilíbrio, surgindo da combinação do círculo (que representa o céu) e do quadrado (que representa a terra). Acredita-se que o octógono conecta e harmoniza esses dois elementos. O octógono também possui vários significados simbólicos em diferentes culturas e religiões, incluindo completude, boa sorte e proteção. Este símbolo representa uma espiral composta por octógonos regulares, formando uma espécie de hiperboloide.
  <br><br><br>
  <hr>
-<h4>83. Eneágonos</h4>
+<h4>84. Eneágonos</h4>
 <a href="../vr/Enneagons.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/78A.png" class="foto" alt="Eneágonos"></a>
  <br><br><br>Na Geometria Sagrada, um eneágono é uma forma geométrica que simboliza unidade, completude, equilíbrio e a culminância de um ciclo. Também pode ser representado como uma estrela de nove pontas, conhecida como eneagrama. O eneágono, juntamente com outras formas, como o octograma centralizado, é usado em diversas interpretações simbólicas e espirituais dentro da Geometria Sagrada. Este símbolo representa uma espiral composta de eneágonos regulares, formando uma espécie de hiperboloide.
  <br><br><br>
  <hr>
-<h4>84. Decágonos</h4>
+<h4>85. Decágonos</h4>
 <a href="../vr/Decagons.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/79A.png" class="foto" alt="Decágonos"></a>
  <br><br><br>Na Geometria Sagrada, um decágono simboliza equilíbrio, harmonia e a interconexão do universo. É uma forma mais complexa do que algumas outras, como o pentágono, oferecendo uma paisagem simbólica mais rica. Os dez lados do decágono podem representar os dez mandamentos, os dez reinos da alma ou os dez dedos das mãos e dos pés da forma humana, sugerindo uma conexão entre os mundos espiritual e físico. Este símbolo representa uma espiral composta de decágonos regulares, formando uma espécie de hiperboloide.
  <br><br><br>
 <hr>
-<h4>85. Hipercubo</h4>
+<h4>86. Hipercubo</h4>
 <a href="../vr/Hypercube.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/85A.png" class="foto" alt="Hipercubo"></a>
  <br><br><br>Um hipercubo, também denominado como octácoro ou tesseracto, é uma forma geométrica que pode ser visualizada como um cubo que se estende para além da nossa realidade tridimensional. Na Geometria Sagrada, o hipercubo é visto como um símbolo da união da matéria e da energia, representando a quarta dimensão, a expansão da consciência e a conexão com dimensões além da nossa compreensão tridimensional. Um hipercubo é formado por oito cubos interligados e pode ser representado unindo os vértices de dois cubos paralelos.
  <br><br><br>
  <hr>
-<h4>86. Hipercubo 3D</h4>
+<h4>87. Hipercubo 3D</h4>
 <a href="../vr/Hypercubev1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/86A.png" class="foto" alt="Hipercubo"></a>
  <br><br><br>Na Geometria Sagrada, o hipercubo é visto como um símbolo da união da matéria e da energia, representando a quarta dimensão, a expansão da consciência e a conexão com dimensões além da nossa compreensão tridimensional. Um hipercubo é formado por oito cubos interligados e pode ser representado unindo os vértices de dois cubos paralelos. Um hipercubo, também denominado como octácoro ou tesseracto, é uma forma geométrica que pode ser visualizada como um cubo que se estende para além da nossa realidade tridimensional.
  <br><br><br>
  <hr>
-<h4>87. Hipercubo 3D v1</h4>
+<h4>88. Hipercubo 3D v1</h4>
 <a href="../vr/Hypercubev2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/87A.png" class="foto" alt="Hipercubo"></a>
  <br><br><br>Um hipercubo é formado por oito cubos interligados e pode ser representado unindo os vértices de dois cubos paralelos. Um hipercubo, também denominado como octácoro ou tesseracto, é uma forma geométrica que pode ser visualizada como um cubo que se estende para além da nossa realidade tridimensional. Na Geometria Sagrada, o hipercubo é visto como um símbolo da união da matéria e da energia, representando a quarta dimensão, a expansão da consciência e a conexão com dimensões além da nossa compreensão tridimensional.
  <br><br><br>
  <hr>
-<h4>88. Hipercubo 3D v2</h4>
+<h4>89. Hipercubo 3D v2</h4>
 <a href="../vr/Hypercubev3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/88A.png" class="foto" alt="Hipercubo"></a>
  <br><br><br>Um hipercubo, também denominado como octácoro ou tesseracto, é uma forma geométrica que pode ser visualizada como um cubo que se estende para além da nossa realidade tridimensional. Na Geometria Sagrada, o hipercubo é visto como um símbolo da união da matéria e da energia, representando a quarta dimensão, a expansão da consciência e a conexão com dimensões além da nossa compreensão tridimensional. Um hipercubo é formado por oito cubos interligados e pode ser representado unindo os vértices de dois cubos paralelos.
  <br><br><br>
-<hr>
-<h4>89. Retângulos e Espirais Áureos</h4>
+ <hr>
+<h4>90. Retângulos e Espirais Áureos</h4>
 <a href="../vr/GoldenRectangles2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/89A.png" class="foto" alt="Retângulos Áureos"></a>
  <br><br><br>O símbolo formado por três retângulos dourados interligados pode ser construído de duas maneiras. Podemos definir os lados de um retângulo áureo como duas arestas opostas e as respectivas diagonais perpendiculares de um icosaedro. A segunda maneira de construir este símbolo está na escolha das linhas com proporções áureas que aparecem no símbolo da Flor da Vida. Na Geometria Sagrada, três retângulos áureos interligados representam o cosmos e a união de forças.
  <br><br><br> 
  <hr>
-<h4>90. Retângulos e Espirais Áureos v2</h4>
+ <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<h4>91. Retângulos e Espirais Áureos v2</h4>
 <a href="../vr/GoldenRectangles3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/90A.png" class="foto" alt="Retângulos Áureos"></a>
  <br><br><br>Na Geometria Sagrada, três retângulos áureos interligados representam o cosmos e a união de forças. O símbolo formado por três retângulos dourados interligados pode ser construído de duas maneiras. Podemos definir os lados de um retângulo áureo como duas arestas opostas e as respectivas diagonais perpendiculares de um icosaedro. A segunda maneira de construir este símbolo está na escolha das linhas com proporções áureas que aparecem no símbolo da Flor da Vida.
  <br><br><br>
-<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
-<h4>91. Pentágonos</h4>
+<h4>92. Pentágonos</h4>
 <a href="../vr/Pentagonal.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/91A.png" class="foto" alt="Pentágonos"></a>
  <br><br><br>Na Geometria Sagrada, os pentágonos, particularmente o pentagrama (a estrela formada pela conexão das diagonais de um pentágono), simbolizam a simetria quíntupla e frequentemente representam harmonia, unidade e a interconexão das coisas. Os pentágonos também são associados à proporção áurea e à sequência de Fibonacci, consideradas princípios fundamentais da natureza e do universo. Este símbolo representa um padrão de pentágonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
  <hr>
-<h4>92. Hexágonos</h4>
+<h4>93. Hexágonos</h4>
 <a href="../vr/Hexagonal.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/92A.png" class="foto" alt="Hexágonos"></a>
  <br><br><br>Na Geometria Sagrada, os hexágonos são sempre vistos como símbolos de equilíbrio, harmonia e do potencial da vida. Sua forma simétrica, com seis lados e ângulos iguais, representa estabilidade e equilíbrio. Os hexágonos também são associados à Flor da Vida e à estrela de seis pontas (Merkabah), ambos símbolos de interconexão e criação divina. Este símbolo representa um padrão de hexágonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
- <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  <hr>
-<h4>93. Heptágonos</h4>
+<h4>94. Heptágonos</h4>
 <a href="../vr/Heptagonal.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/93A.png" class="foto" alt="Heptágonos"></a>
  <br><br><br>Na Geometria Sagrada, os heptágonos são associados a conceitos como os sete chakras, os sete dias da semana ou os sete céus, dependendo da interpretação. Os heptagramas (estrelas de 7 pontas formadas pela extensão dos lados de um heptágono) também têm significado simbólico, com diferentes tipos de triângulos e proporções relacionadas aos seus ângulos. Este símbolo representa um padrão de heptágonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
  <hr>
-<h4>94. Octógonos</h4>
+<h4>95. Octógonos</h4>
 <a href="../vr/Octagonal.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/94A.png" class="foto" alt="Octógonos"></a>
  <br><br><br>Na Geometria Sagrada, o octógono é sempre visto como um símbolo de unidade e equilíbrio, surgindo da combinação do círculo (que representa o céu) e do quadrado (que representa a terra). Acredita-se que o octógono conecta e harmoniza esses dois elementos. O octógono também possui vários significados simbólicos em diferentes culturas e religiões, incluindo completude, boa sorte e proteção. Este símbolo representa um padrão de octógonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
  <hr>
-<h4>95. Eneágonos</h4>
+<h4>96. Eneágonos</h4>
 <a href="../vr/Enneagonal.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/95A.png" class="foto" alt="Eneágonos"></a>
  <br><br><br>Na Geometria Sagrada, um eneágono é uma forma geométrica que simboliza unidade, completude, equilíbrio e a culminância de um ciclo. Também pode ser representado como uma estrela de nove pontas, conhecida como eneagrama. O eneágono, juntamente com outras formas, como o octograma centralizado, é usado em diversas interpretações simbólicas e espirituais dentro da Geometria Sagrada. Este símbolo representa um padrão de eneágonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
  <hr>
-<h4>96. Decágonos</h4>
+<h4>97. Decágonos</h4>
 <a href="../vr/Decagonal.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/96A.png" class="foto" alt="Decágonos"></a>
  <br><br><br>Na Geometria Sagrada, um decágono simboliza equilíbrio, harmonia e a interconexão do universo. É uma forma mais complexa do que algumas outras, como o pentágono, oferecendo uma paisagem simbólica mais rica. Os dez lados do decágono podem representar os dez mandamentos, os dez reinos da alma ou os dez dedos das mãos e dos pés da forma humana, sugerindo uma conexão entre os mundos espiritual e físico. Este símbolo representa um padrão de decágonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
  <hr>
-<h4>97. Pentágonos</h4>
+<h4>98. Pentágonos</h4>
 <a href="../vr/Pentagonal1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/97A.png" class="foto" alt="Pentágonos"></a>
  <br><br><br>Na Geometria Sagrada, os pentágonos, particularmente o pentagrama (a estrela formada pela conexão das diagonais de um pentágono), simbolizam a simetria quíntupla e frequentemente representam harmonia, unidade e a interconexão das coisas. Os pentágonos também são associados à proporção áurea e à sequência de Fibonacci, consideradas princípios fundamentais da natureza e do universo. Este símbolo representa um padrão de pentágonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
  <hr>
-<h4>98. Hexágonos</h4>
+<h4>99. Hexágonos</h4>
 <a href="../vr/Hexagonal1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/98A.png" class="foto" alt="Hexágonos"></a>
  <br><br><br>Na Geometria Sagrada, os hexágonos são sempre vistos como símbolos de equilíbrio, harmonia e do potencial da vida. Sua forma simétrica, com seis lados e ângulos iguais, representa estabilidade e equilíbrio. Os hexágonos também são associados à Flor da Vida e à estrela de seis pontas (Merkabah), ambos símbolos de interconexão e criação divina. Este símbolo representa um padrão de hexágonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
- <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  <hr>
-<h4>99. Heptágonos</h4>
+<h4>100. Heptágonos</h4>
 <a href="../vr/Heptagonal1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/99A.png" class="foto" alt="Heptágonos"></a>
  <br><br><br>Na Geometria Sagrada, os heptágonos são associados a conceitos como os sete chakras, os sete dias da semana ou os sete céus, dependendo da interpretação. Os heptagramas (estrelas de 7 pontas formadas pela extensão dos lados de um heptágono) também têm significado simbólico, com diferentes tipos de triângulos e proporções relacionadas aos seus ângulos. Este símbolo representa um padrão de heptágonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
  <hr>
-<h4>100. Octógonos</h4>
+ <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<h4>101. Octógonos</h4>
 <a href="../vr/Octagonal1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/100A.png" class="foto" alt="Octógonos"></a>
  <br><br><br>Na Geometria Sagrada, o octógono é sempre visto como um símbolo de unidade e equilíbrio, surgindo da combinação do círculo (que representa o céu) e do quadrado (que representa a terra). Acredita-se que o octógono conecta e harmoniza esses dois elementos. O octógono também possui vários significados simbólicos em diferentes culturas e religiões, incluindo completude, boa sorte e proteção. Este símbolo representa um padrão de octógonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
  <hr>
- <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
-<h4>101. Eneágonos</h4>
+<h4>102. Eneágonos</h4>
 <a href="../vr/Enneagonal1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/101A.png" class="foto" alt="Eneágonos"></a>
  <br><br><br>Na Geometria Sagrada, um eneágono é uma forma geométrica que simboliza unidade, completude, equilíbrio e a culminância de um ciclo. Também pode ser representado como uma estrela de nove pontas, conhecida como eneagrama. O eneágono, juntamente com outras formas, como o octograma centralizado, é usado em diversas interpretações simbólicas e espirituais dentro da Geometria Sagrada. Este símbolo representa um padrão de eneágonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
  <hr>
-<h4>102. Decágonos</h4>
+<h4>103. Decágonos</h4>
 <a href="../vr/Decagonal1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/102A.png" class="foto" alt="Decágonos"></a>
  <br><br><br>Na Geometria Sagrada, um decágono simboliza equilíbrio, harmonia e a interconexão do universo. É uma forma mais complexa do que algumas outras, como o pentágono, oferecendo uma paisagem simbólica mais rica. Os dez lados do decágono podem representar os dez mandamentos, os dez reinos da alma ou os dez dedos das mãos e dos pés da forma humana, sugerindo uma conexão entre os mundos espiritual e físico. Este símbolo representa um padrão de decágonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
