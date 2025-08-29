@@ -34,7 +34,7 @@ The mathematical structures used in Sacred Geometry can be found in the arts, ar
 <p align="center"><img src="vr/salas/videos/sy1.gif" style="max-width: 47%; border-radius:5px; margin-right:5%" loading="lazy"/><img src="vr/salas/videos/sy2.gif" style="max-width: 47%; border-radius:5px;" loading="lazy"/></p>
 <hr>
 <h3 id="m3d" align="center">3D models</h3>
-<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxXqLmyaITBm0flxwtDvgTFT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" style="max-width:100%" src="https://www.youtube.com/embed/videoseries?list=PLy0I_lGW8HxWLqzAi-XWdm1BQhuyTLC_W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <h4>1. Triangle</h4>
 <a href="vr/model.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/0A.png" class="foto" alt="Sahasrara Yantra with triangles"></a>
  <br>Sahasrara Yantra with triangles
