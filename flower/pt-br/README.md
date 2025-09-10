@@ -112,6 +112,7 @@ O acesso às páginas de RV é feito clicando no círculo azul que aparece em ci
  <br><br><br>Nesta representação temos o modelo em 3D do símbolo da Flor da Vida construído com 3 rotações em torno de um dos símbolos. Unindo-se as interseções dos círculos maiores, obtemos um cuboctaedro de Arquimedes.
  <br><br><br>
 <a href="../ra.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 <h4>11. Flor da vida no símbolo Merkaba</h4>
 <a href="../../merkaba/vr/FlowerOfLifeMerkaba2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../merkaba/ar/199A.png" class="foto" alt="Flor da vida no símbolo Merkaba"></a>
