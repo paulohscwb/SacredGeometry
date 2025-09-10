@@ -111,6 +111,27 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br>In this representation we have the 3D model of the Flower of Life symbol built with 3 rotations around one of the symbols. Combining the intersections of the larger circles, we obtain an Archimedean cuboctahedron.
  <br><br>
  <a href="ra.html" class="raAR" title="Augmented reality" target="_blank"></a>
+ <hr>
+  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<h4>11. Flower of Life in Merkaba symbol</h4>
+<a href="../merkaba/vr/FlowerOfLifeMerkaba2.htm" target="_blank" title="3D model" class="fotoA"><img src="../merkaba/ar/199A.png" class="foto" alt="Flower of Life in Merkaba symbol"></a>
+ <br><br><br><br>In this representation we have the Flower of Life symbol in Merkaba 3D symbol. The Merkabah or Star tetrahedron or Star of Davi is the geometric figure that represents male and female energy  Heaven and Earth. The Star tetrahedron corresponds to the sixth circumference of the Seed of Life symbol and the vertices of this solid appear overlapping with some circumferences of the Flower of Life symbol.
+ <br><br><br><br>
+ <hr>
+<h4>12. Flower of Life in Merkaba symbol v2</h4>
+<a href="../merkaba/vr/FlowerOfLifeMerkaba3.htm" target="_blank" title="3D model" class="fotoA"><img src="../merkaba/ar/198A.png" class="foto" alt="Flower of Life in Merkaba symbol"></a>
+ <br><br><br><br>In this representation we have the Flower of Life symbol in Merkaba 3D symbol. The Merkabah or Star tetrahedron or Star of Davi is the geometric figure that represents male and female energy  Heaven and Earth. The Star tetrahedron corresponds to the sixth circumference of the Seed of Life symbol and the vertices of this solid appear overlapping with some circumferences of the Flower of Life symbol.
+ <br><br><br><br>
+ <hr>
+<h4>13. Flower of Life in Merkaba symbol v3</h4>
+<a href="../merkaba/vr/FlowerOfLifeMerkaba4.htm" target="_blank" title="3D model" class="fotoA"><img src="../merkaba/ar/197A.png" class="foto" alt="Flower of Life in Merkaba symbol"></a>
+ <br><br><br><br>In this representation we have the Flower of Life symbol in Merkaba 3D symbol. The Merkabah or Star tetrahedron or Star of Davi is the geometric figure that represents male and female energy  Heaven and Earth. The Star tetrahedron corresponds to the sixth circumference of the Seed of Life symbol and the vertices of this solid appear overlapping with some circumferences of the Flower of Life symbol.
+ <br><br><br><br>
+ <hr>
+<h4>14. Flower of Life in Merkaba symbol v4</h4>
+<a href="../merkaba/vr/FlowerOfLifeMerkaba5.htm" target="_blank" title="3D model" class="fotoA"><img src="../merkaba/ar/196A.png" class="foto" alt="Flower of Life in Merkaba symbol"></a>
+ <br><br><br><br>In this representation we have the Flower of Life symbol in Merkaba 3D symbol. The Merkabah or Star tetrahedron or Star of Davi is the geometric figure that represents male and female energy  Heaven and Earth. The Star tetrahedron corresponds to the sixth circumference of the Seed of Life symbol and the vertices of this solid appear overlapping with some circumferences of the Flower of Life symbol.
+ <br><br><br><br>
  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
