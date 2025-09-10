@@ -50,6 +50,8 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 		<option value="../sala13.htm">Merkaba de fractais tristetraedros 2</option>
 		<option value="../sala14.htm">Merkaba de fractais de deltaedros de Möbius</option>
 		<option value="../sala15.htm">Merkaba de fractais de revestimentos de Cairo</option>
+		<option value="../sala16.htm">Flor da vida no símbolo Merkaba</option>
+		<option value="../sala17.htm">Flor da vida no símbolo Merkaba v2</option>
 	</select>
 </form>
   <div class="embed-container"><iframe width="100%" id="sim" src="../sala2.htm" title="Sala Imersiva dos símbolos da Geometria Sagrada" frameborder="0" loading="lazy"></iframe></div>
