@@ -39,6 +39,8 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 	<select id="url" onchange="document.getElementById('sim').src = this.options[this.selectedIndex].value" style="color:royalblue;">
 		<option selected value="../merkaba/sala4.htm">Flower of life in a truncated icosahedron</option>
 		<option value="../merkaba/sala3.htm">Cylindrical flower of life</option>
+		<option value="../merkaba/sala16.htm">Flower of life in Merkaba symbol</option>
+		<option value="../merkaba/sala17.htm">Flower of life in Merkaba symbol v2</option>
 	</select>
 </form>
   <div class="embed-container"><iframe width="100%" id="sim" src="../merkaba/sala4.htm" title="Sala Imersiva dos símbolos da Geometria Sagrada" frameborder="0" loading="lazy"></iframe></div>
