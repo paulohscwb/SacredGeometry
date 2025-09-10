@@ -224,8 +224,29 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
  <br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 fractais de revestimentos de Cairo idênticos que são interligados por meio de rotações em direções opostas. A interseção destes fractais de revestimentos de Cairo origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D.
  <br><br><br>
 <a href="../ra1.html" class="raAR" title="Realidade aumentada" target="_blank"></a>
+ <hr>
+<h4>29. Estrela Merkaba com o símbolo da Flor da vida</h4>
+<a href="../vr/FlowerOfLifeMerkaba2.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/199A.png" class="foto" alt="Estrela Merkaba com o símbolo da Flor da vida"></a>
+ <br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D com o símbolo da flor da vida.
+ <br><br><br>
+ <hr>
+<h4>30. Estrela Merkaba com o símbolo da Flor da vida v2</h4>
+<a href="../vr/FlowerOfLifeMerkaba3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/198A.png" class="foto" alt="Estrela Merkaba com o símbolo da Flor da vida"></a>
+ <br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D com o símbolo da flor da vida.
+ <br><br><br>
  <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
+<h4>31. Estrela Merkaba com o símbolo da Flor da vida v3</h4>
+<a href="../vr/FlowerOfLifeMerkaba4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/197A.png" class="foto" alt="Estrela Merkaba com o símbolo da Flor da vida"></a>
+ <br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D com o símbolo da flor da vida.
+ <br><br><br>
+ <hr>
+<h4>32. Estrela Merkaba com o símbolo da Flor da vida v4</h4>
+<a href="../vr/FlowerOfLifeMerkaba5.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/196A.png" class="foto" alt="Estrela Merkaba com o símbolo da Flor da vida"></a>
+ <br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D com o símbolo da flor da vida.
+ <br><br><br>
+ <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+ <hr>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Merkaba star - Visualization of symbols with Augmented Reality and Virtual Reality</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/SacredGeometry/merkaba/pt-br/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional</a>.
 
