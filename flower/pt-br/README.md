@@ -39,6 +39,8 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 	<select id="url" onchange="document.getElementById('sim').src = this.options[this.selectedIndex].value" style="color:royalblue;">
 		<option selected value="../../merkaba/sala4.htm">Flor da vida em um icosaedro truncado</option>
 		<option value="../../merkaba/sala3.htm">Flor da vida cilíndrica</option>
+		<option value="../../merkaba/sala16.htm">Flor da vida no símbolo Merkaba</option>
+		<option value="../../merkaba/sala17.htm">Flor da vida no símbolo Merkaba v2</option>
 	</select>
   </form>
   <div class="embed-container"><iframe width="100%" id="sim" src="../../merkaba/sala4.htm" title="Sala Imersiva dos símbolos da Geometria Sagrada" frameborder="0" loading="lazy"></iframe></div>
