@@ -142,8 +142,8 @@ O acesso às páginas de RV é feito clicando no círculo azul que aparece em ci
 <hr>
 <h4>17. Grade da vida com o símbolo da Flor da vida</h4>
 <a href="../vr/GridOfLife_FlowerofLife.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/195A.png" class="foto" alt="Grade da vida com o símbolo da Flor da vida">
- <br><br><br><br>Existe a crença de que a Flor da Vida é uma chave que pode desbloquear o conhecimento oculto do tempo e do espaço dentro das suas estruturas semelhantes a pétalas. Nesta representação temos o símbolo da Flor da vida formando o símbolo 3D da Grade da Vida.
- <br><br><br><br>
+ <br><br><br><br><br>Existe a crença de que a Flor da Vida é uma chave que pode desbloquear o conhecimento oculto do tempo e do espaço dentro das suas estruturas semelhantes a pétalas. Nesta representação temos o símbolo da Flor da vida formando o símbolo 3D da Grade da Vida.
+ <br><br><br><br><br>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
