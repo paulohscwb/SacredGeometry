@@ -134,6 +134,11 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <a href="../merkaba/vr/FlowerOfLifeMerkaba5.htm" target="_blank" title="3D model" class="fotoA"><img src="../merkaba/ar/196A.png" class="foto" alt="Flower of Life in Merkaba symbol"></a>
  <br><br><br><br>In this representation we have the Flower of Life symbol in Merkaba 3D symbol. The Merkabah or Star tetrahedron or Star of Davi is the geometric figure that represents male and female energy  Heaven and Earth. The Star tetrahedron corresponds to the sixth circumference of the Seed of Life symbol and the vertices of this solid appear overlapping with some circumferences of the Flower of Life symbol.
  <br><br><br><br>
+ <hr>
+<h4>15. Grid of life with Flower of life symbol</h4>
+<a href="../grid/vr/GridOfLife_FlowerofLife.htm" target="_blank" title="3D model" class="fotoA"><img src="../grid/ar/195A.png" class="foto" alt="Grid of life with Flower of life symbol"></a>
+ <br><br><br><br><br>The Flower of Life is believed to be a key that can unlock the hidden knowledge of time and space within its petal-like structures. In this representation, we see the Flower of Life symbol forming the 3D symbol of the Grid of Life.
+ <br><br><br><br><br>
  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
