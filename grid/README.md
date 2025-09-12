@@ -138,6 +138,11 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
  <br><br><br>The vertices of tetrahedron fractal appear overlapping with some intersections of the Grid of Life symbol lines. In the 3D representation, the tetrahedron fractal is inscribed with the Grid of Life symbol.
  <br><br>
   <a href="ra1.html" class="raAR" title="Augmented reality" target="_blank"></a>
+  <hr>
+<h4>17. Grid of life with Flower of life symbol</h4>
+<a href="vr/GridOfLife_FlowerofLife.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/195A.png" class="foto" alt="Grid of life with Flower of life symbol"></a>
+ <br><br><br><br>The Flower of Life is believed to be a key that can unlock the hidden knowledge of time and space within its petal-like structures. In this representation, we see the Flower of Life symbol forming the 3D symbol of the Grid of Life.
+ <br><br><br><br>
  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
