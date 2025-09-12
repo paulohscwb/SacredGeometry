@@ -135,6 +135,11 @@ O acesso às páginas de RV é feito clicando no círculo azul que aparece em ci
 <a href="../../merkaba/vr/FlowerOfLifeMerkaba5.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../merkaba/ar/196A.png" class="foto" alt="Flor da vida no símbolo Merkaba"></a>
  <br><br><br><br>Nesta representação temos o modelo do símbolo da Flor da Vida construído no símbolo Merkaba. A Merkabah ou tetraedro estrelado ou Estrela de Davi é a figura geométrica que representa a energia masculina e feminina do Céu e da Terra. O tetraedro estrelado corresponde à sexta circunferência do símbolo da Semente da Vida e os vértices deste sólido aparecem sobrepostos a algumas circunferências do símbolo da Flor da Vida.
  <br><br><br><br>
+ <hr>
+<h4>15. Grade da vida com o símbolo da Flor da vida</h4>
+<a href="../../grid/vr/GridOfLife_FlowerofLife.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../grid/ar/195A.png" class="foto" alt="Grade da vida com o símbolo da Flor da vida"></a>
+ <br><br><br><br><br>Existe a crença de que a Flor da Vida é uma chave que pode desbloquear o conhecimento oculto do tempo e do espaço dentro das suas estruturas semelhantes a pétalas. Nesta representação temos o símbolo da Flor da vida formando o símbolo 3D da Grade da Vida.
+ <br><br><br><br><br>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
