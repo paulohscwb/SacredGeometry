@@ -595,6 +595,11 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <a href="vr/Decagonal1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/102A.png" class="foto" alt="Decagons"></a>
  <br><br><br><br>In Sacred Geometry, a decagon symbolizes balance, harmony, and the interconnectedness of the universe. It is a more complex shape than some others, such as the pentagon, offering a richer symbolic landscape. The ten sides of the decagon can represent the ten commandments, the ten realms of the soul, or the ten fingers and toes of the human form, suggesting a connection between the spiritual and physical worlds. This symbol represents a pattern of regular decagons, forming a kind of Flower of Life.
  <br><br><br>
+ <hr>
+<h4>104. Yin and Yang</h4>
+<a href="vr/FlowerOfLife4.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/194A.png" class="foto" alt="Yin and Yang"></a>
+ <br><br><br><br>Yin and Yang describe fundamental opposing and complementary forces found in all things. Yin is the principle of absorption, night, and the moon, representing passivity. Yang is the principle of light, day, and the sun, representing activity. These Taoist concepts refer to the duality of everything in the universe. This model represents the Yin and Yang symbol using the Flower of Life symbol.
+ <br><br><br>
  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
