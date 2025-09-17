@@ -139,6 +139,11 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <a href="../grid/vr/GridOfLife_FlowerofLife.htm" target="_blank" title="3D model" class="fotoA"><img src="../grid/ar/195A.png" class="foto" alt="Grid of life with Flower of life symbol"></a>
  <br><br><br><br><br>The Flower of Life is believed to be a key that can unlock the hidden knowledge of time and space within its petal-like structures. In this representation, we see the Flower of Life symbol forming the 3D symbol of the Grid of Life.
  <br><br><br><br><br>
+ <hr>
+<h4>16. Yin and Yang</h4>
+<a href="../symbols/vr/FlowerOfLife4.htm" target="_blank" title="3D model" class="fotoA"><img src="../symbols/ar/194A.png" class="foto" alt="Yin and Yang"></a>
+ <br><br><br><br>Yin and Yang describe fundamental opposing and complementary forces found in all things. Yin is the principle of absorption, night, and the moon, representing passivity. Yang is the principle of light, day, and the sun, representing activity. These Taoist concepts refer to the duality of everything in the universe. This model represents the Yin and Yang symbol using the Flower of Life symbol.
+ <br><br><br>
  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
