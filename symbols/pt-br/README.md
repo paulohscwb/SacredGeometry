@@ -594,6 +594,11 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 <a href="../vr/Decagonal1.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/102A.png" class="foto" alt="Decágonos"></a>
  <br><br><br>Na Geometria Sagrada, um decágono simboliza equilíbrio, harmonia e a interconexão do universo. É uma forma mais complexa do que algumas outras, como o pentágono, oferecendo uma paisagem simbólica mais rica. Os dez lados do decágono podem representar os dez mandamentos, os dez reinos da alma ou os dez dedos das mãos e dos pés da forma humana, sugerindo uma conexão entre os mundos espiritual e físico. Este símbolo representa um padrão de decágonos regulares, formando uma espécie de Flor da Vida.
  <br><br><br>
+ <hr>
+<h4>104. Yin e Yang</h4>
+<a href="../vr/FlowerOfLife4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/194A.png" class="foto" alt="Yin e Yang"></a>
+ <br><br><br>Yin e Yang descrevem forças fundamentais opostas e complementares que podem ser encontram em todas as coisas. O yin é o princípio da absorção, da noite, da Lua e representa passividade. O yang é o princípio da luz, do dia, do Sol e representa atividade. Estes conceitos do taoismo referem-se à dualidade de tudo que existe no universo. Neste modelo temos a representação do símbolo Yin e Yang feito com o símbolo da Flor da vida.
+ <br><br><br>
  <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
