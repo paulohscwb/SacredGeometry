@@ -145,6 +145,11 @@ O acesso às páginas de RV é feito clicando no círculo azul que aparece em ci
 <a href="../../symbols/vr/FlowerOfLife4.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../symbols/ar/194A.png" class="foto" alt="Yin e Yang"></a>
  <br><br><br>Yin e Yang descrevem forças fundamentais opostas e complementares que podem ser encontram em todas as coisas. O yin é o princípio da absorção, da noite, da Lua e representa passividade. O yang é o princípio da luz, do dia, do Sol e representa atividade. Estes conceitos do taoismo referem-se à dualidade de tudo que existe no universo. Neste modelo temos a representação do símbolo Yin e Yang feito com o símbolo da Flor da vida.
  <br><br><br>
+<hr>
+<h4>17. Flor da vida com a Árvore da vida</h4>
+<a href="../../symbols/vr/FlowerOfLifeTree.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../symbols/ar/193A.png" class="foto" alt="Flor da vida com a Árvore da vida"></a>
+ <br><br><br>O símbolo da Árvore da Vida representa uma conexão com tudo, incluindo as coisas que não podemos ver, lembrando que não estamos sozinhos no universo. As 10 esferas deste símbolo são chamadas de “Sephiroth”, significam emanação e estão conectadas por caminhos diferentes. A Sephira da base representa o mundo material e a Sephira do topo representa a consciência cósmica. As demais Sephiras representam as qualidades da alma e são divididas em três pilares: severidade, suavidade e misericórdia. Neste modelo temos a representação do símbolo da Árvore da vida feito com o símbolo da Flor da vida.
+ <br><br>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
