@@ -600,6 +600,11 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <a href="vr/FlowerOfLife4.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/194A.png" class="foto" alt="Yin and Yang"></a>
  <br><br><br><br>Yin and Yang describe fundamental opposing and complementary forces found in all things. Yin is the principle of absorption, night, and the moon, representing passivity. Yang is the principle of light, day, and the sun, representing activity. These Taoist concepts refer to the duality of everything in the universe. This model represents the Yin and Yang symbol using the Flower of Life symbol.
  <br><br><br>
+ <hr>
+<h4>105. Flower of life with the Tree of life</h4>
+<a href="vr/FlowerOfLifeTree.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/193A.png" class="foto" alt="Flower of life with the Tree of life"></a>
+ <br><br><br>The Tree of Life symbol represents a connection with everything, including the things we cannot see, reminding us that we are not alone in the universe. The 10 spheres of this symbol are called “Sephiroth”, they mean emanation and are connected by different paths. The bottom Sephira represents the material world and the top Sephira represents cosmic consciousness. The other Sephiras represent the qualities of the soul and are divided into three pillars: severity, gentleness and mercy. This model represents the Tree of life symbol using the Flower of Life symbol.
+ <br><br>
  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
