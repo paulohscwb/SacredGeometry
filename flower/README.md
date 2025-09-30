@@ -149,6 +149,47 @@ with any browser with a webcam device (smartphone, tablet or notebook).
 <a href="../symbols/vr/FlowerOfLifeTree.htm" target="_blank" title="3D model" class="fotoA"><img src="../symbols/ar/193A.png" class="foto" alt="Flower of life with the Tree of life"></a>
  <br><br><br>The Tree of Life symbol represents a connection with everything, including the things we cannot see, reminding us that we are not alone in the universe. The 10 spheres of this symbol are called “Sephiroth”, they mean emanation and are connected by different paths. The bottom Sephira represents the material world and the top Sephira represents cosmic consciousness. The other Sephiras represent the qualities of the soul and are divided into three pillars: severity, gentleness and mercy. This model represents the Tree of life symbol using the Flower of Life symbol.
  <br><br>
+ <hr>
+<h4>18. >Flower of life with the Forbidden Fruit symbol</h4>
+<a href="../symbols/vr/FlowerOfLifeForbidden.htm" target="_blank" title="3D model" class="fotoA"><img src="../symbols/ar/192A.png" class="foto" alt=">Flower of life with the Forbidden Fruit symbol"></a>
+ <br><br><br>The geometry of an apple, considered a "forbidden fruit," reveals the pentagram and the torus. The torus is responsible for morphology in nature and determines the shapes and dynamics of the natural world (from atoms, molecules, plants, to astronomical structures). The golden ratio is not only a mathematical notion, but also a symbol of beauty, harmony, and perfection in art, science, and nature. The apple can be considered "forbidden" because it encodes the torus and the pentagram, which contain the golden ratio within their construction. This model represents the Forbidden Fruit symbol combined with the Flower of Life symbol.
+ <br><br>
+ <hr>
+<h4>19. Flower of life with the Ichthys symbol</h4>
+<a href="../symbols/vr/FlowerOfLifeIchthys.htm" target="_blank" title="3D model" class="fotoA"><img src="../symbols/ar/191A.png" class="foto" alt="Flower of life with the Ichthys symbol"></a>
+ <br><br><br>The Ichthys symbol, also called the Jesus Fish, is related to Sacred Geometry because it is formed from the Vesica Piscis symbol. These symbols are represented by the intersection of two overlapping circles. This shape represents the union of beliefs, and its geometric structure, with its symbolism of connection and creation, aligns with the principles of Sacred Geometry, which considers certain geometric shapes to have divine and cosmic symbolism. This model represents the Ichthys symbol using the Flower of Life symbol.
+ <br><br>
+ <hr>
+<h4>20. Flower of life with the Menorah symbol</h4>
+<a href="../symbols/vr/FlowerOfLifeMenorah.htm" target="_blank" title="3D model" class="fotoA"><img src="../symbols/ar/190A.png" class="foto" alt="Flower of life with the Menorah symbol"></a>
+ <br><br><br>The Menorah symbol can be associated with Sacred Geometry through its symmetrical design and geometric patterns that utilize elements of the Hexagram (Merkabah star). In artistic representations, Menorah symbols appear in cosmic settings, with spiraling Hebrew letters and geometric patterns blending with galaxies, demonstrating the connection between this symbol and the geometric structure of the universe. In this model, we have a representation of the Menorah symbol made with the Flower of Life symbol.
+ <br><br>
+ <hr>
+ <p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<h4>21. Flower of life with the Hexagram</h4>
+<a href="../symbols/vr/FlowerOfLifeHexagram.htm" target="_blank" title="3D model" class="fotoA"><img src="../symbols/ar/189A.png" class="foto" alt="Flower of life with the Hexagram"></a>
+ <br><br><br>In Sacred Geometry, the Hexagram (six-pointed star) symbolizes the harmonious union of opposites, representing spiritual balance and cosmic interconnection. It is represented as two intertwined equilateral triangles representing the following elements: masculine and feminine, earth and sky, or the divine and human realms. This symbol can be found in various cultures and religions and represents a fundamental cosmic balance and the cyclical flow of life and energy. In this model, we have a representation of the Hexagram made with the symbol of the Flower of Life.
+ <br><br>
+ <hr>
+<h4>22. Flower of life with the snowflake symbol</h4>
+<a href="../symbols/vr/FlowerOfLifeSnowflake.htm" target="_blank" title="3D model" class="fotoA"><img src="../symbols/ar/188A.png" class="foto" alt="Flower of life with the snowflake symbol"></a>
+ <br><br><br>Snowflake symbols are part of Sacred Geometry because they have a hexagonal structure, resulting from the molecular symmetry of water molecules and hydrogen bonds. This symmetry reflects the order and harmony of the universe, which are fundamental concepts of Sacred Geometry. The mathematical precision found in the snowflake's structure contrasts with the great variety of individual shapes, which arise from small differences in temperature, humidity, and other environmental factors. As a snowflake grows, its branches create self-similar patterns on decreasing scales, similar to Fractal Geometry. In this model, we have a representation of a snowflake symbol made with the Flower of Life symbol.
+ <br><br>
+ <hr>
+<h4>23. Flower of life with the Caduceus symbol</h4>
+<a href="../symbols/vr/FlowerOfLifeCaduceu.htm" target="_blank" title="3D model" class="fotoA"><img src="../symbols/ar/187A.png" class="foto" alt="Flower of life with the Caduceus symbol"></a>
+ <br><br><br>The Caduceus is often incorporated into Sacred Geometry designs to represent balance and harmony. Although the Caduceus symbolizes healing, balance, and the union of opposing forces, its connection to Sacred Geometry emerges through its integration with geometric patterns such as mandalas, the Flower of Life, or DNA helices. The intertwined serpents and winged staff of the Caduceus represent the integration of opposites, such as spirit and matter, masculine and feminine, which represents an important theme of Sacred Geometry. In this model, we have a representation of the Caduceus symbol combined with the Flower of Life symbol.
+ <br><br>
+ <hr>
+<h4>24. Flower of life fractal</h4>
+<a href="../symbols/vr/FlowerOfLifeFractal.htm" target="_blank" title="3D model" class="fotoA"><img src="../symbols/ar/186A.png" class="foto" alt="Flower of life fractal"></a>
+ <br><br><br>A fractal Flower of Life combines the traditional Flower of Life symbol with Fractal Geometry, representing the patterns of the universe through self-similar patterns that repeat at different scales, similar to the hexagonal patterns of the Flower of Life symbol itself. This Sacred Geometry symbol is considered a blueprint for all creation, containing fundamental patterns and structures of the universe within its overlapping circles and hexagonal symmetry. In this model, we have the representation of the fractal Flower of Life symbol with three stages (iterations).
+ <br><br>
+ <hr>
+<h4>25. Flower of life with a labyrinth</h4>
+<a href="../symbols/vr/FlowerOfLifeLabyrinth.htm" target="_blank" title="3D model" class="fotoA"><img src="../symbols/ar/185A.png" class="foto" alt="Flower of life with a labyrinth"></a>
+ <br><br><br>A labyrinth embodies Sacred Geometry through its winding path designed for spiritual walks, meditation, and personal transformation, symbolizing a spiritual journey and connection with the universe. Labyrinths use geometric shapes, numerology, and spiral designs to create a purposeful, harmonious, and symbolic path that connects the walker to the universal principles of order and chaos. The combination of circles and spirals in a labyrinth's design embodies the concept of interconnection. This model depicts a labyrinth made with the symbol of the Flower of Life.
+ <br><br>
  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
