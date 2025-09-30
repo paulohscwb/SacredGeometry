@@ -150,7 +150,47 @@ O acesso às páginas de RV é feito clicando no círculo azul que aparece em ci
 <a href="../../symbols/vr/FlowerOfLifeTree.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../symbols/ar/193A.png" class="foto" alt="Flor da vida com a Árvore da vida"></a>
  <br><br><br>O símbolo da Árvore da Vida representa uma conexão com tudo, incluindo as coisas que não podemos ver, lembrando que não estamos sozinhos no universo. As 10 esferas deste símbolo são chamadas de “Sephiroth”, significam emanação e estão conectadas por caminhos diferentes. A Sephira da base representa o mundo material e a Sephira do topo representa a consciência cósmica. As demais Sephiras representam as qualidades da alma e são divididas em três pilares: severidade, suavidade e misericórdia. Neste modelo temos a representação do símbolo da Árvore da vida feito com o símbolo da Flor da vida.
  <br><br>
-<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<hr>
+<h4>18. Flor da vida com o símbolo do Fruto Proibido</h4>
+<a href="../../symbols/vr/FlowerOfLifeForbidden.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../symbols/ar/192A.png" class="foto" alt="Flor da vida com o símbolo do Fruto Proibido"></a>
+ <br><br><br> A geometria de uma maçã, considerada um "fruto proibido", revela o pentagrama e o toro. O toro é responsável pela morfologia na natureza e determina as formas e a dinâmica do mundo natural (desde átomos, moléculas, plantas, até em estruturas astronômicas). A proporção áurea não é apenas uma noção matemática, mas também um símbolo de beleza, harmonia e perfeição na arte, na ciência e na natureza. A maçã pode ser considerada "proibida" pois é capaz de codificar o toro e o pentagrama, que contém a proporção áurea em sua construção. Neste modelo temos a representação do símbolo do Fruto Proibido feito com o símbolo da Flor da vida.
+ <br><br>
+ <hr>
+<h4>19. Flor da vida com o símbolo Ichthys</h4>
+<a href="../../symbols/vr/FlowerOfLifeIchthys.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../symbols/ar/191A.png" class="foto" alt="Flor da vida com o símbolo Ichthys"></a>
+ <br><br><br> O símbolo Ichthys, também chamado de Peixe-Jesus, está relacionado à Geometria Sagrada por ser formado a partir do símbolo Vesica Piscis. Estes símbolos são representados pela intersecção de dois círculos sobrepostos. Essa forma representa a união de crenças e a sua estrutura geométrica, com o simbolismo de conexão e criação, alinha-se aos princípios da Geometria Sagrada, que considera algumas formas geométricas com simbolismo divino e cósmico. Neste modelo temos a representação do símbolo Ichthys feito com o símbolo da Flor da vida.
+ <br><br>
+ <hr>
+<h4>20. Flor da vida com o símbolo Menorá</h4>
+<a href="../../symbols/vr/FlowerOfLifeMenorah.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../symbols/ar/190A.png" class="foto" alt="Flor da vida com o símbolo Menorá"></a>
+ <br><br><br>O símbolo Menorá pode ser associado à Geometria Sagrada por meio de seu design simétrico e seus padrões geométricos que utilizam elementos do Hexagrama (estrela Merkabah). Em representações artísticas, os símbolos Menorás aparecem em cenários cósmicos, com letras hebraicas em espiral e padrões geométricos que se misturam com galáxias, mostrando a conexão entre este símbolo e a estrutura geométrica do universo. Neste modelo temos a representação do símbolo Menorá feito com o símbolo da Flor da vida.
+ <br><br>
+ <hr>
+ <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<h4>21. Flor da vida com o Hexagrama</h4>
+<a href="../../symbols/vr/FlowerOfLifeHexagram.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../symbols/ar/189A.png" class="foto" alt="Flor da vida com o Hexagrama"></a>
+ <br><br><br>Na Geometria Sagrada, o hexagrama (estrela de seis pontas) simboliza a união harmoniosa dos opostos, representando o equilíbrio espiritual e a interconexão cósmica, representado como dois triângulos equiláteros entrelaçados que representam os seguintes elementos: masculino e feminino, a terra e o céu, ou os reinos divino e humano. Este símbolo pode ser encontrado em diversas culturas e religiões e representa um equilíbrio cósmico fundamental e o fluxo cíclico da vida e da energia. Neste modelo temos a representação do Hexagrama feito com o símbolo da Flor da vida.
+ <br><br>
+ <hr>
+<h4>22. Flor da vida com o símbolo de floco de neve</h4>
+<a href="../../symbols/vr/FlowerOfLifeSnowflake.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../symbols/ar/188A.png" class="foto" alt="Flor da vida com o símbolo de floco de neve"></a>
+ <br><br><br>Os símbolos de flocos de neve fazem parte da Geometria Sagrada pois possuem estrutura hexagonal, resultado da simetria molecular das moléculas de água e das ligações de hidrogênio. Esta simetria reflete a ordem e a harmonia do universo, que são conceitos fundamentais da Geometria Sagrada. A precisão matemática encontrada na estrutura do floco de neve contrasta com a grande variedade de formas individuais, que surgem de pequenas diferenças de temperatura, umidade e de outros fatores ambientais. À medida que um floco de neve cresce, suas ramificações criam padrões autossimilares em escalas decrescentes, semelhantes à Geometria Fractal. Neste modelo temos a representação de um símbolo de floco de neve feito com o símbolo da Flor da vida.
+ <br><br>
+ <hr>
+<h4>23. Flor da vida com o símbolo Caduceu</h4>
+<a href="../../symbols/vr/FlowerOfLifeCaduceu.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../symbols/ar/187A.png" class="foto" alt="Flor da vida com o símbolo Caduceu"></a>
+ <br><br><br>O Caduceu é frequentemente incorporado em desenhos de Geometria Sagrada para representar equilíbrio e harmonia. Embora o Caduceu simbolize cura, equilíbrio e a união de forças opostas, sua conexão com a Geometria Sagrada surge com sua integração a padrões geométricos, como mandalas, a Flor da Vida ou hélices de DNA. As serpentes entrelaçadas e o cajado alado do Caduceu representam a integração dos opostos, como espírito e matéria, masculino e feminino, que representa um tema importante da Geometria Sagrada. Neste modelo temos a representação do símbolo Caduceu feito com o símbolo da Flor da vida.
+ <br><br>
+ <hr>
+<h4>24. Flor da vida fractal</h4>
+<a href="../../symbols/vr/FlowerOfLifeFractal.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../symbols/ar/186A.png" class="foto" alt="Flor da vida fractal"></a>
+ <br><br><br>Uma Flor da Vida fractal combina o símbolo tradicional da Flor da Vida com a Geometria Fractal, representando os padrões do universo por meio de padrões autossimilares que se repetem em diferentes escalas, semelhantes aos padrões hexagonais do próprio símbolo da Flor da Vida. Este símbolo de Geometria Sagrada é considerado um modelo para toda a criação, contendo padrões e estruturas fundamentais do universo dentro de seus círculos sobrepostos e simetria hexagonal. Neste modelo temos a representação do símbolo da Flor da vida fractal com três estágios (iterações).
+ <hr>
+<h4>25. Flor da vida com um labirinto</h4>
+<a href=".../../symbols/vr/FlowerOfLifeLabyrinth.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../symbols/ar/185A.png" class="foto" alt="Flor da vida com um labirinto"></a>
+ <br><br><br>Um labirinto incorpora a Geometria Sagrada por meio de seu caminho sinuoso projetado para caminhadas espirituais, meditação e transformação pessoal, simbolizando uma jornada espiritual e a conexão com o universo. Labirintos usam formas geométricas, numerologia e desenhos em espiral para criar um caminho proposital, harmonioso e simbólico que conecta o caminhante aos princípios universais de ordem e caos. A combinação de círculos e espirais no desenho de um labirinto incorpora o conceito de interconexão. Neste modelo temos a representação de um labirinto feito com o símbolo da Flor da vida.
+ <br><br>
+ <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Flower of life and the polyhedra of Plato and Archimedes - Visualization of symbols with Augmented Reality and Virtual Reality</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/SacredGeometry/flower/pt-br/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional</a>.
