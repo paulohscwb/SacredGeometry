@@ -6,7 +6,7 @@
  <br><b>contact:</b> <a href="#">paulohscwb@gmail.com</a>
  <br><a href="https://paulohscwb.github.io/SacredGeometry/pt-br/">versão em português</a>
  <div><img align="right" src="imagens/qr.png"/>
- <br><br>Sacred Geometry is considered the universal design language of the cosmos. It is an ancient science that explores and explains the energy patterns that serve to create and unify all things.
+ <br>Sacred Geometry is considered the universal design language of the cosmos. It is an ancient science that explores and explains the energy patterns that serve to create and unify all things.
 <br>The mathematical structures used in Sacred Geometry can be found in the arts, architecture and even in our DNA. 
 <br>These structures are everywhere, and serve as a link between analytical thinking and the intuitive side, or between science and spirituality.
 <br>This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that can be accessed with Augmented Reality resources and also in immersive Virtual Reality rooms.</div>
