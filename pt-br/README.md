@@ -5,9 +5,11 @@
 <b>autor:</b> Paulo Henrique Siqueira - Universidade Federal do Paraná
 <br><b>contato:</b> <a href="#"> paulohscwb@gmail.com </a>
 <br><a href="https://paulohscwb.github.io/SacredGeometry/">english version</a>
-<br><br>A Geometria Sagrada é considerada a linguagem do design universal do cosmos. Trata-se de uma ciência antiga que explora e explica os padrões de energia que servem para criar e unificar todas as coisas. 
-As estruturas matemáticas utilizadas na Geometria Sagrada podem ser encontradas nas artes, arquitetura e até em nosso DNA. Estas estruturas estão em toda parte, e servem de ligação entre o pensamento analítico e o lado intuitivo, ou então entre a ciência e a espiritualidade.
-Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com as visualizações que podem ser acessadas com os recursos de Realidade Aumentada e também em salas imersivas de Realidade Virtual.
+<div><img align="right" src="../imagens/qr.png"/>
+<br>A Geometria Sagrada é considerada a linguagem do design universal do cosmos. Trata-se de uma ciência antiga que explora e explica os padrões de energia que servem para criar e unificar todas as coisas. 
+<br>As estruturas matemáticas utilizadas na Geometria Sagrada podem ser encontradas nas artes, arquitetura e até em nosso DNA. 
+<br>Estas estruturas estão em toda parte, e servem de ligação entre o pensamento analítico e o lado intuitivo, ou então entre a ciência e a espiritualidade.
+<br>Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com as visualizações que podem ser acessadas com os recursos de Realidade Aumentada e também em salas imersivas de Realidade Virtual.</div>
 <hr>
 <h3 style="margin-top:3px"><a target="_blank" href="../symbols/pt-br/"><img src="../symbols/ar/15A.png" style="margin-bottom:-10px" width="40"> Símbolos da Geometria Sagrada</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="../flower/pt-br/"><img src="../flower/ar/29A.png" style="margin-bottom:-10px" width="40"> Flor da vida e os poliedros de Platão e de Arquimedes</a></h3>
