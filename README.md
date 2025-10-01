@@ -5,9 +5,11 @@
  <b>author:</b> Paulo Henrique Siqueira - Universidade Federal do Paraná
  <br><b>contact:</b> <a href="#">paulohscwb@gmail.com</a>
  <br><a href="https://paulohscwb.github.io/SacredGeometry/pt-br/">versão em português</a>
+ <div><img align="right" src="imagens/qr.png"/>
  <br><br>Sacred Geometry is considered the universal design language of the cosmos. It is an ancient science that explores and explains the energy patterns that serve to create and unify all things.
-The mathematical structures used in Sacred Geometry can be found in the arts, architecture and even in our DNA. These structures are everywhere, and serve as a link between analytical thinking and the intuitive side, or between science and spirituality.
-This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that can be accessed with Augmented Reality resources and also in immersive Virtual Reality rooms.
+<br>The mathematical structures used in Sacred Geometry can be found in the arts, architecture and even in our DNA. 
+<br>These structures are everywhere, and serve as a link between analytical thinking and the intuitive side, or between science and spirituality.
+<br>This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that can be accessed with Augmented Reality resources and also in immersive Virtual Reality rooms.</div>
 <hr>
 <h3 style="margin-top:3px"><a target="_blank" href="symbols/"><img src="symbols/ar/15A.png" style="margin-bottom:-10px" width="40"> Sacred Geometry symbols</a></h3>
 <h3 style="margin-top:3px"><a target="_blank" href="flower/"><img src="flower/ar/29A.png" style="margin-bottom:-10px" width="40"> Flower of life and the polyhedra of Plato and Archimedes</a></h3>
