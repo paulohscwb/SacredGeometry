@@ -606,7 +606,7 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
  <br><br><br>The Tree of Life symbol represents a connection with everything, including the things we cannot see, reminding us that we are not alone in the universe. The 10 spheres of this symbol are called “Sephiroth”, they mean emanation and are connected by different paths. The bottom Sephira represents the material world and the top Sephira represents cosmic consciousness. The other Sephiras represent the qualities of the soul and are divided into three pillars: severity, gentleness and mercy. This model represents the Tree of life symbol using the Flower of Life symbol.
  <br><br>
  <hr>
-<h4>106. >Flower of life with the Forbidden Fruit symbol</h4>
+<h4>106. Flower of life with the Forbidden Fruit symbol</h4>
 <a href="vr/FlowerOfLifeForbidden.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/192A.png" class="foto" alt=">Flower of life with the Forbidden Fruit symbol"></a>
  <br><br><br>The geometry of an apple, considered a "forbidden fruit," reveals the pentagram and the torus. The torus is responsible for morphology in nature and determines the shapes and dynamics of the natural world (from atoms, molecules, plants, to astronomical structures). The golden ratio is not only a mathematical notion, but also a symbol of beauty, harmony, and perfection in art, science, and nature. The apple can be considered "forbidden" because it encodes the torus and the pentagram, which contain the golden ratio within their construction. This model represents the Forbidden Fruit symbol combined with the Flower of Life symbol.
  <br><br>
