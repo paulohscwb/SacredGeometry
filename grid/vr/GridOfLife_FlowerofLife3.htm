@@ -1,0 +1,2772 @@
+<html>
+  <head>
+    <title>Sacred Geometry</title>
+	<link rel="icon" type="image/png" href="salas/imagens/icone.png">
+	<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+	<script src="https://unpkg.com/aframe-orbit-controls@1.3.0/dist/aframe-orbit-controls.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script src="nomes.js"></script>
+	<link rel="stylesheet" href="nomes.css">
+  </head>
+  <body>
+<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Lato; font-size:2.5vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2025 Paulo Henrique Siqueira</div>
+    <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
+		<a-assets>
+			<a-mixin id="mtl3" material="side: double; color: #af0; opacity:0.7; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl2" material="side: double; color: #4e4; opacity:0.55; metalness:0.4; roughness:0.2"></a-mixin>
+			<a-mixin id="mtl1" material="side: double; color: #00bbff; opacity:1; metalness:0.6; roughness:0.3"></a-mixin>
+			<a-mixin id="mtl4" material="side: double; color: #f88; opacity:1; metalness:0.5; roughness:0.2"></a-mixin>
+			
+			<a-mixin id="mtl1a" mixin="fc" material="color: #0f8;"></a-mixin>
+			<a-mixin id="mtl2a" mixin="fc" material="color: #0f9;"></a-mixin>
+			<a-mixin id="mtl3a" mixin="fc" material="color: #0fa;"></a-mixin>
+			<a-mixin id="mtl4a" mixin="fc" material="color: #0fb;"></a-mixin>
+			<a-mixin id="mtl5a" material="color: #0fb; opacity: 0.65; metalness:0.6; roughness:0.4;"></a-mixin>
+			<a-mixin id="ci" geometry="height:6; radius:0.04;" mixin="mtl3"></a-mixin>
+			<a-mixin id="s12_1q" position="0 0 1.5"></a-mixin>
+			<a-mixin id="s12_1t" position="0 0 0.866"></a-mixin>
+			<a-mixin id="s12_2q" position="0 -1.5 1.5"></a-mixin>
+			<a-mixin id="s12_2t" position="0 -1.5 0.866"></a-mixin>
+			<a-mixin id="s12_3q" position="0 2.1213 0"></a-mixin>
+			<a-mixin id="s12_3t" position="0 2.4495 0"></a-mixin>
+			<a-mixin id="s5_1" position="0 0 1.732"></a-mixin>
+			<a-mixin id="s5_2" position="0 -3 1.732"></a-mixin>
+			<a-mixin id="s5_3" position="0 1.2246 0"></a-mixin>
+			<a-mixin id="s5_5" position="0 1.8329 0"></a-mixin>
+			<a-mixin id="s5_4" position="0 -1.8329 0"></a-mixin>
+			<a-mixin id="h1" geometry="height:4.5;"></a-mixin>
+			<a-mixin id="h2" geometry="height:3;"></a-mixin>
+			<a-mixin id="h3" geometry="height:1.5;"></a-mixin>
+			<a-mixin id="esfera" mixin="mtl3" geometry="radius: 0.03;" material="metalness:0.4; roughness:0.3;"></a-mixin>
+			<a-mixin id="arestas" mixin="mtl3" geometry="radius: 0.03; height:3" material="metalness:0.4; roughness:0.3;"></a-mixin>
+			<a-mixin id="arestasT" mixin="mtl3" geometry="radius: 0.03; height:6" material="metalness:0.4; roughness:0.3;">
+			<a-mixin id="tr" geometry="radius: 2; radius-tubular:0.01; segments-tubular: 24; segments-radial: 12" mixin="mtl4"></a-mixin>
+			<a-mixin id="p1" scale="0.181 0.181 0.181" rotation="54.75 45 0" position="-0.57735 0.57735 -0.57735"></a-mixin>
+			<a-mixin id="p2" scale="0.181 0.181 0.181" rotation="54.75 45 0" position="0.57735 0.57735 0.57735"></a-mixin>
+			<a-mixin id="p3" scale="0.181 0.181 0.181" rotation="54.75 45 0" position="-0.57735 -0.57735 0.57735">
+			<a-mixin id="p4" scale="0.181 0.181 0.181" rotation="54.75 45 0" position="0.57735 -0.57735 -0.57735"></a-mixin>
+			<a-mixin id="p5" scale="0.181 0.181 0.181" rotation="54.75 135 0" position="-0.57735 0.57735 0.57735"></a-mixin>
+			<a-mixin id="p6" scale="0.181 0.181 0.181" rotation="54.75 135 0" position="-0.57735 -0.57735 -0.57735"></a-mixin>
+			<a-mixin id="p7" scale="0.181 0.181 0.181" rotation="54.75 135 0" position="0.57735 0.57735 -0.57735"></a-mixin>
+			<a-mixin id="p8" scale="0.181 0.181 0.181" rotation="54.75 135 0" position="0.57735 -0.57735 0.57735"></a-mixin>
+			<a-mixin id="fc" geometry="primitive: tetrahedron; radius: 1;" material="opacity: 0.85; metalness:0.6; roughness:0.4;"></a-mixin>
+			<a-mixin id="tr1" mixin="tr" position="-2.314 0 0" rotation="0 0 -30" geometry="arc:60;"></a-mixin>
+			<a-mixin id="tr2" mixin="tr" position="1.15 -2 0" rotation="0 0 90" geometry="arc:60;"></a-mixin>
+			<a-mixin id="tr3" mixin="tr" position="1.15 2 0" rotation="0 0 210" geometry="arc:60;"></a-mixin>
+		</a-assets>
+		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 0 250 700; minDistance: 500; maxDistance: 1100;"></a-entity>
+		<a-light type="point" color="yellow" intensity="1" position="0 0 0"></a-light>
+		
+		<a-entity scale="1.6 1.6 1.6">
+			<!--tetraedros-->
+			<a-entity position="0 -1.2246 0">
+				<a-entity id="baixo">
+					<a-entity rotation="0 0 90">
+						<a-cylinder mixin="arestasT s5_1"></a-cylinder>
+						<a-sphere mixin="esfera s5_2"></a-sphere>
+						<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+						<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+						<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+					</a-entity>
+					<a-entity rotation="0 120 90">
+						<a-cylinder mixin="arestasT s5_1"></a-cylinder>
+						<a-sphere mixin="esfera s5_2"></a-sphere>
+						<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+						<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+						<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+					</a-entity>
+					<a-entity rotation="0 240 90">
+						<a-cylinder mixin="arestasT s5_1"></a-cylinder>
+						<a-sphere mixin="esfera s5_2"></a-sphere>
+						<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+						<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+						<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+					</a-entity>
+					<a-entity mixin="s5_3">
+					<a-entity rotation="70.53 0 0">
+						<a-entity mixin="s5_3">
+							<a-entity rotation="0 0 90">
+								<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+								<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+								<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+							</a-entity>
+							<a-entity rotation="0 120 90">
+								<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+								<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+								<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+							</a-entity>
+							<a-entity rotation="0 240 90">
+								<a-cylinder mixin="arestasT s5_1"></a-cylinder>
+								<a-sphere mixin="esfera s5_2"></a-sphere>
+								<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+								<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+								<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+							</a-entity>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity mixin="s5_3">
+						<a-entity rotation="70.53 120 0">
+						<a-entity mixin="s5_3">
+								<a-entity rotation="0 0 90">
+									<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+								</a-entity>
+								<a-entity rotation="0 120 90">
+									<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+								</a-entity>
+								<a-entity rotation="0 240 90">
+									<a-cylinder mixin="arestasT s5_1"></a-cylinder>
+									<a-sphere mixin="esfera s5_2"></a-sphere>
+									<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity mixin="s5_3">
+						<a-entity rotation="70.53 240 0">
+							<a-entity mixin="s5_3">
+								<a-entity rotation="0 0 90">
+									<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+								</a-entity>
+								<a-entity rotation="0 120 90">
+									<a-cylinder mixin="arestasT s5_1"></a-cylinder>
+									<a-sphere mixin="esfera s5_2"></a-sphere>
+									<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+								</a-entity>
+								<a-entity rotation="0 240 90">
+									<a-cylinder mixin="arestasT s5_1"></a-cylinder>
+									<a-sphere mixin="esfera s5_2"></a-sphere>
+									<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+			</a-entity>
+			<a-entity position="0 1.2246 0" rotation="180 0 0">
+				<a-entity id="baixo">
+					<a-entity rotation="0 0 90">
+						<a-cylinder mixin="arestasT s5_1"></a-cylinder>
+						<a-sphere mixin="esfera s5_2"></a-sphere>
+						<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+						<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+						<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+					</a-entity>
+					<a-entity rotation="0 120 90">
+						<a-cylinder mixin="arestasT s5_1"></a-cylinder>
+						<a-sphere mixin="esfera s5_2"></a-sphere>
+						<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+						<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+						<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+					</a-entity>
+					<a-entity rotation="0 240 90">
+						<a-cylinder mixin="arestasT s5_1"></a-cylinder>
+						<a-sphere mixin="esfera s5_2"></a-sphere>
+						<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+						<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+						<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+					</a-entity>
+					<a-entity mixin="s5_3">
+					<a-entity rotation="70.53 0 0">
+						<a-entity mixin="s5_3">
+							<a-entity rotation="0 0 90">
+								<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+								<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+								<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+							</a-entity>
+							<a-entity rotation="0 120 90">
+								<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+								<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+								<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+							</a-entity>
+							<a-entity rotation="0 240 90">
+								<a-cylinder mixin="arestasT s5_1"></a-cylinder>
+								<a-sphere mixin="esfera s5_2"></a-sphere>
+								<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+								<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+								<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+							</a-entity>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity mixin="s5_3">
+						<a-entity rotation="70.53 120 0">
+						<a-entity mixin="s5_3">
+								<a-entity rotation="0 0 90">
+									<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+								</a-entity>
+								<a-entity rotation="0 120 90">
+									<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+								</a-entity>
+								<a-entity rotation="0 240 90">
+									<a-cylinder mixin="arestasT s5_1"></a-cylinder>
+									<a-sphere mixin="esfera s5_2"></a-sphere>
+									<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					<a-entity mixin="s5_3">
+						<a-entity rotation="70.53 240 0">
+							<a-entity mixin="s5_3">
+								<a-entity rotation="0 0 90">
+									<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+								</a-entity>
+								<a-entity rotation="0 120 90">
+									<a-cylinder mixin="arestasT s5_1"></a-cylinder>
+									<a-sphere mixin="esfera s5_2"></a-sphere>
+									<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+								</a-entity>
+								<a-entity rotation="0 240 90">
+									<a-cylinder mixin="arestasT s5_1"></a-cylinder>
+									<a-sphere mixin="esfera s5_2"></a-sphere>
+									<a-cylinder mixin="arestasT s5_2 h1" position="0 0 0.433"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h2" position="0 0 -0.866"></a-cylinder>
+									<a-cylinder mixin="arestasT s5_2 h3" position="0 0 -2.165"></a-cylinder>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+				</a-entity>
+			</a-entity>
+			<!--cuboctaedro -->
+			<a-entity position="-1.5 -1.2246 -0.866" rotation="0 -30 -54.7">
+				<a-entity id="baixo">
+						<a-entity rotation="0 0 90">
+							<a-cylinder mixin="arestas s12_1q" ></a-cylinder>
+							<a-sphere mixin="esfera s12_2q"></a-sphere>
+						</a-entity>
+						<a-entity rotation="0 90 90">
+							<a-cylinder mixin="arestas s12_1q"></a-cylinder>
+							<a-sphere mixin="esfera s12_2q"></a-sphere>
+						</a-entity>
+						<a-entity rotation="0 180 90">
+							<a-cylinder mixin="arestas s12_1q"></a-cylinder>
+							<a-sphere mixin="esfera s12_2q"></a-sphere>
+						</a-entity>
+						<a-entity rotation="0 270 90">
+							<a-cylinder mixin="arestas s12_1q"></a-cylinder>
+							<a-sphere mixin="esfera s12_2q"></a-sphere>
+						</a-entity>
+						<a-entity mixin="s12_3q">
+						<a-entity rotation="125.26 0 0">
+							<a-entity mixin="s12_3t">
+								<a-entity rotation="0 120 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+									<a-entity rotation="0 240 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity mixin="s12_3q">
+						<a-entity rotation="125.26 90 0">
+							<a-entity mixin="s12_3t">
+								<a-entity rotation="0 120 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+									<a-entity rotation="0 240 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity mixin="s12_3q">
+						<a-entity rotation="125.26 180 0">
+							<a-entity mixin="s12_3t">
+								<a-entity rotation="0 120 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+									<a-entity rotation="0 240 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity mixin="s12_3q">
+						<a-entity rotation="125.26 270 0">
+							<a-entity mixin="s12_3t">
+								<a-entity rotation="0 120 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+									<a-entity rotation="0 240 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+					</a-entity>
+					
+					<a-entity id="cima" position="0 4.2426 0" rotation="0 0 180">
+						<a-entity rotation="0 0 90">
+							<a-cylinder mixin="arestas s12_1q" ></a-cylinder>
+							<a-sphere mixin="esfera s12_2q"></a-sphere>
+						</a-entity>
+						<a-entity rotation="0 90 90">
+							<a-cylinder mixin="arestas s12_1q"></a-cylinder>
+							<a-sphere mixin="esfera s12_2q"></a-sphere>
+						</a-entity>
+						<a-entity rotation="0 180 90">
+							<a-cylinder mixin="arestas s12_1q"></a-cylinder>
+							<a-sphere mixin="esfera s12_2q"></a-sphere>
+						</a-entity>
+						<a-entity rotation="0 270 90">
+							<a-cylinder mixin="arestas s12_1q"></a-cylinder>
+							<a-sphere mixin="esfera s12_2q"></a-sphere>
+						</a-entity>
+						<a-entity mixin="s12_3q">
+						<a-entity rotation="125.26 0 0">
+							<a-entity mixin="s12_3t">
+								<a-entity rotation="0 120 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+									<a-entity rotation="0 240 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity mixin="s12_3q">
+						<a-entity rotation="125.26 90 0">
+							<a-entity mixin="s12_3t">
+								<a-entity rotation="0 120 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+									<a-entity rotation="0 240 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity mixin="s12_3q">
+						<a-entity rotation="125.26 180 0">
+							<a-entity mixin="s12_3t">
+								<a-entity rotation="0 120 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+									<a-entity rotation="0 240 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+						<a-entity mixin="s12_3q">
+						<a-entity rotation="125.26 270 0">
+							<a-entity mixin="s12_3t">
+								<a-entity rotation="0 120 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+									<a-entity rotation="0 240 90">
+										<a-cylinder mixin="arestas s12_1t"></a-cylinder>
+										<a-sphere mixin="esfera s12_2t"></a-sphere>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						</a-entity>
+					</a-entity>								
+			</a-entity>
+			<!--diagonais-->
+			<a-entity position="0 0 0" rotation="0 -30 -54.7">
+				<a-cylinder mixin="ci" rotation="0 0 90"></a-cylinder>
+				<a-cylinder mixin="ci" rotation="90 0 0"></a-cylinder>
+				<a-cylinder mixin="ci" rotation="35 0 30"></a-cylinder>
+				<a-cylinder mixin="ci" rotation="35 0 -30"></a-cylinder>
+				<a-cylinder mixin="ci" rotation="-35 0 30"></a-cylinder>
+				<a-cylinder mixin="ci" rotation="-35 0 -30"></a-cylinder>
+			</a-entity>
+			<a-entity scale="1 1 1">
+				<a-entity rotation="35 0 45" scale="0.61 0.61 0.61"><!-- mixin="anima1 anima2 anima3 anima4">-->
+				<a-entity scale="1.5 1.5 1.5">
+					<a-entity position="-1.1547 1.1547 -1.1547">
+						<a-entity mixin="p1">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p2">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p3">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p4">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+					</a-entity>
+					<a-entity position="1.1547 1.1547 1.1547">
+						<a-entity mixin="p1">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p2">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p3">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p4">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+					</a-entity>
+					<a-entity position="-1.1547 -1.1547 1.1547">
+						<a-entity mixin="p1">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p2">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p3">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p4">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+					</a-entity>
+					<a-entity position="1.1547 -1.1547 -1.1547">
+						<a-entity mixin="p1">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p2">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p3">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p4">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+					</a-entity>
+					<a-entity position="-1.1547 1.1547 -1.1547">
+						<a-entity mixin="p5">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p6">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p7">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p8">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+					</a-entity>
+					<a-entity position="1.1547 1.1547 1.1547">
+						<a-entity mixin="p5">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p6">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p7">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p8">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+					</a-entity>
+					<a-entity position="-1.1547 -1.1547 1.1547">
+						<a-entity mixin="p5">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p6">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p7">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p8">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+					</a-entity>
+					<a-entity position="1.1547 -1.1547 -1.1547">
+						<a-entity mixin="p5">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p6">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p7">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p8">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+					</a-entity>
+					<a-entity rotation="0 0 -90">
+					<a-entity position="-1.1547 1.1547 -1.1547">
+						<a-entity mixin="p1">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p2">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p3">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p4">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+					</a-entity>
+					<a-entity position="1.1547 1.1547 1.1547">
+						<a-entity mixin="p1">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p2">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p3">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p4">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+					</a-entity>
+					<a-entity position="-1.1547 -1.1547 1.1547">
+						<a-entity mixin="p1">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p2">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p3">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p4">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+					</a-entity>
+					<a-entity position="1.1547 -1.1547 -1.1547">
+						<a-entity mixin="p1">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p2">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p3">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p4">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+					</a-entity>
+					<a-entity position="-1.1547 1.1547 -1.1547">
+						<a-entity mixin="p5">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p6">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p7">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p8">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+					</a-entity>
+					<a-entity position="1.1547 1.1547 1.1547">
+						<a-entity mixin="p5">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p6">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p7">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p8">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+					</a-entity>
+					<a-entity position="-1.1547 -1.1547 1.1547">
+						<a-entity mixin="p5">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p6">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p7">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p8">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+					</a-entity>
+					<a-entity position="1.1547 -1.1547 -1.1547">
+						<a-entity mixin="p5">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p6">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p7">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+						<a-entity mixin="p8">
+							<a-entity rotation="70.53 0 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 120 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity rotation="70.53 240 0">
+								<a-entity mixin="s5_5">
+									<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+							<a-entity mixin="s5_4">
+								<a-entity rotation="90 90 0" scale="4.5 4.5 4.5">			
+										<a-torus mixin="tr1"></a-torus>
+										<a-torus mixin="tr2"></a-torus>
+										<a-torus mixin="tr3"></a-torus>
+									</a-entity>
+								</a-entity>
+							</a-entity>
+					</a-entity>
+					</a-entity>
+				</a-entity>
+			</a-entity>
+		</a-entity>
+		</a-entity>
+		
+		<a-light type="ambient" color="white" intensity="0.5"></a-light>
+		<a-light type="directional" color="white" intensity="0.5" position="-7 5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.5" position="7 -5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.5" position="7 5 -1"></a-light>
+		<a-sky color="black" radius="25"></a-sky><a-sky src="https://paulohscwb.github.io/SacredGeometry//imagens/8k_stars_milky_way.jpg" radius="18"></a-sky>
+    </a-scene>
+	<div class="box">
+		<span class="titulo">Grid of life with Flower of life</span>
+		<br><span class="titulo">Grade da vida com a Flor da vida</span>
+	</div>
+  </body>
+</html>
