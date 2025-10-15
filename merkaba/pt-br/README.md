@@ -247,6 +247,21 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 <a href="../vr/FlowerOfLifeMerkaba5.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/196A.png" class="foto" alt="Estrela Merkaba com o símbolo da Flor da vida"></a>
  <br><br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D com o símbolo da flor da vida.
  <br><br><br><br>
+ <hr>
+<h4>33. Estrela Merkaba com o símbolo da Flor da vida v5</h4>
+<a href="../vr/FlowerOfLifeMerkaba6.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/288A.png" class="foto" alt="Estrela Merkaba com o símbolo da Flor da vida"></a>
+ <br><br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D com o símbolo da flor da vida.
+ <br><br><br><br>
+ <hr>
+<h4>34. Estrela Merkaba com o símbolo da Flor da vida v6</h4>
+<a href="../vr/FlowerOfLifeMerkaba7.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/290A.png" class="foto" alt="Estrela Merkaba com o símbolo da Flor da vida"></a>
+ <br><br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D com o símbolo da flor da vida.
+ <br><br><br><br>
+ <hr>
+<h4>35. Estrela Merkaba com o símbolo da Flor da vida v7</h4>
+<a href="../vr/FlowerOfLifeMerkaba8.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/289A.png" class="foto" alt="Estrela Merkaba com o símbolo da Flor da vida"></a>
+ <br><br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D com o símbolo da flor da vida.
+ <br><br><br><br>
  <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  <hr>
 
