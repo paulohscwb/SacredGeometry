@@ -646,6 +646,11 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <a href="vr/FlowerOfLifeLabyrinth.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/185A.png" class="foto" alt="Flower of life with a labyrinth"></a>
  <br><br><br>A labyrinth embodies Sacred Geometry through its winding path designed for spiritual walks, meditation, and personal transformation, symbolizing a spiritual journey and connection with the universe. Labyrinths use geometric shapes, numerology, and spiral designs to create a purposeful, harmonious, and symbolic path that connects the walker to the universal principles of order and chaos. The combination of circles and spirals in a labyrinth's design embodies the concept of interconnection. This model depicts a labyrinth made with the symbol of the Flower of Life.
  <br><br>
+<hr>
+<h4>114. Seven days of creation</h4>
+<a href="vr/7DaysCreation.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/292A.png" class="foto" alt="Seven days of creation"></a>
+ <br><br><br>It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower. The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one.
+ <br><br><br>
  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
