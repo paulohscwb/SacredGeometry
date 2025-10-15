@@ -143,6 +143,21 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <a href="vr/GridOfLife_FlowerofLife.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/195A.png" class="foto" alt="Grid of life with Flower of life symbol"></a>
  <br><br><br><br><br><br>The Flower of Life is believed to be a key that can unlock the hidden knowledge of time and space within its petal-like structures. In this representation, we see the Flower of Life symbol forming the 3D symbol of the Grid of Life.
  <br><br><br><br><br>
+ <hr>
+<h4>18. Grid of life with Flower of life symbol v2</h4>
+<a href="vr/GridOfLife_FlowerofLife1.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/295A.png" class="foto" alt="Grid of life with Flower of life symbol"></a>
+ <br><br><br><br><br>The Flower of Life is believed to be a key that can unlock the hidden knowledge of time and space within its petal-like structures. In this representation, we see the Flower of Life symbol forming the 3D symbol of the Grid of Life.
+ <br><br><br><br><br>
+ <hr>
+<h4>19. Grid of life with Flower of life symbol v3</h4>
+<a href="vr/GridOfLife_FlowerofLife2.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/294A.png" class="foto" alt="Grid of life with Flower of life symbol"></a>
+ <br><br><br><br><br>The Flower of Life is believed to be a key that can unlock the hidden knowledge of time and space within its petal-like structures. In this representation, we see the Flower of Life symbol forming the 3D symbol of the Grid of Life.
+ <br><br><br><br><br>
+ <hr>
+<h4>20. Grid of life with Flower of life symbol v4</h4>
+<a href="vr/GridOfLife_FlowerofLife3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/293A.png" class="foto" alt="Grid of life with Flower of life symbol"></a>
+ <br><br><br><br><br>The Flower of Life is believed to be a key that can unlock the hidden knowledge of time and space within its petal-like structures. In this representation, we see the Flower of Life symbol forming the 3D symbol of the Grid of Life.
+ <br><br><br><br><br>
  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
