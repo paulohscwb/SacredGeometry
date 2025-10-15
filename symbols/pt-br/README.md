@@ -644,6 +644,11 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 <a href="../vr/FlowerOfLifeLabyrinth.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/185A.png" class="foto" alt="Flor da vida com um labirinto"></a>
  <br><br><br>Um labirinto incorpora a Geometria Sagrada por meio de seu caminho sinuoso projetado para caminhadas espirituais, meditação e transformação pessoal, simbolizando uma jornada espiritual e a conexão com o universo. Labirintos usam formas geométricas, numerologia e desenhos em espiral para criar um caminho proposital, harmonioso e simbólico que conecta o caminhante aos princípios universais de ordem e caos. A combinação de círculos e espirais no desenho de um labirinto incorpora o conceito de interconexão. Neste modelo temos a representação de um labirinto feito com o símbolo da Flor da vida.
  <br><br>
+ <hr>
+<h4>114. Sete dias da criação</h4>
+<a href="../vr/7DaysCreation.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/292A.png" class="foto" alt="Sete dias da criação"></a>
+ <br><br><br>Consiste em sete círculos do mesmo tamanho, criando um padrão que lembra uma flor de seis pétalas. Os centros dos círculos formam um hexagrama, que representa a conexão entre os sete dias da criação. Os sete círculos representam os sete dias da criação em contextos religiosos e espirituais. A natureza conectada dos círculos significa que cada estágio da criação está conectado e se baseia no anterior.
+ <br><br><br>
  <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
