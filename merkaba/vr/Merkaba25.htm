@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Sacred Geometry</title>
+	<link rel="icon" type="image/png" href="salas/imagens/icone.png">
+	<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+	<script src="https://unpkg.com/aframe-orbit-controls@1.3.0/dist/aframe-orbit-controls.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script src="nomes.js"></script>
+	<link rel="stylesheet" href="nomes.css">
+  </head>
+  <body>
+<div style='color:#fada91; position: fixed; bottom: 1vh; left:1vw; width:100%; z-index: 1; font-family: Lato; font-size:3vh; font-weight:bold; text-shadow:1px 1px 1px royalblue;'>paulohscwb@gmail.com <br> &copy; 2025 Paulo Henrique Siqueira</div>
+    <a-scene renderer="logarithmicDepthBuffer: true; colorManagement: true;">
+		<a-assets>
+			<a-asset-item id="mt" src="https://paulohscwb.github.io/polyhedra2/fractalnonconvex/vr/outros/c1b.mtl"></a-asset-item>
+			<a-asset-item id="mt1" src="https://paulohscwb.github.io/SacredGeometry/symbols/vr/outros/c8.mtl"></a-asset-item>
+			<a-asset-item id="aq" src="https://paulohscwb.github.io/torus-toroids/regular1/vr/obj/HendecagonalDodecahedron.obj"></a-asset-item>
+			<a-asset-item id="aq1" src="https://paulohscwb.github.io/torus-toroids/regular1/vr/obj/HendecagonalDodecahedronL.obj"></a-asset-item>
+			<a-mixin id="fc" scale="0.47 0.47 0.47" obj-model="obj: #aq; mtl: #mt">
+			<a-mixin id="ar" scale="0.471 0.471 0.471" obj-model="obj: #aq1; mtl: #mt1"></a-mixin>
+		</a-assets>
+		<a-entity camera="fov:1; near:1;" orbit-controls="target: 0 0 0; maxPolarAngle: 180; minDistance: 0.5; initialPosition: 0 250 700; minDistance: 500; maxDistance: 1100;"></a-entity>
+		<a-light type="point" color="skyblue" intensity="1" position="0 0 0"></a-light>
+		<a-entity scale="1.5 1.5 1.5" rotation="-35.25 60 45">
+			<a-entity mixin="ar"></a-entity>
+			<a-entity mixin="fc"></a-entity>
+			<a-entity rotation="0 180 -90">
+				<a-entity mixin="ar"></a-entity>
+				<a-entity mixin="fc"></a-entity>
+			</a-entity>	
+		</a-entity>
+		
+		<a-light type="ambient" color="white" intensity="0.35"></a-light>
+		<a-light type="directional" color="white" intensity="0.5" position="-7 5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.5" position="7 -5 1"></a-light>
+		<a-light type="directional" color="white" intensity="0.5" position="7 5 -1"></a-light>
+		<a-sky color="black" radius="25"></a-sky><a-sky src="https://paulohscwb.github.io/SacredGeometry/imagens/8k_stars_milky_way.jpg" radius="18"></a-sky>
+    </a-scene>
+	<div class="box">
+		<span class="titulo">Merkaba star of hendecagonal dodecahedron</span>
+		<br><span class="titulo">Estrela Merkaba do dodecaedro hendecagonal</span>
+	</div>
+  </body>
+</html>
