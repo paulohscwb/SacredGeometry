@@ -54,6 +54,7 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 		<option value="sala17.htm">Flower of life in Merkaba symbol v2</option>
 		<option value="sala18.htm">Merkaba of fractal hendecagonal dodecahedron</option>
 		<option value="sala19.htm">Merkaba of fractal Klein map</option>
+		<option value="sala20.htm">Merkaba de fractais de toroides hexagonais</option>
 	</select>
 </form>
   <div class="embed-container"><iframe width="100%" id="sim" src="sala2.htm" title="Sala Imersiva dos símbolos da Geometria Sagrada" frameborder="0" loading="lazy"></iframe></div>
