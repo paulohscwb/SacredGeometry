@@ -54,6 +54,7 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 		<option value="../sala17.htm">Flor da vida no símbolo Merkaba v2</option>
 		<option value="../sala18.htm">Merkaba de fractais de dodecahedros hendecagonais</option>
 		<option value="../sala19.htm">Merkaba de fractais de mapas de Klein</option>
+		<option value="../sala20.htm">Merkaba de fractais de toroides hexagonais</option>
 	</select>
 </form>
   <div class="embed-container"><iframe width="100%" id="sim" src="../sala2.htm" title="Sala Imersiva dos símbolos da Geometria Sagrada" frameborder="0" loading="lazy"></iframe></div>
@@ -266,23 +267,34 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
  <br><br><br><br>
  <hr>
 <h4>36. Estrela Merkaba do dodecaedro hendecagonal</h4>
-<a href="../vr/Merkaba25.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/291A.png" class="foto" alt="Estrela Merkaba com o símbolo da Flor da vida"></a>
+<a href="../vr/Merkaba25.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/291A.png" class="foto" alt="Estrela Merkaba do dodecaedro hendecagonal"></a>
  <br><br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D com o dodecaedro hendecagonal.
  <br><br><br><br>
  <hr>
 <h4>37. Estrela Merkaba fractal do dodecaedro hendecagonal</h4>
-<a href="../vr/Merkaba26.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/292A.png" class="foto" alt="Estrela Merkaba com o símbolo da Flor da vida"></a>
+<a href="../vr/Merkaba26.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/292A.png" class="foto" alt="Estrela Merkaba fractal do dodecaedro hendecagonal"></a>
  <br><br><br><br>Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba fractal modelada em 3D com o dodecaedro hendecagonal.
  <br><br><br><br>
  <hr>
 <h4>38. Estrela Merkaba do mapa de Klein</h4>
-<a href="../vr/Merkaba27.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/293A.png" class="foto" alt="Estrela Merkaba com o símbolo da Flor da vida"></a>
+<a href="../vr/Merkaba27.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/293A.png" class="foto" alt="Estrela Merkaba do mapa de Klein"></a>
  <br><br><br><br>O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada com o mapa de Klein.
  <br><br><br><br>
  <hr>
 <h4>39. Estrela Merkaba fractal do mapa de Klein</h4>
-<a href="../vr/Merkaba28.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/294A.png" class="foto" alt="Estrela Merkaba com o símbolo da Flor da vida"></a>
+<a href="../vr/Merkaba28.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/294A.png" class="foto" alt="Estrela Merkaba fractal do mapa de Klein"></a>
  <br><br><br><br>Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba fractal modelada em 3D com o mapa de Klein.
+ <br><br><br><br>
+ <hr>
+<h4>40. Estrela Merkaba de toroide hexagonal</h4>
+<a href="../vr/Merkaba29.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/295A.png" class="foto" alt="Estrela Merkaba de toroide hexagonal"></a>
+ <br><br><br><br>Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba fractal modelada em 3D com um toroide hexagonal.
+ <br><br><br><br>
+ <hr>
+ <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<h4>41. Estrela Merkaba fractal de toroide hexagonal</h4>
+<a href="../vr/Merkaba30.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/296A.png" class="foto" alt="Estrela Merkaba fractal de toroide hexagonal"></a>
+ <br><br><br><br>Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba fractal modelada em 3D com um toroide hexagonal.
  <br><br><br><br>
  <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  <hr>
@@ -298,3 +310,4 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 <br>Weisstein, Eric W. "Polyhedra" From MathWorld-A Wolfram Web Resource. <a href="https://mathworld.wolfram.com/topics/Polyhedra.html" target="_blank">https://mathworld.wolfram.com/topics/Polyhedra.html</a>
 <br>Solar System Scope. "Solar Textures: Stars and Milky Way". <a href="https://www.solarsystemscope.com/textures/" target="_blank">https://www.solarsystemscope.com/textures/</a>
 <br>McCooey, D. I. "Visual Polyhedra". <a href="http://dmccooey.com/polyhedra/" target="_blank">http://dmccooey.com/polyhedra/</a>
+
