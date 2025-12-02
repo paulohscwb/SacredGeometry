@@ -284,6 +284,17 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <a href="vr/Merkaba28.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/294A.png" class="foto" alt="Merkaba star fractal of Klein map"></a>
  <br><br><br><br>The Sacred Geometry Merkaba symbol provides protection and can transport your consciousness to higher dimensions. It is the fusion of 2 identical tetrahedra that are interconnected through rotations in opposite directions. The intersection of these tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star fractal modeled with Klein map.
  <br><br><br><br>
+<hr>
+<h4>40. Merkaba star of hexagonal toroid</h4>
+<a href="vr/Merkaba29.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/295A.png" class="foto" alt="Merkaba star of hexagonal toroid"></a>
+ <br><br><br><br>It is the fusion of 2 identical tetrahedra that are interconnected through rotations in opposite directions. The Sacred Geometry Merkaba symbol provides protection and can transport your consciousness to higher dimensions. The intersection of these tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star fractal modeled with a hexagonal toroid.
+ <br><br><br><br>
+ <hr>
+ <p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<h4>41. Merkaba star fractal of hexagonal toroid</h4>
+<a href="vr/Merkaba30.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/296A.png" class="foto" alt="Merkaba star fractal of hexagonal toroid"></a>
+ <br><br><br><br>The Sacred Geometry Merkaba symbol provides protection and can transport your consciousness to higher dimensions. It is the fusion of 2 identical tetrahedra that are interconnected through rotations in opposite directions. The intersection of these tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star fractal modeled with hexagonal toroid.
+ <br><br><br><br>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
