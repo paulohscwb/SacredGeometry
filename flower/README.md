@@ -223,17 +223,17 @@ with any browser with a webcam device (smartphone, tablet or notebook).
  <br><br><br><br><br>
  <hr>
  <h4>32. Flower of life fractal 3D</h4>
-<a href="../vr/FlowerOfLifeFractal3D.htm" target="_blank" title="3D model" class="fotoA"><img src="../ar/300A.png" class="foto" alt="Flower of life fractal"></a>
+<a href="../symbols/vr/FlowerOfLifeFractal3D.htm" target="_blank" title="3D model" class="fotoA"><img src="../symbols/ar/300A.png" class="foto" alt="Flower of life fractal"></a>
  <br><br><br>This Sacred Geometry symbol is considered a blueprint for all creation, containing fundamental patterns and structures of the universe within its overlapping circles and hexagonal symmetry. In this model, we have the representation of the fractal Flower of Life symbol with three stages (iterations). A fractal Flower of Life combines the traditional Flower of Life symbol with Fractal Geometry, representing the patterns of the universe through self-similar patterns that repeat at different scales, similar to the hexagonal patterns of the Flower of Life symbol itself. 
  <br><br><br>
  <hr>
  <h4>33. Flower of life with the Hexagram 3D</h4>
-<a href="../vr/FlowerOfLifeHexagram3D.htm" target="_blank" title="3D model" class="fotoA"><img src="../ar/301A.png" class="foto" alt="Flower of life with the Hexagram"></a>
+<a href="../symbols/vr/FlowerOfLifeHexagram3D.htm" target="_blank" title="3D model" class="fotoA"><img src="../symbols/ar/301A.png" class="foto" alt="Flower of life with the Hexagram"></a>
  <br><br><br>This symbol can be found in various cultures and religions and represents a fundamental cosmic balance and the cyclical flow of life and energy. In this model, we have a representation of the Hexagram made with the symbol of the Flower of Life.In Sacred Geometry, the Hexagram (six-pointed star) symbolizes the harmonious union of opposites, representing spiritual balance and cosmic interconnection. It is represented as two intertwined equilateral triangles representing the following elements: masculine and feminine, earth and sky, or the divine and human realms.
  <br><br><br>
  <hr>
  <h4>34. Flower of life with the snowflake symbol 3D</h4>
-<a href="../vr/FlowerOfLifeSnowflake3D.htm" target="_blank" title="3D model" class="fotoA"><img src="../ar/302A.png" class="foto" alt="Flower of life with the snowflake symbol"></a>
+<a href="../symbols/vr/FlowerOfLifeSnowflake3D.htm" target="_blank" title="3D model" class="fotoA"><img src="../symbols/ar/302A.png" class="foto" alt="Flower of life with the snowflake symbol"></a>
  <br><br><br>The mathematical precision found in the snowflake’s structure contrasts with the great variety of individual shapes, which arise from small differences in temperature, humidity, and other environmental factors. As a snowflake grows, its branches create self-similar patterns on decreasing scales, similar to Fractal Geometry. In this model, we have a representation of a snowflake symbol made with the Flower of Life symbol. Snowflake symbols are part of Sacred Geometry because they have a hexagonal structure, resulting from the molecular symmetry of water molecules and hydrogen bonds. This symmetry reflects the order and harmony of the universe, which are fundamental concepts of Sacred Geometry. 
  <br><br><br>
  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
