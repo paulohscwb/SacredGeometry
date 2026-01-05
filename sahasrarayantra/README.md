@@ -365,8 +365,179 @@ The mathematical structures used in Sacred Geometry can be found in the arts, ar
 <a href="vr/model32a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/64A.png" class="foto" alt="Sahasrara Yantra with great truncated icosahedrons"></a>
  <br>Sahasrara Yantra with great truncated icosahedrons
  <br>
-<p class="topop"><a href="#p1" class="topo">back to top</a></p>
+ <h4>66. Hendecagonal dodecahedron</h4>
+<a href="vr/model33.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/65A.png" class="foto" alt="Sahasrara Yantra with hendecagonal dodecahedrons"></a>
+ <br>Sahasrara Yantra with hendecagonal dodecahedrons
+ <br>
 <hr>
+<h4>67. Hendecagonal dodecahedron v2</h4>
+<a href="vr/model33a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/66A.png" class="foto" alt="Sahasrara Yantra with hendecagonal dodecahedrons"></a>
+ <br>Sahasrara Yantra with hendecagonal dodecahedrons
+ <br>
+<hr>
+<h4>68. Klein map</h4>
+<a href="vr/model34.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/67A.png" class="foto" alt="Sahasrara Yantra with Escher solids"></a>
+ <br>Sahasrara Yantra with Escher solids
+ <br>
+<hr>
+<h4>69. Klein map v2</h4>
+<a href="vr/model34a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/68A.png" class="foto" alt="Sahasrara Yantra with Klein maps"></a>
+ <br>Sahasrara Yantra with Klein maps
+ <br>
+<hr>
+<h4>70. Regular tetragonal toroid</h4>
+<a href="vr/model35.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/69A.png" class="foto" alt="Sahasrara Yantra with regular tetragonal toroids"></a>
+ <br>Sahasrara Yantra with regular tetragonal toroids
+ <br>
+<hr>
+<p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<h4>71. Regular tetragonal toroid v2</h4>
+<a href="vr/model35a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/70A.png" class="foto" alt="Sahasrara Yantra with regular tetragonal toroids"></a>
+ <br>Sahasrara Yantra with regular tetragonal toroids
+ <br>
+<hr>
+<h4>72. Regular tetragonal stellated toroid</h4>
+<a href="vr/model36.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/71A.png" class="foto" alt="Sahasrara Yantra with regular tetragonal stellated toroids"></a>
+ <br>Sahasrara Yantra with regular tetragonal stellated toroids
+ <br>
+<hr>
+<h4>73. Regular tetragonal stellated toroid v2</h4>
+<a href="vr/model36a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/72A.png" class="foto" alt="Sahasrara Yantra with regular tetragonal stellated toroids"></a>
+ <br>Sahasrara Yantra with regular tetragonal stellated toroids
+ <br>
+<hr>
+<h4>74. Regular tetragonal stellated toroid</h4>
+<a href="vr/model37.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/73A.png" class="foto" alt="Sahasrara Yantra with regular tetragonal stellated toroids"></a>
+ <br>Sahasrara Yantra with regular tetragonal stellated toroids
+ <br>
+<hr>
+<h4>75. Regular tetragonal stellated toroid v2</h4>
+<a href="vr/model37a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/74A.png" class="foto" alt="Sahasrara Yantra with regular tetragonal stellated toroids"></a>
+ <br>Sahasrara Yantra with regular tetragonal stellated toroids
+ <br>
+<hr>
+<h4>76. Regular tetragonal stellated toroid</h4>
+<a href="vr/model38.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/75A.png" class="foto" alt="Sahasrara Yantra with regular tetragonal stellated toroids"></a>
+ <br>Sahasrara Yantra with regular tetragonal stellated toroids
+ <br>
+<hr>
+<h4>77. Regular tetragonal stellated toroid v2</h4>
+<a href="vr/model38a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/76A.png" class="foto" alt="Sahasrara Yantra with regular tetragonal stellated toroids"></a>
+ <br>Sahasrara Yantra with regular tetragonal stellated toroids
+ <br>
+<hr>
+<h4>78. Regular tetragonal stellated toroid</h4>
+<a href="vr/model39.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/77A.png" class="foto" alt="Sahasrara Yantra with regular tetragonal stellated toroids"></a>
+ <br>Sahasrara Yantra with regular tetragonal stellated toroids
+ <br>
+<hr>
+<h4>79. Regular tetragonal stellated toroid v2</h4>
+<a href="vr/model39a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/78A.png" class="foto" alt="Sahasrara Yantra with regular tetragonal stellated toroids"></a>
+ <br>Sahasrara Yantra with regular tetragonal stellated toroids
+ <br>
+<hr>
+<h4>80. Regular tetragonal stellated toroid</h4>
+<a href="vr/model40.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/79A.png" class="foto" alt="Sahasrara Yantra with regular tetragonal stellated toroids"></a>
+ <br>Sahasrara Yantra with regular tetragonal stellated toroids
+ <br>
+<hr>
+<p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<h4>81. Regular tetragonal stellated toroid v2</h4>
+<a href="vr/model40a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/80A.png" class="foto" alt="Sahasrara Yantra with regular tetragonal stellated toroids"></a>
+ <br>Sahasrara Yantra with regular tetragonal stellated toroids
+ <br>
+<hr>
+<h4>82. Regular tetragonal stellated toroid</h4>
+<a href="vr/model41.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/81A.png" class="foto" alt="Sahasrara Yantra with regular tetragonal stellated toroids"></a>
+ <br>Sahasrara Yantra with regular tetragonal stellated toroids
+ <br>
+<hr>
+<h4>83. Regular tetragonal stellated toroid v2</h4>
+<a href="vr/model41a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/82A.png" class="foto" alt="Sahasrara Yantra with regular tetragonal stellated toroids"></a>
+ <br>Sahasrara Yantra with regular tetragonal stellated toroids
+ <br>
+<hr>
+<h4>84. Hexagonal toroid</h4>
+<a href="vr/model42.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/83A.png" class="foto" alt="Sahasrara Yantra with great truncated icosahedrons"></a>
+ <br>Sahasrara Yantra with hexagonal toroids
+ <br>
+<hr>
+<h4>85. Hexagonal toroid v2</h4>
+<a href="vr/model42a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/84A.png" class="foto" alt="Sahasrara Yantra with great truncated icosahedrons"></a>
+ <br>Sahasrara Yantra with hexagonal toroids
+ <br>
+ <h4>86. Hexagonal toroid</h4>
+<a href="vr/model43.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/85A.png" class="foto" alt="Sahasrara Yantra with great icosahedrons"></a>
+ <br>Sahasrara Yantra with hexagonal toroids
+ <br>
+<hr>
+<h4>87. Hexagonal toroidv2</h4>
+<a href="vr/model43a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/86A.png" class="foto" alt="Sahasrara Yantra with great icosahedrons"></a>
+ <br>Sahasrara Yantra with hexagonal toroids
+ <br>
+<hr>
+<h4>88. Hexagonal toroid</h4>
+<a href="vr/model44.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/87A.png" class="foto" alt="Sahasrara Yantra with Escher solids"></a>
+ <br>Sahasrara Yantra with hexagonal toroids
+ <br>
+<hr>
+<h4>89. Hexagonal toroid v2</h4>
+<a href="vr/model44a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/88A.png" class="foto" alt="Sahasrara Yantra with Escher solids"></a>
+ <br>Sahasrara Yantra with hexagonal toroids
+ <br>
+<hr>
+<h4>90. Hexagonal toroid</h4>
+<a href="vr/model45.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/89A.png" class="foto" alt="Sahasrara Yantra with small ditrigonal icosidodecahedrons"></a>
+ <br>Sahasrara Yantra with hexagonal toroids
+ <br>
+<hr>
+<p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<h4>91. Hexagonal toroid v2</h4>
+<a href="vr/model45a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/90A.png" class="foto" alt="Sahasrara Yantra with hexagonal toroids"></a>
+ <br>Sahasrara Yantra with hexagonal toroids
+ <br>
+<hr>
+<h4>92. Hexagonal toroid</h4>
+<a href="vr/model46.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/91A.png" class="foto" alt="Sahasrara Yantra with hexagonal toroids"></a>
+ <br>Sahasrara Yantra with hexagonal toroids
+ <br>
+<hr>
+<h4>93. Hexagonal toroid v2</h4>
+<a href="vr/model46a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/92A.png" class="foto" alt="Sahasrara Yantra with hexagonal toroids"></a>
+ <br>Sahasrara Yantra with hexagonal toroids
+ <br>
+<hr>
+<h4>94. Hexagonal toroid</h4>
+<a href="vr/model47.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/93A.png" class="foto" alt="Sahasrara Yantra with hexagonal toroids"></a>
+ <br>Sahasrara Yantra with hexagonal toroids
+ <br>
+<hr>
+<h4>95. Hexagonal toroid v2</h4>
+<a href="vr/model47a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/94A.png" class="foto" alt="Sahasrara Yantra with hexagonal toroids"></a>
+ <br>Sahasrara Yantra with hexagonal toroids
+ <br>
+<hr>
+<h4>96. Hexagonal toroid</h4>
+<a href="vr/model48.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/95A.png" class="foto" alt="Sahasrara Yantra with hexagonal toroids"></a>
+ <br>Sahasrara Yantra with hexagonal toroids
+ <br>
+<hr>
+<h4>97. Hexagonal toroid v2</h4>
+<a href="vr/model48a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/96A.png" class="foto" alt="Sahasrara Yantra with hexagonal toroids"></a>
+ <br>Sahasrara Yantra with hexagonal toroids
+ <br>
+<hr>
+<h4>98. Hexagonal toroid</h4>
+<a href="vr/model49.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/97A.png" class="foto" alt="Sahasrara Yantra with hexagonal toroids"></a>
+ <br>Sahasrara Yantra with hexagonal toroids
+ <br>
+<hr>
+<h4>99. Hexagonal toroid v2</h4>
+<a href="vr/model49a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/98A.png" class="foto" alt="Sahasrara Yantra with hexagonal toroids"></a>
+ <br>Sahasrara Yantra with hexagonal toroids
+ <br>
+<hr>
+<p class="topop"><a href="#p1" class="topo">back to top</a></p>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Sahasrara Yantra - Visualization of symbols with Virtual Reality</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/SacredGeometry/sahasrarayantra/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> is licensed with a license <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</a>.
 

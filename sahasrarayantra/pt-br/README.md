@@ -365,8 +365,181 @@ function urlHandler(value) {
 <a href="../vr/model32a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/64A.png" class="foto" alt="Sahasrara Yantra com grandes icosaedros truncados"></a>
  <br>Sahasrara Yantra com grandes icosaedros truncados
  <br>
-<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
+ <h4>66. Dodecaedro hendecagonal</h4>
+<a href="../vr/model33.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/65A.png" class="foto" alt="Sahasrara Yantra com dodecaedros hendecagonais"></a>
+ <br>Sahasrara Yantra com dodecaedros hendecagonais
+ <br>
+<hr>
+<h4>67. Dodecaedro hendecagonal v2</h4>
+<a href="../vr/model33a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/66A.png" class="foto" alt="Sahasrara Yantra com dodecaedros hendecagonais"></a>
+ <br>Sahasrara Yantra com grandes dodecaedros hendecagonais
+ <br>
+<hr>
+<h4>68. Mapa de Klein</h4>
+<a href="../vr/model34.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/67A.png" class="foto" alt="Sahasrara Yantra com mapas de Klein"></a>
+ <br>Sahasrara Yantra com mapas de Klein
+ <br>
+<hr>
+<h4>69. Mapa de Klein v2</h4>
+<a href="../vr/model34a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/68A.png" class="foto" alt="Sahasrara Yantra com mapas de Klein"></a>
+ <br>Sahasrara Yantra com mapas de Klein
+ <br>
+<hr>
+<h4>70. Toroide tetragonal regular</h4>
+<a href="../vr/model35.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/69A.png" class="foto" alt="Sahasrara Yantra com toroides tetragonais regulares"></a>
+ <br>Sahasrara Yantra com toroides tetragonais regulares
+ <br>
+<hr>
+<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<h4>71. Toroide tetragonal regular v2</h4>
+<a href="../vr/model35a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/70A.png" class="foto" alt="Sahasrara Yantra com toroides tetragonais regulares"></a>
+ <br>Sahasrara Yantra com toroides tetragonais regulares
+ <br>
+<hr>
+<h4>72. Toroide tetragonal regular estrelado</h4>
+<a href="../vr/model36.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/71A.png" class="foto" alt="Sahasrara Yantra com toroides tetragonais regulares estrelados"></a>
+ <br>Sahasrara Yantra com toroides tetragonais regulares estrelados
+ <br>
+<hr>
+<h4>73. Toroide tetragonal regular estrelado v2</h4>
+<a href="../vr/model36a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/72A.png" class="foto" alt="Sahasrara Yantra com toroides tetragonais regulares estrelados"></a>
+ <br>Sahasrara Yantra com toroides tetragonais regulares estrelados
+ <br>
+<hr>
+<h4>74. Toroide tetragonal regular estrelado</h4>
+<a href="../vr/model37.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/73A.png" class="foto" alt="Sahasrara Yantra com toroides tetragonais regulares estrelados"></a>
+ <br>Sahasrara Yantra com toroides tetragonais regulares estrelados
+ <br>
+<hr>
+<h4>75. Toroide tetragonal regular estrelado v2</h4>
+<a href="../vr/model37a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/74A.png" class="foto" alt="Sahasrara Yantra com toroides tetragonais regulares estrelados"></a>
+ <br>Sahasrara Yantra com toroides tetragonais regulares estrelados
+ <br>
+<hr>
+<h4>76. Toroide tetragonal regular estrelado</h4>
+<a href="../vr/model38.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/75A.png" class="foto" alt="Sahasrara Yantra com toroides tetragonais regulares estrelados"></a>
+ <br>Sahasrara Yantra com toroides tetragonais regulares estrelados
+ <br>
+<hr>
+<h4>77. Toroide tetragonal regular estrelado v2</h4>
+<a href="../vr/model38a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/76A.png" class="foto" alt="Sahasrara Yantra com toroides tetragonais regulares estrelados"></a>
+ <br>Sahasrara Yantra com toroides tetragonais regulares estrelados
+ <br>
+<hr>
+<h4>78. Toroide tetragonal regular estrelado</h4>
+<a href="../vr/model39.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/77A.png" class="foto" alt="Sahasrara Yantra com toroides tetragonais regulares estrelados"></a>
+ <br>Sahasrara Yantra com toroides tetragonais regulares estrelados
+ <br>
+<hr>
+<h4>79. Toroide tetragonal regular estrelado v2</h4>
+<a href="../vr/model39a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/78A.png" class="foto" alt="Sahasrara Yantra com toroides tetragonais regulares estrelados"></a>
+ <br>Sahasrara Yantra com toroides tetragonais regulares estrelados
+ <br>
+<hr>
+<h4>80. Toroide tetragonal regular estrelado</h4>
+<a href="../vr/model40.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/79A.png" class="foto" alt="Sahasrara Yantra com toroides tetragonais regulares estrelados"></a>
+ <br>Sahasrara Yantra com toroides tetragonais regulares estrelados
+ <br>
+<hr>
+<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<h4>81. Toroide tetragonal regular estrelado v2</h4>
+<a href="../vr/model40a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/80A.png" class="foto" alt="Sahasrara Yantra com toroides tetragonais regulares estrelados"></a>
+ <br>Sahasrara Yantra com toroides tetragonais regulares estrelados
+ <br>
+<hr>
+<h4>82. Toroide tetragonal regular estrelado</h4>
+<a href="../vr/model41.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/81A.png" class="foto" alt="Sahasrara Yantra com toroides tetragonais regulares estrelados"></a>
+ <br>Sahasrara Yantra com toroides tetragonais regulares estrelados
+ <br>
+<hr>
+<h4>83. Toroide tetragonal regular estrelado v2</h4>
+<a href="../vr/model41a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/82A.png" class="foto" alt="Sahasrara Yantra com toroides tetragonais regulares estrelados"></a>
+ <br>Sahasrara Yantra com toroides tetragonais regulares estrelados
+ <br>
+<hr>
+<h4>84. Toroide hexagonal</h4>
+<a href="../vr/model42.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/83A.png" class="foto" alt="Sahasrara Yantra com toroides hexagonais"></a>
+ <br>Sahasrara Yantra com toroides hexagonais
+ <br>
+<hr>
+<h4>85. Toroide hexagonal v2</h4>
+<a href="../vr/model42a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/84A.png" class="foto" alt="Sahasrara Yantra com toroides hexagonais"></a>
+ <br>Sahasrara Yantra com toroides hexagonais
+ <br>
+<hr>
+ <h4>86. Toroide hexagonal</h4>
+<a href="../vr/model43.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/85A.png" class="foto" alt="Sahasrara Yantra com toroides hexagonais"></a>
+ <br>Sahasrara Yantra com toroides hexagonais
+ <br>
+<hr>
+<h4>87. Toroide hexagonal v2</h4>
+<a href="../vr/model43a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/86A.png" class="foto" alt="Sahasrara Yantra com toroides hexagonais"></a>
+ <br>Sahasrara Yantra com toroides hexagonais
+ <br>
+<hr>
+<h4>88. Toroide hexagonal</h4>
+<a href="../vr/model44.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/87A.png" class="foto" alt="Sahasrara Yantra com toroides hexagonais"></a>
+ <br>Sahasrara Yantra com toroides hexagonais
+ <br>
+<hr>
+<h4>89. Toroide hexagonal v2</h4>
+<a href="../vr/model44a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/88A.png" class="foto" alt="Sahasrara Yantra com toroides hexagonais"></a>
+ <br>Sahasrara Yantra com toroides hexagonais
+ <br>
+<hr>
+<h4>90. Toroide hexagonal</h4>
+<a href="../vr/model45.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/89A.png" class="foto" alt="Sahasrara Yantra com toroides hexagonais"></a>
+ <br>Sahasrara Yantra com toroides hexagonais
+ <br>
+ <hr>
+<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<h4>91. Toroide hexagonal v2</h4>
+<a href="../vr/model45a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/90A.png" class="foto" alt="Sahasrara Yantra com toroides hexagonais"></a>
+ <br>Sahasrara Yantra com toroides hexagonais
+ <br>
+<hr>
+<h4>92. Toroide hexagonal</h4>
+<a href="../vr/model46.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/91A.png" class="foto" alt="Sahasrara Yantra com toroides hexagonais"></a>
+ <br>Sahasrara Yantra com toroides hexagonais
+ <br>
+<hr>
+<h4>93. Toroide hexagonal v2</h4>
+<a href="../vr/model46a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/92A.png" class="foto" alt="Sahasrara Yantra com toroides hexagonais"></a>
+ <br>Sahasrara Yantra com toroides hexagonais
+ <br>
+<hr>
+<h4>94. Toroide hexagonal</h4>
+<a href="../vr/model47.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/93A.png" class="foto" alt="Sahasrara Yantra com toroides hexagonais"></a>
+ <br>Sahasrara Yantra com toroides hexagonais
+ <br>
+<hr>
+<h4>95. Toroide hexagonal v2</h4>
+<a href="../vr/model47a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/94A.png" class="foto" alt="Sahasrara Yantra com toroides hexagonais"></a>
+ <br>Sahasrara Yantra com toroides hexagonais
+ <br>
+<hr>
+<h4>96. Toroide hexagonal</h4>
+<a href="../vr/model48.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/95A.png" class="foto" alt="Sahasrara Yantra com toroides hexagonais"></a>
+ <br>Sahasrara Yantra com toroides hexagonais
+ <br>
+<hr>
+<h4>97. Toroide hexagonal v2</h4>
+<a href="../vr/model48a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/96A.png" class="foto" alt="Sahasrara Yantra com toroides hexagonais"></a>
+ <br>Sahasrara Yantra com toroides hexagonais
+ <br>
+<hr>
+<h4>98. Toroide hexagonal</h4>
+<a href="../vr/model49.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/97A.png" class="foto" alt="Sahasrara Yantra com toroides hexagonais"></a>
+ <br>Sahasrara Yantra com toroides hexagonais
+ <br>
+<hr>
+<h4>99. Toroide hexagonal v2</h4>
+<a href="../vr/model49a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/98A.png" class="foto" alt="Sahasrara Yantra com toroides hexagonais"></a>
+ <br>Sahasrara Yantra com toroides hexagonais
+ <br>
+<hr>
+<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Sahasrara Yantra: Visualization of symbols with Virtual Reality</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/SacredGeometry/sahasrarayantra/pt-br/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional</a>.
 

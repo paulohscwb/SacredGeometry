@@ -221,6 +221,21 @@ O acesso às páginas de RV é feito clicando no círculo azul que aparece em ci
 <a href="../../grid/vr/GridOfLife_FlowerofLife3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../grid/ar/293A.png" class="foto" alt="Grade da vida com o símbolo da Flor da vida"></a>
  <br><br><br><br><br>Existe a crença de que a Flor da Vida é uma chave que pode desbloquear o conhecimento oculto do tempo e do espaço dentro das suas estruturas semelhantes a pétalas. Nesta representação temos o símbolo da Flor da vida formando o símbolo 3D da Grade da Vida.
  <br><br><br><br><br>
+ <hr>
+<h4>32. Flor da vida fractal 3D</h4>
+<a href="../../symbols/vr/FlowerOfLifeFractal3D.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../symbols/ar/300A.png" class="foto" alt="Sete ondas octagrama"></a>
+ <br><br><br>Este símbolo de Geometria Sagrada é considerado um modelo para toda a criação, contendo padrões e estruturas fundamentais do universo dentro de seus círculos sobrepostos e simetria hexagonal. Neste modelo temos a representação do símbolo da Flor da vida fractal com três estágios (iterações). Uma Flor da Vida fractal combina o símbolo tradicional da Flor da Vida com a Geometria Fractal, representando os padrões do universo por meio de padrões autossimilares que se repetem em diferentes escalas, semelhantes aos padrões hexagonais do próprio símbolo da Flor da Vida.
+ <br><br><br>
+ <hr>
+<h4>33. Flor da vida com o Hexagrama 3D</h4>
+<a href="../../symbols/vr/FlowerOfLifeHexagram3D.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../symbols/ar/301A.png" class="foto" alt="Flor da vida com o Hexagrama"></a>
+ <br><br><br>Este símbolo pode ser encontrado em diversas culturas e religiões e representa um equilíbrio cósmico fundamental e o fluxo cíclico da vida e da energia. Neste modelo temos a representação do Hexagrama feito com o símbolo da Flor da vida. Na Geometria Sagrada, o hexagrama (estrela de seis pontas) simboliza a união harmoniosa dos opostos, representando o equilíbrio espiritual e a interconexão cósmica, representado como dois triângulos equiláteros entrelaçados que representam os seguintes elementos: masculino e feminino, a terra e o céu, ou os reinos divino e humano. 
+ <br><br><br>
+ <hr>
+<h4>34. Flor da vida com o símbolo de floco de neve 3D</h4>
+<a href="../../symbols/vr/FlowerOfLifeSnowflake3D.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../../symbols/ar/302A.png" class="foto" alt="Flor da vida com o símbolo de floco de neve"></a>
+ <br><br><br>A precisão matemática encontrada na estrutura do floco de neve contrasta com a grande variedade de formas individuais, que surgem de pequenas diferenças de temperatura, umidade e de outros fatores ambientais. À medida que um floco de neve cresce, suas ramificações criam padrões autossimilares em escalas decrescentes, semelhantes à Geometria Fractal. Neste modelo temos a representação de um símbolo de floco de neve feito com o símbolo da Flor da vida. Os símbolos de flocos de neve fazem parte da Geometria Sagrada pois possuem estrutura hexagonal, resultado da simetria molecular das moléculas de água e das ligações de hidrogênio. Esta simetria reflete a ordem e a harmonia do universo, que são conceitos fundamentais da Geometria Sagrada. 
+ <br><br><br>
  <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 

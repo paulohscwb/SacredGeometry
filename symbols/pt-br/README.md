@@ -649,6 +649,118 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 <a href="../vr/7DaysCreation.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/292A.png" class="foto" alt="Sete dias da criação"></a>
  <br><br><br>Consiste em sete círculos do mesmo tamanho, criando um padrão que lembra uma flor de seis pétalas. Os centros dos círculos formam um hexagrama, que representa a conexão entre os sete dias da criação. Os sete círculos representam os sete dias da criação em contextos religiosos e espirituais. A natureza conectada dos círculos significa que cada estágio da criação está conectado e se baseia no anterior.
  <br><br><br>
+ <hr>
+<h4>115. Sete dias da criação 3D</h4>
+<a href="../vr/7DaysCreation3D.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/293A.png" class="foto" alt="Sete dias da criação"></a>
+ <br><br><br>Os centros dos círculos formam um hexagrama, que representa a conexão entre os sete dias da criação. Os sete círculos representam os sete dias da criação em contextos religiosos e espirituais. A natureza conectada dos círculos significa que cada estágio da criação está conectado e se baseia no anterior. Consiste em sete círculos do mesmo tamanho, criando um padrão que lembra uma flor de seis pétalas.
+ <br><br><br>
+ <hr>
+<h4>116. Sete ondas</h4>
+<a href="../vr/7Waves.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/294A.png" class="foto" alt="Sete ondas"></a>
+ <br><br><br>Os centros dos círculos formam um hexagrama, que representa a conexão entre os sete dias da criação. Os sete círculos representam os sete dias da criação em contextos religiosos e espirituais. A natureza conectada dos círculos significa que cada estágio da criação está conectado e se baseia no anterior. Consiste em sete círculos do mesmo tamanho, criando um padrão que lembra uma flor de seis pétalas.
+ <br><br><br>
+ <hr>
+<h4>117. Sete ondas 3D</h4>
+<a href="../vr/7Waves3D.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/295A.png" class="foto" alt="Sete ondas"></a>
+ <br><br><br>Os centros dos círculos formam um hexagrama, que representa a conexão entre os sete dias da criação. Os sete círculos representam os sete dias da criação em contextos religiosos e espirituais. A natureza conectada dos círculos significa que cada estágio da criação está conectado e se baseia no anterior. Consiste em sete círculos do mesmo tamanho, criando um padrão que lembra uma flor de seis pétalas.
+ <br><br><br>
+ <hr>
+<h4>118. Sete ondas: hexagrama</h4>
+<a href="../vr/7WavesHexagram.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/296A.png" class="foto" alt="Sete ondas hexagrama"></a>
+ <br><br><br>Os centros dos círculos formam um hexagrama, que representa a conexão entre os sete dias da criação. Os sete círculos representam os sete dias da criação em contextos religiosos e espirituais. A natureza conectada dos círculos significa que cada estágio da criação está conectado e se baseia no anterior. Consiste em sete círculos do mesmo tamanho, criando um padrão que lembra uma flor de seis pétalas.
+ <br><br><br>
+ <hr>
+<h4>119. Sete ondas 3D: hexagrama</h4>
+<a href="../vr/7WavesHexagram3D.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/297A.png" class="foto" alt="Sete ondas hexagrama"></a>
+ <br><br><br>Os centros dos círculos formam um hexagrama, que representa a conexão entre os sete dias da criação. Os sete círculos representam os sete dias da criação em contextos religiosos e espirituais. A natureza conectada dos círculos significa que cada estágio da criação está conectado e se baseia no anterior. Consiste em sete círculos do mesmo tamanho, criando um padrão que lembra uma flor de seis pétalas.
+ <br><br><br>
+ <hr>
+<h4>120. Sete ondas: octagrama</h4>
+<a href="../vr/7WavesOctagram.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/298A.png" class="foto" alt="Sete ondas octagrama"></a>
+ <br><br><br>Os centros dos círculos formam um hexagrama, que representa a conexão entre os sete dias da criação. Os sete círculos representam os sete dias da criação em contextos religiosos e espirituais. A natureza conectada dos círculos significa que cada estágio da criação está conectado e se baseia no anterior. Consiste em sete círculos do mesmo tamanho, criando um padrão que lembra uma flor de seis pétalas.
+ <br><br><br>
+ <hr>
+ <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<h4>121. Sete ondas 3D: octagrama</h4>
+<a href="../vr/7WavesOctagram3D.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/299A.png" class="foto" alt="Sete ondas octagrama"></a>
+ <br><br><br>Os centros dos círculos formam um hexagrama, que representa a conexão entre os sete dias da criação. Os sete círculos representam os sete dias da criação em contextos religiosos e espirituais. A natureza conectada dos círculos significa que cada estágio da criação está conectado e se baseia no anterior. Consiste em sete círculos do mesmo tamanho, criando um padrão que lembra uma flor de seis pétalas.
+ <br><br><br>
+ <hr>
+<h4>122. Flor da vida fractal 3D</h4>
+<a href="../vr/FlowerOfLifeFractal3D.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/300A.png" class="foto" alt="Sete ondas octagrama"></a>
+ <br><br><br>Este símbolo de Geometria Sagrada é considerado um modelo para toda a criação, contendo padrões e estruturas fundamentais do universo dentro de seus círculos sobrepostos e simetria hexagonal. Neste modelo temos a representação do símbolo da Flor da vida fractal com três estágios (iterações). Uma Flor da Vida fractal combina o símbolo tradicional da Flor da Vida com a Geometria Fractal, representando os padrões do universo por meio de padrões autossimilares que se repetem em diferentes escalas, semelhantes aos padrões hexagonais do próprio símbolo da Flor da Vida.
+ <br><br><br>
+ <hr>
+<h4>123. Flor da vida com o Hexagrama 3D</h4>
+<a href="../vr/FlowerOfLifeHexagram3D.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/301A.png" class="foto" alt="Flor da vida com o Hexagrama"></a>
+ <br><br><br>Este símbolo pode ser encontrado em diversas culturas e religiões e representa um equilíbrio cósmico fundamental e o fluxo cíclico da vida e da energia. Neste modelo temos a representação do Hexagrama feito com o símbolo da Flor da vida. Na Geometria Sagrada, o hexagrama (estrela de seis pontas) simboliza a união harmoniosa dos opostos, representando o equilíbrio espiritual e a interconexão cósmica, representado como dois triângulos equiláteros entrelaçados que representam os seguintes elementos: masculino e feminino, a terra e o céu, ou os reinos divino e humano. 
+ <br><br><br>
+ <hr>
+<h4>124. Flor da vida com o símbolo de floco de neve 3D</h4>
+<a href="../vr/FlowerOfLifeSnowflake3D.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/302A.png" class="foto" alt="Flor da vida com o símbolo de floco de neve"></a>
+ <br><br><br>A precisão matemática encontrada na estrutura do floco de neve contrasta com a grande variedade de formas individuais, que surgem de pequenas diferenças de temperatura, umidade e de outros fatores ambientais. À medida que um floco de neve cresce, suas ramificações criam padrões autossimilares em escalas decrescentes, semelhantes à Geometria Fractal. Neste modelo temos a representação de um símbolo de floco de neve feito com o símbolo da Flor da vida. Os símbolos de flocos de neve fazem parte da Geometria Sagrada pois possuem estrutura hexagonal, resultado da simetria molecular das moléculas de água e das ligações de hidrogênio. Esta simetria reflete a ordem e a harmonia do universo, que são conceitos fundamentais da Geometria Sagrada. 
+ <br><br><br>
+ <hr>
+<h4>125.Esfera de círculos 3D</h4>
+<a href="../vr/SphereOfCircles.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/303A.png" class="foto" alt="Esfera de círculos"></a>
+ <br><br><br>Na Geometria Sagrada, o símbolo da esfera de círculos consiste em um padrão de círculos sobrepostos, parecidos com os símbolos da Semente da Vida e da Flor da Vida. Este símbolo é construído a partir de círculos tangentes em um dois pontos, que são considerados os polos da esfera. Este símbolo pode ser usado para criar formas complexas, tais como hélices esféricas e cônicas, o Torus (considerado um símbolo de fluxo de energia), e as estrelas de 6 ou 12 extremidades. Este símbolo representa a interconexão e os padrões divinos encontrados na natureza.
+ <br><br><br>
+ <hr>
+<h4>126. Esfera de círculos 3D</h4>
+<a href="../vr/SphereOfCircles3D.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/304A.png" class="foto" alt="Esfera de círculos"></a>
+ <br><br><br>Este símbolo é construído a partir de círculos tangentes em um dois pontos, que são considerados os polos da esfera. Este símbolo pode ser usado para criar formas complexas, tais como hélices esféricas e cônicas, o Torus (considerado um símbolo de fluxo de energia), e as estrelas de 6 ou 12 extremidades. Este símbolo representa a interconexão e os padrões divinos encontrados na natureza. Na Geometria Sagrada, o símbolo da esfera de círculos consiste em um padrão de círculos sobrepostos, parecidos com os símbolos da Semente da Vida e da Flor da Vida.
+ <br><br><br>
+ <hr>
+<h4>127. Círculos de ouro</h4>
+<a href="../vr/GoldenCircles.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/305A.png" class="foto" alt="Círculos de ouro"></a>
+ <br><br><br>Na Geometria Sagrada, o símbolo dos círculos de ouro consiste em um padrão de círculos concêntricos. Os centros destes círculos são as extremidades das pétalas do símbolo da Semente da Vida. Este símbolo geralmente é construído com três circunferências, e o maior destes círculos forma o símbolo da Semente da Vida. Podemos sobrepor este símbolo aos sólidos platônicos e outros símbolos da Geometria Sagrada.
+ <br><br><br>
+ <hr>
+<h4>128. Círculos de ouro 3D</h4>
+<a href="../vr/GoldenCircles3D.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/306A.png" class="foto" alt="Círculos de ouro"></a>
+ <br><br><br>Este símbolo geralmente é construído com três circunferências, e o maior destes círculos forma o símbolo da Semente da Vida. Podemos sobrepor este símbolo aos sólidos platônicos e outros símbolos da Geometria Sagrada. Na Geometria Sagrada, o símbolo dos círculos de ouro consiste em um padrão de círculos concêntricos. Os centros destes círculos são as extremidades das pétalas do símbolo da Semente da Vida. 
+ <br><br><br>
+ <hr>
+<h4>129. Escada de círculos</h4>
+<a href="../vr/SeedOfLife3.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/307A.png" class="foto" alt="Escada de círculos"></a>
+ <br><br><br>Esta representação mostra uma espécie de "escada" formada por círculos. O símbolo da Semente da Vida aparece neste símbolo de círculos. A Geometria Sagrada está centrada no símbolo composto por 7 círculos entrelaçados, denominado Semente da Vida. Trata-se de uma representação que significa os 7 dias em que o mundo foi criado, e que aparece em muitas construções e em textos religiosos. Cada círculo sobreposto significa um ciclo ou uma célula interligando processos vitais.
+ <br><br><br>
+ <hr>
+<h4>130. Escada de círculos v2</h4>
+<a href="../vr/SeedOfLife33D.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/308A.png" class="foto" alt="Escada de círculos"></a>
+ <br><br><br>A Geometria Sagrada está centrada no símbolo composto por 7 círculos entrelaçados, denominado Semente da Vida. Trata-se de uma representação que significa os 7 dias em que o mundo foi criado, e que aparece em muitas construções e em textos religiosos. Cada círculo sobreposto significa um ciclo ou uma célula interligando processos vitais. Esta representação mostra uma espécie de "escada" formada por círculos. O símbolo da Semente da Vida aparece neste símbolo de círculos.
+ <br><br><br>
+ <hr>
+ <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<h4>131. Círculos de ouro com a Semente da Vida</h4>
+<a href="../vr/SeedOfLifeCircles.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/309A.png" class="foto" alt="Círculos de ouro com a Semente da Vid"></a>
+ <br><br><br>Na Geometria Sagrada, o símbolo dos círculos de ouro consiste em um padrão de círculos concêntricos. Os centros destes círculos são as extremidades das pétalas do símbolo da Semente da Vida. Este símbolo geralmente é construído com três circunferências, e o maior destes círculos forma o símbolo da Semente da Vida. Podemos sobrepor este símbolo aos sólidos platônicos e outros símbolos da Geometria Sagrada.
+ <br><br><br>
+ <hr>
+<h4>132. Círculos de ouro com a Semente da Vida 3D</h4>
+<a href="../vr/SeedOfLifeCircles3D.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/310A.png" class="foto" alt="Círculos de ouro com a Semente da Vid"></a>
+ <br><br><br>Podemos sobrepor este símbolo aos sólidos platônicos e outros símbolos da Geometria Sagrada. Na Geometria Sagrada, o símbolo dos círculos de ouro consiste em um padrão de círculos concêntricos. Os centros destes círculos são as extremidades das pétalas do símbolo da Semente da Vida. Este símbolo geralmente é construído com três circunferências, e o maior destes círculos forma o símbolo da Semente da Vida.
+ <br><br><br>
+ <hr>
+<h4>133. Escada de hexágonos</h4>
+<a href="../vr/SeedOfLife3_hexagons.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/311A.png" class="foto" alt="Escada de hexágonos"></a>
+ <br><br><br>A Geometria Sagrada está centrada no símbolo composto por 7 círculos entrelaçados, denominado Semente da Vida. Trata-se de uma representação que significa os 7 dias em que o mundo foi criado, e que aparece em muitas construções e em textos religiosos. Cada círculo sobreposto significa um ciclo ou uma célula interligando processos vitais. Esta representação mostra uma espécie de "escada" formada por hexágonos. O símbolo da Semente da Vida aparece neste símbolo de hexágonos.
+ <br><br><br>
+ <hr>
+<h4>134. Escada de hexágonos v2</h4>
+<a href="../vr/SeedOfLife3_hexagons3D.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/312A.png" class="foto" alt="Escada de hexágonos"></a>
+ <br><br><br>Esta representação mostra uma espécie de "escada" formada por hexágonos. O símbolo da Semente da Vida aparece neste símbolo de hexágonos. A Geometria Sagrada está centrada no símbolo composto por 7 círculos entrelaçados, denominado Semente da Vida. Trata-se de uma representação que significa os 7 dias em que o mundo foi criado, e que aparece em muitas construções e em textos religiosos. Cada círculo sobreposto significa um ciclo ou uma célula interligando processos vitais.
+ <br><br><br>
+ <hr>
+<h4>135. Diagrama</h4>
+<a href="../vr/Diagram.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/313A.png" class="foto" alt="Diagrama"></a>
+ <br><br><br>O símbolo chamado Diagrama é representado por um octagrama não regular, formado pelos segmentos que unem os vértices aos pontos médios dos lados de um quadrado. No Cristianismo, a estrela de oito pontas é conhecida como Estrela de Belém ou Estrela da Redenção, simbolizando o renascimento e a ressurreição. É frequentemente vista na arquitetura das igrejas armênias.
+ <br><br><br>
+ <hr>
+<h4>136. Diagrama 3D</h4>
+<a href="../vr/Diagram3D.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/314A.png" class="foto" alt="Diagrama"></a>
+ <br><br><br>No Cristianismo, a estrela de oito pontas é conhecida como Estrela de Belém ou Estrela da Redenção, simbolizando o renascimento e a ressurreição. É frequentemente vista na arquitetura das igrejas armênias. O símbolo chamado Diagrama é representado por um octagrama não regular, formado pelos segmentos que unem os vértices aos pontos médios dos lados de um quadrado. 
+ <br><br><br>
  <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <hr>
 
