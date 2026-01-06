@@ -732,16 +732,16 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <a href="vr/SeedOfLife33D.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/308A.png" class="foto" alt="Circular staircase"></a>
  <br><br><br>Sacred Geometry is centered on the symbol made up of 7 intertwined circles, called the Seed of Life. It is a representation that signifies the 7 days in which the world was created, and that appears in many buildings and religious texts. Each overlapping circle means a cycle or cell interconnecting vital processes. This representation shows a kind of "ladder" formed by circles. The symbol of the Seed of Life appears within this symbol of circles.
  <br><br><br>
- <hr>
+<hr>
  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
- <h4>131. Golden circles with Seed of Life</h4>
+ <h4>131. Sphere of circles with Seed of Life</h4>
 <a href="vr/SeedOfLifeCircles.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/309A.png" class="foto" alt="Golden circles with Seed of Life"></a>
- <br><br><br>In Sacred Geometry, the symbol of the golden circles consists of a pattern of concentric circles. The centers of these circles are the ends of the petals of the Seed of Life symbol. This symbol is usually constructed with three circumferences, and the largest of these circles forms the Seed of Life symbol. We can superimpose this symbol onto Platonic solids and other symbols of Sacred Geometry.
+ <br><br><br>In Sacred Geometry, the sphere of circles symbol consists of a pattern of overlapping circles, similar to the Seed of Life and Flower of Life symbols. This symbol is constructed from circles tangent at two points, which are considered the poles of the sphere. This symbol can be used to create complex shapes, such as spherical and conical helices, the Torus (considered a symbol of energy flow), and 6- or 12-pointed stars. This symbol represents the interconnectedness and divine patterns found in nature.
  <br><br><br>
  <hr>
- <h4>132. Golden circles with Seed of Life 3D</h4>
+ <h4>132. Sphere of circles with Seed of Life 3D</h4>
 <a href="vr/SeedOfLifeCircles3D.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/310A.png" class="foto" alt="Golden circles with Seed of Life"></a>
- <br><br><br>This symbol is usually constructed with three circumferences, and the largest of these circles forms the Seed of Life symbol. We can superimpose this symbol onto Platonic solids and other symbols of Sacred Geometry. In Sacred Geometry, the symbol of the golden circles consists of a pattern of concentric circles. The centers of these circles are the ends of the petals of the Seed of Life symbol.
+ <br><br><br>This symbol is constructed from circles tangent at two points, which are considered the poles of the sphere. This symbol can be used to create complex shapes, such as spherical and conical helices, the Torus (considered a symbol of energy flow), and 6- or 12-pointed stars. This symbol represents the interconnectedness and divine patterns found in nature. In Sacred Geometry, the sphere of circles symbol consists of a pattern of overlapping circles, similar to the Seed of Life and Flower of Life symbols. 
  <br><br><br>
  <hr>
  <h4>133. Hexagonal staircase</h4>
