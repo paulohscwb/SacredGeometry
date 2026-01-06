@@ -649,90 +649,90 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <hr>
 <h4>114. Seven days of creation</h4>
 <a href="vr/7DaysCreation.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/292A.png" class="foto" alt="Seven days of creation"></a>
- <br><br><br>It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower. The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one.
- <br><br><br>
+ <br><br><br><br>It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower. The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one.
+ <br><br><br><br>
  <hr>
 <h4>115. Seven days of creation 3D</h4>
 <a href="vr/7DaysCreation3D.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/293A.png" class="foto" alt="Seven days of creation"></a>
- <br><br><br>The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one. It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower.
- <br><br><br>
+ <br><br><br><br>The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one. It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower.
+ <br><br><br><br>
  <hr>
 <h4>116. Seven waves</h4>
 <a href="vr/7Waves.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/294A.png" class="foto" alt="Seven waves"></a>
- <br><br><br>The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one. It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower.
- <br><br><br>
+ <br><br><br><br>The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one. It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower.
+ <br><br><br><br>
  <hr>
 <h4>117. Seven waves 3D</h4>
 <a href="vr/7Waves3D.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/295A.png" class="foto" alt="Seven waves"></a>
- <br><br><br>The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one. It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower.
- <br><br><br>
+ <br><br><br><br>The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one. It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower.
+ <br><br><br><br>
  <hr>
 <h4>118. Seven waves: hexagram</h4>
 <a href="vr/7WavesHexagram.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/296A.png" class="foto" alt="Seven waves hexagram"></a>
- <br><br><br>The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one. It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower.
- <br><br><br>
+ <br><br><br><br>The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one. It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower.
+ <br><br><br><br>
  <hr>
 <h4>119. Seven waves 3D: hexagram</h4>
 <a href="vr/7WavesHexagram3D.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/297A.png" class="foto" alt="Seven waves hexagram"></a>
- <br><br><br>The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one. It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower.
- <br><br><br>
+ <br><br><br><br>The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one. It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower.
+ <br><br><br><br>
  <hr>
 <h4>120. Seven waves: octagram</h4>
 <a href="vr/7WavesOctagram.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/298A.png" class="foto" alt="Seven waves octagram"></a>
- <br><br><br>The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one. It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower.
- <br><br><br>
+ <br><br><br><br>The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one. It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower.
+ <br><br><br><br>
  <hr>
  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <h4>121. Seven waves 3D: octagram</h4>
 <a href="vr/7WavesOctagram3D.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/299A.png" class="foto" alt="Seven waves octagram"></a>
- <br><br><br>The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one. It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower.
- <br><br><br>
+ <br><br><br><br>The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one. It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower.
+ <br><br><br><br>
  <hr>
  <h4>122. Flower of life fractal 3D</h4>
 <a href="vr/FlowerOfLifeFractal3D.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/300A.png" class="foto" alt="Flower of life fractal"></a>
- <br><br><br>This Sacred Geometry symbol is considered a blueprint for all creation, containing fundamental patterns and structures of the universe within its overlapping circles and hexagonal symmetry. In this model, we have the representation of the fractal Flower of Life symbol with three stages (iterations). A fractal Flower of Life combines the traditional Flower of Life symbol with Fractal Geometry, representing the patterns of the universe through self-similar patterns that repeat at different scales, similar to the hexagonal patterns of the Flower of Life symbol itself. 
- <br><br><br>
+ <br><br><br><br>This Sacred Geometry symbol is considered a blueprint for all creation, containing fundamental patterns and structures of the universe within its overlapping circles and hexagonal symmetry. In this model, we have the representation of the fractal Flower of Life symbol with three stages (iterations). A fractal Flower of Life combines the traditional Flower of Life symbol with Fractal Geometry, representing the patterns of the universe through self-similar patterns that repeat at different scales, similar to the hexagonal patterns of the Flower of Life symbol itself. 
+ <br><br><br><br>
  <hr>
  <h4>123. Flower of life with the Hexagram 3D</h4>
 <a href="vr/FlowerOfLifeHexagram3D.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/301A.png" class="foto" alt="Flower of life with the Hexagram"></a>
- <br><br><br>This symbol can be found in various cultures and religions and represents a fundamental cosmic balance and the cyclical flow of life and energy. In this model, we have a representation of the Hexagram made with the symbol of the Flower of Life.In Sacred Geometry, the Hexagram (six-pointed star) symbolizes the harmonious union of opposites, representing spiritual balance and cosmic interconnection. It is represented as two intertwined equilateral triangles representing the following elements: masculine and feminine, earth and sky, or the divine and human realms.
- <br><br><br>
+ <br><br><br><br>This symbol can be found in various cultures and religions and represents a fundamental cosmic balance and the cyclical flow of life and energy. In this model, we have a representation of the Hexagram made with the symbol of the Flower of Life.In Sacred Geometry, the Hexagram (six-pointed star) symbolizes the harmonious union of opposites, representing spiritual balance and cosmic interconnection. It is represented as two intertwined equilateral triangles representing the following elements: masculine and feminine, earth and sky, or the divine and human realms.
+ <br><br><br><br>
  <hr>
  <h4>124. Flower of life with the snowflake symbol 3D</h4>
 <a href="vr/FlowerOfLifeSnowflake3D.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/302A.png" class="foto" alt="Flower of life with the snowflake symbol"></a>
- <br><br><br>The mathematical precision found in the snowflake’s structure contrasts with the great variety of individual shapes, which arise from small differences in temperature, humidity, and other environmental factors. As a snowflake grows, its branches create self-similar patterns on decreasing scales, similar to Fractal Geometry. In this model, we have a representation of a snowflake symbol made with the Flower of Life symbol. Snowflake symbols are part of Sacred Geometry because they have a hexagonal structure, resulting from the molecular symmetry of water molecules and hydrogen bonds. This symmetry reflects the order and harmony of the universe, which are fundamental concepts of Sacred Geometry. 
- <br><br><br>
+ <br><br><br><br>The mathematical precision found in the snowflake’s structure contrasts with the great variety of individual shapes, which arise from small differences in temperature, humidity, and other environmental factors. As a snowflake grows, its branches create self-similar patterns on decreasing scales, similar to Fractal Geometry. In this model, we have a representation of a snowflake symbol made with the Flower of Life symbol. Snowflake symbols are part of Sacred Geometry because they have a hexagonal structure, resulting from the molecular symmetry of water molecules and hydrogen bonds. This symmetry reflects the order and harmony of the universe, which are fundamental concepts of Sacred Geometry. 
+ <br><br><br><br>
  <hr>
  <h4>125. Sphere of circles</h4>
 <a href="vr/SphereOfCircles.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/303A.png" class="foto" alt="Sphere of circles"></a>
- <br><br><br>In Sacred Geometry, the sphere of circles symbol consists of a pattern of overlapping circles, similar to the Seed of Life and Flower of Life symbols. This symbol is constructed from circles tangent at two points, which are considered the poles of the sphere. This symbol can be used to create complex shapes, such as spherical and conical helices, the Torus (considered a symbol of energy flow), and 6- or 12-pointed stars. This symbol represents the interconnectedness and divine patterns found in nature.
- <br><br><br>
+ <br><br><br><br>In Sacred Geometry, the sphere of circles symbol consists of a pattern of overlapping circles, similar to the Seed of Life and Flower of Life symbols. This symbol is constructed from circles tangent at two points, which are considered the poles of the sphere. This symbol can be used to create complex shapes, such as spherical and conical helices, the Torus (considered a symbol of energy flow), and 6- or 12-pointed stars. This symbol represents the interconnectedness and divine patterns found in nature.
+ <br><br><br><br>
  <hr>
  <h4>126. Sphere of circles 3D</h4>
 <a href="vr/SphereOfCircles3D.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/304A.png" class="foto" alt="Sphere of circles"></a>
- <br><br><br>This symbol is constructed from circles tangent at two points, which are considered the poles of the sphere. This symbol can be used to create complex shapes, such as spherical and conical helices, the Torus (considered a symbol of energy flow), and 6- or 12-pointed stars. This symbol represents the interconnectedness and divine patterns found in nature. In Sacred Geometry, the sphere of circles symbol consists of a pattern of overlapping circles, similar to the Seed of Life and Flower of Life symbols.
- <br><br><br>
+ <br><br><br><br>This symbol is constructed from circles tangent at two points, which are considered the poles of the sphere. This symbol can be used to create complex shapes, such as spherical and conical helices, the Torus (considered a symbol of energy flow), and 6- or 12-pointed stars. This symbol represents the interconnectedness and divine patterns found in nature. In Sacred Geometry, the sphere of circles symbol consists of a pattern of overlapping circles, similar to the Seed of Life and Flower of Life symbols.
+ <br><br><br><br>
  <hr>
  <h4>127. Golden circles</h4>
 <a href="vr/GoldenCircles.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/305A.png" class="foto" alt="Golden circles"></a>
- <br><br><br>In Sacred Geometry, the symbol of the golden circles consists of a pattern of concentric circles. The centers of these circles are the ends of the petals of the Seed of Life symbol. This symbol is usually constructed with three circumferences, and the largest of these circles forms the Seed of Life symbol. We can superimpose this symbol onto Platonic solids and other symbols of Sacred Geometry.
- <br><br><br>
+ <br><br><br><br>In Sacred Geometry, the symbol of the golden circles consists of a pattern of concentric circles. The centers of these circles are the ends of the petals of the Seed of Life symbol. This symbol is usually constructed with three circumferences, and the largest of these circles forms the Seed of Life symbol. We can superimpose this symbol onto Platonic solids and other symbols of Sacred Geometry.
+ <br><br><br><br>
  <hr>
  <h4>128. Golden circles 3D</h4>
 <a href="vr/GoldenCircles3D.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/306A.png" class="foto" alt="Golden circles"></a>
- <br><br><br>This symbol is usually constructed with three circumferences, and the largest of these circles forms the Seed of Life symbol. We can superimpose this symbol onto Platonic solids and other symbols of Sacred Geometry. In Sacred Geometry, the symbol of the golden circles consists of a pattern of concentric circles. The centers of these circles are the ends of the petals of the Seed of Life symbol. 
- <br><br><br>
+ <br><br><br><br>This symbol is usually constructed with three circumferences, and the largest of these circles forms the Seed of Life symbol. We can superimpose this symbol onto Platonic solids and other symbols of Sacred Geometry. In Sacred Geometry, the symbol of the golden circles consists of a pattern of concentric circles. The centers of these circles are the ends of the petals of the Seed of Life symbol. 
+ <br><br><br><br>
  <hr>
  <h4>129. Circular staircase</h4>
 <a href="vr/SeedOfLife3.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/307A.png" class="foto" alt="Circular staircase"></a>
- <br><br><br>This representation shows a kind of "ladder" formed by circles. The symbol of the Seed of Life appears within this symbol of circles. Sacred Geometry is centered on the symbol made up of 7 intertwined circles, called the Seed of Life. It is a representation that signifies the 7 days in which the world was created, and that appears in many buildings and religious texts. Each overlapping circle means a cycle or cell interconnecting vital processes. 
- <br><br><br>
+ <br><br><br><br>This representation shows a kind of "ladder" formed by circles. The symbol of the Seed of Life appears within this symbol of circles. Sacred Geometry is centered on the symbol made up of 7 intertwined circles, called the Seed of Life. It is a representation that signifies the 7 days in which the world was created, and that appears in many buildings and religious texts. Each overlapping circle means a cycle or cell interconnecting vital processes. 
+ <br><br><br><br>
  <hr>
  <h4>130. Circular staircase v2</h4>
 <a href="vr/SeedOfLife33D.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/308A.png" class="foto" alt="Circular staircase"></a>
- <br><br><br>Sacred Geometry is centered on the symbol made up of 7 intertwined circles, called the Seed of Life. It is a representation that signifies the 7 days in which the world was created, and that appears in many buildings and religious texts. Each overlapping circle means a cycle or cell interconnecting vital processes. This representation shows a kind of "ladder" formed by circles. The symbol of the Seed of Life appears within this symbol of circles.
- <br><br><br>
-<hr>
+ <br><br><br><br>Sacred Geometry is centered on the symbol made up of 7 intertwined circles, called the Seed of Life. It is a representation that signifies the 7 days in which the world was created, and that appears in many buildings and religious texts. Each overlapping circle means a cycle or cell interconnecting vital processes. This representation shows a kind of "ladder" formed by circles. The symbol of the Seed of Life appears within this symbol of circles.
+ <br><br><br><br>
+ <hr>
  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
  <h4>131. Sphere of circles with Seed of Life</h4>
 <a href="vr/SeedOfLifeCircles.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/309A.png" class="foto" alt="Golden circles with Seed of Life"></a>
@@ -741,28 +741,28 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
  <hr>
  <h4>132. Sphere of circles with Seed of Life 3D</h4>
 <a href="vr/SeedOfLifeCircles3D.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/310A.png" class="foto" alt="Golden circles with Seed of Life"></a>
- <br><br><br>This symbol is constructed from circles tangent at two points, which are considered the poles of the sphere. This symbol can be used to create complex shapes, such as spherical and conical helices, the Torus (considered a symbol of energy flow), and 6- or 12-pointed stars. This symbol represents the interconnectedness and divine patterns found in nature. In Sacred Geometry, the sphere of circles symbol consists of a pattern of overlapping circles, similar to the Seed of Life and Flower of Life symbols. 
- <br><br><br>
+ <br><br><br><br>This symbol is constructed from circles tangent at two points, which are considered the poles of the sphere. This symbol can be used to create complex shapes, such as spherical and conical helices, the Torus (considered a symbol of energy flow), and 6- or 12-pointed stars. This symbol represents the interconnectedness and divine patterns found in nature. In Sacred Geometry, the sphere of circles symbol consists of a pattern of overlapping circles, similar to the Seed of Life and Flower of Life symbols. 
+ <br><br><br><br>
  <hr>
  <h4>133. Hexagonal staircase</h4>
 <a href="vr/SeedOfLife3_hexagons.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/311A.png" class="foto" alt="Hexagonal staircase"></a>
- <br><br><br>Sacred Geometry is centered on the symbol made up of 7 intertwined circles, called the Seed of Life. It is a representation that signifies the 7 days in which the world was created, and that appears in many buildings and religious texts. Each overlapping circle means a cycle or cell interconnecting vital processes. This representation shows a kind of "ladder" formed by hexagons. The symbol of the Seed of Life appears within this symbol of hexagons.
- <br><br><br>
+ <br><br><br><br>Sacred Geometry is centered on the symbol made up of 7 intertwined circles, called the Seed of Life. It is a representation that signifies the 7 days in which the world was created, and that appears in many buildings and religious texts. Each overlapping circle means a cycle or cell interconnecting vital processes. This representation shows a kind of "ladder" formed by hexagons. The symbol of the Seed of Life appears within this symbol of hexagons.
+ <br><br><br><br>
  <hr>
  <h4>134. Hexagonal staircase v2</h4>
 <a href="vr/SeedOfLife3_hexagons3D.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/312A.png" class="foto" alt="Hexagonal staircase"></a>
- <br><br><br>This representation shows a kind of "ladder" formed by hexagons. The symbol of the Seed of Life appears within this symbol of hexagons. Sacred Geometry is centered on the symbol made up of 7 intertwined circles, called the Seed of Life. It is a representation that signifies the 7 days in which the world was created, and that appears in many buildings and religious texts. Each overlapping circle means a cycle or cell interconnecting vital processes.
- <br><br><br>
+ <br><br><br><br>This representation shows a kind of "ladder" formed by hexagons. The symbol of the Seed of Life appears within this symbol of hexagons. Sacred Geometry is centered on the symbol made up of 7 intertwined circles, called the Seed of Life. It is a representation that signifies the 7 days in which the world was created, and that appears in many buildings and religious texts. Each overlapping circle means a cycle or cell interconnecting vital processes.
+ <br><br><br><br>
  <hr>
  <h4>135. Diagram</h4>
 <a href="vr/Diagram.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/313A.png" class="foto" alt="Diagram"></a>
- <br><br><br>The symbol called a Diagram is represented by an irregular octagram, formed by the segments that connect the vertices to the midpoints of the sides of a square. In Christianity, the eight-pointed star is known as the Star of Bethlehem or Star of Redemption, symbolizing rebirth and resurrection. It is frequently seen in the architecture of Armenian churches.
- <br><br><br>
+ <br><br><br><br>The symbol called a Diagram is represented by an irregular octagram, formed by the segments that connect the vertices to the midpoints of the sides of a square. In Christianity, the eight-pointed star is known as the Star of Bethlehem or Star of Redemption, symbolizing rebirth and resurrection. It is frequently seen in the architecture of Armenian churches.
+ <br><br><br><br>
  <hr>
  <h4>136. Diagram 3D</h4>
 <a href="vr/Diagram3D.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/314A.png" class="foto" alt="Diagram"></a>
- <br><br><br>In Christianity, the eight-pointed star is known as the Star of Bethlehem or Star of Redemption, symbolizing rebirth and resurrection. It is frequently seen in the architecture of Armenian churches. The symbol called a Diagram is represented by an irregular octagram, formed by the segments that connect the vertices to the midpoints of the sides of a square. 
- <br><br><br>
+ <br><br><br><br>In Christianity, the eight-pointed star is known as the Star of Bethlehem or Star of Redemption, symbolizing rebirth and resurrection. It is frequently seen in the architecture of Armenian churches. The symbol called a Diagram is represented by an irregular octagram, formed by the segments that connect the vertices to the midpoints of the sides of a square. 
+ <br><br><br><br>
  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
 
