@@ -732,14 +732,14 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
  <br><br><br>
  <hr>
  <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
-<h4>131. Círculos de ouro com a Semente da Vida</h4>
+<h4>131. Esfera de círculos com a Semente da Vida</h4>
 <a href="../vr/SeedOfLifeCircles.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/309A.png" class="foto" alt="Círculos de ouro com a Semente da Vid"></a>
- <br><br><br>Na Geometria Sagrada, o símbolo dos círculos de ouro consiste em um padrão de círculos concêntricos. Os centros destes círculos são as extremidades das pétalas do símbolo da Semente da Vida. Este símbolo geralmente é construído com três circunferências, e o maior destes círculos forma o símbolo da Semente da Vida. Podemos sobrepor este símbolo aos sólidos platônicos e outros símbolos da Geometria Sagrada.
+ <br><br><br>Na Geometria Sagrada, o símbolo da esfera de círculos consiste em um padrão de círculos sobrepostos, parecidos com os símbolos da Semente da Vida e da Flor da Vida. Este símbolo é construído a partir de círculos tangentes em um dois pontos, que são considerados os polos da esfera. Este símbolo pode ser usado para criar formas complexas, tais como hélices esféricas e cônicas, o Torus (considerado um símbolo de fluxo de energia), e as estrelas de 6 ou 12 extremidades. Este símbolo representa a interconexão e os padrões divinos encontrados na natureza.
  <br><br><br>
  <hr>
-<h4>132. Círculos de ouro com a Semente da Vida 3D</h4>
+<h4>132. Esfera de círculos com a Semente da Vida 3D</h4>
 <a href="../vr/SeedOfLifeCircles3D.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/310A.png" class="foto" alt="Círculos de ouro com a Semente da Vid"></a>
- <br><br><br>Podemos sobrepor este símbolo aos sólidos platônicos e outros símbolos da Geometria Sagrada. Na Geometria Sagrada, o símbolo dos círculos de ouro consiste em um padrão de círculos concêntricos. Os centros destes círculos são as extremidades das pétalas do símbolo da Semente da Vida. Este símbolo geralmente é construído com três circunferências, e o maior destes círculos forma o símbolo da Semente da Vida.
+ <br><br><br>Este símbolo é construído a partir de círculos tangentes em um dois pontos, que são considerados os polos da esfera. Este símbolo pode ser usado para criar formas complexas, tais como hélices esféricas e cônicas, o Torus (considerado um símbolo de fluxo de energia), e as estrelas de 6 ou 12 extremidades. Este símbolo representa a interconexão e os padrões divinos encontrados na natureza. Na Geometria Sagrada, o símbolo da esfera de círculos consiste em um padrão de círculos sobrepostos, parecidos com os símbolos da Semente da Vida e da Flor da Vida. 
  <br><br><br>
  <hr>
 <h4>133. Escada de hexágonos</h4>
