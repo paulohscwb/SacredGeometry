@@ -657,33 +657,33 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
  <hr>
 <h4>116. Sete ondas</h4>
 <a href="../vr/7Waves.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/294A.png" class="foto" alt="Sete ondas"></a>
- <br><br><br><br>Os centros dos círculos formam um hexagrama, que representa a conexão entre os sete dias da criação. Os sete círculos representam os sete dias da criação em contextos religiosos e espirituais. A natureza conectada dos círculos significa que cada estágio da criação está conectado e se baseia no anterior. Consiste em sete círculos do mesmo tamanho, criando um padrão que lembra uma flor de seis pétalas.
+ <br><br><br><br>O símbolo das sete ondas representa um padrão rítmico e harmônico na Geometria Sagrada. Desenhado dentro de um círculo, o símbolo representa ciclos, vibrações e fluxos. Os arcos que representam as ondas são representados progressivamente menores e depois maiores, simbolizando os sete níveis de existência. Este símbolo representa a natureza ondulatória inerente à realidade, com as formas de vibração em todas as formas existentes. Este símbolo pode ser usado na meditação para focar a atenção, representando uma experiência de "terceiro olho" ao se concentrar no centro do símbolo.
  <br><br><br><br>
  <hr>
 <h4>117. Sete ondas 3D</h4>
 <a href="../vr/7Waves3D.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/295A.png" class="foto" alt="Sete ondas"></a>
- <br><br><br><br>Os centros dos círculos formam um hexagrama, que representa a conexão entre os sete dias da criação. Os sete círculos representam os sete dias da criação em contextos religiosos e espirituais. A natureza conectada dos círculos significa que cada estágio da criação está conectado e se baseia no anterior. Consiste em sete círculos do mesmo tamanho, criando um padrão que lembra uma flor de seis pétalas.
+ <br><br><br><br>Desenhado dentro de um círculo, o símbolo representa ciclos, vibrações e fluxos. Os arcos que representam as ondas são representados progressivamente menores e depois maiores, simbolizando os sete níveis de existência. Este símbolo representa a natureza ondulatória inerente à realidade, com as formas de vibração em todas as formas existentes. Este símbolo pode ser usado na meditação para focar a atenção, representando uma experiência de "terceiro olho" ao se concentrar no centro do símbolo. O símbolo das sete ondas representa um padrão rítmico e harmônico na Geometria Sagrada. 
  <br><br><br><br>
  <hr>
 <h4>118. Sete ondas: hexagrama</h4>
 <a href="../vr/7WavesHexagram.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/296A.png" class="foto" alt="Sete ondas hexagrama"></a>
- <br><br><br><br>Os centros dos círculos formam um hexagrama, que representa a conexão entre os sete dias da criação. Os sete círculos representam os sete dias da criação em contextos religiosos e espirituais. A natureza conectada dos círculos significa que cada estágio da criação está conectado e se baseia no anterior. Consiste em sete círculos do mesmo tamanho, criando um padrão que lembra uma flor de seis pétalas.
+ <br><br><br><br>Os arcos que representam as ondas são representados progressivamente menores e depois maiores, simbolizando os sete níveis de existência. Este símbolo representa a natureza ondulatória inerente à realidade, com as formas de vibração em todas as formas existentes. Este símbolo pode ser usado na meditação para focar a atenção, representando uma experiência de "terceiro olho" ao se concentrar no centro do símbolo. O símbolo das sete ondas representa um padrão rítmico e harmônico na Geometria Sagrada. Desenhado dentro de um círculo, o símbolo representa ciclos, vibrações e fluxos.
  <br><br><br><br>
  <hr>
 <h4>119. Sete ondas 3D: hexagrama</h4>
 <a href="../vr/7WavesHexagram3D.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/297A.png" class="foto" alt="Sete ondas hexagrama"></a>
- <br><br><br><br>Os centros dos círculos formam um hexagrama, que representa a conexão entre os sete dias da criação. Os sete círculos representam os sete dias da criação em contextos religiosos e espirituais. A natureza conectada dos círculos significa que cada estágio da criação está conectado e se baseia no anterior. Consiste em sete círculos do mesmo tamanho, criando um padrão que lembra uma flor de seis pétalas.
+ <br><br><br><br>Este símbolo representa a natureza ondulatória inerente à realidade, com as formas de vibração em todas as formas existentes. Este símbolo pode ser usado na meditação para focar a atenção, representando uma experiência de "terceiro olho" ao se concentrar no centro do símbolo. O símbolo das sete ondas representa um padrão rítmico e harmônico na Geometria Sagrada. Desenhado dentro de um círculo, o símbolo representa ciclos, vibrações e fluxos. Os arcos que representam as ondas são representados progressivamente menores e depois maiores, simbolizando os sete níveis de existência.
  <br><br><br><br>
  <hr>
 <h4>120. Sete ondas: octagrama</h4>
 <a href="../vr/7WavesOctagram.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/298A.png" class="foto" alt="Sete ondas octagrama"></a>
- <br><br><br><br>Os centros dos círculos formam um hexagrama, que representa a conexão entre os sete dias da criação. Os sete círculos representam os sete dias da criação em contextos religiosos e espirituais. A natureza conectada dos círculos significa que cada estágio da criação está conectado e se baseia no anterior. Consiste em sete círculos do mesmo tamanho, criando um padrão que lembra uma flor de seis pétalas.
+ <br><br><br><br>Este símbolo pode ser usado na meditação para focar a atenção, representando uma experiência de "terceiro olho" ao se concentrar no centro do símbolo. O símbolo das sete ondas representa um padrão rítmico e harmônico na Geometria Sagrada. Desenhado dentro de um círculo, o símbolo representa ciclos, vibrações e fluxos. Os arcos que representam as ondas são representados progressivamente menores e depois maiores, simbolizando os sete níveis de existência. Este símbolo representa a natureza ondulatória inerente à realidade, com as formas de vibração em todas as formas existentes.
  <br><br><br><br>
  <hr>
  <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 <h4>121. Sete ondas 3D: octagrama</h4>
 <a href="../vr/7WavesOctagram3D.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/299A.png" class="foto" alt="Sete ondas octagrama"></a>
- <br><br><br><br>Os centros dos círculos formam um hexagrama, que representa a conexão entre os sete dias da criação. Os sete círculos representam os sete dias da criação em contextos religiosos e espirituais. A natureza conectada dos círculos significa que cada estágio da criação está conectado e se baseia no anterior. Consiste em sete círculos do mesmo tamanho, criando um padrão que lembra uma flor de seis pétalas.
+ <br><br><br><br>O símbolo das sete ondas representa um padrão rítmico e harmônico na Geometria Sagrada. Desenhado dentro de um círculo, o símbolo representa ciclos, vibrações e fluxos. Os arcos que representam as ondas são representados progressivamente menores e depois maiores, simbolizando os sete níveis de existência. Este símbolo representa a natureza ondulatória inerente à realidade, com as formas de vibração em todas as formas existentes. Este símbolo pode ser usado na meditação para focar a atenção, representando uma experiência de "terceiro olho" ao se concentrar no centro do símbolo.
  <br><br><br><br>
  <hr>
 <h4>122. Flor da vida fractal 3D</h4>
