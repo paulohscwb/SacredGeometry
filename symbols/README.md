@@ -659,33 +659,33 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
  <hr>
 <h4>116. Seven waves</h4>
 <a href="vr/7Waves.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/294A.png" class="foto" alt="Seven waves"></a>
- <br><br><br><br>The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one. It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower.
+ <br><br><br><br>The seven waves symbol represents a rhythmic and harmonic pattern in Sacred Geometry. Drawn within a circle, the symbol represents cycles, vibrations, and flows. The arcs representing the waves are progressively smaller and then larger, symbolizing the seven levels of existence. This symbol represents the inherent wave nature of reality, with vibrational forms in all existing forms. This symbol can be used in meditation to focus attention, representing a "third eye" experience when concentrating on the center of the symbol.
  <br><br><br><br>
  <hr>
 <h4>117. Seven waves 3D</h4>
 <a href="vr/7Waves3D.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/295A.png" class="foto" alt="Seven waves"></a>
- <br><br><br><br>The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one. It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower.
+ <br><br><br><br>The arcs representing the waves are progressively smaller and then larger, symbolizing the seven levels of existence. This symbol represents the inherent wave nature of reality, with vibrational forms in all existing forms. This symbol can be used in meditation to focus attention, representing a "third eye" experience when concentrating on the center of the symbol. The seven waves symbol represents a rhythmic and harmonic pattern in Sacred Geometry. Drawn within a circle, the symbol represents cycles, vibrations, and flows.
  <br><br><br><br>
  <hr>
 <h4>118. Seven waves: hexagram</h4>
 <a href="vr/7WavesHexagram.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/296A.png" class="foto" alt="Seven waves hexagram"></a>
- <br><br><br><br>The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one. It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower.
+ <br><br><br><br>This symbol represents the inherent wave nature of reality, with vibrational forms in all existing forms. This symbol can be used in meditation to focus attention, representing a "third eye" experience when concentrating on the center of the symbol. The seven waves symbol represents a rhythmic and harmonic pattern in Sacred Geometry. Drawn within a circle, the symbol represents cycles, vibrations, and flows. The arcs representing the waves are progressively smaller and then larger, symbolizing the seven levels of existence.
  <br><br><br><br>
  <hr>
 <h4>119. Seven waves 3D: hexagram</h4>
 <a href="vr/7WavesHexagram3D.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/297A.png" class="foto" alt="Seven waves hexagram"></a>
- <br><br><br><br>The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one. It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower.
+ <br><br><br><br>This symbol can be used in meditation to focus attention, representing a "third eye" experience when concentrating on the center of the symbol. The seven waves symbol represents a rhythmic and harmonic pattern in Sacred Geometry. Drawn within a circle, the symbol represents cycles, vibrations, and flows. The arcs representing the waves are progressively smaller and then larger, symbolizing the seven levels of existence. This symbol represents the inherent wave nature of reality, with vibrational forms in all existing forms.
  <br><br><br><br>
  <hr>
 <h4>120. Seven waves: octagram</h4>
 <a href="vr/7WavesOctagram.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/298A.png" class="foto" alt="Seven waves octagram"></a>
- <br><br><br><br>The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one. It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower.
+ <br><br><br><br>The seven waves symbol represents a rhythmic and harmonic pattern in Sacred Geometry. Drawn within a circle, the symbol represents cycles, vibrations, and flows. The arcs representing the waves are progressively smaller and then larger, symbolizing the seven levels of existence. This symbol represents the inherent wave nature of reality, with vibrational forms in all existing forms. This symbol can be used in meditation to focus attention, representing a "third eye" experience when concentrating on the center of the symbol.
  <br><br><br><br>
  <hr>
  <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <h4>121. Seven waves 3D: octagram</h4>
 <a href="vr/7WavesOctagram3D.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/299A.png" class="foto" alt="Seven waves octagram"></a>
- <br><br><br><br>The circles centers form a hexagram, which represents the connection between the seven days of creation. The seven circles represent the seven days of creation in religious and spiritual contexts. The connected nature of circles means that each stage of creation is connected to and builds on the previous one. It consists of seven circles of the same size, creating a pattern that resembles a six-petal flower.
+ <br><br><br><br>The arcs representing the waves are progressively smaller and then larger, symbolizing the seven levels of existence. This symbol represents the inherent wave nature of reality, with vibrational forms in all existing forms. This symbol can be used in meditation to focus attention, representing a "third eye" experience when concentrating on the center of the symbol. The seven waves symbol represents a rhythmic and harmonic pattern in Sacred Geometry. Drawn within a circle, the symbol represents cycles, vibrations, and flows.
  <br><br><br><br>
  <hr>
  <h4>122. Flower of life fractal 3D</h4>
