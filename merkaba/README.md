@@ -54,7 +54,9 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 		<option value="sala17.htm">Flower of life in Merkaba symbol v2</option>
 		<option value="sala18.htm">Merkaba of fractal hendecagonal dodecahedron</option>
 		<option value="sala19.htm">Merkaba of fractal Klein map</option>
-		<option value="sala20.htm">Merkaba de fractais de toroides hexagonais</option>
+		<option value="sala20.htm">Merkaba of fractal hexagonal toroid</option>
+		<option value="sala21.htm">Merkaba of fractal heptagonal dodecahedron</option>
+		<option value="sala22.htm">Merkaba of fractal regular map</option>
 	</select>
 </form>
   <div class="embed-container"><iframe width="100%" id="sim" src="sala2.htm" title="Sala Imersiva dos símbolos da Geometria Sagrada" frameborder="0" loading="lazy"></iframe></div>
@@ -295,6 +297,22 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <h4>41. Merkaba star fractal of hexagonal toroid</h4>
 <a href="vr/Merkaba30.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/296A.png" class="foto" alt="Merkaba star fractal of hexagonal toroid"></a>
  <br><br><br><br>The Sacred Geometry Merkaba symbol provides protection and can transport your consciousness to higher dimensions. It is the fusion of 2 identical tetrahedra that are interconnected through rotations in opposite directions. The intersection of these tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star fractal modeled with hexagonal toroid.
+ <br><br><br><br>
+<h4>42. Merkaba star of heptagonal dodecahedron</h4>
+<a href="vr/Merkaba31.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/399A.png" class="foto" alt="Merkaba star of heptagonal dodecahedron"></a>
+ <br><br><br><br>The Sacred Geometry Merkaba symbol provides protection and can transport your consciousness to higher dimensions. It is the fusion of 2 identical tetrahedra that are interconnected through rotations in opposite directions. The intersection of these tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled with heptagonal dodecahedron.
+ <br><br><br><br>
+ <h4>43. Merkaba star fractal of heptagonal dodecahedron</h4>
+<a href="vr/Merkaba32.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/398A.png" class="foto" alt="Merkaba star fractal of heptagonal dodecahedron"></a>
+ <br><br><br><br>The Sacred Geometry Merkaba symbol provides protection and can transport your consciousness to higher dimensions. It is the fusion of 2 identical tetrahedra that are interconnected through rotations in opposite directions. The intersection of these tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star fractal modeled with heptagonal dodecahedron.
+ <br><br><br><br>
+ <h4>44. Merkaba star of regular map</h4>
+<a href="vr/Merkaba33.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/397A.png" class="foto" alt="Merkaba star of regular map"></a>
+ <br><br><br><br>The Sacred Geometry Merkaba symbol provides protection and can transport your consciousness to higher dimensions. It is the fusion of 2 identical tetrahedra that are interconnected through rotations in opposite directions. The intersection of these tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled with regular map.
+ <br><br><br><br>
+ <h4>45. Merkaba star fractal of regular map</h4>
+<a href="vr/Merkaba34.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/396A.png" class="foto" alt="Merkaba star fractal of regular map"></a>
+ <br><br><br><br>The Sacred Geometry Merkaba symbol provides protection and can transport your consciousness to higher dimensions. It is the fusion of 2 identical tetrahedra that are interconnected through rotations in opposite directions. The intersection of these tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star fractal modeled with regular map.
  <br><br><br><br>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 <hr>
