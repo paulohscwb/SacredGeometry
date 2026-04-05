@@ -298,18 +298,22 @@ This work shows Sacred Geometry symbols modeled in 2D and 3D, with views that ca
 <a href="vr/Merkaba30.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/296A.png" class="foto" alt="Merkaba star fractal of hexagonal toroid"></a>
  <br><br><br><br>The Sacred Geometry Merkaba symbol provides protection and can transport your consciousness to higher dimensions. It is the fusion of 2 identical tetrahedra that are interconnected through rotations in opposite directions. The intersection of these tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star fractal modeled with hexagonal toroid.
  <br><br><br><br>
+ <hr>
 <h4>42. Merkaba star of heptagonal dodecahedron</h4>
 <a href="vr/Merkaba31.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/399A.png" class="foto" alt="Merkaba star of heptagonal dodecahedron"></a>
  <br><br><br><br>The Sacred Geometry Merkaba symbol provides protection and can transport your consciousness to higher dimensions. It is the fusion of 2 identical tetrahedra that are interconnected through rotations in opposite directions. The intersection of these tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled with heptagonal dodecahedron.
  <br><br><br><br>
+ <hr>
  <h4>43. Merkaba star fractal of heptagonal dodecahedron</h4>
 <a href="vr/Merkaba32.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/398A.png" class="foto" alt="Merkaba star fractal of heptagonal dodecahedron"></a>
  <br><br><br><br>The Sacred Geometry Merkaba symbol provides protection and can transport your consciousness to higher dimensions. It is the fusion of 2 identical tetrahedra that are interconnected through rotations in opposite directions. The intersection of these tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star fractal modeled with heptagonal dodecahedron.
  <br><br><br><br>
+ <hr>
  <h4>44. Merkaba star of regular map</h4>
 <a href="vr/Merkaba33.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/397A.png" class="foto" alt="Merkaba star of regular map"></a>
  <br><br><br><br>The Sacred Geometry Merkaba symbol provides protection and can transport your consciousness to higher dimensions. It is the fusion of 2 identical tetrahedra that are interconnected through rotations in opposite directions. The intersection of these tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star modeled with regular map.
  <br><br><br><br>
+ <hr>
  <h4>45. Merkaba star fractal of regular map</h4>
 <a href="vr/Merkaba34.htm" target="_blank" title="3D model" class="fotoA"><img src="ar/396A.png" class="foto" alt="Merkaba star fractal of regular map"></a>
  <br><br><br><br>The Sacred Geometry Merkaba symbol provides protection and can transport your consciousness to higher dimensions. It is the fusion of 2 identical tetrahedra that are interconnected through rotations in opposite directions. The intersection of these tetrahedra creates an energy field that radiates immense power. In this example, we have the Merkaba star fractal modeled with regular map.
