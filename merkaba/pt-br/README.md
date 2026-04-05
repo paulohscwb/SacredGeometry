@@ -55,6 +55,8 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 		<option value="../sala18.htm">Merkaba de fractais de dodecahedros hendecagonais</option>
 		<option value="../sala19.htm">Merkaba de fractais de mapas de Klein</option>
 		<option value="../sala20.htm">Merkaba de fractais de toroides hexagonais</option>
+		<option value="../sala21.htm">Merkaba de fractais de dodecahedros heptagonais</option>
+		<option value="../sala22.htm">Merkaba de fractais de mapas regulares</option>
 	</select>
 </form>
   <div class="embed-container"><iframe width="100%" id="sim" src="../sala2.htm" title="Sala Imersiva dos símbolos da Geometria Sagrada" frameborder="0" loading="lazy"></iframe></div>
@@ -295,6 +297,26 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 <h4>41. Estrela Merkaba fractal de toroide hexagonal</h4>
 <a href="../vr/Merkaba30.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/296A.png" class="foto" alt="Estrela Merkaba fractal de toroide hexagonal"></a>
  <br><br><br><br>Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba fractal modelada em 3D com um toroide hexagonal.
+<br><br><br><br>
+ <hr>
+ <h4>42. Estrela Merkaba de dodecaedro heptagonal</h4>
+<a href="../vr/Merkaba31.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/399A.png" class="foto" alt="Estrela Merkaba de dodecaedro heptagonal"></a>
+ <br><br><br><br>Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D com um dodecaedro heptagonal.
+ <br><br><br><br>
+ <hr>
+ <h4>43. Estrela Merkaba fractal de dodecaedro heptagonal</h4>
+<a href="../vr/Merkaba32.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/398A.png" class="foto" alt="Estrela Merkaba fractal de dodecaedro heptagonal"></a>
+ <br><br><br><br>Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba fractal modelada em 3D com um dodecaedro heptagonal.
+ <br><br><br><br>
+ <hr>
+ <h4>44. Estrela Merkaba de mapa regular</h4>
+<a href="../vr/Merkaba33.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/397A.png" class="foto" alt="Estrela Merkaba de mapa regular"></a>
+ <br><br><br><br>Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba modelada em 3D com um mapa regular.
+ <br><br><br><br>
+ <hr>
+ <h4>45. Estrela Merkaba fractal de mapa regular</h4>
+<a href="../vr/Merkaba34.htm" target="_blank" title="modelo 3D" class="fotoA"><img src="../ar/396A.png" class="foto" alt="Estrela Merkaba fractal de mapa regular"></a>
+ <br><br><br><br>Trata-se da fusão de 2 tetraedros idênticos que são interligados por meio de rotações em direções opostas. O símbolo da estrela Merkaba ou Tetraedro estrelado ou Estrela de Davi tem o significado traduzido como "luz, espírito e corpo". A interseção destes tetraedros origina um campo de energia que irradia imenso poder. Neste exemplo, temos a estrela Merkaba fractal modelada em 3D com um mapa regular.
  <br><br><br><br>
  <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
  <hr>
