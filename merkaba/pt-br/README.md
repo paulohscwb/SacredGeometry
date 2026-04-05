@@ -52,10 +52,10 @@ Este trabalho mostra os símbolos da Geometria Sagrada modelados em 2D e 3D, com
 		<option value="../sala15.htm">Merkaba de fractais de revestimentos de Cairo</option>
 		<option value="../sala16.htm">Flor da vida no símbolo Merkaba</option>
 		<option value="../sala17.htm">Flor da vida no símbolo Merkaba v2</option>
-		<option value="../sala18.htm">Merkaba de fractais de dodecahedros hendecagonais</option>
+		<option value="../sala18.htm">Merkaba de fractais de dodecaedros hendecagonais</option>
 		<option value="../sala19.htm">Merkaba de fractais de mapas de Klein</option>
 		<option value="../sala20.htm">Merkaba de fractais de toroides hexagonais</option>
-		<option value="../sala21.htm">Merkaba de fractais de dodecahedros heptagonais</option>
+		<option value="../sala21.htm">Merkaba de fractais de dodecaedros heptagonais</option>
 		<option value="../sala22.htm">Merkaba de fractais de mapas regulares</option>
 	</select>
 </form>
