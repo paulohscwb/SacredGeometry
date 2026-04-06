@@ -537,6 +537,96 @@ The mathematical structures used in Sacred Geometry can be found in the arts, ar
  <br>Sahasrara Yantra with hexagonal toroids
  <br>
 <hr>
+<h4>100. Regular map</h4>
+<a href="vr/model50.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/99A.png" class="foto" alt="Sahasrara Yantra with Regular maps"></a>
+ <br>Sahasrara Yantra with regular maps
+ <br>
+<hr>
+<p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<h4>101. Regular map v2</h4>
+<a href="vr/model50a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/100A.png" class="foto" alt="Sahasrara Yantra with Regular maps"></a>
+ <br>Sahasrara Yantra with regular maps
+ <br>
+<hr>
+<h4>102. Regular map</h4>
+<a href="vr/model51.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/101A.png" class="foto" alt="Sahasrara Yantra with Regular maps"></a>
+ <br>Sahasrara Yantra with regular maps
+ <br>
+<hr>
+<h4>103. Regular map v2</h4>
+<a href="vr/model51a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/102A.png" class="foto" alt="Sahasrara Yantra with Regular maps"></a>
+ <br>Sahasrara Yantra with regular maps
+ <br>
+<hr>
+<h4>104. Regular map</h4>
+<a href="vr/model52.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/103A.png" class="foto" alt="Sahasrara Yantra with Regular maps"></a>
+ <br>Sahasrara Yantra with regular maps
+ <br>
+<hr>
+<h4>105. Regular map v2</h4>
+<a href="vr/model52a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/104A.png" class="foto" alt="Sahasrara Yantra with Regular maps"></a>
+ <br>Sahasrara Yantra with regular maps
+ <br>
+<hr>
+<h4>106. Regular map</h4>
+<a href="vr/model53.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/105A.png" class="foto" alt="Sahasrara Yantra with Regular maps"></a>
+ <br>Sahasrara Yantra with regular maps
+ <br>
+<hr>
+<h4>107. Regular map v2</h4>
+<a href="vr/model53a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/106A.png" class="foto" alt="Sahasrara Yantra with Regular maps"></a>
+ <br>Sahasrara Yantra with regular maps
+ <br>
+<hr>
+<h4>108. Regular map</h4>
+<a href="vr/model54.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/107A.png" class="foto" alt="Sahasrara Yantra with Regular maps"></a>
+ <br>Sahasrara Yantra with regular maps
+ <br>
+<hr>
+<h4>109. Regular map v2</h4>
+<a href="vr/model54a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/108A.png" class="foto" alt="Sahasrara Yantra with Regular maps"></a>
+ <br>Sahasrara Yantra with regular maps
+ <br>
+<hr>
+<h4>110. Regular map</h4>
+<a href="vr/model55.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/109A.png" class="foto" alt="Sahasrara Yantra with Regular maps"></a>
+ <br>Sahasrara Yantra with regular maps
+ <br>
+<hr>
+<p class="topop"><a href="#p1" class="topo">back to top</a></p>
+<h4>111. Regular map v2</h4>
+<a href="vr/model55a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/110A.png" class="foto" alt="Sahasrara Yantra with Regular maps"></a>
+ <br>Sahasrara Yantra with regular maps
+ <br>
+<hr>
+<h4>112. Regular map</h4>
+<a href="vr/model56.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/111A.png" class="foto" alt="Sahasrara Yantra with Regular maps"></a>
+ <br>Sahasrara Yantra with regular maps
+ <br>
+<hr>
+<h4>113. Regular map v2</h4>
+<a href="vr/model56a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/112A.png" class="foto" alt="Sahasrara Yantra with Regular maps"></a>
+ <br>Sahasrara Yantra with regular maps
+ <br>
+ <h4>114. Regular map</h4>
+<a href="vr/model57.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/113A.png" class="foto" alt="Sahasrara Yantra with Regular maps"></a>
+ <br>Sahasrara Yantra with regular maps
+ <br>
+<hr>
+<h4>115. Regular map v2</h4>
+<a href="vr/model57a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/114A.png" class="foto" alt="Sahasrara Yantra with Regular maps"></a>
+ <br>Sahasrara Yantra with regular maps
+ <br>
+<h4>116. Regular map</h4>
+<a href="vr/model58.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/115A.png" class="foto" alt="Sahasrara Yantra with Regular maps"></a>
+ <br>Sahasrara Yantra with regular maps
+ <br>
+<hr>
+<h4>117. Regular map v2</h4>
+<a href="vr/model55a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/116A.png" class="foto" alt="Sahasrara Yantra with Regular maps"></a>
+ <br>Sahasrara Yantra with regular maps
+ <br>
+ <hr>
 <p class="topop"><a href="#p1" class="topo">back to top</a></p>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Sahasrara Yantra - Visualization of symbols with Virtual Reality</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/SacredGeometry/sahasrarayantra/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> is licensed with a license <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</a>.
