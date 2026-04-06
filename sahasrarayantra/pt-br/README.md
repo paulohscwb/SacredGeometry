@@ -539,6 +539,98 @@ function urlHandler(value) {
  <br>Sahasrara Yantra com toroides hexagonais
  <br>
 <hr>
+<h4>100. Mapa regular</h4>
+<a href="../vr/model50.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/99A.png" class="foto" alt="Sahasrara Yantra com mapas regulares"></a>
+ <br>Sahasrara Yantra com mapas regulares
+ <br>
+<hr>
+<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<h4>101. Mapa regular v2</h4>
+<a href="../vr/model50a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/100A.png" class="foto" alt="Sahasrara Yantra com mapas regulares"></a>
+ <br>Sahasrara Yantra com mapas regulares
+ <br>
+<hr>
+<h4>102. Mapa regular</h4>
+<a href="../vr/model51.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/101A.png" class="foto" alt="Sahasrara Yantra com mapas regulares"></a>
+ <br>Sahasrara Yantra com mapas regulares
+ <br>
+<hr>
+<h4>103. Mapa regular v2</h4>
+<a href="../vr/model51a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/102A.png" class="foto" alt="Sahasrara Yantra com mapas regulares"></a>
+ <br>Sahasrara Yantra com mapas regulares
+ <br>
+<hr>
+<h4>104. Mapa regular</h4>
+<a href="../vr/model52.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/103A.png" class="foto" alt="Sahasrara Yantra com mapas regulares"></a>
+ <br>Sahasrara Yantra com mapas regulares
+ <br>
+<hr>
+<h4>105. Mapa regular v2</h4>
+<a href="../vr/model52a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/104A.png" class="foto" alt="Sahasrara Yantra com mapas regulares"></a>
+ <br>Sahasrara Yantra com mapas regulares
+ <br>
+<hr>
+<h4>106. Mapa regular</h4>
+<a href="../vr/model53.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/105A.png" class="foto" alt="Sahasrara Yantra com mapas regulares"></a>
+ <br>Sahasrara Yantra com mapas regulares
+ <br>
+<hr>
+<h4>107. Mapa regular v2</h4>
+<a href="../vr/model53a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/106A.png" class="foto" alt="Sahasrara Yantra com mapas regulares"></a>
+ <br>Sahasrara Yantra com mapas regulares
+ <br>
+<hr>
+<h4>108. Mapa regular</h4>
+<a href="../vr/model54.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/107A.png" class="foto" alt="Sahasrara Yantra com mapas regulares"></a>
+ <br>Sahasrara Yantra com mapas regulares
+ <br>
+<hr>
+<h4>109. Mapa regular v2</h4>
+<a href="../vr/model54a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/108A.png" class="foto" alt="Sahasrara Yantra com mapas regulares"></a>
+ <br>Sahasrara Yantra com mapas regulares
+ <br>
+<hr>
+<h4>110. Mapa regular</h4>
+<a href="../vr/model55.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/109A.png" class="foto" alt="Sahasrara Yantra com mapas regulares"></a>
+ <br>Sahasrara Yantra com mapas regulares
+ <br>
+<hr>
+<p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
+<h4>111. Mapa regular v2</h4>
+<a href="../vr/model55a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/110A.png" class="foto" alt="Sahasrara Yantra com mapas regulares"></a>
+ <br>Sahasrara Yantra com mapas regulares
+ <br>
+<hr>
+<h4>112. Mapa regular</h4>
+<a href="../vr/model56.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/111A.png" class="foto" alt="Sahasrara Yantra com mapas regulares"></a>
+ <br>Sahasrara Yantra com mapas regulares
+ <br>
+<hr>
+<h4>113. Mapa regular v2</h4>
+<a href="../vr/model56a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/112A.png" class="foto" alt="Sahasrara Yantra com mapas regulares"></a>
+ <br>Sahasrara Yantra com mapas regulares
+ <br>
+<hr>
+<h4>114. Mapa regular</h4>
+<a href="../vr/model57.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/113A.png" class="foto" alt="Sahasrara Yantra com mapas regulares"></a>
+ <br>Sahasrara Yantra com mapas regulares
+ <br>
+<hr>
+<h4>115. Mapa regular v2</h4>
+<a href="../vr/model57a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/114A.png" class="foto" alt="Sahasrara Yantra com mapas regulares"></a>
+ <br>Sahasrara Yantra com mapas regulares
+ <br>
+<hr>
+<h4>116. Mapa regular</h4>
+<a href="../vr/model58.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/115A.png" class="foto" alt="Sahasrara Yantra com mapas regulares"></a>
+ <br>Sahasrara Yantra com mapas regulares
+ <br>
+<hr>
+<h4>117. Mapa regular v2</h4>
+<a href="../vr/model58a.htm" target="_blank" title="modelo 3D" class="fotoB"><img src="../ar/116A.png" class="foto" alt="Sahasrara Yantra com mapas regulares"></a>
+ <br>Sahasrara Yantra com mapas regulares
+ <br>
+<hr>
 <p class="topop"><a href="#p1" class="topo">voltar ao topo</a></p>
 
 <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" loading="lazy"/></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Sahasrara Yantra: Visualization of symbols with Virtual Reality</span> de <a xmlns:cc="http://creativecommons.org/ns#" href="https://paulohscwb.github.io/SacredGeometry/sahasrarayantra/pt-br/" property="cc:attributionName" rel="cc:attributionURL">Paulo Henrique Siqueira</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional</a>.
