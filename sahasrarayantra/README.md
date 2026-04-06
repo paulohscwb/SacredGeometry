@@ -623,7 +623,7 @@ The mathematical structures used in Sacred Geometry can be found in the arts, ar
  <br>
 <hr>
 <h4>117. Regular map v2</h4>
-<a href="vr/model55a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/116A.png" class="foto" alt="Sahasrara Yantra with Regular maps"></a>
+<a href="vr/model58a.htm" target="_blank" title="3D model" class="fotoB"><img src="ar/116A.png" class="foto" alt="Sahasrara Yantra with Regular maps"></a>
  <br>Sahasrara Yantra with regular maps
  <br>
  <hr>
